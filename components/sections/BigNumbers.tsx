@@ -14,13 +14,13 @@ export interface Props {
 export default function BigNumbers({ image, title, infoNumbers }: Props) {
   return (
     <section>
-      <div class="relative flex justify-center bg-[#1E1E1E]">
+      <div class="relative flex justify-center bg-[#1E1E1E] max-h-[456px]">
         <BannerUI banner={image} />
 
         <div class="absolute w-full flex flex-col items-center top-14 md:top-20 px-4 md:px-0">
-          <p class="font-sora font-bold text-gray-400 text-[40px] md:text-[50px] mb-16">
+          <h2 class="font-sora font-bold text-gray-400 text-[40px] md:text-[50px] mb-16">
             {title}
-          </p>
+          </h2>
 
           <div class="w-full grid grid-cols-2 md:grid-cols-4 items-center text-center">
             {infoNumbers.map((infoNumber) => (

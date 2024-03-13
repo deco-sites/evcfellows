@@ -16,7 +16,8 @@ export interface Props {
 
 function Testimony({ title, id, testimonials }: Props) {
   return (
-    <div class="w-full flex flex-col items-center py-[70px] px-4">
+	<section class="container">
+    <div class="w-full flex flex-col items-center py-8">
       <p class="font-sora font-bold text-black-800 text-[50px] mb-16">
         {title}
       </p>
@@ -70,6 +71,7 @@ function Testimony({ title, id, testimonials }: Props) {
 
       <SliderJS infinite rootId={id}></SliderJS>
     </div>
+	</section>
   );
 }
 
