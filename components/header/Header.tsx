@@ -1,5 +1,5 @@
 import Modals from "./Modals.tsx";
-import NavBar from "../header/NavBar.tsx";
+import Navbar from "./Navbar.tsx";
 
 export interface NavItemProps {
   label: string;
@@ -14,7 +14,7 @@ export interface HeaderProps {
 export default function Header({ navItems = [] }: HeaderProps) {
   return (
     <header>
-      <NavBar navItems={navItems} />
+      <Navbar navItems={navItems} />
       <Modals
         menu={{ items: navItems }}
       />
