@@ -11,7 +11,9 @@ function NavItem({ item }: { item: INavItem }) {
     <li class="group flex items-center text-white">
       <a
         href={href}
-        class={`text-[15px] ${color ? `text-[${color}]` : ''} font-inter font-medium`}
+        class={`text-[15px] ${
+          color ? `text-[${color}]` : ""
+        } font-inter font-medium`}
       >
         <span class="group-hover:underline">
           {label}
