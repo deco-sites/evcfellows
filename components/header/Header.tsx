@@ -1,5 +1,5 @@
 import Modals from "./Modals.tsx";
-import NavBar from "deco-sites/evcfellows/components/header/NavBar.tsx";
+import NavBar from "../header/NavBar.tsx";
 
 export interface NavItemProps {
   label: string;
