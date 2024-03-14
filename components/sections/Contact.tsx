@@ -49,23 +49,17 @@ function Contact(
           </button>
         </form>
 
-        <div class="flex flex-col justify-between">
-          <p class="font-inter font-bold text-[30px] text-blue-900 mb-9">
-            {contactEmail}
-          </p>
-
-          <div class="flex gap-12 items-center">
-            {links?.map((link) => (
-              <a href={link.url} key={link.iconId} title={link.title}>
-                <Icon
-                  id={link.iconId}
-                  width={48}
-                  height={48}
-                  strokeWidth={0}
-                />
-              </a>
-            ))}
-          </div>
+        <div class="flex gap-4 my-4 items-center justify-center">
+          {links?.map((link) => (
+            <a href={link.url} key={link.iconId} title={link.title}>
+              <Icon
+                id={link.iconId}
+                width={48}
+                height={48}
+                strokeWidth={0}
+              />
+            </a>
+          ))}
         </div>
       </div>
     </section>

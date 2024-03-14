@@ -14,11 +14,11 @@ export interface Props {
 export default function BigNumbers({ image, title, infoNumbers }: Props) {
   return (
     <section>
-      <div class="relative flex justify-center bg-[#1E1E1E] max-h-[456px]">
+      <div class="relative flex justify-center bg-[#1E1E1E] h-[356px] max-h-[456px]">
         <BannerUI banner={image} />
 
-        <div class="absolute w-full flex flex-col items-center top-14 md:top-20 px-4 md:px-0">
-          <h2 class="font-sora font-bold text-gray-400 text-[40px] md:text-[50px] mb-16">
+        <div class="absolute w-full flex flex-col items-center top-7 lg:top-14 px-4">
+          <h2 class="font-sora font-bold text-[#D9D9D9] text-5xl mb-8 lg:mb-15">
             {title}
           </h2>
 
@@ -28,7 +28,7 @@ export default function BigNumbers({ image, title, infoNumbers }: Props) {
                 <span class="text-[50px] md:text-[70px] text-[#3BC9E1] font-sora font-bold">
                   {infoNumber.number}
                 </span>
-                <span class="text-2xl md:text-[30px] text-white font-sora font-regular">
+                <span class="text-white font-sora font-regular text-3xl">
                   {infoNumber.title}
                 </span>
               </p>

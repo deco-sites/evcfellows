@@ -14,16 +14,27 @@ export interface Props {
 export default function Footer({ columns, legalText }: Props) {
   return (
     <footer class="bg-gray-900 md:px-[78px]">
-      <section class="w-full grid grid-cols-1 md:grid-cols-2 py-6 px-3">
+      <section class="w-full flex justify-between py-6 px-3">
         <div>
           <Icon id="LogoWithoutText" strokeWidth={0} width={63} height={63} />
           <p class="mt-4 mb-6 text-sm font-inter font-regular text-white max-w-[362px]">
             {legalText}
           </p>
-          <div class="flex gap-6">
-            <Icon id="BehanceFooter" strokeWidth={0} width={24} height={24} />
-            <Icon id="TwitterFooter" strokeWidth={0} width={24} height={24} />
-            <Icon id="DribbleFooter" strokeWidth={0} width={24} height={24} />
+          <div class="flex gap-2">
+            <Icon
+              id="Linkedin"
+              className="cursor-pointer"
+              strokeWidth={0}
+              width={24}
+              height={24}
+            />
+            <Icon
+              id="Instagram"
+              className="cursor-pointer hover:text-color-white"
+              strokeWidth={0}
+              width={24}
+              height={24}
+            />
           </div>
         </div>
 

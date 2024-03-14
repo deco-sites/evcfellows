@@ -7,15 +7,14 @@ export type AvailableIcons =
   | "ChevronLeft"
   | "ChevronRight"
   | "Testimonial"
-  | "Behance"
-  | "Drible"
   | "Twitter"
   | "InputUser"
   | "InputEmail"
   | "LogoWithoutText"
-  | "BehanceFooter"
+  | "Instagram"
+  | "Linkedin"
   | "TwitterFooter"
-  | "DribbleFooter"
+  | "Mail"
   | "XMark"
   | "Bars3";
 

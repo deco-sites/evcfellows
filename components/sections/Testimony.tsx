@@ -29,13 +29,12 @@ function Testimony({ title, id, testimonials }: Props) {
                 index={index}
                 class="carousel-item w-full justify-center"
               >
-                <div class="w-full grid grid-cols-1 md:grid-cols-custom-grid-slider">
+                <div class="w-full">
                   <Image
                     image={testimonial.image}
-                    className="md:rounded-l-xl rounded-t-xl rounded-b-0"
+                    className="rounded-t-xl rounded-b-0"
                   />
-
-                  <div class="px-12 flex flex-col justify-center bg-gray-100 rounded-b-xl rounded-r-0 md:rounded-r-xl relative py-8 md:py-0">
+                  <div class="px-12 flex flex-col justify-center bg-gray-100 rounded-b-xl rounded-r-0 md:rounded-r-xl relative py-8">
                     <p class="font-inter font-semibold text-gray-500 text-3xl mb-1">
                       {testimonial.title}
                     </p>
@@ -58,11 +57,11 @@ function Testimony({ title, id, testimonials }: Props) {
 
           {testimonials?.length && (
             <>
-              <Slider.PrevButton class="absolute left-0 md:-left-[4.5rem] top-1/2 btn btn-circle btn-outline">
+              <Slider.PrevButton class="absolute left-0 md:-left-[2.5rem] top-1/2 btn btn-circle btn-outline">
                 <Icon size={30} id="ChevronLeft" strokeWidth={3} />
               </Slider.PrevButton>
 
-              <Slider.NextButton class="absolute right-0 md:-right-[4.5rem] top-1/2 btn btn-circle btn-outline">
+              <Slider.NextButton class="absolute right-0 md:-right-[2.5rem] top-1/2 btn btn-circle btn-outline">
                 <Icon size={30} id="ChevronRight" strokeWidth={3} />
               </Slider.NextButton>
             </>

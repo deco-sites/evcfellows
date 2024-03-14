@@ -15,14 +15,19 @@ export default function Manifest(
     Props,
 ) {
   return (
-    <section class="container py-8">
-      <div class="flex justify-between items-center gap-7">
-        <div class="flex flex-col justify-between gap-4 md:gap-0 w-[40%]">
+    <section class="container px-4 py-8">
+      <div class="flex lg:items-center w-full gap-7">
+        <div class="flex flex-col justify-between gap-4 lg:w-[40%]">
           <div>
-            <h4 class="font-sora font-bold text-5xl text-gray-500 mb-9">
+            <h4 class="font-sora font-bold text-5xl text-[#3D3D3D] mb-9">
               {title}
             </h4>
-            <p class="font-inter font-regular text-gray-500 text-lg leading-9 mb-14">
+            <Image
+              className="rounded-xl mb-4 lg:hidden"
+              image={image}
+              preload
+            />
+            <p class="font-inter font-regular text-[#3D3D3D] text-lg leading-9 lg:mb-14 mb-4">
               {content}
             </p>
           </div>
@@ -36,7 +41,7 @@ export default function Manifest(
           </a>
         </div>
 
-        <div class="w-[60%]">
+        <div class="w-[60%] hidden lg:block">
           <Image className="rounded-xl" image={image} preload />
         </div>
       </div>
