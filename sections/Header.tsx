@@ -1,9 +1,1 @@
-import Header, {
-  HeaderProps,
-} from "deco-sites/evcfellows/components/header/Header.tsx";
-
-function HeaderSection(props: HeaderProps) {
-  return <Header {...props} />;
-}
-
-export default HeaderSection;
+export { default } from "deco-sites/evcfellows/islands/Header.tsx";

@@ -4,8 +4,8 @@
 
 import * as $_app from "./routes/_app.tsx";
 import * as $Contact from "./islands/Contact.tsx";
+import * as $Header from "./islands/Header.tsx";
 import * as $HeaderButton from "./islands/HeaderButton.tsx";
-import * as $HeaderModals from "./islands/HeaderModals.tsx";
 import * as $SliderJS from "./islands/SliderJS.tsx";
 import { type Manifest } from "$fresh/server.ts";
 
@@ -15,8 +15,8 @@ const manifest = {
   },
   islands: {
     "./islands/Contact.tsx": $Contact,
+    "./islands/Header.tsx": $Header,
     "./islands/HeaderButton.tsx": $HeaderButton,
-    "./islands/HeaderModals.tsx": $HeaderModals,
     "./islands/SliderJS.tsx": $SliderJS,
   },
   baseUrl: import.meta.url,

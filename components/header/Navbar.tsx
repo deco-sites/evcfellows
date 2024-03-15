@@ -1,10 +1,10 @@
 import Icon from "deco-sites/evcfellows/components/ui/Icon.tsx";
 import NavItem from "deco-sites/evcfellows/components/header/NavItem.tsx";
-import type { NavItemProps } from "./Header.tsx";
 import HeaderButton from "./Buttons.tsx";
+import { INavItem } from "./NavItem.tsx";
 
 interface NavbarProps {
-  navItems: NavItemProps[];
+  navItems: INavItem[];
 }
 
 export default function Navbar({ navItems }: NavbarProps) {
@@ -20,7 +20,10 @@ export default function Navbar({ navItems }: NavbarProps) {
 
       <ul class="justify-end flex-auto gap-4 hidden md:flex">
         {navItems.map((navItem) => (
-          <NavItem key={navItem.label} item={navItem} />
+          <NavItem
+            key={navItem.label}
+            {...navItem}
+          />
         ))}
       </ul>
     </div>
