@@ -19,7 +19,7 @@ export default function Manifest(
       <div class="flex lg:items-center w-full gap-7">
         <div class="flex flex-col justify-between gap-4 lg:w-[40%]">
           <div>
-            <h4 class="font-sora font-bold text-5xl text-[#3D3D3D] mb-9">
+            <h4 class=" font-bold text-5xl text-[#3D3D3D] mb-9">
               {title}
             </h4>
             <Image
@@ -33,7 +33,7 @@ export default function Manifest(
           </div>
 
           <a
-            class="py-5 w-full h-[66px] bg-gradient-to-r from-blue-900 to-sky-400 rounded-[10px] font-sora font-regular text-lg text-white hover:opacity-90 transition cursor-pointer flex items-center justify-center"
+            class="py-5 w-full h-[66px] bg-gradient-to-r from-blue-900 to-sky-400 rounded-[10px]  font-regular text-lg text-white hover:opacity-90 transition cursor-pointer flex items-center justify-center"
             href={manifestUrl}
             download
           >

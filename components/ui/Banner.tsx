@@ -6,6 +6,8 @@ export interface Banner {
   title?: string;
   /** @description text to be rendered on top of the image */
   subtitle?: string;
+  /** @description if the text should be centered */
+  centerText?: boolean;
   image: {
     /** @description Image for big screens */
     desktop: LiveImage;
@@ -37,6 +39,7 @@ function BannerUI(
     title,
     subtitle,
     image,
+    centerText,
   } = banner;
 
   return (
@@ -64,17 +67,21 @@ function BannerUI(
         />
       </Picture>
 
-      <div class="container flex flex-col items-center justify-center gap-7 sm:items-start col-start-1 col-span-1 row-start-1 row-span-1 w-full pl-4 md:pl-24">
-        <h1 class="max-w-[700px]">
-          <span class="text-5xl font-sora font-extrabold text-white">
-            {title}
-          </span>
+      <div
+        class={`container w-full flex flex-col ${
+          centerText ? "items-center" : "items-start"
+        } justify-center gap-7 pl-4 md:pl-24 col-start-1 col-span-1 row-start-1 row-span-1`}
+      >
+        <h1 class="text-5xl font-extrabold text-white">
+          {title}
         </h1>
-        <h2 class="max-w-[596px]">
-          <span class="text-lg font-sora font-regular text-white">
-            {subtitle}
-          </span>
-        </h2>
+        <span
+          class={`text-lg font-regular text-white ${
+            centerText && "text-center"
+          }`}
+        >
+          {subtitle}
+        </span>
       </div>
     </div>
   );

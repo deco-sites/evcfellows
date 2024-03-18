@@ -13,7 +13,7 @@ export interface Props {
 
 export default function Footer({ columns, legalText }: Props) {
   return (
-    <footer class="bg-gray-900 md:px-[78px]">
+    <footer class="bg-[#323E48] md:px-[78px]">
       <section class="w-full flex justify-between py-6 px-3">
         <div>
           <Icon id="LogoWithoutText" strokeWidth={0} width={63} height={63} />

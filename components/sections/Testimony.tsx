@@ -18,7 +18,7 @@ function Testimony({ title, id, testimonials }: Props) {
   return (
     <section class="container">
       <div class="w-full flex flex-col items-center py-8">
-        <p class="font-sora font-bold text-black-800 text-[50px] mb-16">
+        <p class=" font-bold text-black-800 text-[50px] mb-16">
           {title}
         </p>
 

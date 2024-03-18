@@ -10,7 +10,7 @@ export default function Company({ title, images }: Props) {
   return (
     <section class="flex flex-col gap-2 py-8 bg-[#1B3F87]">
       <div class="w-full flex items-center justify-center">
-        <h2 class="font-sora font-bold text-white text-4xl mb-4">
+        <h2 class=" font-bold text-white text-4xl mb-4">
           {title}
         </h2>
       </div>

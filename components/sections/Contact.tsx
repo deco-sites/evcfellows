@@ -19,9 +19,9 @@ function Contact(
   const inputContentRef = useRef<HTMLTextAreaElement>(null);
 
   return (
-    <section class="flex justify-center">
+    <section id="contact" class="flex justify-center">
       <div class="flex flex-col justify-between">
-        <h5 class="font-sora font-bold text-5xl text-[#1E1E1E] mb-9">
+        <h5 class=" font-bold text-5xl text-[#1E1E1E] mb-9">
           Entre em contato
         </h5>
 
