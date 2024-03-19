@@ -15,7 +15,7 @@ export default function Manifest(
     Props,
 ) {
   return (
-    <section class="container px-4 py-8">
+    <section class="container px-32 py-8">
       <div class="flex lg:items-center w-full gap-7">
         <div class="flex flex-col justify-between gap-4 lg:w-[40%]">
           <div>
@@ -33,7 +33,7 @@ export default function Manifest(
           </div>
 
           <a
-            class="py-5 w-full h-[66px] bg-gradient-to-r from-blue-900 to-sky-400 rounded-[10px]  font-regular text-lg text-white hover:opacity-90 transition cursor-pointer flex items-center justify-center"
+            class="py-5 w-full h-[66px] bg-gradient-to-r from-blue-900 to-sky-400 rounded-[10px]  font-regular text-lg text-white hover:opacity-90 transition cursor-pointer flex items-center justify-center font-bold"
             href={manifestUrl}
             download
           >

@@ -32,7 +32,7 @@ export default function ToolkitSection(
 
           {buttonVariant === "primary" && (
             <a
-              class="py-5 px-4 w-[324px] bg-gradient-to-r from-blue-900 to-sky-400 rounded-[10px] font-regular text-lg text-white hover:opacity-90 transition cursor-pointer flex items-center justify-center"
+              class="py-5 px-4 w-[324px] bg-gradient-to-r from-blue-900 to-sky-400 rounded-[10px] font-regular text-lg text-white hover:opacity-90 transition cursor-pointer flex items-center justify-center font-bold"
               href={buttonUrl}
             >
               {textButton}
@@ -44,7 +44,7 @@ export default function ToolkitSection(
               class="p-[2px] w-[324px] bg-gradient-to-r from-blue-900 to-sky-400 rounded-[10px] font-regular text-lg cursor-pointer"
               href={buttonUrl}
             >
-              <div class="bg-white hover:bg-gradient-to-r from-blue-900 to-sky-400 w-full h-full flex items-center justify-center rounded-[10px] py-5 text-[#323E48] hover:text-white transition">
+              <div class="bg-white hover:bg-gradient-to-r from-blue-900 to-sky-400 w-full h-full flex items-center justify-center rounded-[10px] py-5 text-[#323E48] hover:text-white transition font-bold">
                 {textButton}
               </div>
             </a>

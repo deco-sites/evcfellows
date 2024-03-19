@@ -4,6 +4,7 @@ import Image, {
 
 export interface Props {
   image?: PartnersImage;
+  imageUrl?: string;
   /**
    * @format html
    */
@@ -11,20 +12,27 @@ export interface Props {
   /**
    * @format html
    */
+  whiteBg?: boolean;
   description?: string;
   buttonUrl?: string;
-  imageUrl?: string;
   textButton?: string;
 }
 
 export default function ColumnSection(
-  { image, title, description, textButton = "DOWNLOAD", buttonUrl, imageUrl }:
-    Props,
+  {
+    image,
+    title,
+    description,
+    whiteBg,
+    textButton = "DOWNLOAD",
+    buttonUrl,
+    imageUrl,
+  }: Props,
 ) {
   const onlyDescription = !image && !title && !buttonUrl;
 
   return (
-    <section class="bg-[#F1F1F1]">
+    <section class={`${whiteBg ? "bg-white" : "bg-[#F1F1F1]"}`}>
       <div
         class={`container px-4 py-8 w-full flex flex-col items-center justify-center ${
           !onlyDescription && "gap-7"
@@ -49,7 +57,7 @@ export default function ColumnSection(
 
         {buttonUrl && (
           <a
-            class="p-6 bg-gradient-to-r from-blue-900 to-sky-400 rounded-[10px] font-regular text-lg text-white hover:opacity-90 transition cursor-pointer flex items-center justify-center"
+            class="px-8 py-4 bg-gradient-to-r from-blue-900 to-sky-400 rounded-[10px] font-regular text-lg text-white hover:opacity-90 transition cursor-pointer flex items-center justify-center font-bold"
             href={buttonUrl}
             target="_blank"
           >

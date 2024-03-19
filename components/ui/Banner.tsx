@@ -1,5 +1,7 @@
 import { Picture, Source } from "apps/website/components/Picture.tsx";
 import type { ImageWidget as LiveImage } from "apps/admin/widgets.ts";
+import { PartnersImage } from "deco-sites/evcfellows/components/ui/Image.tsx";
+import Image from "deco-sites/evcfellows/components/ui/Image.tsx";
 
 export interface Banner {
   /** @description text to be rendered on top of the image */
@@ -10,7 +12,8 @@ export interface Banner {
   centerText?: boolean;
   buttonUrl?: string;
   textButton?: string;
-  image: {
+  bannerImage?: PartnersImage;
+  backgroundImage: {
     /** @description Image for big screens */
     desktop: LiveImage;
     /** @description Image for small screens */
@@ -42,7 +45,8 @@ function BannerUI(
     subtitle,
     buttonUrl,
     textButton,
-    image,
+    backgroundImage,
+    bannerImage,
     centerText,
   } = banner;
 
@@ -53,21 +57,21 @@ function BannerUI(
         class="col-start-1 col-span-1 row-start-1 row-span-1 "
       >
         <Source
-          src={image.mobile}
-          width={image.widthMobile || 720}
-          height={image.heightMobile}
+          src={backgroundImage.mobile}
+          width={backgroundImage.widthMobile || 720}
+          height={backgroundImage.heightMobile || 520}
           media="(max-width: 767px)"
         />
         <Source
-          src={image.desktop}
-          width={image.widthDesktop || 1200}
-          height={image.heightDesktop}
+          src={backgroundImage.desktop}
+          width={backgroundImage.widthDesktop || 1200}
+          height={backgroundImage.heightDesktop || 520}
           media="(min-width: 767px)"
         />
         <img
-          class={`w-screen max-h-[${image.heightDesktop}px] object-fill`}
-          src={image.desktop}
-          alt={image.alt}
+          class="w-screen max-h-[520px]"
+          src={backgroundImage.desktop}
+          alt={backgroundImage.alt}
         />
       </Picture>
 
@@ -79,6 +83,13 @@ function BannerUI(
         <h1 class="text-5xl font-extrabold text-white">
           {title}
         </h1>
+        {bannerImage && (
+          <Image
+            className="max-h-[220px] w-auto"
+            image={bannerImage}
+            preload
+          />
+        )}
         <span
           class={`text-lg font-regular text-white ${
             centerText && "text-center"
@@ -88,7 +99,7 @@ function BannerUI(
         </span>
         {buttonUrl && (
           <a
-            class="px-14 py-4 bg-transparent border border-white rounded-[10px] font-regular text-lg text-white hover:opacity-90 transition cursor-pointer flex items-center justify-center"
+            class="px-14 py-4 bg-transparent border border-white rounded-[10px] font-regular text-lg text-white hover:opacity-90 transition cursor-pointer flex items-center justify-center font-bold"
             href={buttonUrl}
             target="_blank"
           >
