@@ -23,14 +23,14 @@ export default function Footer({ columns, legalText }: Props) {
           <div class="flex gap-2">
             <Icon
               id="Linkedin"
-              className="cursor-pointer"
+              className="cursor-pointer text-[#D9D9D9]"
               strokeWidth={0}
               width={24}
               height={24}
             />
             <Icon
               id="Instagram"
-              className="cursor-pointer hover:text-color-white"
+              className="cursor-pointer text-[#D9D9D9]"
               strokeWidth={0}
               width={24}
               height={24}

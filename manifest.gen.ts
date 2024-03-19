@@ -9,16 +9,18 @@ import * as $$$$$$1 from "./sections/BigNumbers.tsx";
 import * as $$$$$$2 from "./sections/ColumnSection.tsx";
 import * as $$$$$$3 from "./sections/Contact.tsx";
 import * as $$$$$$4 from "./sections/Footer.tsx";
-import * as $$$$$$5 from "./sections/Gallery.tsx";
-import * as $$$$$$6 from "./sections/Head.tsx";
-import * as $$$$$$7 from "./sections/Header.tsx";
-import * as $$$$$$8 from "./sections/HeroCompany.tsx";
-import * as $$$$$$9 from "./sections/Image.tsx";
-import * as $$$$$$10 from "./sections/Manifest.tsx";
-import * as $$$$$$11 from "./sections/Testimony.tsx";
-import * as $$$$$$12 from "./sections/Theme/Theme.tsx";
-import * as $$$$$$13 from "./sections/TitleSection.tsx";
-import * as $$$$$$14 from "./sections/ToolkitSection.tsx";
+import * as $$$$$$5 from "./sections/FundraisingToolkitSection.tsx";
+import * as $$$$$$6 from "./sections/Gallery.tsx";
+import * as $$$$$$7 from "./sections/Head.tsx";
+import * as $$$$$$8 from "./sections/Header.tsx";
+import * as $$$$$$9 from "./sections/HeroCompany.tsx";
+import * as $$$$$$10 from "./sections/Image.tsx";
+import * as $$$$$$11 from "./sections/Manifest.tsx";
+import * as $$$$$$12 from "./sections/OrangeColumnSection.tsx";
+import * as $$$$$$13 from "./sections/Testimony.tsx";
+import * as $$$$$$14 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$15 from "./sections/TitleSection.tsx";
+import * as $$$$$$16 from "./sections/ToolkitSection.tsx";
 
 const manifest = {
   "sections": {
@@ -27,16 +29,18 @@ const manifest = {
     "deco-sites/evcfellows/sections/ColumnSection.tsx": $$$$$$2,
     "deco-sites/evcfellows/sections/Contact.tsx": $$$$$$3,
     "deco-sites/evcfellows/sections/Footer.tsx": $$$$$$4,
-    "deco-sites/evcfellows/sections/Gallery.tsx": $$$$$$5,
-    "deco-sites/evcfellows/sections/Head.tsx": $$$$$$6,
-    "deco-sites/evcfellows/sections/Header.tsx": $$$$$$7,
-    "deco-sites/evcfellows/sections/HeroCompany.tsx": $$$$$$8,
-    "deco-sites/evcfellows/sections/Image.tsx": $$$$$$9,
-    "deco-sites/evcfellows/sections/Manifest.tsx": $$$$$$10,
-    "deco-sites/evcfellows/sections/Testimony.tsx": $$$$$$11,
-    "deco-sites/evcfellows/sections/Theme/Theme.tsx": $$$$$$12,
-    "deco-sites/evcfellows/sections/TitleSection.tsx": $$$$$$13,
-    "deco-sites/evcfellows/sections/ToolkitSection.tsx": $$$$$$14,
+    "deco-sites/evcfellows/sections/FundraisingToolkitSection.tsx": $$$$$$5,
+    "deco-sites/evcfellows/sections/Gallery.tsx": $$$$$$6,
+    "deco-sites/evcfellows/sections/Head.tsx": $$$$$$7,
+    "deco-sites/evcfellows/sections/Header.tsx": $$$$$$8,
+    "deco-sites/evcfellows/sections/HeroCompany.tsx": $$$$$$9,
+    "deco-sites/evcfellows/sections/Image.tsx": $$$$$$10,
+    "deco-sites/evcfellows/sections/Manifest.tsx": $$$$$$11,
+    "deco-sites/evcfellows/sections/OrangeColumnSection.tsx": $$$$$$12,
+    "deco-sites/evcfellows/sections/Testimony.tsx": $$$$$$13,
+    "deco-sites/evcfellows/sections/Theme/Theme.tsx": $$$$$$14,
+    "deco-sites/evcfellows/sections/TitleSection.tsx": $$$$$$15,
+    "deco-sites/evcfellows/sections/ToolkitSection.tsx": $$$$$$16,
   },
   "apps": {
     "deco-sites/evcfellows/apps/decohub.ts": $$$$$$$$$$$0,

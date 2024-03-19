@@ -13,11 +13,13 @@ export interface Props {
    */
   description?: string;
   buttonUrl?: string;
+  imageUrl?: string;
   textButton?: string;
 }
 
 export default function ColumnSection(
-  { image, title, description, textButton = "DOWNLOAD", buttonUrl }: Props,
+  { image, title, description, textButton = "DOWNLOAD", buttonUrl, imageUrl }:
+    Props,
 ) {
   const onlyDescription = !image && !title && !buttonUrl;
 
@@ -37,16 +39,19 @@ export default function ColumnSection(
           dangerouslySetInnerHTML={{ __html: description ?? "" }}
         />
 
-        <Image
-          className="rounded-xl mb-4 cursor-pointer"
-          image={image}
-          preload
-        />
+        <a href={imageUrl} target="_blank">
+          <Image
+            className="rounded-xl mb-4 cursor-pointer"
+            image={image}
+            preload
+          />
+        </a>
 
         {buttonUrl && (
           <a
             class="p-6 bg-gradient-to-r from-blue-900 to-sky-400 rounded-[10px] font-regular text-lg text-white hover:opacity-90 transition cursor-pointer flex items-center justify-center"
             href={buttonUrl}
+            target="_blank"
           >
             {textButton}
           </a>

@@ -12,7 +12,7 @@ export interface Props {
   textButton?: string;
 }
 
-export default function ToolkitSection(
+export default function FundraisingToolkitSection(
   {
     image,
     description,
@@ -22,11 +22,11 @@ export default function ToolkitSection(
   }: Props,
 ) {
   return (
-    <section class="pl-36 py-8">
-      <div class="flex lg:items-center w-full gap-7">
-        <div class="flex flex-col justify-between items-start gap-4 lg:w-[40%]">
+    <section class="px-36 py-8">
+      <div class="flex lg:items-center lg:justify-between w-full gap-7">
+        <div class="flex flex-col justify-between items-start gap-4 lg:max-w-[40%]">
           <div
-            class="text-[#3D3D3D] list-disc w-[400px]"
+            class="text-[#3D3D3D] list-disc w-full"
             dangerouslySetInnerHTML={{ __html: description }}
           />
 
@@ -51,7 +51,7 @@ export default function ToolkitSection(
           )}
         </div>
 
-        <div class="hidden lg:block">
+        <div class="w-full hidden lg:block">
           <Image image={image} preload />
         </div>
       </div>

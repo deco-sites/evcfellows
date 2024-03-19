@@ -8,6 +8,8 @@ export interface Banner {
   subtitle?: string;
   /** @description if the text should be centered */
   centerText?: boolean;
+  buttonUrl?: string;
+  textButton?: string;
   image: {
     /** @description Image for big screens */
     desktop: LiveImage;
@@ -38,6 +40,8 @@ function BannerUI(
   const {
     title,
     subtitle,
+    buttonUrl,
+    textButton,
     image,
     centerText,
   } = banner;
@@ -82,6 +86,15 @@ function BannerUI(
         >
           {subtitle}
         </span>
+        {buttonUrl && (
+          <a
+            class="px-14 py-4 bg-transparent border border-white rounded-[10px] font-regular text-lg text-white hover:opacity-90 transition cursor-pointer flex items-center justify-center"
+            href={buttonUrl}
+            target="_blank"
+          >
+            {textButton}
+          </a>
+        )}
       </div>
     </div>
   );
