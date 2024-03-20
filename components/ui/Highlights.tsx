@@ -17,8 +17,8 @@ export interface Props {
 function Highlights({ highlights = [], title }: Props) {
   return (
     <div class="container grid grid-cols-1 grid-rows-[48px_1fr] py-10">
-      <h2 class="text-center">
-        <span class="font-medium text-2xl">{title}</span>
+      <h2 class="font-galano text-center">
+        <span class="font-roboto font-medium text-2xl">{title}</span>
       </h2>
 
       <Slider class="carousel carousel-center sm:carousel-end gap-6">
@@ -38,7 +38,9 @@ function Highlights({ highlights = [], title }: Props) {
                 />
               </figure>
               <div class="card-body items-center">
-                <h2 class="card-title text-base font-medium">{label}</h2>
+                <h2 class="font-galano card-title text-base font-medium">
+                  {label}
+                </h2>
               </div>
             </a>
           </Slider.Item>

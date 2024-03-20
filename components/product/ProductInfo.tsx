@@ -75,10 +75,12 @@ function ProductInfo({ page, layout }: Props) {
       {/* Code and name */}
       <div class="mt-4 sm:mt-8">
         <div>
-          {gtin && <span class="text-sm text-base-300">Cod. {gtin}</span>}
+          {gtin && (
+            <span class="font-roboto text-sm text-base-300">Cod. {gtin}</span>
+          )}
         </div>
         <h1>
-          <span class="font-medium text-xl capitalize">
+          <span class="font-roboto font-medium text-xl capitalize">
             {layout?.name === "concat"
               ? `${isVariantOf?.name} ${name}`
               : layout?.name === "productGroup"
@@ -91,15 +93,15 @@ function ProductInfo({ page, layout }: Props) {
       <div class="mt-4">
         <div class="flex flex-row gap-2 items-center">
           {(listPrice ?? 0) > price && (
-            <span class="line-through text-base-300 text-xs">
+            <span class="font-roboto line-through text-base-300 text-xs">
               {formatPrice(listPrice, offers?.priceCurrency)}
             </span>
           )}
-          <span class="font-medium text-xl text-secondary">
+          <span class="font-roboto font-medium text-xl text-secondary">
             {formatPrice(price, offers?.priceCurrency)}
           </span>
         </div>
-        <span class="text-sm text-base-300">{installments}</span>
+        <span class="font-roboto text-sm text-base-300">{installments}</span>
       </div>
       {/* Sku Selector */}
       <div class="mt-4 sm:mt-6">
@@ -184,7 +186,7 @@ function ProductInfo({ page, layout }: Props) {
       </div>
       {/* Description card */}
       <div class="mt-4 sm:mt-6">
-        <span class="text-sm">
+        <span class="font-roboto text-sm">
           {description && (
             <details>
               <summary class="cursor-pointer">Descrição</summary>

@@ -129,7 +129,7 @@ export default function BannnerGrid(props: Props) {
       {title &&
         (
           <div class="py-6 md:py-0 md:pb-[40px] flex items-center mt-6">
-            <h2 class="text-lg leading-5 font-semibold uppercase">
+            <h2 class="font-galano text-lg leading-5 font-semibold uppercase">
               {title}
             </h2>
 

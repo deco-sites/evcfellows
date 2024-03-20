@@ -7,6 +7,10 @@ export default {
   theme: {
     container: { center: true },
     extend: {
+      fontFamily: {
+        galano: ["Galano", "sans-serif"],
+        roboto: ["Roboto", "sans-serif"],
+      },
       animation: {
         sliding: "sliding 30s linear infinite",
       },

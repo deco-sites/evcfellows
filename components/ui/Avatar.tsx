@@ -38,7 +38,7 @@ function Avatar({ content, variant = "default" }: Props) {
       <div
         class={`${colors[content] ?? colors[variant]} ${variants[variant]}`}
       >
-        <span class="uppercase ">
+        <span class="font-roboto uppercase ">
           {colors[content] ? "" : content.substring(0, 2)}
         </span>
       </div>

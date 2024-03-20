@@ -15,7 +15,7 @@ function DropdownItem({ href, label, selected }: DropdownItemProps) {
         href={href}
         class="flex flex-row items-center justify-between flex-grow p-2 hover:bg-black/5 rounded"
       >
-        <p class="font-sans not-italic font-normal text-[15px] text-[#113032] flex-grow whitespace-nowrap">
+        <p class="font-roboto font-sans not-italic font-normal text-[15px] text-[#113032] flex-grow whitespace-nowrap">
           {label}
         </p>
         <svg

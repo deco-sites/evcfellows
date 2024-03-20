@@ -49,7 +49,9 @@ function Cart({
       {isEmtpy
         ? (
           <div class="flex flex-col gap-6">
-            <span class="font-medium text-2xl">Sua sacola está vazia</span>
+            <span class="font-roboto font-medium text-2xl">
+              Sua sacola está vazia
+            </span>
             <Button
               class="btn-outline"
               onClick={() => {
@@ -97,8 +99,8 @@ function Cart({
               <div class="border-t border-base-200 py-2 flex flex-col">
                 {discounts > 0 && (
                   <div class="flex justify-between items-center px-4">
-                    <span class="text-sm">Descontos</span>
-                    <span class="text-sm">
+                    <span class="font-roboto text-sm">Descontos</span>
+                    <span class="font-roboto text-sm">
                       {formatPrice(discounts, currency, locale)}
                     </span>
                   </div>
@@ -118,11 +120,11 @@ function Cart({
               <div class="border-t border-base-200 pt-4 flex flex-col justify-end items-end gap-2 mx-4">
                 <div class="flex justify-between items-center w-full">
                   <span>Total</span>
-                  <span class="font-medium text-xl">
+                  <span class="font-roboto font-medium text-xl">
                     {formatPrice(total, currency, locale)}
                   </span>
                 </div>
-                <span class="text-sm text-base-300">
+                <span class="font-roboto text-sm text-base-300">
                   Taxas e fretes serão calculados no checkout
                 </span>
               </div>

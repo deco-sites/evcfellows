@@ -5,9 +5,6 @@ import Image, {
 export interface Props {
   image?: PartnersImage;
   imageUrl?: string;
-  /**
-   * @format html
-   */
   title?: string;
   /**
    * @format html
@@ -34,16 +31,14 @@ export default function ColumnSection(
   return (
     <section class={`${whiteBg ? "bg-white" : "bg-[#F1F1F1]"}`}>
       <div
-        class={`container px-4 py-8 w-full flex flex-col items-center justify-center ${
+        class={`container px-32 py-8 w-full flex flex-col items-center justify-center text-[#3D3D3D] ${
           !onlyDescription && "gap-7"
         }`}
       >
+        <h1 class="font-galano font-bold text-5xl">
+          {title}
+        </h1>
         <div
-          class="text-[#1E1E1E] text-bold text-5xl mb-4"
-          dangerouslySetInnerHTML={{ __html: title ?? "" }}
-        />
-        <div
-          class="text-[#1E1E1E]"
           dangerouslySetInnerHTML={{ __html: description ?? "" }}
         />
 

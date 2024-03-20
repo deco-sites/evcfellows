@@ -29,8 +29,8 @@ export default function OpinionSection(
               image={image}
               preload
             />
-            <span class="font-semibold text-2xl">{name}</span>
-            <span class="font-regular text-sm">{position}</span>
+            <span class="font-roboto font-semibold text-2xl">{name}</span>
+            <span class="font-roboto font-regular text-sm">{position}</span>
           </div>
         </div>
       </div>

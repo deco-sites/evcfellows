@@ -114,7 +114,7 @@ function Section({ interval = 0, layout, style, children }: Props) {
         {!layout?.hide?.indicators && (
           <ul class="carousel items-end justify-center col-span-full gap-4 z-10 row-start-4">
             {items?.map((_, index) => (
-              <li class="carousel-item">
+              <li class="font-roboto  carousel-item">
                 <Slider.Dot index={index}>
                   <div class="w-4 h-4 rounded-full group-disabled:bg-primary bg-transparent border-[1px] border-primary" />
                 </Slider.Dot>

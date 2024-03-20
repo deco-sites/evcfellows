@@ -79,7 +79,7 @@ export default function Card({
         <div class="text-base lg:text-xl leading-7">
           {label}
         </div>
-        <p class="text-sm leading-5">
+        <p class="font-roboto text-sm leading-5">
           {description}
         </p>
       </div>

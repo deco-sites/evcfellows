@@ -153,7 +153,7 @@ function ProductCard({
               ? "left-2"
               : "right-2"
           }
-            
+
           `}
         >
           <div
@@ -177,7 +177,7 @@ function ProductCard({
           {/* Discount % */}
           {!l?.hide?.discount && (
             <div class="text-sm bg-base-100 p-[10px]">
-              <span class="text-base-content font-bold">
+              <span class="font-roboto text-base-content font-bold">
                 {listPrice && price
                   ? `${Math.round(((listPrice - price) / listPrice) * 100)}% `
                   : ""}
@@ -330,7 +330,7 @@ function ProductCard({
                 )
                 : (
                   <li>
-                    <span class="text-base-300 font-light text-sm truncate">
+                    <span class="font-roboto text-base-300 font-light text-sm truncate">
                       ou {installments}
                     </span>
                   </li>

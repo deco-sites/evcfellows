@@ -299,10 +299,11 @@ export function Preview(props: Props) {
             {" "}
           </div>
           <div class="flex flex-col gap-2">
-            <span class="badge">Base</span>{" "}
-            <span class="badge badge-primary">Primary</span>{" "}
-            <span class="badge badge-secondary">Secondary</span>{" "}
-            <span class="badge badge-accent">Accent</span>
+            <span class="font-roboto badge">Base</span>{" "}
+            <span class="font-roboto badge badge-primary">Primary</span>{" "}
+            <span class="font-roboto badge badge-secondary">Secondary</span>
+            {" "}
+            <span class="font-roboto badge badge-accent">Accent</span>
             {" "}
           </div>{" "}
           <div class="flex flex-col">
@@ -335,10 +336,11 @@ export function Preview(props: Props) {
             {" "}
           </div>
           <div class="flex flex-col gap-2">
-            <span class="badge">Base</span>{" "}
-            <span class="badge badge-primary">Primary</span>{" "}
-            <span class="badge badge-secondary">Secondary</span>{" "}
-            <span class="badge badge-accent">Accent</span>
+            <span class="font-roboto badge">Base</span>{" "}
+            <span class="font-roboto badge badge-primary">Primary</span>{" "}
+            <span class="font-roboto badge badge-secondary">Secondary</span>
+            {" "}
+            <span class="font-roboto badge badge-accent">Accent</span>
             {" "}
           </div>{" "}
           <div class="flex flex-col">
@@ -370,9 +372,10 @@ export function Preview(props: Props) {
             {" "}
           </div>
           <div class="flex flex-col gap-2">
-            <span class="badge">Base</span>{" "}
-            <span class="badge badge-secondary">Secondary</span>{" "}
-            <span class="badge badge-accent">Accent</span>
+            <span class="font-roboto badge">Base</span>{" "}
+            <span class="font-roboto badge badge-secondary">Secondary</span>
+            {" "}
+            <span class="font-roboto badge badge-accent">Accent</span>
             {" "}
           </div>{" "}
           <div class="flex flex-col">
@@ -402,9 +405,9 @@ export function Preview(props: Props) {
             {" "}
           </div>
           <div class="flex flex-col gap-2">
-            <span class="badge">Base</span>{" "}
-            <span class="badge badge-primary">Primary</span>{" "}
-            <span class="badge badge-accent">Accent</span>
+            <span class="font-roboto badge">Base</span>{" "}
+            <span class="font-roboto badge badge-primary">Primary</span>{" "}
+            <span class="font-roboto badge badge-accent">Accent</span>
             {" "}
           </div>{" "}
           <div class="flex flex-col">
@@ -434,9 +437,9 @@ export function Preview(props: Props) {
             {" "}
           </div>
           <div class="flex flex-col gap-2">
-            <span class="badge">Base</span>{" "}
-            <span class="badge badge-primary">Primary</span>{" "}
-            <span class="badge badge-secondary">Secondary</span>
+            <span class="font-roboto badge">Base</span>{" "}
+            <span class="font-roboto badge badge-primary">Primary</span>{" "}
+            <span class="font-roboto badge badge-secondary">Secondary</span>
             {" "}
           </div>{" "}
           <div class="flex flex-col">

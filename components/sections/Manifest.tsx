@@ -19,7 +19,7 @@ export default function Manifest(
       <div class="flex lg:items-center w-full gap-7">
         <div class="flex flex-col justify-between gap-4 lg:w-[40%]">
           <div>
-            <h4 class=" font-bold text-5xl text-[#3D3D3D] mb-9">
+            <h4 class="font-galano  font-bold text-5xl text-[#3D3D3D] mb-9">
               {title}
             </h4>
             <Image
@@ -27,13 +27,13 @@ export default function Manifest(
               image={image}
               preload
             />
-            <p class="font-inter font-regular text-[#3D3D3D] text-lg leading-9 lg:mb-14 mb-4">
+            <p class="font-roboto  font-regular text-[#3D3D3D] text-lg leading-9 lg:mb-14 mb-4">
               {content}
             </p>
           </div>
 
           <a
-            class="py-5 w-full h-[66px] bg-gradient-to-r from-blue-900 to-sky-400 rounded-[10px]  font-regular text-lg text-white hover:opacity-90 transition cursor-pointer flex items-center justify-center font-bold"
+            class="px-8 py-4 w-full h-[66px] bg-gradient-to-r from-blue-900 to-sky-400 rounded-[10px]  font-regular text-lg text-white hover:opacity-90 transition cursor-pointer flex items-center justify-center font-bold"
             href={manifestUrl}
             download
           >

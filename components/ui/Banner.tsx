@@ -3,6 +3,11 @@ import type { ImageWidget as LiveImage } from "apps/admin/widgets.ts";
 import { PartnersImage } from "deco-sites/evcfellows/components/ui/Image.tsx";
 import Image from "deco-sites/evcfellows/components/ui/Image.tsx";
 
+interface ButtonsList {
+  buttonUrl: string;
+  textButton: string;
+}
+
 export interface Banner {
   /** @description text to be rendered on top of the image */
   title?: string;
@@ -10,8 +15,7 @@ export interface Banner {
   subtitle?: string;
   /** @description if the text should be centered */
   centerText?: boolean;
-  buttonUrl?: string;
-  textButton?: string;
+  buttons?: ButtonsList[];
   bannerImage?: PartnersImage;
   backgroundImage: {
     /** @description Image for big screens */
@@ -43,8 +47,7 @@ function BannerUI(
   const {
     title,
     subtitle,
-    buttonUrl,
-    textButton,
+    buttons,
     backgroundImage,
     bannerImage,
     centerText,
@@ -69,7 +72,7 @@ function BannerUI(
           media="(min-width: 767px)"
         />
         <img
-          class="w-screen max-h-[520px]"
+          class="w-screen max-h-[595px]"
           src={backgroundImage.desktop}
           alt={backgroundImage.alt}
         />
@@ -78,9 +81,9 @@ function BannerUI(
       <div
         class={`container w-full flex flex-col ${
           centerText ? "items-center" : "items-start"
-        } justify-center gap-7 pl-4 md:pl-24 col-start-1 col-span-1 row-start-1 row-span-1`}
+        } justify-center gap-7 pl-4 col-start-1 col-span-1 row-start-1 row-span-1`}
       >
-        <h1 class="text-5xl font-extrabold text-white">
+        <h1 class="font-galano text-5xl font-extrabold text-white">
           {title}
         </h1>
         {bannerImage && (
@@ -97,15 +100,18 @@ function BannerUI(
         >
           {subtitle}
         </span>
-        {buttonUrl && (
-          <a
-            class="px-14 py-4 bg-transparent border border-white rounded-[10px] font-regular text-lg text-white hover:opacity-90 transition cursor-pointer flex items-center justify-center font-bold"
-            href={buttonUrl}
-            target="_blank"
-          >
-            {textButton}
-          </a>
-        )}
+        {buttons
+          ? buttons.map((button, index) => (
+            <a
+              key={index}
+              class="px-14 py-4 bg-transparent border border-white rounded-[10px] font-regular text-lg text-white hover:opacity-90 transition cursor-pointer flex items-center justify-center font-bold"
+              href={button.buttonUrl}
+              target="_blank"
+            >
+              {button.textButton}
+            </a>
+          ))
+          : null}
       </div>
     </div>
   );

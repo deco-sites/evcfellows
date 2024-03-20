@@ -44,7 +44,7 @@ function Contact(
             class="py-4 text-sm rounded-[3px] text-gray-500 bg-white pl-4 w-full placeholder:text-gray-500 border-[2px] border-black-900 min-h-[218px] "
           />
 
-          <button class="w-full bg-[#3BC9E1] text-white font-inter font-bold text-8 transition hover:opacity-90 py-[10px] uppercase mb-4">
+          <button class="w-full bg-[#3BC9E1] text-white font-roboto font-bold text-8 transition hover:opacity-90 py-[10px] uppercase mb-4">
             Enviar
           </button>
         </form>

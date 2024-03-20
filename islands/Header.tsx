@@ -25,7 +25,7 @@ function MobileMenuLink({
   const hasNested = nested && nested.length > 0;
   if (hasNested) {
     return (
-      <li class="pt-4 grid items-center">
+      <li class="font-roboto  pt-4 grid items-center">
         <a
           href={href}
           target={targetBlank ? "_blank" : "_self"}
@@ -98,7 +98,7 @@ export default function Header(props: Props) {
     <section class="bg-[#323E48] w-full shadow-[0px_4px_16px_0px_rgba(0,0,0,0.10)]">
       <nav class="container flex flex-row justify-evenly gap-16 items-center py-4 max-w-screen-2xl m-auto">
         <ul class="h-full flex items-center">
-          <li class="h-full">
+          <li class="font-roboto  h-full">
             <a href="/" aria-label="Store logo">
               <Icon id="Logo" width={205} height={59} />
             </a>

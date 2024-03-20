@@ -15,7 +15,7 @@ function Spinner({ size = 20 }: Props) {
       class="animate-spin inline-block border-2 rounded-full"
       role="status"
     >
-      <span class="hidden">Carregando...</span>
+      <span class="font-roboto hidden">Carregando...</span>
     </div>
   );
 }

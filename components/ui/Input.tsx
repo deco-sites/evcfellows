@@ -12,7 +12,7 @@ export default function Input(
   return (
     <div class="relative text-gray-600 w-full">
       {iconId && (
-        <span class="absolute inset-y-0 left-0 flex items-center pl-2">
+        <span class="font-roboto absolute inset-y-0 left-0 flex items-center pl-2">
           <button
             aria-label={iconId}
             type="submit"

@@ -154,7 +154,7 @@ function Links(props: Props) {
       <main class="w-full">
         <ul class="flex flex-col justify-center items-center gap-4">
           {links?.items?.map((link) => (
-            <li class="w-full">
+            <li class="font-roboto  w-full">
               <a
                 target="_blank"
                 href={link.href}
@@ -169,7 +169,7 @@ function Links(props: Props) {
                   />
                 )}
 
-                <span class="w-full text-center text-sm">
+                <span class="font-roboto w-full text-center text-sm">
                   {link.label}
                 </span>
 
