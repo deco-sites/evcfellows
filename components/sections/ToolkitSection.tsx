@@ -29,7 +29,7 @@ export default function ToolkitSection(
           />
 
           <a
-            class="py-5 px-4 w-[324px] bg-gradient-to-r from-blue-900 to-sky-400 rounded-[10px] font-regular text-lg text-white hover:opacity-90 transition cursor-pointer flex items-center justify-center font-bold"
+            class="py-5 px-4 w-[324px] bg-gradient-to-r from-blue-900 to-sky-400 rounded-[10px] font-normal text-lg text-white hover:opacity-90 transition cursor-pointer flex items-center justify-center font-bold"
             href={buttonUrl}
           >
             {textButton}

@@ -25,7 +25,7 @@ export default function OrangeColumnSection(
 
         {buttonUrl && (
           <a
-            class="p-6 bg-[#DD852F] rounded-[10px] font-regular text-lg text-white hover:opacity-90 transition cursor-pointer flex items-center justify-center font-bold"
+            class="p-6 bg-[#DD852F] rounded-[10px] font-normal text-lg text-white hover:opacity-90 transition cursor-pointer flex items-center justify-center font-bold"
             href={buttonUrl}
             target="_blank"
           >

@@ -94,7 +94,7 @@ function BannerUI(
           />
         )}
         <span
-          class={`text-lg font-regular text-white ${
+          class={`max-w-[820px] text-lg font-normal text-white ${
             centerText && "text-center"
           }`}
         >
@@ -104,7 +104,7 @@ function BannerUI(
           ? buttons.map((button, index) => (
             <a
               key={index}
-              class="px-14 py-4 bg-transparent border border-white rounded-[10px] font-regular text-lg text-white hover:opacity-90 transition cursor-pointer flex items-center justify-center font-bold"
+              class="px-14 py-4 bg-transparent border border-white rounded-[10px] text-lg text-white hover:opacity-90 transition cursor-pointer flex items-center justify-center font-bold"
               href={button.buttonUrl}
               target="_blank"
             >

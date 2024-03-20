@@ -52,7 +52,7 @@ export default function ColumnSection(
 
         {buttonUrl && (
           <a
-            class="px-8 py-4 bg-gradient-to-r from-blue-900 to-sky-400 rounded-[10px] font-regular text-lg text-white hover:opacity-90 transition cursor-pointer flex items-center justify-center font-bold"
+            class="px-8 py-4 bg-gradient-to-r from-blue-900 to-sky-400 rounded-[10px] font-normal text-lg text-white hover:opacity-90 transition cursor-pointer flex items-center justify-center font-bold"
             href={buttonUrl}
             target="_blank"
           >

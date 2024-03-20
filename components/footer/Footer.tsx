@@ -17,7 +17,7 @@ export default function Footer({ columns, legalText }: Props) {
       <section class="w-full flex justify-between py-6 px-3">
         <div>
           <Icon id="LogoWithoutText" strokeWidth={0} width={63} height={63} />
-          <p class="mt-4 mb-6 text-sm font-roboto font-regular text-white max-w-[362px]">
+          <p class="mt-4 mb-6 text-sm font-roboto font-normal text-white max-w-[362px]">
             {legalText}
           </p>
           <div class="flex gap-2">
@@ -71,7 +71,7 @@ export default function Footer({ columns, legalText }: Props) {
                 <a
                   href={link.url}
                   key={link.urlText}
-                  class="text-base font-roboto font-regular text-white"
+                  class="text-base font-roboto font-normal text-white"
                 >
                   {link.urlText}
                 </a>

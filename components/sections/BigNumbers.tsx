@@ -30,7 +30,7 @@ export default function BigNumbers({ image, title, infoNumbers }: Props) {
                 <span class="font-roboto text-[50px] md:text-[70px] text-[#3BC9E1]  font-bold">
                   {infoNumber.number}
                 </span>
-                <span class="font-roboto text-white  font-regular text-3xl">
+                <span class="font-roboto text-white  font-normal text-3xl">
                   {infoNumber.title}
                 </span>
               </p>

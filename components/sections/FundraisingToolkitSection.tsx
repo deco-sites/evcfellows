@@ -31,7 +31,7 @@ export default function FundraisingToolkitSection(
           />
 
           <a
-            class="px-8 py-4 w-[324px] bg-gradient-to-r from-blue-900 to-sky-400 rounded-[10px] font-regular text-lg text-white hover:opacity-90 transition cursor-pointer flex items-center justify-center font-bold"
+            class="px-8 py-4 w-[324px] bg-gradient-to-r from-blue-900 to-sky-400 rounded-[10px] font-normal text-lg text-white hover:opacity-90 transition cursor-pointer flex items-center justify-center font-bold"
             href={buttonUrl}
           >
             {textButton}
@@ -45,7 +45,7 @@ export default function FundraisingToolkitSection(
 
       {blueBoxText && (
         <div class="px-9 py-14 bg-gradient-to-r from-blue-900 to-sky-400 rounded-[34px]">
-          <span class="font-roboto text-white font-regular text-lg">
+          <span class="font-roboto text-white font-normal text-lg">
             {blueBoxText}
           </span>
         </div>

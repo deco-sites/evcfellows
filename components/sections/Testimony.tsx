@@ -38,11 +38,11 @@ function Testimony({ title, id, testimonials }: Props) {
                     <p class="font-roboto  font-semibold text-gray-500 text-3xl mb-1">
                       {testimonial.title}
                     </p>
-                    <span class="font-roboto  font-regular text-gray-500 text-xl mb-6">
+                    <span class="font-roboto  font-normal text-gray-500 text-xl mb-6">
                       {testimonial.subtitle}
                     </span>
 
-                    <p class="font-roboto  font-regular text-gray-500 text-xl leading-8">
+                    <p class="font-roboto  font-normal text-gray-500 text-xl leading-8">
                       {testimonial.content}
                     </p>
 
