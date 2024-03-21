@@ -123,7 +123,7 @@ function BannerItem(
           <span class="font-roboto text-2xl font-light text-base-100">
             {action.title}
           </span>
-          <span class="font-roboto font-normal text-4xl text-base-100">
+          <span class="font-roboto font-semibold text-4xl text-base-100">
             {action.subTitle}
           </span>
           <Button

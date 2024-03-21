@@ -35,7 +35,7 @@ export default function ToolkitSection(
           </h1>
           <div class="text-start">
             <div
-              class="text-[#3D3D3D] list-disc w-[400px] flex justify-center font-roboto font-normal mb-4"
+              class="text-[#3D3D3D] list-disc w-[400px] flex justify-center font-roboto font-semibold mb-4"
               dangerouslySetInnerHTML={{ __html: description }}
             />
 

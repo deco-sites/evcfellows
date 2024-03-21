@@ -32,7 +32,7 @@ export default function FundraisingToolkitSection(
           </h1>
           <div class="text-start">
             <div
-              class="text-[#3D3D3D] list-disc font-roboto font-normal w-[400px] flex justify-center mb-4"
+              class="text-[#3D3D3D] list-disc font-roboto font-semibold w-[400px] flex justify-center mb-4"
               dangerouslySetInnerHTML={{ __html: description }}
             />
 
@@ -52,7 +52,7 @@ export default function FundraisingToolkitSection(
 
       {blueBoxText && (
         <div class="px-9 py-14 bg-gradient-to-r from-blue-900 to-sky-400 rounded-[34px]">
-          <span class="font-roboto text-white font-normal text-lg">
+          <span class="font-roboto text-white font-semibold text-lg">
             {blueBoxText}
           </span>
         </div>

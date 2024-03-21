@@ -43,7 +43,7 @@ export default function ColumnSection(
           {title}
         </h1>
         <div
-          class="font-roboto font-normal text-center"
+          class="font-roboto font-semibold text-center"
           dangerouslySetInnerHTML={{ __html: description ?? "" }}
         />
 

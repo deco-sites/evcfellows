@@ -54,7 +54,7 @@ function Coupon({ coupon, onAddCoupon }: Props) {
         )
         : (
           <Button
-            class="btn-ghost underline font-normal"
+            class="btn-ghost underline font-semibold"
             onClick={() => setDisplay(true)}
           >
             {coupon || "Adicionar"}

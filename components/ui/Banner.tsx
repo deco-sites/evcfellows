@@ -94,7 +94,7 @@ function BannerUI(
           />
         )}
         <span
-          class={`max-w-[820px] text-lg font-normal text-white ${
+          class={`max-w-[820px] text-lg font-semibold text-white ${
             centerText && "text-center"
           }`}
         >

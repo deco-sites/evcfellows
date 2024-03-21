@@ -273,7 +273,7 @@ function ProductCard({
                 )
                 : (
                   <h2
-                    class="truncate text-base lg:text-lg text-base-content uppercase font-normal"
+                    class="truncate text-base lg:text-lg text-base-content uppercase font-semibold"
                     dangerouslySetInnerHTML={{ __html: name ?? "" }}
                   />
                 )}
