@@ -4,6 +4,7 @@ import Image, {
 
 export interface Props {
   image: PartnersImage;
+  title?: string;
   /** @format html */
   description: string;
   /** @default primary */
@@ -15,6 +16,7 @@ export interface Props {
 export default function FundraisingToolkitSection(
   {
     image,
+    title,
     description,
     textButton = "ACESSO",
     buttonUrl,
@@ -22,23 +24,28 @@ export default function FundraisingToolkitSection(
   }: Props,
 ) {
   return (
-    <section class="container px-36 py-8">
-      <div class="flex lg:items-center lg:justify-evenly w-full gap-7 mb-14">
-        <div class="flex flex-col justify-between items-start gap-4 lg:max-w-[40%]">
-          <div
-            class="text-[#3D3D3D] list-disc w-full"
-            dangerouslySetInnerHTML={{ __html: description }}
-          />
+    <section class="container pl-28 pr-4 py-8">
+      <div class="flex justify-center lg:justify-between items-center w-full gap-7 mb-14">
+        <div class="flex flex-col justify-between items-center lg:items-start gap-4 lg:max-w-[40%]">
+          <h1 class="font-galano font-bold text-4xl text-center lg:text-start">
+            {title}
+          </h1>
+          <div class="text-start">
+            <div
+              class="text-[#3D3D3D] list-disc font-roboto font-normal w-[400px] flex justify-center mb-4"
+              dangerouslySetInnerHTML={{ __html: description }}
+            />
 
-          <a
-            class="px-8 py-4 w-[324px] bg-gradient-to-r from-blue-900 to-sky-400 rounded-[10px] font-normal text-lg text-white hover:opacity-90 transition cursor-pointer flex items-center justify-center font-bold"
-            href={buttonUrl}
-          >
-            {textButton}
-          </a>
+            <a
+              class="px-8 py-4 w-[324px] bg-gradient-to-r from-blue-900 to-sky-400 rounded-[10px] text-lg text-white hover:opacity-90 transition cursor-pointer flex items-center justify-center font-bold"
+              href={buttonUrl}
+            >
+              {textButton}
+            </a>
+          </div>
         </div>
 
-        <div class="hidden lg:block">
+        <div class="hidden w-full lg:flex justify-center">
           <Image image={image} preload />
         </div>
       </div>

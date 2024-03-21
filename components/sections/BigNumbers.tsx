@@ -27,7 +27,7 @@ export default function BigNumbers({ image, title, infoNumbers }: Props) {
           <div class="w-full grid grid-cols-2 md:grid-cols-4 items-center text-center">
             {infoNumbers.map((infoNumber) => (
               <p key={infoNumber.title} class="flex flex-col">
-                <span class="font-roboto text-[50px] md:text-[70px] text-[#3BC9E1]  font-bold">
+                <span class="font-roboto text-5xl md:text-[70px] text-[#3BC9E1]  font-bold">
                   {infoNumber.number}
                 </span>
                 <span class="font-roboto text-white  font-normal text-3xl">

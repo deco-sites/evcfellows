@@ -5,7 +5,7 @@ export interface PartnersImage {
   /** @description desktop otimized image */
   desktop: LiveImage;
   /** @description mobile otimized image */
-  mobile: LiveImage;
+  mobile?: LiveImage;
   /** @description when user clicks on the image, go to this link */
   href?: string;
   /** @description Image's alt text */
@@ -44,7 +44,7 @@ export default function Image({ image, preload, className }: Props) {
       <Source
         media="(max-width: 767px)"
         fetchPriority={preload ? "high" : "auto"}
-        src={mobile}
+        src={mobile || desktop}
         width={widthMobile || 720}
         height={heightMobile}
       />

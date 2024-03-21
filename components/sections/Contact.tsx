@@ -21,7 +21,7 @@ function Contact(
   return (
     <section id="contact" class="flex justify-center">
       <div class="flex flex-col justify-between">
-        <h5 class=" font-bold text-5xl text-[#1E1E1E] mb-9">
+        <h5 class="font-galano font-bold text-5xl text-[#3D3D3D] mt-4 mb-9">
           Entre em contato
         </h5>
 

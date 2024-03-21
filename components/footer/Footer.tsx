@@ -2,6 +2,7 @@ import Icon from "../ui/Icon.tsx";
 
 export interface Props {
   legalText: string;
+  year: string;
   columns: {
     title: string;
     links: {
@@ -11,7 +12,7 @@ export interface Props {
   }[];
 }
 
-export default function Footer({ columns, legalText }: Props) {
+export default function Footer({ columns, legalText, year }: Props) {
   return (
     <footer class="bg-[#323E48] md:px-[78px]">
       <section class="w-full flex justify-between py-6 px-3">
@@ -84,7 +85,7 @@ export default function Footer({ columns, legalText }: Props) {
       <div class="h-[2px] w-full bg-white rounded-[2px] " />
 
       <p class="font-roboto py-4 flex justify-center text-white text-xs">
-        © 2024 EMERGING
+        © {year} EMERGING
       </p>
     </footer>
   );

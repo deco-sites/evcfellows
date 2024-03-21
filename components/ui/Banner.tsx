@@ -81,9 +81,9 @@ function BannerUI(
       <div
         class={`container w-full flex flex-col ${
           centerText ? "items-center" : "items-start"
-        } justify-center gap-7 pl-4 col-start-1 col-span-1 row-start-1 row-span-1`}
+        } justify-center gap-7 px-4 lg:pl-28 col-start-1 col-span-1 row-start-1 row-span-1`}
       >
-        <h1 class="font-galano text-5xl font-extrabold text-white">
+        <h1 class="font-galano text-5xl font-extrabold text-white text-center">
           {title}
         </h1>
         {bannerImage && (
