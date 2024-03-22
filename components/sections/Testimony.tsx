@@ -35,14 +35,14 @@ function Testimony({ title, id, testimonials }: Props) {
                     className="rounded-t-xl rounded-b-0"
                   />
                   <div class="px-12 flex flex-col justify-center bg-gray-100 rounded-b-xl rounded-r-0 md:rounded-r-xl relative py-8">
-                    <p class="font-roboto  font-semibold text-gray-500 text-3xl mb-1">
+                    <p class="font-roboto text-gray-500 text-3xl mb-1">
                       {testimonial.title}
                     </p>
-                    <span class="font-roboto  font-semibold text-gray-500 text-xl mb-6">
+                    <span class="font-roboto text-gray-500 text-xl mb-6">
                       {testimonial.subtitle}
                     </span>
 
-                    <p class="font-roboto  font-semibold text-gray-500 text-xl leading-8">
+                    <p class="font-roboto italic text-gray-500 text-xl leading-8">
                       {testimonial.content}
                     </p>
 

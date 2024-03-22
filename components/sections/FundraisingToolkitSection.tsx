@@ -24,7 +24,7 @@ export default function FundraisingToolkitSection(
   }: Props,
 ) {
   return (
-    <section class="container pl-28 pr-4 py-8">
+    <section class="container px-4 lg:pl-0 py-8">
       <div class="flex justify-center lg:justify-between items-center w-full gap-7 mb-14">
         <div class="flex flex-col justify-between items-center lg:items-start gap-4 lg:max-w-[40%]">
           <h1 class="font-galano font-bold text-4xl text-center lg:text-start">

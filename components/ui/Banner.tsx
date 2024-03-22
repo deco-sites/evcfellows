@@ -11,6 +11,7 @@ interface ButtonsList {
 export interface Banner {
   /** @description text to be rendered on top of the image */
   title?: string;
+  centerTitle?: boolean;
   /** @description text to be rendered on top of the image */
   subtitle?: string;
   /** @description if the text should be centered */
@@ -46,6 +47,7 @@ function BannerUI(
 ) {
   const {
     title,
+    centerTitle = false,
     subtitle,
     buttons,
     backgroundImage,
@@ -81,25 +83,35 @@ function BannerUI(
       <div
         class={`container w-full flex flex-col ${
           centerText ? "items-center" : "items-start"
-        } justify-center gap-7 px-4 lg:pl-28 col-start-1 col-span-1 row-start-1 row-span-1`}
+        } justify-center gap-7 px-4 lg:pl-0 col-start-1 col-span-1 row-start-1 row-span-1`}
       >
-        <h1 class="font-galano text-5xl font-extrabold text-white text-center">
-          {title}
-        </h1>
-        {bannerImage && (
-          <Image
-            className="max-h-[220px] w-auto"
-            image={bannerImage}
-            preload
-          />
-        )}
-        <span
-          class={`max-w-[820px] text-lg font-semibold text-white ${
-            centerText && "text-center"
+        <div
+          class={`w-full max-w-[685px] ${
+            centerTitle ? "flex flex-col items-center" : ""
           }`}
         >
-          {subtitle}
-        </span>
+          <h1
+            class={`font-galano text-5xl font-extrabold text-white mb-4 ${
+              centerTitle ? "text-center" : "text-start"
+            }`}
+          >
+            {title}
+          </h1>
+          {bannerImage && (
+            <Image
+              className="max-h-[220px] mb-6"
+              image={bannerImage}
+              preload
+            />
+          )}
+          <span
+            class={`text-lg font-roboto font-normal text-white ${
+              centerText && "text-center"
+            }`}
+          >
+            {subtitle}
+          </span>
+        </div>
         {buttons
           ? buttons.map((button, index) => (
             <a

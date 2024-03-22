@@ -26,11 +26,11 @@ export default function ToolkitSection(
   }: Props,
 ) {
   return (
-    <section class="pl-36 pr-4 py-8">
+    <section class="lg:pl-28 lg:pr-4 px-4 py-8">
       <div class="flex lg:items-center w-full gap-7">
         <div class="flex flex-col justify-between items-center lg:items-start gap-4 lg:w-[40%]">
           <Image className="block -mt-20 lg:hidden" image={image} preload />
-          <h1 class="font-galano font-bold text-5xl text-center lg:text-start">
+          <h1 class="font-galano font-bold text-5xl text-start">
             {title}
           </h1>
           <div class="text-start">

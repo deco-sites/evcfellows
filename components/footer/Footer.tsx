@@ -18,7 +18,7 @@ export default function Footer({ columns, legalText, year }: Props) {
       <section class="w-full flex justify-between py-6 px-3">
         <div>
           <Icon id="LogoWithoutText" strokeWidth={0} width={63} height={63} />
-          <p class="mt-4 mb-6 text-sm font-roboto font-semibold text-white max-w-[362px]">
+          <p class="mt-4 mb-6 text-sm font-roboto text-white max-w-[362px]">
             {legalText}
           </p>
           <div class="flex gap-2">
@@ -65,14 +65,14 @@ export default function Footer({ columns, legalText, year }: Props) {
         <div class="pt-[69px] flex md:gap-[122px] gap-4">
           {columns?.map((column) => (
             <div class="grid grid-row-5 gap-1" key={column.title}>
-              <p class="font-roboto text-base font-semibold text-white">
+              <p class="font-roboto text-base text-white">
                 {column.title}
               </p>
               {column.links.map((link) => (
                 <a
                   href={link.url}
                   key={link.urlText}
-                  class="text-base font-roboto font-semibold text-white"
+                  class="text-base font-roboto text-white"
                 >
                   {link.urlText}
                 </a>
