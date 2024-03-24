@@ -74,7 +74,7 @@ function BannerUI(
           media="(min-width: 767px)"
         />
         <img
-          class="w-screen max-h-[595px]"
+          class="w-screen h-full"
           src={backgroundImage.desktop}
           alt={backgroundImage.alt}
         />
@@ -83,7 +83,7 @@ function BannerUI(
       <div
         class={`container w-full flex flex-col ${
           centerText ? "items-center" : "items-start"
-        } justify-center gap-7 px-4 lg:pl-0 col-start-1 col-span-1 row-start-1 row-span-1`}
+        } justify-center gap-7 px-6 py-8 col-start-1 col-span-1 row-start-1 row-span-1`}
       >
         <div
           class={`w-full max-w-[685px] ${
@@ -91,7 +91,7 @@ function BannerUI(
           }`}
         >
           <h1
-            class={`font-galano text-5xl font-extrabold text-white mb-4 ${
+            class={`font-galano text-4xl md:text-5xl font-extrabold text-white mb-4 ${
               centerTitle ? "text-center" : "text-start"
             }`}
           >
@@ -99,13 +99,13 @@ function BannerUI(
           </h1>
           {bannerImage && (
             <Image
-              className="max-h-[220px] mb-6"
+              className="mb-6"
               image={bannerImage}
               preload
             />
           )}
           <span
-            class={`text-lg font-roboto font-normal text-white ${
+            class={`text-base md:text-lg font-roboto font-normal text-white ${
               centerText && "text-center"
             }`}
           >

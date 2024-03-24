@@ -15,9 +15,9 @@ export default function Manifest(
     Props,
 ) {
   return (
-    <section class="container px-4 py-8">
-      <div class="flex lg:items-center w-full gap-12">
-        <div class="flex flex-col justify-between gap-4 lg:w-[40%]">
+    <section class="container px-6 py-8">
+      <div class="flex lg:items-center justify-center lg:justify-start w-full gap-12">
+        <div class="flex flex-col justify-between gap-4 lg:w-[40%] max-w-[520px]">
           <div>
             <h4 class="font-galano font-bold text-5xl text-[#3D3D3D] mb-6">
               {title}
@@ -27,7 +27,7 @@ export default function Manifest(
               image={image}
               preload
             />
-            <p class="font-roboto font-normal text-[#3D3D3D] text-lg leading-9 lg:mb-14 mb-4">
+            <p class="font-roboto font-normal text-[#3D3D3D] text-lg leading-9 lg:mb-6 mb-4">
               {content}
             </p>
           </div>

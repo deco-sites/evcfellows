@@ -17,7 +17,7 @@ export interface Props {
 function Testimony({ title, id, testimonials }: Props) {
   return (
     <section class="container">
-      <div class="w-full flex flex-col items-center py-8">
+      <div class="w-full flex flex-col items-center px-4 py-8">
         <p class="font-roboto  font-bold text-black-800 text-5xl mb-16">
           {title}
         </p>

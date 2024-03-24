@@ -24,15 +24,15 @@ export default function FundraisingToolkitSection(
   }: Props,
 ) {
   return (
-    <section class="container px-4 lg:pl-0 py-8">
+    <section class="container lg:pl-24 px-4 py-8">
       <div class="flex justify-center lg:justify-between items-center w-full gap-7 mb-14">
         <div class="flex flex-col justify-between items-center lg:items-start gap-4 lg:max-w-[40%]">
-          <h1 class="font-galano font-bold text-4xl text-center lg:text-start">
+          <h1 class="text-[#3D3D3D] font-galano font-bold text-4xl text-center lg:text-start">
             {title}
           </h1>
           <div class="text-start">
             <div
-              class="text-[#3D3D3D] list-disc font-roboto font-semibold w-[400px] flex justify-center mb-4"
+              class="text-[#3D3D3D] list-disc font-roboto font-normal w-[400px] flex justify-center mb-4"
               dangerouslySetInnerHTML={{ __html: description }}
             />
 

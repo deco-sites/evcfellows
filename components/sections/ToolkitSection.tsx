@@ -26,7 +26,7 @@ export default function ToolkitSection(
   }: Props,
 ) {
   return (
-    <section class="lg:pl-28 lg:pr-4 px-4 py-8">
+    <section class="lg:pl-24 px-4 py-8">
       <div class="flex lg:items-center w-full gap-7">
         <div class="flex flex-col justify-between items-center lg:items-start gap-4 lg:w-[40%]">
           <Image className="block -mt-20 lg:hidden" image={image} preload />
@@ -35,7 +35,7 @@ export default function ToolkitSection(
           </h1>
           <div class="text-start">
             <div
-              class="text-[#3D3D3D] list-disc w-[400px] flex justify-center font-roboto font-semibold mb-4"
+              class="text-[#3D3D3D] list-disc w-[400px] flex justify-center font-roboto font-normal mb-4"
               dangerouslySetInnerHTML={{ __html: description }}
             />
 

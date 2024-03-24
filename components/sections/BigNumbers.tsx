@@ -20,13 +20,13 @@ export default function BigNumbers({ image, title, infoNumbers }: Props) {
         <BannerUI banner={image} />
 
         <div class="absolute w-full flex flex-col items-center top-7 lg:top-14 px-4">
-          <h2 class="font-galano  font-bold text-[#D9D9D9] text-5xl mb-8 lg:mb-12">
+          <h2 class="font-galano text-center font-bold text-[#D9D9D9] text-5xl mb-8 lg:mb-12">
             {title}
           </h2>
 
           <div class="w-full grid grid-cols-2 md:grid-cols-4 items-center text-center">
             {infoNumbers.map((infoNumber) => (
-              <p key={infoNumber.title} class="flex flex-col">
+              <p key={infoNumber.title} class="flex flex-col mb-4">
                 <span class="font-galano text-5xl text-[#3BC9E1] font-bold">
                   {infoNumber.number}
                 </span>
