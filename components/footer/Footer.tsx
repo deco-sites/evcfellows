@@ -85,7 +85,7 @@ export default function Footer({ columns, legalText, year }: Props) {
       <div class="h-[2px] w-full bg-white rounded-[2px] " />
 
       <p class="font-roboto py-4 flex justify-center text-white text-xs">
-        © {year} EMERGING
+        © {year} Emerging Venture Capital Fellows. All Rights Reserved.
       </p>
     </footer>
   );

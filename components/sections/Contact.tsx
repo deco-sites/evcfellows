@@ -32,9 +32,9 @@ function Contact(
   const inputContentRef = useRef<HTMLTextAreaElement>(null);
 
   return (
-    <section id="contact" class="flex justify-center">
-      <div class="flex flex-col justify-between">
-        <h5 class="font-galano font-bold text-5xl text-[#3D3D3D] mt-4 mb-9">
+    <section id="contact" class="flex justify-center px-3">
+      <div class=" min-w-[400px]">
+        <h5 class="font-galano font-bold text-5xl text-[#3D3D3D] mt-4 mb-8">
           {title}
         </h5>
 

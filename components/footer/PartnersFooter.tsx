@@ -2,12 +2,6 @@ import Divider from "deco-sites/evcfellows/components/footer/Divider.tsx";
 import Image from "deco-sites/evcfellows/components/ui/Image.tsx";
 import type { PartnersImage } from "deco-sites/evcfellows/components/ui/Image.tsx";
 
-// interface PartnersImage {
-// 	partnerLogo: LiveImage;
-//   width?: number;
-//   height?: number;
-// }
-
 export interface Props {
   title: string;
   /** @title Logos de Shared Vision */
@@ -24,17 +18,6 @@ export interface Props {
   knowledgePartinersLogos: PartnersImage[];
 }
 
-// function PartnerSection({ partnerLogo }: PartnersImage) {
-//   return (
-// 	<>
-// 	<div>
-// 	  <Image image={partnerLogo} />
-// 	</div>
-// 	<Divider />
-// 	</>
-//   );
-// }
-
 export default function Footer(
   {
     title = "Partners",
@@ -50,7 +33,7 @@ export default function Footer(
 ) {
   return (
     <footer class="w-full border-t shadow">
-      <section class="container flex flex-col items-center pt-6 pb-4 px-3">
+      <section class="container flex flex-col items-center py-6 px-3">
         <h3 class="font-galano font-bold text-[#3D3D3D] text-2xl mb-4">
           {title}
         </h3>
@@ -136,11 +119,11 @@ export default function Footer(
             ))}
           </ul>
         </div>
-        <span class="text-xs font-roboto font-thin mt-4">
-          Todos os nomes de produtos e empresas são marcas comerciais™ ou marcas
-          registradas® de seus respectivos proprietários. O uso deles não
-          implica qualquer afiliação ou endosso por parte deles.
-        </span>
+        {
+          /* <span class="text-xs font-roboto font-thin mt-4 text-center">
+          {footerText}
+        </span> */
+        }
       </section>
     </footer>
   );

@@ -175,6 +175,29 @@ export default function Header(props: Props) {
             })}
           </ul>
         </div>
+
+        <li class="text-nowrap flex">
+          <a
+            href="#"
+            class="flex flex-row items-center text-nowrap md:hover:border-[#3bc9e1] md:hover:border border-[transparent] border font-normal text-[16px] text-[#3bc9e1] hover:text-white px-3 md:py-1 rounded-full md:transition md:ease-in-out md:duration-300"
+          >
+            Pt-BR
+            <svg
+              width="9"
+              height="5"
+              viewBox="0 0 9 5"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 1.5L3.84921 3.94218C4.2237 4.26317 4.7763 4.26317 5.15079 3.94218L8 1.5"
+                class="border-[#3bc9e1] hover:border-white stroke-current ml-4"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+            </svg>
+          </a>
+        </li>
       </nav>
     </section>
   );

@@ -5,10 +5,6 @@ export interface DropdownItemProps {
 }
 
 function DropdownItem({ href, label, selected }: DropdownItemProps) {
-  const variants = {
-    rounded: "",
-  };
-
   return (
     <div class="flex flex-row items-center justify-between">
       <a
@@ -55,9 +51,9 @@ export function Dropdown({
 }: Props) {
   const variants = {
     rounded: {
-      open: "md:text-[#fff] md:border-[#06E474] md:border",
+      open: "md:text-[#fff] md:border-[#3bc9e1] md:border",
       default:
-        "select-none hidden md:flex gap-2 items-center text-[#06E474] border-[transparent] rounded-full border md:hover:border-[#DBDBDB] md:hover:border md:hover:rounded-full focus:outline-none md:transition md:ease-in-out md:duration-300",
+        "select-none hidden md:flex gap-2 items-center text-[#3bc9e1] border-[transparent] rounded-full border md:hover:border-[#DBDBDB] md:hover:border md:hover:rounded-full focus:outline-none md:transition md:ease-in-out md:duration-300",
     },
     flat: {
       open: "",
