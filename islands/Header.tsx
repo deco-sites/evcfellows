@@ -1,7 +1,8 @@
+import { useEffect, useRef, useState } from "preact/hooks";
 import { useSignal } from "@preact/signals";
-import { useState } from "preact/hooks";
 import { Dropdown } from "deco-sites/evcfellows/components/Dropdown.tsx";
 import Icon from "deco-sites/evcfellows/components/ui/Icon.tsx";
+import { useSignalEffect } from "@preact/signals";
 
 export interface MenuLink {
   label: string;
@@ -12,7 +13,6 @@ export interface MenuLink {
 
 export interface Props {
   menuLinks: MenuLink[];
-  //   login: { label: string; url: string };
 }
 
 function MobileMenuLink({
@@ -20,7 +20,6 @@ function MobileMenuLink({
   label,
   targetBlank,
   nested,
-  ...props
 }: MenuLink) {
   const hasNested = nested && nested.length > 0;
   if (hasNested) {
@@ -55,12 +54,26 @@ function MobileMenuLink({
 
 function MenuLink({ href, label, targetBlank, nested, ...props }: MenuLink) {
   const open = useSignal(false);
+  const menuRef = useRef<HTMLLIElement>(null);
 
   const setOpen = () => (open.value = !open.value);
+
+  useSignalEffect(() => {
+    function handleClickOutside(event: MouseEvent) {
+      if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
+        open.value = false;
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  });
 
   if (nested && nested.length > 0) {
     return (
       <li
+        ref={menuRef}
         class="relative h-full grid hover:text-[#3bc9e1] text-white"
         {...props}
       >
@@ -92,7 +105,79 @@ function MenuLink({ href, label, targetBlank, nested, ...props }: MenuLink) {
 }
 
 export default function Header(props: Props) {
-  const [open, setOpen] = useState(false);
+  const open = useSignal(false);
+  const openLang = useSignal(false);
+  const selectedLang = useSignal<string | null>(null);
+  const dropdownRef = useRef<HTMLDivElement>(null);
+
+  const setOpenLang = () => (openLang.value = !openLang.value);
+
+  function setLanguageCookie(name: string, value: string, days: number) {
+    let expires = "";
+    if (days) {
+      const date = new Date();
+      date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+      expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + (value || "") + expires + "; path=/";
+    selectedLang.value = value;
+    window.location.reload();
+  }
+
+  function deleteLanguageCookie(name: string) {
+    document.cookie = name +
+      "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+    selectedLang.value = "Pt-BR";
+    window.location.reload();
+  }
+
+  function getCookie(name: string): string | null {
+    const cookieName = name + "=";
+    const decodedCookie = decodeURIComponent(document.cookie);
+    const cookieArray = decodedCookie.split(";").map((cookie) => cookie.trim());
+
+    const cookie = cookieArray.find((cookie) => cookie.startsWith(cookieName));
+    return cookie ? cookie.substring(cookieName.length) : null;
+  }
+
+  function setLangEnUS() {
+    setLanguageCookie("Language", "En-US", 2);
+  }
+
+  const langOptions = [
+    {
+      label: "Pt-BR",
+      href: "",
+      onClick: () => deleteLanguageCookie("Language"),
+      selected: !!(selectedLang.value === "Pt-BR"),
+    },
+    {
+      label: "En-US",
+      href: "",
+      onClick: () => setLangEnUS(),
+      selected: !!(selectedLang.value === "En-US"),
+    },
+  ];
+
+  useSignalEffect(() => {
+    const langCookie = getCookie("Language");
+    selectedLang.value = langCookie;
+  });
+
+  useSignalEffect(() => {
+    function handleClickOutside(event: MouseEvent) {
+      if (
+        dropdownRef.current &&
+        !dropdownRef.current.contains(event.target as Node)
+      ) {
+        openLang.value = false;
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  });
 
   return (
     <section class="bg-[#323E48] w-full shadow-[0px_4px_16px_0px_rgba(0,0,0,0.10)]">
@@ -111,14 +196,17 @@ export default function Header(props: Props) {
         </ul>
         <div class="ml-auto md:hidden pr-4 md:pr-8">
           <div class="grid items-center">
-            <button class="focus:outline-none" onClick={() => setOpen(!open)}>
+            <button
+              class="focus:outline-none"
+              onClick={() => open.value = !open.value}
+            >
               <svg
                 width="35"
                 height="32"
                 viewBox="0 0 39 32"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                class={open ? "hidden" : ""}
+                class={open.value ? "hidden" : ""}
               >
                 <rect
                   x="19"
@@ -153,7 +241,7 @@ export default function Header(props: Props) {
                 stroke="#DBDBDB"
                 width="35"
                 height="32"
-                class={open ? "" : "hidden"}
+                class={open.value ? "" : "hidden"}
               >
                 <path
                   stroke-linecap="round"
@@ -165,7 +253,7 @@ export default function Header(props: Props) {
           </div>
         </div>
         <div
-          class={open
+          class={open.value
             ? "flex flex-col w-[calc(100vw-16px)] h-[calc(100vh-116px)] overflow-auto gap-[40px] fixed bg-[#1E1E1E] left-0 top-[80px] pb-[80px] pt-[24px] z-50 px-3 md:hidden rounded-[24px]"
             : "hidden"}
         >
@@ -176,28 +264,17 @@ export default function Header(props: Props) {
           </ul>
         </div>
 
-        <li class="text-nowrap flex">
-          <a
-            href="#"
-            class="flex flex-row items-center text-nowrap md:hover:border-[#3bc9e1] md:hover:border border-[transparent] border font-normal text-[16px] text-[#3bc9e1] hover:text-white px-3 md:py-1 rounded-full md:transition md:ease-in-out md:duration-300"
-          >
-            Pt-BR
-            <svg
-              width="9"
-              height="5"
-              viewBox="0 0 9 5"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M1 1.5L3.84921 3.94218C4.2237 4.26317 4.7763 4.26317 5.15079 3.94218L8 1.5"
-                class="border-[#3bc9e1] hover:border-white stroke-current ml-4"
-                stroke-width="1.5"
-                stroke-linecap="round"
-              />
-            </svg>
-          </a>
-        </li>
+        <div
+          ref={dropdownRef}
+          class="text-nowrap flex flex-row items-center py-1 cursor-pointer md:hover:border-[#3bc9e1] md:hover:border border-[transparent] border font-normal text-[16px] text-[#3bc9e1] hover:text-white rounded-full md:transition md:ease-in-out md:duration-300"
+        >
+          <Dropdown
+            items={langOptions}
+            value={selectedLang.value ?? langOptions[0].label}
+            onClick={() => setOpenLang()}
+            open={openLang.value}
+          />
+        </div>
       </nav>
     </section>
   );

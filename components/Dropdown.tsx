@@ -2,11 +2,12 @@ export interface DropdownItemProps {
   label: string;
   href: string;
   selected?: boolean;
+  onClick?: () => void;
 }
 
-function DropdownItem({ href, label, selected }: DropdownItemProps) {
+function DropdownItem({ href, label, selected, onClick }: DropdownItemProps) {
   return (
-    <div class="flex flex-row items-center justify-between">
+    <div onClick={onClick} class="flex flex-row items-center justify-between">
       <a
         href={href}
         class="flex flex-row items-center justify-between flex-grow p-2 hover:bg-black/5 rounded"
@@ -26,7 +27,7 @@ function DropdownItem({ href, label, selected }: DropdownItemProps) {
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M14.2558 0.244078C14.5813 0.569515 14.5813 1.09715 14.2558 1.42259L5.92251 9.75592C5.59707 10.0814 5.06943 10.0814 4.744 9.75592L0.57733 5.58926C0.251893 5.26382 0.251893 4.73618 0.57733 4.41074C0.902767 4.08531 1.4304 4.08531 1.75584 4.41074L5.33325 7.98816L13.0773 0.244078C13.4028 -0.0813592 13.9304 -0.0813592 14.2558 0.244078Z"
-            fill="#DBDBDB"
+            fill="#3bc9e1"
           />
         </svg>
       </a>
