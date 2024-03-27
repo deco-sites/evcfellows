@@ -12,6 +12,8 @@ export type AvailableIcons =
   | "InputEmail"
   | "LogoWithoutText"
   | "Instagram"
+  | "Brasil"
+  | "USA"
   | "Linkedin"
   | "TwitterFooter"
   | "Mail"

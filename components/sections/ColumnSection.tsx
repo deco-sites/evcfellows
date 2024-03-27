@@ -39,7 +39,7 @@ export default function ColumnSection(
           !onlyDescription && "gap-7"
         }`}
       >
-        <h1 class="font-galano font-bold text-5xl text-center">
+        <h1 class="font-galano font-extrabold text-4xl lg:text-5xl text-center">
           {title}
         </h1>
         <div

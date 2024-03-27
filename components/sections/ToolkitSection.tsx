@@ -30,7 +30,7 @@ export default function ToolkitSection(
       <div class="flex lg:items-center w-full gap-7">
         <div class="flex flex-col justify-between items-center lg:items-start gap-4 lg:w-[40%]">
           <Image className="block -mt-20 lg:hidden" image={image} preload />
-          <h1 class="font-galano font-bold text-5xl text-start">
+          <h1 class="font-galano font-extrabold text-4xl lg:text-5xl text-start">
             {title}
           </h1>
           <div class="text-start">

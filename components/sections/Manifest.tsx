@@ -19,7 +19,7 @@ export default function Manifest(
       <div class="flex lg:items-center justify-center lg:justify-start w-full gap-12">
         <div class="flex flex-col justify-between gap-4 lg:w-[40%] max-w-[520px]">
           <div>
-            <h4 class="font-galano font-bold text-5xl text-[#3D3D3D] mb-6">
+            <h4 class="font-galano font-extrabold text-4xl lg:text-5xl text-[#3D3D3D] mb-6">
               {title}
             </h4>
             <Image

@@ -127,8 +127,8 @@ export default function Header(props: Props) {
   function deleteLanguageCookie(name: string) {
     document.cookie = name +
       "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-    selectedLang.value = "Pt-BR";
     window.location.reload();
+    selectedLang.value = "Pt-BR";
   }
 
   function getCookie(name: string): string | null {
@@ -149,13 +149,13 @@ export default function Header(props: Props) {
       label: "Pt-BR",
       href: "",
       onClick: () => deleteLanguageCookie("Language"),
-      selected: !!(selectedLang.value === "Pt-BR"),
+      icon: <Icon id="Brasil" width={24} height={24} />,
     },
     {
       label: "En-US",
       href: "",
       onClick: () => setLangEnUS(),
-      selected: !!(selectedLang.value === "En-US"),
+      icon: <Icon id="USA" width={24} height={24} />,
     },
   ];
 
@@ -273,6 +273,9 @@ export default function Header(props: Props) {
             value={selectedLang.value ?? langOptions[0].label}
             onClick={() => setOpenLang()}
             open={openLang.value}
+            icon={langOptions.find((option) =>
+              option.label === selectedLang.value
+            )?.icon}
           />
         </div>
       </nav>

@@ -19,8 +19,8 @@ export default function BigNumbers({ image, title, infoNumbers }: Props) {
       <div class="relative flex justify-center bg-[#1E1E1E] h-[356px] max-h-[456px]">
         <BannerUI banner={image} />
 
-        <div class="absolute w-full flex flex-col items-center top-7 lg:top-14 px-4">
-          <h2 class="font-galano text-center font-bold text-[#D9D9D9] text-5xl mb-8 lg:mb-12">
+        <div class="absolute w-full flex flex-col items-center top-9 lg:top-14 px-4">
+          <h2 class="font-galano text-center font-extrabold text-4xl lg:text-5xl text-[#D9D9D9] mb-8 lg:mb-12">
             {title}
           </h2>
 

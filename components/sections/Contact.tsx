@@ -33,12 +33,12 @@ function Contact(
 
   return (
     <section id="contact" class="flex justify-center px-3">
-      <div class="md:min-w-[400px]">
-        <h5 class="font-galano font-bold text-5xl text-[#3D3D3D] mt-4 mb-8">
+      <div class="md:min-w-[400px] w-full flex flex-col items-center">
+        <h5 class="font-galano font-extrabold text-4xl lg:text-5xl text-[#3D3D3D] mt-4 mb-8">
           {title}
         </h5>
 
-        <form class="flex flex-col gap-6">
+        <form class="flex flex-col gap-6 max-w-[500px] w-full">
           <Input
             name="name"
             placeholder={namePlaceholder}

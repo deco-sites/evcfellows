@@ -1,35 +1,24 @@
+import { ComponentChildren } from "preact";
+
 export interface DropdownItemProps {
   label: string;
+  icon?: ComponentChildren;
   href: string;
   selected?: boolean;
   onClick?: () => void;
 }
 
-function DropdownItem({ href, label, selected, onClick }: DropdownItemProps) {
+function DropdownItem({ href, label, icon, onClick }: DropdownItemProps) {
   return (
     <div onClick={onClick} class="flex flex-row items-center justify-between">
       <a
         href={href}
         class="flex flex-row items-center justify-between flex-grow p-2 hover:bg-black/5 rounded"
       >
-        <p class="font-roboto not-italic font-normal text-[15px] text-[#113032] flex-grow whitespace-nowrap">
+        <p class="font-roboto not-italic font-normal text-[15px] text-[#113032] flex-grow whitespace-nowrap mr-6">
           {label}
         </p>
-        <svg
-          width="15"
-          height="10"
-          viewBox="0 0 15 10"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          class={selected ? "" : "hidden"}
-        >
-          <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
-            d="M14.2558 0.244078C14.5813 0.569515 14.5813 1.09715 14.2558 1.42259L5.92251 9.75592C5.59707 10.0814 5.06943 10.0814 4.744 9.75592L0.57733 5.58926C0.251893 5.26382 0.251893 4.73618 0.57733 4.41074C0.902767 4.08531 1.4304 4.08531 1.75584 4.41074L5.33325 7.98816L13.0773 0.244078C13.4028 -0.0813592 13.9304 -0.0813592 14.2558 0.244078Z"
-            fill="#3bc9e1"
-          />
-        </svg>
+        {icon}
       </a>
     </div>
   );
@@ -41,6 +30,7 @@ export interface Props {
   items: DropdownItemProps[];
   value: string;
   variant?: "rounded" | "flat";
+  icon?: ComponentChildren;
 }
 
 export function Dropdown({
@@ -49,6 +39,7 @@ export function Dropdown({
   items,
   value,
   variant = "flat",
+  icon,
 }: Props) {
   const variants = {
     rounded: {
@@ -101,7 +92,7 @@ export function Dropdown({
           variant === "flat" ? "top-[8px]" : "top-[35px]"
         } z-30 absolute right-0 mt-5 rounded`}
       >
-        <div class="flex flex-col w-[152px] bg-[#DBDBDB] text-[#113032] hover:text-[#3bc9e1] p-2 rounded">
+        <div class="flex flex-col max-w-[152px] bg-[#DBDBDB] text-[#113032] hover:text-[#3bc9e1] p-2 rounded">
           {items.map((item) => <DropdownItem {...item} />)}
         </div>
       </div>
