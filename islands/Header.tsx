@@ -181,76 +181,77 @@ export default function Header(props: Props) {
 
   return (
     <section class="bg-[#323E48] w-full shadow-[0px_4px_16px_0px_rgba(0,0,0,0.10)]">
-      <nav class="container flex flex-row justify-evenly gap-16 items-center py-4 max-w-screen-2xl m-auto">
-        <ul class="h-full flex items-center">
-          <li class="font-roboto  h-full">
-            <a href="/" aria-label="Store logo">
-              <Icon id="Logo" width={205} height={59} />
-            </a>
-          </li>
-        </ul>
+      <nav class="container flex flex-row justify-evenly gap-16 items-center py-4 px-3 m-auto">
+        <div class="h-full hidden md:block">
+          <a href="/" aria-label="EVCF logo">
+            <Icon id="Logo" width={205} height={59} />
+          </a>
+        </div>
+        <div class="h-full md:hidden">
+          <a href="/" aria-label="EVCF logo">
+            <Icon id="Logo" width={145} height={50} />
+          </a>
+        </div>
         <ul class="hidden md:flex md:flex-row h-full group">
           {props.menuLinks.map((link, index) => {
             return <MenuLink key={index} {...link} />;
           })}
         </ul>
-        <div class="ml-auto md:hidden pr-4 md:pr-8">
-          <div class="grid items-center">
-            <button
-              class="focus:outline-none"
-              onClick={() => open.value = !open.value}
+        <div class="flex md:hidden">
+          <button
+            class="focus:outline-none"
+            onClick={() => open.value = !open.value}
+          >
+            <svg
+              width="35"
+              height="32"
+              viewBox="0 0 39 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class={open.value ? "hidden" : ""}
             >
-              <svg
-                width="35"
-                height="32"
-                viewBox="0 0 39 32"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                class={open.value ? "hidden" : ""}
-              >
-                <rect
-                  x="19"
-                  y="2"
-                  width="17"
-                  height="4"
-                  rx="2"
-                  fill="#DBDBDB"
-                />
-                <rect
-                  x="11"
-                  y="14"
-                  width="25"
-                  height="4"
-                  rx="2"
-                  fill="#DBDBDB"
-                />
-                <rect
-                  x="3"
-                  y="26"
-                  width="33"
-                  height="4"
-                  rx="2"
-                  fill="#DBDBDB"
-                />
-              </svg>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="2"
-                stroke="#DBDBDB"
-                width="35"
-                height="32"
-                class={open.value ? "" : "hidden"}
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              </svg>
-            </button>
-          </div>
+              <rect
+                x="19"
+                y="2"
+                width="17"
+                height="4"
+                rx="2"
+                fill="#DBDBDB"
+              />
+              <rect
+                x="11"
+                y="14"
+                width="25"
+                height="4"
+                rx="2"
+                fill="#DBDBDB"
+              />
+              <rect
+                x="3"
+                y="26"
+                width="33"
+                height="4"
+                rx="2"
+                fill="#DBDBDB"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="#DBDBDB"
+              width="35"
+              height="32"
+              class={open.value ? "" : "hidden"}
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </button>
         </div>
         <div
           class={open.value

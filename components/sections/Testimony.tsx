@@ -1,11 +1,11 @@
 import Slider from "deco-sites/evcfellows/components/ui/Slider.tsx";
 import SliderJS from "deco-sites/evcfellows/components/ui/SliderJS.tsx";
 import Image, { PartnersImage } from "../ui/Image.tsx";
+import { useId } from "preact/hooks";
 import Icon from "../ui/Icon.tsx";
 
 export interface Props {
   title: string;
-  id: string;
   testimonials: {
     image: PartnersImage;
     title: string;
@@ -14,16 +14,18 @@ export interface Props {
   }[];
 }
 
-function Testimony({ title, id, testimonials }: Props) {
+function Testimony({ title, testimonials }: Props) {
+  const id = useId();
+
   return (
-    <section class="container">
+    <section class="container max-w-screen" id={id}>
       <div class="w-full flex flex-col items-center px-4 py-8">
-        <h1 class="font-galano font-extrabold text-4xl lg:text-5xl text-black-800 mb-16">
+        <h1 class="font-galano font-extrabold text-4xl lg:text-5xl text-[#3D3D3D] text-center mb-6">
           {title}
         </h1>
 
-        <div class="relative" id={id}>
-          <Slider class="carousel gap-6 max-w-[920px]">
+        <div class="relative flex max-w-[400px] md:max-w-[920px]">
+          <Slider class="carousel gap-6">
             {testimonials?.map((testimonial, index) => (
               <Slider.Item
                 index={index}
@@ -57,11 +59,11 @@ function Testimony({ title, id, testimonials }: Props) {
 
           {testimonials?.length && (
             <>
-              <Slider.PrevButton class="absolute left-0 md:-left-[2.5rem] top-1/2 btn btn-circle btn-outline">
+              <Slider.PrevButton class="absolute -left-[35px] md:-left-[2.5rem] top-1/2 btn btn-circle btn-outline">
                 <Icon size={30} id="ChevronLeft" strokeWidth={3} />
               </Slider.PrevButton>
 
-              <Slider.NextButton class="absolute right-0 md:-right-[2.5rem] top-1/2 btn btn-circle btn-outline">
+              <Slider.NextButton class="absolute -right-[35px] md:-right-[2.5rem] top-1/2 btn btn-circle btn-outline">
                 <Icon size={30} id="ChevronRight" strokeWidth={3} />
               </Slider.NextButton>
             </>
