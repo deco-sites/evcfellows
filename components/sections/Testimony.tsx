@@ -59,11 +59,11 @@ function Testimony({ title, testimonials }: Props) {
 
           {testimonials?.length && (
             <>
-              <Slider.PrevButton class="absolute -left-[35px] md:left-0 top-1/2 btn btn-circle btn-outline">
+              <Slider.PrevButton class="absolute -left-[35px] lg:-left-[2.5rem]  md:left-0 top-1/2 btn btn-circle btn-outline">
                 <Icon size={30} id="ChevronLeft" strokeWidth={3} />
               </Slider.PrevButton>
 
-              <Slider.NextButton class="absolute -right-[35px] md:right-0 top-1/2 btn btn-circle btn-outline">
+              <Slider.NextButton class="absolute -right-[35px] md:-right-[2.5rem] md:lgright-0 top-1/2 btn btn-circle btn-outline">
                 <Icon size={30} id="ChevronRight" strokeWidth={3} />
               </Slider.NextButton>
             </>
