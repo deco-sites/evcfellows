@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "preact/hooks";
+import { useRef } from "preact/hooks";
 import { useSignal } from "@preact/signals";
 import { Dropdown } from "deco-sites/evcfellows/components/Dropdown.tsx";
 import Icon from "deco-sites/evcfellows/components/ui/Icon.tsx";
@@ -181,103 +181,105 @@ export default function Header(props: Props) {
 
   return (
     <section class="bg-[#323E48] w-full shadow-[0px_4px_16px_0px_rgba(0,0,0,0.10)]">
-      <nav class="container flex flex-row justify-evenly gap-16 items-center py-4 px-3 m-auto">
+      <nav class="container flex flex-col items-center gap-2 lg:flex-row justify-between lg:justify-evenly lg:gap-16 py-4 px-3 m-auto">
         <div class="h-full hidden md:block">
           <a href="/" aria-label="EVCF logo">
             <Icon id="Logo" width={205} height={59} />
           </a>
         </div>
-        <div class="h-full md:hidden">
-          <a href="/" aria-label="EVCF logo">
-            <Icon id="Logo" width={145} height={50} />
-          </a>
-        </div>
-        <ul class="hidden md:flex md:flex-row h-full group">
-          {props.menuLinks.map((link, index) => {
-            return <MenuLink key={index} {...link} />;
-          })}
-        </ul>
-        <div class="flex md:hidden">
-          <button
-            class="focus:outline-none"
-            onClick={() => open.value = !open.value}
-          >
-            <svg
-              width="35"
-              height="32"
-              viewBox="0 0 39 32"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              class={open.value ? "hidden" : ""}
-            >
-              <rect
-                x="19"
-                y="2"
-                width="17"
-                height="4"
-                rx="2"
-                fill="#DBDBDB"
-              />
-              <rect
-                x="11"
-                y="14"
-                width="25"
-                height="4"
-                rx="2"
-                fill="#DBDBDB"
-              />
-              <rect
-                x="3"
-                y="26"
-                width="33"
-                height="4"
-                rx="2"
-                fill="#DBDBDB"
-              />
-            </svg>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="2"
-              stroke="#DBDBDB"
-              width="35"
-              height="32"
-              class={open.value ? "" : "hidden"}
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M6 18L18 6M6 6l12 12"
-              />
-            </svg>
-          </button>
-        </div>
-        <div
-          class={open.value
-            ? "flex flex-col w-[calc(100vw-16px)] h-[calc(100vh-116px)] overflow-auto gap-[40px] fixed bg-[#1E1E1E] left-0 top-[80px] pb-[80px] pt-[24px] z-50 px-3 md:hidden rounded-[24px]"
-            : "hidden"}
-        >
-          <ul class="flex flex-col divide-y divide-semi-white-13">
-            {props.menuLinks.map((link) => {
-              return <MobileMenuLink key={link.label} {...link} />;
+        <div class="flex flex-row items-center w-full justify-between">
+          <div class="h-full md:hidden">
+            <a href="/" aria-label="EVCF logo">
+              <Icon id="Logo" width={145} height={50} />
+            </a>
+          </div>
+          <ul class="hidden md:flex md:flex-row h-full group">
+            {props.menuLinks.map((link, index) => {
+              return <MenuLink key={index} {...link} />;
             })}
           </ul>
-        </div>
+          <div class="flex md:hidden">
+            <button
+              class="focus:outline-none"
+              onClick={() => open.value = !open.value}
+            >
+              <svg
+                width="35"
+                height="32"
+                viewBox="0 0 39 32"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class={open.value ? "hidden" : ""}
+              >
+                <rect
+                  x="19"
+                  y="2"
+                  width="17"
+                  height="4"
+                  rx="2"
+                  fill="#DBDBDB"
+                />
+                <rect
+                  x="11"
+                  y="14"
+                  width="25"
+                  height="4"
+                  rx="2"
+                  fill="#DBDBDB"
+                />
+                <rect
+                  x="3"
+                  y="26"
+                  width="33"
+                  height="4"
+                  rx="2"
+                  fill="#DBDBDB"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="#DBDBDB"
+                width="35"
+                height="32"
+                class={open.value ? "" : "hidden"}
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            </button>
+          </div>
+          <div
+            class={open.value
+              ? "flex flex-col w-[calc(100vw-16px)] h-[calc(100vh-116px)] overflow-auto gap-[40px] fixed bg-[#1E1E1E] left-0 top-[80px] pb-[80px] pt-[24px] z-50 px-3 md:hidden rounded-[24px]"
+              : "hidden"}
+          >
+            <ul class="flex flex-col divide-y divide-semi-white-13">
+              {props.menuLinks.map((link) => {
+                return <MobileMenuLink key={link.label} {...link} />;
+              })}
+            </ul>
+          </div>
 
-        <div
-          ref={dropdownRef}
-          class="text-nowrap flex flex-row items-center py-1 cursor-pointer md:hover:border-[#3bc9e1] md:hover:border border-[transparent] border font-normal text-[16px] text-[#3bc9e1] hover:text-white rounded-full md:transition md:ease-in-out md:duration-300"
-        >
-          <Dropdown
-            items={langOptions}
-            value={selectedLang.value ?? langOptions[0].label}
-            onClick={() => setOpenLang()}
-            open={openLang.value}
-            icon={langOptions.find((option) =>
-              option.label === selectedLang.value
-            )?.icon}
-          />
+          <div
+            ref={dropdownRef}
+            class="text-nowrap flex flex-row items-center py-1 cursor-pointer md:hover:border-[#3bc9e1] md:hover:border border-[transparent] border font-normal text-[16px] text-[#3bc9e1] hover:text-white rounded-full md:transition md:ease-in-out md:duration-300"
+          >
+            <Dropdown
+              items={langOptions}
+              value={selectedLang.value ?? langOptions[0].label}
+              onClick={() => setOpenLang()}
+              open={openLang.value}
+              icon={langOptions.find((option) =>
+                option.label === selectedLang.value
+              )?.icon}
+            />
+          </div>
         </div>
       </nav>
     </section>

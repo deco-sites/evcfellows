@@ -24,7 +24,7 @@ function Testimony({ title, testimonials }: Props) {
           {title}
         </h1>
 
-        <div class="relative flex max-w-[400px] md:max-w-[920px]">
+        <div class="relative flex max-w-[308px] sm:max-w-[400px] md:max-w-[920px]">
           <Slider class="carousel gap-6">
             {testimonials?.map((testimonial, index) => (
               <Slider.Item
@@ -40,11 +40,11 @@ function Testimony({ title, testimonials }: Props) {
                     <p class="font-roboto text-gray-500 text-3xl mb-1">
                       {testimonial.title}
                     </p>
-                    <span class="font-roboto text-gray-500 text-xl mb-6">
+                    <span class="font-roboto text-gray-500 text-xl mb-4">
                       {testimonial.subtitle}
                     </span>
 
-                    <p class="font-roboto italic text-gray-500 text-xl leading-8">
+                    <p class="font-roboto italic text-gray-500 text-base md:text-xl leading-6 md:leading-8">
                       {testimonial.content}
                     </p>
 
@@ -59,11 +59,11 @@ function Testimony({ title, testimonials }: Props) {
 
           {testimonials?.length && (
             <>
-              <Slider.PrevButton class="absolute -left-[35px] md:-left-[2.5rem] top-1/2 btn btn-circle btn-outline">
+              <Slider.PrevButton class="absolute -left-[35px] lg:-left-[2.5rem]  md:left-0 top-1/2 btn btn-circle btn-outline">
                 <Icon size={30} id="ChevronLeft" strokeWidth={3} />
               </Slider.PrevButton>
 
-              <Slider.NextButton class="absolute -right-[35px] md:-right-[2.5rem] top-1/2 btn btn-circle btn-outline">
+              <Slider.NextButton class="absolute -right-[35px] md:-right-[2.5rem] md:lgright-0 top-1/2 btn btn-circle btn-outline">
                 <Icon size={30} id="ChevronRight" strokeWidth={3} />
               </Slider.NextButton>
             </>
