@@ -14,8 +14,8 @@ import * as $$$$$$6 from "./sections/Gallery.tsx";
 import * as $$$$$$7 from "./sections/Head.tsx";
 import * as $$$$$$8 from "./sections/Header.tsx";
 import * as $$$$$$9 from "./sections/HeroCompany.tsx";
-import * as $$$$$$10 from "./sections/Image.tsx";
-import * as $$$$$$11 from "./sections/InframeSection.tsx";
+import * as $$$$$$10 from "./sections/IframeSection.tsx";
+import * as $$$$$$11 from "./sections/Image.tsx";
 import * as $$$$$$12 from "./sections/Manifest.tsx";
 import * as $$$$$$13 from "./sections/OpinionSection.tsx";
 import * as $$$$$$14 from "./sections/OrangeColumnSection.tsx";
@@ -37,8 +37,8 @@ const manifest = {
     "deco-sites/evcfellows/sections/Head.tsx": $$$$$$7,
     "deco-sites/evcfellows/sections/Header.tsx": $$$$$$8,
     "deco-sites/evcfellows/sections/HeroCompany.tsx": $$$$$$9,
-    "deco-sites/evcfellows/sections/Image.tsx": $$$$$$10,
-    "deco-sites/evcfellows/sections/InframeSection.tsx": $$$$$$11,
+    "deco-sites/evcfellows/sections/IframeSection.tsx": $$$$$$10,
+    "deco-sites/evcfellows/sections/Image.tsx": $$$$$$11,
     "deco-sites/evcfellows/sections/Manifest.tsx": $$$$$$12,
     "deco-sites/evcfellows/sections/OpinionSection.tsx": $$$$$$13,
     "deco-sites/evcfellows/sections/OrangeColumnSection.tsx": $$$$$$14,
