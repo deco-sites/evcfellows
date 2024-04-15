@@ -15,9 +15,9 @@ export interface Props {
 export default function Footer({ columns, legalText, year }: Props) {
   return (
     <footer class="bg-[#323E48] md:px-[78px]">
-      <section class="w-full flex justify-between py-6 px-3">
+      <section class="w-full flex justify-between py-6 px-14 lg:px-4">
         <div class="w-full flex flex-col md:flex-row justify-between">
-          <div class="flex">
+          <div class="flex flex-col items-center md:items-start md:flex-row">
             <Icon
               id="LogoWithoutText"
               class="mr-4"
@@ -25,11 +25,11 @@ export default function Footer({ columns, legalText, year }: Props) {
               width={63}
               height={63}
             />
-            <p class="text-sm font-roboto text-white max-w-[362px]">
+            <p class="text-sm text-center md:text-start font-roboto text-white max-w-[362px]">
               {legalText}
             </p>
           </div>
-          <div class="flex gap-2">
+          <div class="flex gap-2 justify-center mt-4 md:mt-0">
             <a
               href="https://www.linkedin.com/company/emerging-venture-capital-fellows"
               target="_blank"
