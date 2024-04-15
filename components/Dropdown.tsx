@@ -15,7 +15,7 @@ function DropdownItem({ href, label, icon, onClick }: DropdownItemProps) {
         href={href}
         class="flex flex-row items-center justify-between flex-grow p-2 hover:bg-black/5 rounded"
       >
-        <p class="font-roboto not-italic font-normal text-[15px] text-[#113032] flex-grow whitespace-nowrap mr-6">
+        <p class="font-roboto not-italic font-normal text-[15px] text-[#113032] flex-grow whitespace-nowrap">
           {label}
         </p>
         {icon}
@@ -92,7 +92,7 @@ export function Dropdown({
           variant === "flat" ? "top-[8px]" : "top-[35px]"
         } z-30 absolute right-0 mt-5 rounded`}
       >
-        <div class="flex flex-col max-w-[152px] bg-[#DBDBDB] text-[#113032] hover:text-[#3bc9e1] p-2 rounded">
+        <div class="flex flex-col max-w-[154px] bg-[#DBDBDB] text-[#113032] hover:text-[#3bc9e1] p-2 rounded">
           {items.map((item) => <DropdownItem {...item} />)}
         </div>
       </div>

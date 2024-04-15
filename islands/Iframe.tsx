@@ -1,26 +1,29 @@
 import { useSignal } from "@preact/signals";
 
 interface Props {
-  url: string;
+  iframeUrl: string;
 }
 
-function Iframe({ url }: Props) {
+function Iframe({ iframeUrl }: Props) {
   const loading = useSignal(true);
 
-  const handleIframeLoad = () => {
+  function handleLoad() {
     loading.value = false;
-  };
+  }
 
   return (
-    <div className="iframe-wrapper">
-      {
-        /* {loading.value && (
-        <span className="loading loading-spinner loading-lg text-blue-700"></span>
-      )} */
-      }
+    <div class="w-full rounded-lg drop-shadow-lg overflow-hidden">
+      {loading.value && (
+        <div class="w-full h-[500px] flex items-center justify-center">
+          <span className="loading loading-bars loading-lg text-blue-500">
+          </span>
+        </div>
+      )}
       <iframe
-        src={url}
-        class="w-full h-screen"
+        src={iframeUrl}
+        onLoad={handleLoad}
+        preload="true"
+        class={`w-full h-[60vh] ${loading.value ? "hidden" : ""}`}
         frameborder="0"
       >
       </iframe>

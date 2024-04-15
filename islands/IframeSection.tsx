@@ -2,13 +2,16 @@ import { useSignal } from "@preact/signals";
 
 export interface Props {
   title?: string;
+  /** @format html */
+  description?: string;
   iframeUrl: string;
   height?: number;
 }
 
-export default function ColumnSection(
+export default function IframeSection(
   {
     title,
+    description,
     iframeUrl,
     height,
   }: Props,
@@ -20,11 +23,18 @@ export default function ColumnSection(
   }
 
   return (
-    <section class="px-32 bg-[#F1F1F1]">
+    <section class="px-3 lg:px-32 bg-[#F1F1F1]">
       <div class="container py-8 w-full flex flex-col items-center justify-center text-[#3D3D3D] gap-7">
-        <h1 class="font-galano font-extrabold text-4xl lg:text-5xl text-center">
+        <h1 class="font-galano font-extrabold text-3xl lg:text-4xl text-center">
           {title}
         </h1>
+
+        {description && (
+          <div
+            class="text-[#3D3D3D] list-disc w-[400px] flex justify-center font-roboto font-normal mb-4"
+            dangerouslySetInnerHTML={{ __html: description }}
+          />
+        )}
 
         <div class="w-full rounded-lg drop-shadow-lg overflow-hidden">
           {loading.value && (

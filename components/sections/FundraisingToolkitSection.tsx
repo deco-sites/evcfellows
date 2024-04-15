@@ -8,7 +8,7 @@ export interface Props {
   /** @format html */
   description: string;
   /** @default primary */
-  buttonUrl: string;
+  buttonUrl?: string;
   textButton?: string;
   blueBoxText?: string;
 }
@@ -36,12 +36,14 @@ export default function FundraisingToolkitSection(
               dangerouslySetInnerHTML={{ __html: description }}
             />
 
-            <a
-              class="px-8 py-4 w-[324px] bg-gradient-to-r from-blue-900 to-sky-400 rounded-[10px] text-lg text-white hover:opacity-90 transition cursor-pointer flex items-center justify-center font-bold"
-              href={buttonUrl}
-            >
-              {textButton}
-            </a>
+            {buttonUrl && (
+              <a
+                class="px-8 py-4 w-[324px] bg-gradient-to-r from-blue-900 to-sky-400 rounded-[10px] text-lg text-white hover:opacity-90 transition cursor-pointer flex items-center justify-center font-bold"
+                href={buttonUrl}
+              >
+                {textButton}
+              </a>
+            )}
           </div>
         </div>
 
