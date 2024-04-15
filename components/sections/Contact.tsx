@@ -18,6 +18,7 @@ export interface Props {
 
 function Contact(
   {
+    /** @format email */
     contactEmail,
     links,
     title,
