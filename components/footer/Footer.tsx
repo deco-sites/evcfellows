@@ -16,7 +16,7 @@ export default function Footer({ columns, legalText, year }: Props) {
   return (
     <footer class="bg-[#323E48] md:px-[78px]">
       <section class="w-full flex justify-between py-6 px-3">
-        <div class="w-full flex flex-row justify-between">
+        <div class="w-full flex flex-col md:flex-row justify-between">
           <div class="flex">
             <Icon
               id="LogoWithoutText"
