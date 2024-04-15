@@ -20,12 +20,12 @@ export default function Footer({ columns, legalText, year }: Props) {
           <div class="flex">
             <Icon
               id="LogoWithoutText"
-              class="mr-1"
+              class="mr-4"
               strokeWidth={0}
               width={63}
               height={63}
             />
-            <p class="mt-4 mb-6 text-sm font-roboto text-white max-w-[362px]">
+            <p class="text-sm font-roboto text-white max-w-[362px]">
               {legalText}
             </p>
           </div>
