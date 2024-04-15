@@ -33,7 +33,7 @@ export default function ColumnSection(
   const onlyDescription = !image && !title && !buttonUrl;
 
   return (
-    <section class={`px-32 ${whiteBg ? "bg-white" : "bg-[#F1F1F1]"}`}>
+    <section class={`px-4 lg:px-32 ${whiteBg ? "bg-white" : "bg-[#F1F1F1]"}`}>
       <div
         class={`container py-8 w-full flex flex-col items-center justify-center text-[#3D3D3D] ${
           !onlyDescription && "gap-7"

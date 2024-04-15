@@ -30,10 +30,10 @@ export default function ReportSection(
       <div class="flex lg:items-center w-full gap-7">
         <div class="flex flex-col justify-between items-center lg:items-start gap-4 lg:w-[40%]">
           <Image className="block lg:hidden" image={image} preload />
-          <h1 class="font-galano font-extrabold text-4xl lg:text-5xl text-start">
+          <h1 class="font-galano font-extrabold text-4xl lg:text-5xl text-center lg:text-start">
             {title}
           </h1>
-          <div class="text-start">
+          <div class="text-start flex flex-col items-center">
             <div
               class="text-[#3D3D3D] list-disc w-[400px] flex justify-center font-roboto font-normal mb-4"
               dangerouslySetInnerHTML={{ __html: description }}

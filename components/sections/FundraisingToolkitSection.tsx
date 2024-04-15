@@ -30,7 +30,7 @@ export default function FundraisingToolkitSection(
           <h1 class="text-[#3D3D3D] font-galano font-extrabold text-4xl lg:text-5xl text-center lg:text-start">
             {title}
           </h1>
-          <div class="text-start">
+          <div class="text-start flex flex-col items-center">
             <div
               class="text-[#3D3D3D] list-disc font-roboto font-normal w-[400px] flex justify-center mb-4"
               dangerouslySetInnerHTML={{ __html: description }}
