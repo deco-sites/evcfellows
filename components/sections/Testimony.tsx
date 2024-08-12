@@ -1,5 +1,5 @@
-import Slider from "deco-sites/evcfellows/components/ui/Slider.tsx";
-import SliderJS from "deco-sites/evcfellows/components/ui/SliderJS.tsx";
+import Slider from "site/components/ui/Slider.tsx";
+import SliderJS from "site/components/ui/SliderJS.tsx";
 import Image, { PartnersImage } from "../ui/Image.tsx";
 import { useId } from "preact/hooks";
 import Icon from "../ui/Icon.tsx";

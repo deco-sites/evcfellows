@@ -1,6 +1,6 @@
 import BannerUI, {
   Banner as IBanner,
-} from "deco-sites/evcfellows/components/ui/Banner.tsx";
+} from "site/components/ui/Banner.tsx";
 
 interface InfoNumbers {
   number: string;

@@ -1,6 +1,6 @@
 import UIOrangeColumnSection, {
   Props,
-} from "deco-sites/evcfellows/components/sections/OrangeColumnSection.tsx";
+} from "site/components/sections/OrangeColumnSection.tsx";
 
 function OrangeColumnSection(props: Props) {
   return <UIOrangeColumnSection {...props} />;
