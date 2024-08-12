@@ -1,6 +1,6 @@
 import Banner, {
   Banner as IBanner,
-} from "deco-sites/evcfellows/components/ui/Banner.tsx";
+} from "site/components/ui/Banner.tsx";
 
 export interface Props {
   banner: IBanner;

@@ -1,5 +1,5 @@
-import type { PartnersImage } from "deco-sites/evcfellows/components/ui/Image.tsx";
-import Image from "deco-sites/evcfellows/components/ui/Image.tsx";
+import type { PartnersImage } from "site/components/ui/Image.tsx";
+import Image from "site/components/ui/Image.tsx";
 
 export interface Props {
   title: string;
