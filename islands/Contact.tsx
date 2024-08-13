@@ -1,1 +1,1 @@
-export { default } from "deco-sites/evcfellows/components/sections/Contact.tsx";
+export { default } from "site/components/sections/Contact.tsx";

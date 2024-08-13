@@ -1,4 +1,4 @@
-import Spinner from "deco-sites/evcfellows/components/ui/Spinner.tsx";
+import Spinner from "site/components/ui/Spinner.tsx";
 
 export default function Loading() {
   return (
