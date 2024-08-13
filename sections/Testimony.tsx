@@ -1,6 +1,6 @@
 import UITestimony, {
   Props,
-} from "deco-sites/evcfellows/components/sections/Testimony.tsx";
+} from "site/components/sections/Testimony.tsx";
 
 function Testimony(props: Props) {
   return <UITestimony {...props} />;
