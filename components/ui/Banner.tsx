@@ -1,7 +1,7 @@
 import { Picture, Source } from "apps/website/components/Picture.tsx";
 import type { ImageWidget as LiveImage } from "apps/admin/widgets.ts";
-import { PartnersImage } from "deco-sites/evcfellows/components/ui/Image.tsx";
-import Image from "deco-sites/evcfellows/components/ui/Image.tsx";
+import { PartnersImage } from "site/components/ui/Image.tsx";
+import Image from "site/components/ui/Image.tsx";
 
 interface ButtonsList {
   buttonUrl: string;
