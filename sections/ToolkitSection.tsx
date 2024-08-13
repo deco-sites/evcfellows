@@ -1,6 +1,6 @@
 import UIToolkitSection, {
   Props,
-} from "deco-sites/evcfellows/components/sections/ToolkitSection.tsx";
+} from "site/components/sections/ToolkitSection.tsx";
 
 function ToolkitSection(props: Props) {
   return <UIToolkitSection {...props} />;
