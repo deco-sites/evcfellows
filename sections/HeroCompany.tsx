@@ -1,6 +1,6 @@
 import Company, {
   Props,
-} from "deco-sites/evcfellows/components/sections/Company.tsx";
+} from "site/components/sections/Company.tsx";
 
 function HeroCompany(props: Props) {
   return <Company {...props} />;

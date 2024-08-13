@@ -1,6 +1,6 @@
 import Image, {
   PartnersImage,
-} from "deco-sites/evcfellows/components/ui/Image.tsx";
+} from "site/components/ui/Image.tsx";
 
 export interface Props {
   image: PartnersImage;

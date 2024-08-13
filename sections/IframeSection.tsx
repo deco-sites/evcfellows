@@ -1,1 +1,1 @@
-export { default } from "deco-sites/evcfellows/islands/IframeSection.tsx";
+export { default } from "site/islands/IframeSection.tsx";

@@ -1,6 +1,6 @@
 import UIReportSection, {
   Props,
-} from "deco-sites/evcfellows/components/sections/ReportSection.tsx";
+} from "site/components/sections/ReportSection.tsx";
 
 function ReportSection(props: Props) {
   return <UIReportSection {...props} />;

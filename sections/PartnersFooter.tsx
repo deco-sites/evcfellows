@@ -1,6 +1,6 @@
 import UIPartnersFooter, {
   Props,
-} from "deco-sites/evcfellows/components/footer/PartnersFooter.tsx";
+} from "site/components/footer/PartnersFooter.tsx";
 
 function PartnersFooter(props: Props) {
   return <UIPartnersFooter {...props} />;

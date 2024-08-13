@@ -1,1 +1,1 @@
-export { default } from "deco-sites/evcfellows/components/ui/SliderJS.tsx";
+export { default } from "site/components/ui/SliderJS.tsx";

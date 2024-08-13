@@ -1,1 +1,1 @@
-export { default } from "deco-sites/evcfellows/islands/Header.tsx";
+export { default } from "site/islands/Header.tsx";
