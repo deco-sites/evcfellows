@@ -1,4 +1,4 @@
-import Iframe from "deco-sites/evcfellows/islands/Iframe.tsx";
+import Iframe from "site/islands/Iframe.tsx";
 
 export interface Props {
   title?: string;
