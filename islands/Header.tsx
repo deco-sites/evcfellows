@@ -1,7 +1,7 @@
 import { useRef } from "preact/hooks";
 import { useSignal } from "@preact/signals";
-import { Dropdown } from "deco-sites/evcfellows/components/Dropdown.tsx";
-import Icon from "deco-sites/evcfellows/components/ui/Icon.tsx";
+import { Dropdown } from "site/components/Dropdown.tsx";
+import Icon from "site/components/ui/Icon.tsx";
 import { useSignalEffect } from "@preact/signals";
 
 export interface MenuLink {
