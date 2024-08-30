@@ -5,7 +5,7 @@ import Image, {
 export interface Props {
   image: PartnersImage;
   title?: string;
-  /** @format html */
+
   description: string;
   /** @default primary */
   buttonUrl: string;

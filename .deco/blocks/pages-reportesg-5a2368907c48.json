@@ -1,1 +1,129 @@
-{"name":"Report ESG","path":"/report-esg","sections":{"variants":[{"rule":{"name":"Language","value":"En-US","__resolveType":"website/matchers/cookie.ts"},"value":[{"title":"Emerging VC Fellows","__resolveType":"website/sections/Seo/Seo.tsx"},{"__resolveType":"Main Header - En-US"},{"banner":{"image":{"mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/9029f250-77a5-41d2-8926-8f7323bbf844","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/f3820bd6-bb92-476e-8f64-6829dde73a05"},"subtitle":"The most comprehensive research on ESG within Venture Capital management firms in Brazil","centerText":true,"bannerImage":{"alt":"pesquisa ESG 2022","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/78486cdc-9ac0-490f-8aa9-f2980e636385","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/68f962a4-5c84-404f-92fc-26aae6e74fdb","widthDesktop":338,"heightDesktop":223},"centerTitle":true,"backgroundImage":{"mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/48d9bf1e-3699-484b-9b6f-662b16cfedbb","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/de714a11-9ace-492f-aa45-e4ea01e2ab0b"}},"__resolveType":"site/sections/Banner.tsx"},{"image":{"alt":"Report ESG","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/30fd05ea-afd2-429d-af94-c70ed5817c16","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/35beadf4-7e2b-4f25-b559-50bdf4b0f6dd","widthDesktop":600,"heightDesktop":300},"title":"The ESG 2022 research is available for download!","buttonUrl":"https://airtable.com/shrcS07Voy7xw1HeL","textButton":"DOWNLOAD THE REPORT NOW","description":"<p><br data-mce-bogus=\"1\"></p>","__resolveType":"site/sections/ToolkitSection.tsx","buttonVariant":"primary"},{"__resolveType":"Partners Footer"},{"__resolveType":"Footer - En-US"}]},{"rule":{"__resolveType":"website/matchers/always.ts"},"value":[{"title":"Emerging VC Fellows","__resolveType":"website/sections/Seo/Seo.tsx"},{"__resolveType":"Main Header"},{"banner":{"image":{"mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/9029f250-77a5-41d2-8926-8f7323bbf844","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/f3820bd6-bb92-476e-8f64-6829dde73a05"},"subtitle":"A mais completa pesquisa sobre o tema ESG dentro das gestoras de Venture Capital no Brasil","centerText":true,"bannerImage":{"alt":"pesquisa ESG 2022","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/78486cdc-9ac0-490f-8aa9-f2980e636385","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/68f962a4-5c84-404f-92fc-26aae6e74fdb","widthDesktop":338,"heightDesktop":223},"centerTitle":true,"backgroundImage":{"mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/48d9bf1e-3699-484b-9b6f-662b16cfedbb","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/de714a11-9ace-492f-aa45-e4ea01e2ab0b"}},"__resolveType":"site/sections/Banner.tsx"},{"image":{"alt":"report esg","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/b4b5fcda-70b0-4f16-a8e5-0b449a25c44f","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/1742f513-76aa-4409-b44c-775b20851d7a","widthDesktop":600,"heightDesktop":300},"title":"A pesquisa de ESG 2022 está disponível para download!","buttonUrl":"https://airtable.com/shrcS07Voy7xw1HeL","textButton":"BAIXE AGORA O REPORT","description":"<p>A mais completa pesquisa sobre o tema ESG dentro das gestoras de Venture Capital no Brasil</p>","__resolveType":"site/sections/ReportSection.tsx"},{"__resolveType":"Partners Footer"},{"__resolveType":"Footer"}]}],"__resolveType":"website/flags/multivariate.ts"},"__resolveType":"website/pages/Page.tsx"}
+{
+  "name": "Report ESG",
+  "path": "/report-esg",
+  "sections": {
+    "variants": [
+      {
+        "rule": {
+          "name": "Language",
+          "value": "En-US",
+          "__resolveType": "website/matchers/cookie.ts"
+        },
+        "value": [
+          {
+            "title": "Emerging VC Fellows",
+            "__resolveType": "website/sections/Seo/Seo.tsx"
+          },
+          {
+            "__resolveType": "Main Header - En-US"
+          },
+          {
+            "banner": {
+              "image": {
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/9029f250-77a5-41d2-8926-8f7323bbf844",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/f3820bd6-bb92-476e-8f64-6829dde73a05"
+              },
+              "subtitle": "The most comprehensive research on ESG within Venture Capital management firms in Brazil",
+              "centerText": true,
+              "bannerImage": {
+                "alt": "pesquisa ESG 2022",
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/78486cdc-9ac0-490f-8aa9-f2980e636385",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/68f962a4-5c84-404f-92fc-26aae6e74fdb",
+                "widthDesktop": 338,
+                "heightDesktop": 223
+              },
+              "centerTitle": true,
+              "backgroundImage": {
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/48d9bf1e-3699-484b-9b6f-662b16cfedbb",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/de714a11-9ace-492f-aa45-e4ea01e2ab0b"
+              }
+            },
+            "__resolveType": "site/sections/Banner.tsx"
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/ReportSection.tsx",
+              "title": "The ESG 2022 Report is available for download",
+              "buttonUrl": "https://airtable.com/appjth61mJwKsImWv/shrcS07Voy7xw1HeL",
+              "textButton": "DOWNLOAD THE REPORT NOW",
+              "image": {
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/1742f513-76aa-4409-b44c-775b20851d7a",
+                "alt": "report esg",
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/b4b5fcda-70b0-4f16-a8e5-0b449a25c44f",
+                "widthDesktop": 600,
+                "heightDesktop": 300
+              },
+              "description": "The most complete research on the topic of ESG within Venture Capital managers in Brazil"
+            }
+          },
+          {
+            "__resolveType": "Partners Footer"
+          },
+          {
+            "__resolveType": "Footer - En-US"
+          }
+        ]
+      },
+      {
+        "rule": {
+          "__resolveType": "website/matchers/always.ts"
+        },
+        "value": [
+          {
+            "title": "Emerging VC Fellows",
+            "__resolveType": "website/sections/Seo/Seo.tsx"
+          },
+          {
+            "__resolveType": "Main Header"
+          },
+          {
+            "banner": {
+              "image": {
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/9029f250-77a5-41d2-8926-8f7323bbf844",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/f3820bd6-bb92-476e-8f64-6829dde73a05"
+              },
+              "subtitle": "A mais completa pesquisa sobre o tema ESG dentro das gestoras de Venture Capital no Brasil",
+              "centerText": true,
+              "bannerImage": {
+                "alt": "pesquisa ESG 2022",
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/78486cdc-9ac0-490f-8aa9-f2980e636385",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/68f962a4-5c84-404f-92fc-26aae6e74fdb",
+                "widthDesktop": 338,
+                "heightDesktop": 223
+              },
+              "centerTitle": true,
+              "backgroundImage": {
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/48d9bf1e-3699-484b-9b6f-662b16cfedbb",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/de714a11-9ace-492f-aa45-e4ea01e2ab0b"
+              }
+            },
+            "__resolveType": "site/sections/Banner.tsx"
+          },
+          {
+            "image": {
+              "alt": "report esg",
+              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/b4b5fcda-70b0-4f16-a8e5-0b449a25c44f",
+              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/1742f513-76aa-4409-b44c-775b20851d7a",
+              "widthDesktop": 600,
+              "heightDesktop": 300
+            },
+            "title": "A pesquisa de ESG 2022 está disponível para download!",
+            "buttonUrl": "https://airtable.com/shrcS07Voy7xw1HeL",
+            "textButton": "BAIXE AGORA O REPORT",
+            "description": "<p>A mais completa pesquisa sobre o tema ESG dentro das gestoras de Venture Capital no Brasil</p>",
+            "__resolveType": "site/sections/ReportSection.tsx"
+          },
+          {
+            "__resolveType": "Partners Footer"
+          },
+          {
+            "__resolveType": "Footer"
+          }
+        ]
+      }
+    ],
+    "__resolveType": "website/flags/multivariate.ts"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
