@@ -98,7 +98,7 @@
             "title": "O VC Tech Stack 2023 já está disponível para download",
             "buttonUrl": "/vc-tech-stack",
             "textButton": "BAIXE AGORA O REPORT",
-            "description": "<p>O VC Tech Stack report tem como objetivo identificar as principais ferramentas que compõem o tech stack de gestoras do Brasil e avaliar suas aderências aos processos executados pelas gestoras.</p><br/><p>Agradecemos o apoio de nossos parceiros Zendesk, AWS e FM Derraik na construção desse material direcionado ao ecossistema de Venture Capital.</p>",
+            "description": "<p style=\"text-align: center;\">O VC Tech Stack report tem como objetivo identificar as principais ferramentas que compõem o tech stack de gestoras do Brasil e avaliar suas aderências aos processos executados pelas gestoras.</p><br/><p style=\"text-align: center;\">Agradecemos o apoio de nossos parceiros Zendesk, AWS e FM Derraik na construção desse material direcionado ao ecossistema de Venture Capital.</p>",
             "__resolveType": "site/sections/ReportSection.tsx",
             "image": null,
             "centerText": true
