@@ -87,7 +87,7 @@ function BannerUI(
       >
         <div
           class={`w-full max-w-[685px] ${
-            centerTitle ? "flex flex-col items-center" : ""
+            centerTitle ? "flex flex-col items-center mx-auto" : ""
           }`}
         >
           <h1

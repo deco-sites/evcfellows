@@ -3,7 +3,7 @@ import Image, {
 } from "site/components/ui/Image.tsx";
 
 export interface Props {
-  image: PartnersImage;
+  image?: PartnersImage | null;
   title?: string;
 
   description: string;
@@ -12,30 +12,34 @@ export interface Props {
   textButton?: string;
   secondButtonUrl?: string;
   textSecondButton?: string;
+  centerText?: boolean;
 }
 
 export default function ReportSection(
   {
-    image,
+    image = null,
     title,
     description,
     textButton = "ACESSO",
     buttonUrl,
     secondButtonUrl,
     textSecondButton,
+    centerText = false,
   }: Props,
 ) {
   return (
     <section class="lg:pl-24 px-4 py-8">
       <div class="flex lg:items-center w-full gap-7">
-        <div class="flex flex-col justify-between items-center lg:items-start gap-4 lg:w-[40%]">
-          <Image className="block lg:hidden" image={image} preload />
-          <h1 class="font-galano font-extrabold text-4xl lg:text-5xl text-center lg:text-start">
+        <div class={`flex flex-col items-center gap-4 lg:w-[40%] mx-auto ${centerText ? "mx-auto justify-center items-center" : "justify-between lg:items-start"}`}>
+          {image && (
+            <Image className="block lg:hidden" image={image} preload />
+          )}
+          <h1 class={`font-galano font-extrabold text-4xl lg:text-5xl ${centerText ? "text-center" : "text-center lg:text-start"}`}>
             {title}
           </h1>
           <div class="text-start flex flex-col items-center">
             <div
-              class="text-[#3D3D3D] list-disc w-[400px] flex justify-center font-roboto font-normal mb-4"
+              class={`text-[#3D3D3D] list-disc w-[400px] flex flex-col justify-center font-roboto font-normal mb-4 ${centerText ? "items-center" : ""}`}
               dangerouslySetInnerHTML={{ __html: description }}
             />
 
@@ -58,7 +62,9 @@ export default function ReportSection(
         </div>
 
         <div class="hidden lg:block">
-          <Image image={image} preload />
+          {image && (
+            <Image image={image} preload />
+          )}
         </div>
       </div>
     </section>
