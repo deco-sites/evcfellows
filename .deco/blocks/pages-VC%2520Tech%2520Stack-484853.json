@@ -20,42 +20,28 @@
           {
             "banner": {
               "image": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/9029f250-77a5-41d2-8926-8f7323bbf844",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/f3820bd6-bb92-476e-8f64-6829dde73a05"
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/64c1d239-8e09-4832-b38a-ca0d76c72627",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/610ee72c-e75f-46b6-a07f-078473906818"
               },
-              "subtitle": "The most comprehensive research on ESG within Venture Capital management firms in Brazil",
+              "subtitle": " Venture Capital 2023",
               "centerText": true,
               "centerTitle": true,
               "backgroundImage": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/48d9bf1e-3699-484b-9b6f-662b16cfedbb",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/de714a11-9ace-492f-aa45-e4ea01e2ab0b"
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/3e5299ae-01a8-466d-9524-bcaea5fa69c0",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/ceb5d2e0-62d6-455b-9cf9-3ea21679f2ad"
               },
-              "bannerImage": {
-                "alt": "pesquisa ESG 2022",
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/78486cdc-9ac0-490f-8aa9-f2980e636385",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/68f962a4-5c84-404f-92fc-26aae6e74fdb",
-                "widthDesktop": 338,
-                "heightDesktop": 223
-              }
+              "title": "Tech Stack "
             },
             "__resolveType": "site/sections/Banner.tsx"
           },
           {
-            "__resolveType": "website/sections/Rendering/Lazy.tsx",
-            "section": {
-              "__resolveType": "site/sections/ReportSection.tsx",
-              "title": "The ESG 2022 Report is available for download",
-              "buttonUrl": "https://airtable.com/appjth61mJwKsImWv/shrcS07Voy7xw1HeL",
-              "textButton": "DOWNLOAD THE REPORT NOW",
-              "image": {
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/1742f513-76aa-4409-b44c-775b20851d7a",
-                "alt": "report esg",
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/b4b5fcda-70b0-4f16-a8e5-0b449a25c44f",
-                "widthDesktop": 600,
-                "heightDesktop": 300
-              },
-              "description": "The most complete research on the topic of ESG within Venture Capital managers in Brazil"
-            }
+            "__resolveType": "site/sections/ReportSection.tsx",
+            "title": "VC Tech Stack 2023 is now available for download",
+            "buttonUrl": "/vc-tech-stack",
+            "textButton": "DOWNLOAD THE REPORT NOW",
+            "description": "<p style=\"text-align: center;\">The VC Tech Stack report aims to identify the main tools that make up the tech stack of asset managers in Brazil and assess their adherence to the processes executed by the managers.</p><br/><p style=\"text-align: center;\">We appreciate the support of our partners Zendesk, AWS and FM Derraik in building this material aimed at the Venture Capital ecosystem.</p>",
+            "image": null,
+            "centerText": true
           },
           {
             "__resolveType": "Partners Footer"
@@ -83,14 +69,14 @@
                 "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/64c1d239-8e09-4832-b38a-ca0d76c72627",
                 "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/610ee72c-e75f-46b6-a07f-078473906818"
               },
-              "centerText": false,
+              "centerText": true,
               "centerTitle": true,
               "backgroundImage": {
                 "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/3e5299ae-01a8-466d-9524-bcaea5fa69c0",
                 "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/ceb5d2e0-62d6-455b-9cf9-3ea21679f2ad"
               },
-              "title": "Tech Stack Venture Capital 2023",
-              "subtitle": " "
+              "title": "Tech Stack ",
+              "subtitle": " Venture Capital 2023"
             },
             "__resolveType": "site/sections/Banner.tsx"
           },

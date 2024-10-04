@@ -13,13 +13,13 @@
       "label": "Conteúdo",
       "nested": [
         {
-          "href": "/vc-tech-stack",
-          "label": "VC Tech Stack",
+          "href": "/vc-radar",
+          "label": "VC Radar",
           "nested": []
         },
         {
-          "href": "/vc-radar",
-          "label": "VC Radar",
+          "href": "/vc-tech-stack",
+          "label": "VC Tech Stack",
           "nested": []
         },
         {
