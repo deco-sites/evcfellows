@@ -28,7 +28,7 @@ export default function ReportSection(
   }: Props,
 ) {
   return (
-    <section class="lg:pl-24 px-4 py-8">
+    <section class="lg:pl-24 md:px-4 py-8">
       <div class="flex lg:items-center w-full gap-7">
         <div class={`flex flex-col items-center gap-4 lg:w-[40%] mx-auto ${centerText ? "mx-auto justify-center items-center" : "justify-between lg:items-start"}`}>
           {image && (
