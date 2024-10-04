@@ -23,25 +23,31 @@
                 "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/64c1d239-8e09-4832-b38a-ca0d76c72627",
                 "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/610ee72c-e75f-46b6-a07f-078473906818"
               },
-              "subtitle": " Venture Capital 2023",
+              "subtitle": "2023",
               "centerText": true,
               "centerTitle": true,
               "backgroundImage": {
                 "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/3e5299ae-01a8-466d-9524-bcaea5fa69c0",
                 "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/ceb5d2e0-62d6-455b-9cf9-3ea21679f2ad"
               },
-              "title": "Tech Stack "
+              "title": "VC Tech Stack Report"
             },
             "__resolveType": "site/sections/Banner.tsx"
           },
           {
             "__resolveType": "site/sections/ReportSection.tsx",
-            "title": "VC Tech Stack 2023 is now available for download",
-            "buttonUrl": "/vc-tech-stack",
+            "title": "The VC Tech Stack Report 2023 is now available for download",
+            "buttonUrl": "https://airtable.com/shrcS07Voy7xw1HeL",
             "textButton": "DOWNLOAD THE REPORT NOW",
             "description": "<p style=\"text-align: center;\">The VC Tech Stack report aims to identify the main tools that make up the tech stack of asset managers in Brazil and assess their adherence to the processes executed by the managers.</p><br/><p style=\"text-align: center;\">We appreciate the support of our partners Zendesk, AWS and FM Derraik in building this material aimed at the Venture Capital ecosystem.</p>",
-            "image": null,
-            "centerText": true
+            "image": {
+              "alt": "report esg",
+              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/b4b5fcda-70b0-4f16-a8e5-0b449a25c44f",
+              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/1742f513-76aa-4409-b44c-775b20851d7a",
+              "widthDesktop": 600,
+              "heightDesktop": 300
+            },
+            "centerText": false
           },
           {
             "__resolveType": "Partners Footer"
@@ -75,19 +81,25 @@
                 "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/3e5299ae-01a8-466d-9524-bcaea5fa69c0",
                 "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/ceb5d2e0-62d6-455b-9cf9-3ea21679f2ad"
               },
-              "title": "Tech Stack ",
-              "subtitle": " Venture Capital 2023"
+              "title": "VC Tech Stack Report",
+              "subtitle": "2023"
             },
             "__resolveType": "site/sections/Banner.tsx"
           },
           {
-            "title": "O VC Tech Stack 2023 já está disponível para download",
-            "buttonUrl": "/vc-tech-stack",
+            "title": "O VC Tech Stack Report 2023 já está disponível para download",
+            "buttonUrl": "https://airtable.com/shrcS07Voy7xw1HeL",
             "textButton": "BAIXE AGORA O REPORT",
             "description": "<p style=\"text-align: center;\">O VC Tech Stack report tem como objetivo identificar as principais ferramentas que compõem o tech stack de gestoras do Brasil e avaliar suas aderências aos processos executados pelas gestoras.</p><br/><p style=\"text-align: center;\">Agradecemos o apoio de nossos parceiros Zendesk, AWS e FM Derraik na construção desse material direcionado ao ecossistema de Venture Capital.</p>",
             "__resolveType": "site/sections/ReportSection.tsx",
-            "image": null,
-            "centerText": true
+            "image": {
+              "alt": "report esg",
+              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/b4b5fcda-70b0-4f16-a8e5-0b449a25c44f",
+              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/1742f513-76aa-4409-b44c-775b20851d7a",
+              "widthDesktop": 600,
+              "heightDesktop": 300
+            },
+            "centerText": false
           },
           {
             "__resolveType": "Partners Footer"
