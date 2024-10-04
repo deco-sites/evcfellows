@@ -1,1 +1,114 @@
-{"name":"VC Toolkit","path":"/vc-toolkit","sections":{"variants":[{"rule":{"name":"Language","value":"En-US","__resolveType":"website/matchers/cookie.ts"},"value":[{"title":"Emerging VC Fellows","__resolveType":"website/sections/Seo/Seo.tsx"},{"variants":[{"rule":{"name":"Language","value":"En-US","__resolveType":"website/matchers/cookie.ts"},"value":{"navItems":[{}],"menuLinks":[{"href":"/","label":"Home","nested":[]},{"href":"#","label":"Content","nested":[{"href":"/vc-radar","label":"VC Radar","nested":[]},{"href":"/vc-toolkit","label":"VC Toolkit","nested":[]},{"href":"/fundraising-toolkit","label":"Fundraising Toolkit","nested":[]},{"href":"/report-esg","label":"Report ESG","nested":[]},{"href":"/eventos-vc","label":"Events for VC","nested":[]},{"href":"carreira-vc","label":"VC Career","nested":[]},{"href":"/vagas-vc","label":"Vacancies for VC","nested":[]}]},{"href":"/empreendedores","label":"Founders","nested":[]},{"href":"/#contact","label":"Contact","nested":[]}],"pageInitial":"/","__resolveType":"site/sections/Header.tsx"}},{"rule":{"__resolveType":"website/matchers/always.ts"},"value":{"__resolveType":"Main Header"}}],"__resolveType":"website/flags/multivariate/section.ts"},{"banner":{"image":{"mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/64c1d239-8e09-4832-b38a-ca0d76c72627","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/610ee72c-e75f-46b6-a07f-078473906818"},"title":"VC Toolkit","subtitle":"With the aim of fostering the sharing of best practices and helping fellows stay updated on content, tools, and practices most consumed by the Venture Capital market in Brazil, the Emerging VC Toolkit was created: A library of content and references, built with the support of over 250 fellows from more than 90 VC firms","centerText":true,"centerTitle":true,"backgroundImage":{"mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/3e5299ae-01a8-466d-9524-bcaea5fa69c0","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/ceb5d2e0-62d6-455b-9cf9-3ea21679f2ad"}},"__resolveType":"site/sections/Banner.tsx"},{"image":{"alt":"Toolkit table","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/65b89ea0-592b-480a-91fb-55c981fc4004","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/0b8eff05-3bc1-4356-8c4f-183ce38d8a03"},"title":"In it, you will find:","buttonUrl":"https://airtable.com/app0oPf0vGkqYKeaS/shrgbFokIRyDH8yHT/tbleSQpYJNmYXXZBI?backgroundColor=orange&viewControls=on","textButton":"ACCESS NOW!","description":"<ul class=\"list-disc\"><li>Most consumed books by the community;</li><li>Globally recognized and informative newsletters about the market;</li><li>Most listened-to podcasts;</li><li>Templates used by fellows in their day-to-day analysis;</li><li>Market courses and specializations;</li><li>Most consumed sources of information;</li><li>Companies and individuals who are references in the entrepreneurship and venture capital market in Brazil and worldwide;</li><li>Other libraries, repositories, and compilations of content from the VC, innovation, and entrepreneurship scene.</li></ul><p><br data-mce-bogus=\"1\"></p>","__resolveType":"site/sections/ToolkitSection.tsx","buttonVariant":"primary","secondButtonUrl":"https://airtable.com/app0oPf0vGkqYKeaS/shr7bOQIgLUfcPCwq","textSecondButton":"ADD MORE CONTENT"},{"__resolveType":"Partners Footer"},{"variants":[{"rule":{"name":"Language","value":"En-US","__resolveType":"website/matchers/cookie.ts"},"value":{"year":"2024","columns":[],"legalText":"All product and company names are trademarks™ or trademarks registered® of their respective owners. Their use does not implies any affiliation or endorsement by them. ","__resolveType":"site/sections/Footer.tsx"}},{"rule":{"__resolveType":"website/matchers/always.ts"},"value":{"__resolveType":"Footer"}}],"__resolveType":"website/flags/multivariate/section.ts"}]},{"rule":{"__resolveType":"website/matchers/always.ts"},"value":[{"title":"Emerging VC Fellows","__resolveType":"website/sections/Seo/Seo.tsx"},{"__resolveType":"Main Header"},{"banner":{"image":{"mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/64c1d239-8e09-4832-b38a-ca0d76c72627","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/610ee72c-e75f-46b6-a07f-078473906818"},"title":"VC Toolkit","subtitle":"Com o objetivo de estimular o compartilhamento de boas práticas e ajudar os fellows a se atualizarem sobre conteúdos, ferramentas e práticas mais consumidas pelo mercado de Venture Capital no Brasil. Foi criado o Emerging VC Toolkit: Uma biblioteca de conteúdos e referências, construída com o apoio dos +250 fellows de +90 gestoras de VC","centerText":true,"centerTitle":true,"backgroundImage":{"mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/3e5299ae-01a8-466d-9524-bcaea5fa69c0","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/ceb5d2e0-62d6-455b-9cf9-3ea21679f2ad"}},"__resolveType":"site/sections/Banner.tsx"},{"image":{"alt":"Toolkit table","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/0b8eff05-3bc1-4356-8c4f-183ce38d8a03"},"title":"No VC Tool Kit você encontrará","buttonUrl":"https://airtable.com/app0oPf0vGkqYKeaS/shr7bOQIgLUfcPCwq","iframeUrl":"https://airtable.com/embed/shrgbFokIRyDH8yHT?backgroundColor=orange&viewControls=on","textButton":"ADICIONAR MAIS CONTEÚDOS","description":"<ul class=\"list-disc\"><li>Livros mais consumidos pela comunidade.</li><li>Newsletters mais informativas e conhecidas globalmente sobre o mercado.</li><li>Podcasts mais ouvidos.</li><li>Templates utilizados no dia-a-dia dos fellows para realização de análises.</li><li>Cursos e especializações do mercado.</li><li>Fontes de informações mais consumidas.</li><li>Empresas e pessoas referências no mercado de empreendedorismo e venture capital no Brasil e no mundo.</li><li>Outras bibliotecas, repositórios e compilados de conteúdo do cenário de VC, inovação e empreendedorismo.</li></ul><p><br data-mce-bogus=\"1\"></p>","__resolveType":"site/sections/ToolkitSection.tsx","buttonVariant":"primary"},{"__resolveType":"Partners Footer"},{"__resolveType":"Footer"}]}],"__resolveType":"website/flags/multivariate.ts"},"__resolveType":"website/pages/Page.tsx"}
+{
+  "name": "VC Toolkit",
+  "path": "/vc-toolkit",
+  "sections": {
+    "variants": [
+      {
+        "rule": {
+          "name": "Language",
+          "value": "En-US",
+          "__resolveType": "website/matchers/cookie.ts"
+        },
+        "value": [
+          {
+            "title": "Emerging VC Fellows",
+            "__resolveType": "website/sections/Seo/Seo.tsx"
+          },
+          {
+            "__resolveType": "Main Header - En-US"
+          },
+          {
+            "__resolveType": "site/sections/Banner.tsx",
+            "banner": {
+              "image": {
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/64c1d239-8e09-4832-b38a-ca0d76c72627",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/610ee72c-e75f-46b6-a07f-078473906818"
+              },
+              "title": "VC Toolkit",
+              "subtitle": "With the aim of fostering the sharing of best practices and helping fellows stay updated on content, tools, and practices most consumed by the Venture Capital market in Brazil, the Emerging VC Toolkit was created: A library of content and references, built with the support of over 250 fellows from more than 90 VC firms",
+              "centerText": true,
+              "centerTitle": true,
+              "backgroundImage": {
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/3e5299ae-01a8-466d-9524-bcaea5fa69c0",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/ceb5d2e0-62d6-455b-9cf9-3ea21679f2ad"
+              }
+            }
+          },
+          {
+            "__resolveType": "site/sections/ToolkitSection.tsx",
+            "image": {
+              "alt": "Toolkit table",
+              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/65b89ea0-592b-480a-91fb-55c981fc4004",
+              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/0b8eff05-3bc1-4356-8c4f-183ce38d8a03"
+            },
+            "title": "In it, you will find:",
+            "buttonUrl": "https://airtable.com/app0oPf0vGkqYKeaS/shrgbFokIRyDH8yHT/tbleSQpYJNmYXXZBI?backgroundColor=orange&viewControls=on",
+            "textButton": "ACCESS NOW!",
+            "description": "<ul class=\"list-disc\"><li>Most consumed books by the community;</li><li>Globally recognized and informative newsletters about the market;</li><li>Most listened-to podcasts;</li><li>Templates used by fellows in their day-to-day analysis;</li><li>Market courses and specializations;</li><li>Most consumed sources of information;</li><li>Companies and individuals who are references in the entrepreneurship and venture capital market in Brazil and worldwide;</li><li>Other libraries, repositories, and compilations of content from the VC, innovation, and entrepreneurship scene.</li></ul><p><br data-mce-bogus=\"1\"></p>",
+            "buttonVariant": "primary",
+            "secondButtonUrl": "https://airtable.com/app0oPf0vGkqYKeaS/shr7bOQIgLUfcPCwq",
+            "textSecondButton": "ADD MORE CONTENT"
+          },
+          {
+            "__resolveType": "Partners Footer"
+          },
+          {
+            "__resolveType": "Footer - En-US"
+          }
+        ]
+      },
+      {
+        "rule": {
+          "__resolveType": "website/matchers/always.ts"
+        },
+        "value": [
+          {
+            "title": "Emerging VC Fellows",
+            "__resolveType": "website/sections/Seo/Seo.tsx"
+          },
+          {
+            "__resolveType": "Main Header"
+          },
+          {
+            "banner": {
+              "image": {
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/64c1d239-8e09-4832-b38a-ca0d76c72627",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/610ee72c-e75f-46b6-a07f-078473906818"
+              },
+              "title": "VC Toolkit",
+              "subtitle": "Com o objetivo de estimular o compartilhamento de boas práticas e ajudar os fellows a se atualizarem sobre conteúdos, ferramentas e práticas mais consumidas pelo mercado de Venture Capital no Brasil. Foi criado o Emerging VC Toolkit: Uma biblioteca de conteúdos e referências, construída com o apoio dos +250 fellows de +90 gestoras de VC",
+              "centerText": true,
+              "centerTitle": true,
+              "backgroundImage": {
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/3e5299ae-01a8-466d-9524-bcaea5fa69c0",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/ceb5d2e0-62d6-455b-9cf9-3ea21679f2ad"
+              }
+            },
+            "__resolveType": "site/sections/Banner.tsx"
+          },
+          {
+            "image": {
+              "alt": "Toolkit table",
+              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/0b8eff05-3bc1-4356-8c4f-183ce38d8a03"
+            },
+            "title": "No VC Tool Kit você encontrará",
+            "buttonUrl": "https://airtable.com/app0oPf0vGkqYKeaS/shr7bOQIgLUfcPCwq",
+            "iframeUrl": "https://airtable.com/embed/shrgbFokIRyDH8yHT?backgroundColor=orange&viewControls=on",
+            "textButton": "ADICIONAR MAIS CONTEÚDOS",
+            "description": "<ul class=\"list-disc\"><li>Livros mais consumidos pela comunidade.</li><li>Newsletters mais informativas e conhecidas globalmente sobre o mercado.</li><li>Podcasts mais ouvidos.</li><li>Templates utilizados no dia-a-dia dos fellows para realização de análises.</li><li>Cursos e especializações do mercado.</li><li>Fontes de informações mais consumidas.</li><li>Empresas e pessoas referências no mercado de empreendedorismo e venture capital no Brasil e no mundo.</li><li>Outras bibliotecas, repositórios e compilados de conteúdo do cenário de VC, inovação e empreendedorismo.</li></ul><p><br data-mce-bogus=\"1\"></p>",
+            "__resolveType": "site/sections/ToolkitSection.tsx",
+            "buttonVariant": "primary"
+          },
+          {
+            "__resolveType": "Partners Footer"
+          },
+          {
+            "__resolveType": "Footer"
+          }
+        ]
+      }
+    ],
+    "__resolveType": "website/flags/multivariate.ts"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
