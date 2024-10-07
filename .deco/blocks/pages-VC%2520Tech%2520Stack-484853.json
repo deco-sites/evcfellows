@@ -23,14 +23,18 @@
                 "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/64c1d239-8e09-4832-b38a-ca0d76c72627",
                 "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/610ee72c-e75f-46b6-a07f-078473906818"
               },
-              "subtitle": "2023",
+              "subtitle": "VC Tech Stack Report 2023",
               "centerText": true,
               "centerTitle": true,
               "backgroundImage": {
                 "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/3e5299ae-01a8-466d-9524-bcaea5fa69c0",
                 "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/ceb5d2e0-62d6-455b-9cf9-3ea21679f2ad"
               },
-              "title": "VC Tech Stack Report"
+              "bannerImage": {
+                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/028c5351-c727-476e-9195-0fb7f64e16db/logo-tech-stack.png",
+                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/028c5351-c727-476e-9195-0fb7f64e16db/logo-tech-stack.png",
+                "alt": "Tech Stack"
+              }
             },
             "__resolveType": "site/sections/Banner.tsx"
           },
@@ -81,8 +85,12 @@
                 "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/3e5299ae-01a8-466d-9524-bcaea5fa69c0",
                 "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/ceb5d2e0-62d6-455b-9cf9-3ea21679f2ad"
               },
-              "title": "VC Tech Stack Report",
-              "subtitle": "2023"
+              "subtitle": "VC Tech Stack Report 2023",
+              "bannerImage": {
+                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/028c5351-c727-476e-9195-0fb7f64e16db/logo-tech-stack.png",
+                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/028c5351-c727-476e-9195-0fb7f64e16db/logo-tech-stack.png",
+                "alt": "Tech Stack"
+              }
             },
             "__resolveType": "site/sections/Banner.tsx"
           },
