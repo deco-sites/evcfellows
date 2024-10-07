@@ -42,8 +42,8 @@
             "description": "<p style=\"text-align: center;\">The VC Tech Stack report aims to identify the main tools that make up the tech stack of asset managers in Brazil and assess their adherence to the processes executed by the managers.</p><br/><p style=\"text-align: center;\">We appreciate the support of our partners Zendesk, AWS and FM Derraik in building this material aimed at the Venture Capital ecosystem.</p>",
             "image": {
               "alt": "report esg",
-              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/b4b5fcda-70b0-4f16-a8e5-0b449a25c44f",
-              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/1742f513-76aa-4409-b44c-775b20851d7a",
+              "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/137313a3-0884-495f-bc2e-80b9a699a285/capa_mockup.png",
+              "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/137313a3-0884-495f-bc2e-80b9a699a285/capa_mockup.png",
               "widthDesktop": 600,
               "heightDesktop": 300
             },
@@ -94,8 +94,8 @@
             "__resolveType": "site/sections/ReportSection.tsx",
             "image": {
               "alt": "report esg",
-              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/b4b5fcda-70b0-4f16-a8e5-0b449a25c44f",
-              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/1742f513-76aa-4409-b44c-775b20851d7a",
+              "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/137313a3-0884-495f-bc2e-80b9a699a285/capa_mockup.png",
+              "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/137313a3-0884-495f-bc2e-80b9a699a285/capa_mockup.png",
               "widthDesktop": 600,
               "heightDesktop": 300
             },
