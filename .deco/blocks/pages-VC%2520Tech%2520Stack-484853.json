@@ -40,7 +40,7 @@
           {
             "__resolveType": "site/sections/ReportSection.tsx",
             "title": "The VC Tech Stack Report 2023 is now available for download",
-            "buttonUrl": "https://airtable.com/shrcS07Voy7xw1HeL",
+            "buttonUrl": "https://drive.google.com/file/d/1tpmUSldOstyAXHSRFlrlP2sDHou25mdx/view?usp=drivesdk ",
             "textButton": "DOWNLOAD THE REPORT NOW",
             "description": "<p style=\"text-align: center;\">The VC Tech Stack report aims to identify the main tools that make up the tech stack of asset managers in Brazil and assess their adherence to the processes executed by the managers.</p><br/><p style=\"text-align: center;\">We appreciate the support of our partners Zendesk, AWS and FM Derraik in building this material aimed at the Venture Capital ecosystem.</p>",
             "image": {
@@ -94,7 +94,7 @@
           },
           {
             "title": "O VC Tech Stack Report 2023 já está disponível para download",
-            "buttonUrl": "https://airtable.com/shrcS07Voy7xw1HeL",
+            "buttonUrl": "https://drive.google.com/file/d/1tpmUSldOstyAXHSRFlrlP2sDHou25mdx/view?usp=drivesdk ",
             "textButton": "BAIXE AGORA O REPORT",
             "description": "<p style=\"text-align: center;\">O VC Tech Stack report tem como objetivo identificar as principais ferramentas que compõem o tech stack de gestoras do Brasil e avaliar suas aderências aos processos executados pelas gestoras.</p><br/><p style=\"text-align: center;\">Agradecemos o apoio de nossos parceiros Zendesk, AWS e FM Derraik na construção desse material direcionado ao ecossistema de Venture Capital.</p>",
             "__resolveType": "site/sections/ReportSection.tsx",
