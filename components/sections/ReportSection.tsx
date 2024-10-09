@@ -35,7 +35,7 @@ export default function ReportSection(
           </h1>
           <div class="text-start flex flex-col items-center">
             <div
-              class="text-[#3D3D3D] list-disc w-[400px] flex justify-center font-roboto font-normal mb-4"
+              class="text-[#3D3D3D] list-disc w-[400px] flex flex-col justify-center font-roboto font-normal mb-4"
               dangerouslySetInnerHTML={{ __html: description }}
             />
 

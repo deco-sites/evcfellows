@@ -1,1 +1,176 @@
-{"name":"Carreira VC","path":"/carreira-vc","sections":{"variants":[{"rule":{"name":"Language","value":"En-US","__resolveType":"website/matchers/cookie.ts"},"value":[{"title":"Emerging VC Fellows","__resolveType":"website/sections/Seo/Seo.tsx"},{"variants":[{"rule":{"name":"Language","value":"En-US","__resolveType":"website/matchers/cookie.ts"},"value":{"navItems":[{}],"menuLinks":[{"href":"/","label":"Home","nested":[]},{"href":"#","label":"Content","nested":[{"href":"/vc-radar","label":"VC Radar","nested":[]},{"href":"/vc-toolkit","label":"VC Toolkit","nested":[]},{"href":"/fundraising-toolkit","label":"Fundraising Toolkit","nested":[]},{"href":"/report-esg","label":"Report ESG","nested":[]},{"href":"/eventos-vc","label":"Events for VC","nested":[]},{"href":"carreira-vc","label":"VC Career","nested":[]},{"href":"/vagas-vc","label":"Vacancies for VC","nested":[]}]},{"href":"/empreendedores","label":"Founders","nested":[]},{"href":"/#contact","label":"Contact","nested":[]}],"pageInitial":"/","__resolveType":"site/sections/Header.tsx"}},{"rule":{"__resolveType":"website/matchers/always.ts"},"value":{"__resolveType":"Main Header"}}],"__resolveType":"website/flags/multivariate/section.ts"},{"banner":{"image":{"mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/18774486-571d-45b0-95d3-b9870388e8aa","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/0e537700-4f8a-4cf6-acc9-dbf9aa99192b"},"buttons":[],"subtitle":"We conducted an in-depth analysis of careers within the Venture Capital industry in Brazil, intending to promote transparency and maturity within the sector.","centerText":true,"bannerImage":{"alt":"carreira em vc 2022","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/926602ab-5190-42a3-b16e-a41e17b248b8","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/dc8b966a-302e-4216-87b8-5825b9e173a9","widthDesktop":472,"heightDesktop":186},"centerTitle":true,"backgroundImage":{"mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/433af985-bc4a-4879-ab81-72fa23a5e9ad","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/f57ea7d8-bfd0-4125-af47-7f2ed89facd4"}},"__resolveType":"site/sections/Banner.tsx"},{"name":"Cibelle Higino","text":"<p><em>\"The Venture Capital market in Brazil is still young compared to the rest of the financial market, but it has been growing and evolving very rapidly in recent years. This creates a challenge for VC analysts - while demanding complex skills and knowledge, there is no playbook on building a VC career. This report was born to highlight the main factors that affect professional growth, going far beyond compensation. We consider ourselves the first generation of VC analysts in Brazil and understand the industry's impact on the country; thus, we hope to create the foundation for these professionals to develop in the best possible way.\"</em></p>","image":{"alt":"Cibelle","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/e32a6c49-a122-426f-b550-a3424952368c","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/a712a512-63c1-42bf-a3bd-d27f4fa7a538","widthDesktop":88},"position":"Associate @Honey Island Capital | 2023 VC Radar Leader","__resolveType":"site/sections/OpinionSection.tsx"},{"image":{"alt":"Dashboard Carreira","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/3f736276-a9b9-4fbd-96ff-12ed9881cbb4","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/9558b795-7af6-4f35-985c-374cf3e298cf"},"title":"VC Career Dashboard","whiteBg":true,"imageUrl":"https://datastudio.google.com/reporting/0ac632ea-ae18-42c2-93bf-ef51244f0fa0/page/cepxC","buttonUrl":"https://datastudio.google.com/reporting/0ac632ea-ae18-42c2-93bf-ef51244f0fa0/page/cepxC","textButton":"ACCESS NOW","description":"<p>To facilitate access to the key information extracted from the survey in a simple and easy-to-understand manner, an interactive dashboard has been constructed, integrating the 136 responses and facilitating the visualization of the most pertinent data through the use of filters. The dashboard is exclusive to EVCF fellows, and to access it, simply log in with the personal email registered with EVCF.</p>","__resolveType":"site/sections/ColumnSection.tsx"},{"image":{"alt":"report","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/6535c0ef-4a23-4cdd-a3e2-327f506cd639","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/3d35ebb6-bcc4-4ba4-84dd-79bd895b2d77","widthDesktop":600},"title":"Download the full report","buttonUrl":"https://airtable.com/shryhOAXFC4x0DrUj","textButton":"DOWNLOAD NOW","__resolveType":"site/sections/ColumnSection.tsx"},{"__resolveType":"Partners Footer"},{"variants":[{"rule":{"name":"Language","value":"En-US","__resolveType":"website/matchers/cookie.ts"},"value":{"year":"2024","columns":[],"legalText":"All product and company names are trademarks™ or trademarks registered® of their respective owners. Their use does not implies any affiliation or endorsement by them.","__resolveType":"site/sections/Footer.tsx"}},{"rule":{"__resolveType":"website/matchers/always.ts"},"value":{"__resolveType":"Footer"}}],"__resolveType":"website/flags/multivariate/section.ts"}]},{"rule":{"__resolveType":"website/matchers/always.ts"},"value":[{"title":"Emerging VC Fellows","__resolveType":"website/sections/Seo/Seo.tsx"},{"__resolveType":"Main Header"},{"banner":{"image":{"mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/18774486-571d-45b0-95d3-b9870388e8aa","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/0e537700-4f8a-4cf6-acc9-dbf9aa99192b"},"buttons":[],"subtitle":"Analisamos a fundo a carreira na indústria de Venture Capital no Brasil, a fim de promover transparência e amadurecimento no setor","centerText":true,"bannerImage":{"alt":"carreira em vc 2022","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/926602ab-5190-42a3-b16e-a41e17b248b8","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/dc8b966a-302e-4216-87b8-5825b9e173a9","widthDesktop":472,"heightDesktop":186},"centerTitle":true,"backgroundImage":{"mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/433af985-bc4a-4879-ab81-72fa23a5e9ad","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/f57ea7d8-bfd0-4125-af47-7f2ed89facd4"}},"__resolveType":"site/sections/Banner.tsx"},{"name":"Cibelle Higino","text":"<p><em><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\"><span class=\"wixui-rich-text__text\"><span class=\"color_21 wixui-rich-text__text\"><span class=\"backcolor_15 wixui-rich-text__text\">\"O mercado de Venture Capital no Brasil ainda é jovem se comparado ao resto do mercado financeiro, mas vem crescendo e evoluindo muito rápido nos últimos anos. Isso cria um desafio para os analistas de VC - ao mesmo tempo que são exigidas habilidades e conhecimentos bem complexos,&nbsp;</span></span></span><span style=\"text-decoration: underline;\" data-mce-style=\"text-decoration: underline;\"><strong><span class=\"color_21 wixui-rich-text__text\"><span class=\"wixui-rich-text__text\"><span class=\"backcolor_15 wixui-rich-text__text\">não existe um playbook de como construir uma carreira em VC</span></span></span></strong></span><span class=\"wixui-rich-text__text\"><span class=\"color_21 wixui-rich-text__text\"><span class=\"backcolor_15 wixui-rich-text__text\">. Esse report nasceu para apontar os principais fatores que afetam o crescimento profissional, indo muito além da remuneração. Nos consideramos a primeira geração de analistas de VC no Brasil e entendemos o impacto da indústria no país, assim, esperamos&nbsp;</span></span></span><span style=\"text-decoration: underline;\" data-mce-style=\"text-decoration: underline;\"><strong><span class=\"color_21 wixui-rich-text__text\"><span class=\"wixui-rich-text__text\"><span class=\"backcolor_15 wixui-rich-text__text\">criar a base para esses profissionais se desenvolverem da melhor forma possível</span></span></span></strong></span><span class=\"wixui-rich-text__text\"><span class=\"color_21 wixui-rich-text__text\"><span class=\"backcolor_15 wixui-rich-text__text\">.”</span></span></span></span></em></p>","image":{"alt":"Cibelle","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/e32a6c49-a122-426f-b550-a3424952368c","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/a712a512-63c1-42bf-a3bd-d27f4fa7a538","widthDesktop":88},"position":"Líder do VC Radar 2023","__resolveType":"site/sections/OpinionSection.tsx"},{"image":{"alt":"Dashboard Carreira","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/3f736276-a9b9-4fbd-96ff-12ed9881cbb4","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/9558b795-7af6-4f35-985c-374cf3e298cf"},"title":"Dashboard da Carreira em VC","whiteBg":true,"imageUrl":"https://datastudio.google.com/reporting/0ac632ea-ae18-42c2-93bf-ef51244f0fa0/page/cepxC","buttonUrl":"https://datastudio.google.com/reporting/0ac632ea-ae18-42c2-93bf-ef51244f0fa0/page/cepxC","textButton":"ACESSSE AGORA MESMO","description":"Para facilitar o acesso às principais informações que foram extraídas pela pesquisa, de uma forma simples e de fácil entendimento, foi construído um dashboard interativo que integra as 136 respostas e facilita a visualização dos dados mais pertinentes a partir da utilização de filtros. O dashboard é exclusivo para os associados do EVCF, e para acessá-lo, basta logar com o e-mail pessoal cadastrado no EVCF.","__resolveType":"site/sections/ColumnSection.tsx"},{"image":{"alt":"report","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/6535c0ef-4a23-4cdd-a3e2-327f506cd639","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/3d35ebb6-bcc4-4ba4-84dd-79bd895b2d77","widthDesktop":600},"title":"Baixe o Report completo","buttonUrl":"https://airtable.com/shryhOAXFC4x0DrUj","textButton":"BAIXE AGORA O REPORT","__resolveType":"site/sections/ColumnSection.tsx"},{"__resolveType":"Partners Footer"},{"__resolveType":"Footer"}]}],"__resolveType":"website/flags/multivariate.ts"},"__resolveType":"website/pages/Page.tsx"}
+{
+  "name": "Carreira VC",
+  "path": "/carreira-vc",
+  "sections": {
+    "variants": [
+      {
+        "rule": {
+          "name": "Language",
+          "value": "En-US",
+          "__resolveType": "website/matchers/cookie.ts"
+        },
+        "value": [
+          {
+            "title": "Emerging VC Fellows",
+            "__resolveType": "website/sections/Seo/Seo.tsx"
+          },
+          {
+            "__resolveType": "Main Header - En-US"
+          },
+          {
+            "__resolveType": "site/sections/Banner.tsx",
+            "banner": {
+              "image": {
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/18774486-571d-45b0-95d3-b9870388e8aa",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/0e537700-4f8a-4cf6-acc9-dbf9aa99192b"
+              },
+              "buttons": [],
+              "subtitle": "We conducted an in-depth analysis of careers within the Venture Capital industry in Brazil, intending to promote transparency and maturity within the sector.",
+              "centerText": true,
+              "bannerImage": {
+                "alt": "carreira em vc 2022",
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/926602ab-5190-42a3-b16e-a41e17b248b8",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/dc8b966a-302e-4216-87b8-5825b9e173a9",
+                "widthDesktop": 472,
+                "heightDesktop": 186
+              },
+              "centerTitle": true,
+              "backgroundImage": {
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/433af985-bc4a-4879-ab81-72fa23a5e9ad",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/f57ea7d8-bfd0-4125-af47-7f2ed89facd4"
+              }
+            }
+          },
+          {
+            "__resolveType": "site/sections/OpinionSection.tsx",
+            "name": "Cibelle Higino",
+            "text": "<p><em>\"The Venture Capital market in Brazil is still young compared to the rest of the financial market, but it has been growing and evolving very rapidly in recent years. This creates a challenge for VC analysts - while demanding complex skills and knowledge, there is no playbook on building a VC career. This report was born to highlight the main factors that affect professional growth, going far beyond compensation. We consider ourselves the first generation of VC analysts in Brazil and understand the industry's impact on the country; thus, we hope to create the foundation for these professionals to develop in the best possible way.\"</em></p>",
+            "image": {
+              "alt": "Cibelle",
+              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/e32a6c49-a122-426f-b550-a3424952368c",
+              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/a712a512-63c1-42bf-a3bd-d27f4fa7a538",
+              "widthDesktop": 88
+            },
+            "position": "Associate @Honey Island Capital | 2023 VC Radar Leader"
+          },
+          {
+            "image": {
+              "alt": "Dashboard Carreira",
+              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/3f736276-a9b9-4fbd-96ff-12ed9881cbb4",
+              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/9558b795-7af6-4f35-985c-374cf3e298cf"
+            },
+            "__resolveType": "site/sections/ColumnSection.tsx",
+            "title": "VC Career Dashboard",
+            "whiteBg": true,
+            "imageUrl": "https://datastudio.google.com/reporting/0ac632ea-ae18-42c2-93bf-ef51244f0fa0/page/cepxC",
+            "buttonUrl": "https://datastudio.google.com/reporting/0ac632ea-ae18-42c2-93bf-ef51244f0fa0/page/cepxC",
+            "textButton": "ACCESS NOW",
+            "description": "<p>To facilitate access to the key information extracted from the survey in a simple and easy-to-understand manner, an interactive dashboard has been constructed, integrating the 136 responses and facilitating the visualization of the most pertinent data through the use of filters. The dashboard is exclusive to EVCF fellows, and to access it, simply log in with the personal email registered with EVCF.</p>"
+          },
+          {
+            "image": {
+              "alt": "report",
+              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/6535c0ef-4a23-4cdd-a3e2-327f506cd639",
+              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/3d35ebb6-bcc4-4ba4-84dd-79bd895b2d77",
+              "widthDesktop": 600
+            },
+            "title": "Download the full report",
+            "buttonUrl": "https://airtable.com/shryhOAXFC4x0DrUj",
+            "textButton": "DOWNLOAD NOW",
+            "__resolveType": "site/sections/ColumnSection.tsx"
+          },
+          {
+            "__resolveType": "Partners Footer"
+          },
+          {
+            "__resolveType": "Footer - En-US"
+          }
+        ]
+      },
+      {
+        "rule": {
+          "__resolveType": "website/matchers/always.ts"
+        },
+        "value": [
+          {
+            "title": "Emerging VC Fellows",
+            "__resolveType": "website/sections/Seo/Seo.tsx"
+          },
+          {
+            "__resolveType": "Main Header"
+          },
+          {
+            "banner": {
+              "image": {
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/18774486-571d-45b0-95d3-b9870388e8aa",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/0e537700-4f8a-4cf6-acc9-dbf9aa99192b"
+              },
+              "buttons": [],
+              "subtitle": "Analisamos a fundo a carreira na indústria de Venture Capital no Brasil, a fim de promover transparência e amadurecimento no setor",
+              "centerText": true,
+              "bannerImage": {
+                "alt": "carreira em vc 2022",
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/926602ab-5190-42a3-b16e-a41e17b248b8",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/dc8b966a-302e-4216-87b8-5825b9e173a9",
+                "widthDesktop": 472,
+                "heightDesktop": 186
+              },
+              "centerTitle": true,
+              "backgroundImage": {
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/433af985-bc4a-4879-ab81-72fa23a5e9ad",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/f57ea7d8-bfd0-4125-af47-7f2ed89facd4"
+              }
+            },
+            "__resolveType": "site/sections/Banner.tsx"
+          },
+          {
+            "name": "Cibelle Higino",
+            "text": "<p><em><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\"><span class=\"wixui-rich-text__text\"><span class=\"color_21 wixui-rich-text__text\"><span class=\"backcolor_15 wixui-rich-text__text\">\"O mercado de Venture Capital no Brasil ainda é jovem se comparado ao resto do mercado financeiro, mas vem crescendo e evoluindo muito rápido nos últimos anos. Isso cria um desafio para os analistas de VC - ao mesmo tempo que são exigidas habilidades e conhecimentos bem complexos,&nbsp;</span></span></span><span style=\"text-decoration: underline;\" data-mce-style=\"text-decoration: underline;\"><strong><span class=\"color_21 wixui-rich-text__text\"><span class=\"wixui-rich-text__text\"><span class=\"backcolor_15 wixui-rich-text__text\">não existe um playbook de como construir uma carreira em VC</span></span></span></strong></span><span class=\"wixui-rich-text__text\"><span class=\"color_21 wixui-rich-text__text\"><span class=\"backcolor_15 wixui-rich-text__text\">. Esse report nasceu para apontar os principais fatores que afetam o crescimento profissional, indo muito além da remuneração. Nos consideramos a primeira geração de analistas de VC no Brasil e entendemos o impacto da indústria no país, assim, esperamos&nbsp;</span></span></span><span style=\"text-decoration: underline;\" data-mce-style=\"text-decoration: underline;\"><strong><span class=\"color_21 wixui-rich-text__text\"><span class=\"wixui-rich-text__text\"><span class=\"backcolor_15 wixui-rich-text__text\">criar a base para esses profissionais se desenvolverem da melhor forma possível</span></span></span></strong></span><span class=\"wixui-rich-text__text\"><span class=\"color_21 wixui-rich-text__text\"><span class=\"backcolor_15 wixui-rich-text__text\">.”</span></span></span></span></em></p>",
+            "image": {
+              "alt": "Cibelle",
+              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/e32a6c49-a122-426f-b550-a3424952368c",
+              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/a712a512-63c1-42bf-a3bd-d27f4fa7a538",
+              "widthDesktop": 88
+            },
+            "position": "Líder do VC Radar 2023",
+            "__resolveType": "site/sections/OpinionSection.tsx"
+          },
+          {
+            "image": {
+              "alt": "Dashboard Carreira",
+              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/3f736276-a9b9-4fbd-96ff-12ed9881cbb4",
+              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/9558b795-7af6-4f35-985c-374cf3e298cf"
+            },
+            "title": "Dashboard da Carreira em VC",
+            "whiteBg": true,
+            "imageUrl": "https://datastudio.google.com/reporting/0ac632ea-ae18-42c2-93bf-ef51244f0fa0/page/cepxC",
+            "buttonUrl": "https://datastudio.google.com/reporting/0ac632ea-ae18-42c2-93bf-ef51244f0fa0/page/cepxC",
+            "textButton": "ACESSSE AGORA MESMO",
+            "description": "Para facilitar o acesso às principais informações que foram extraídas pela pesquisa, de uma forma simples e de fácil entendimento, foi construído um dashboard interativo que integra as 136 respostas e facilita a visualização dos dados mais pertinentes a partir da utilização de filtros. O dashboard é exclusivo para os associados do EVCF, e para acessá-lo, basta logar com o e-mail pessoal cadastrado no EVCF.",
+            "__resolveType": "site/sections/ColumnSection.tsx"
+          },
+          {
+            "image": {
+              "alt": "report",
+              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/6535c0ef-4a23-4cdd-a3e2-327f506cd639",
+              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/3d35ebb6-bcc4-4ba4-84dd-79bd895b2d77",
+              "widthDesktop": 600
+            },
+            "title": "Baixe o Report completo",
+            "buttonUrl": "https://airtable.com/shryhOAXFC4x0DrUj",
+            "textButton": "BAIXE AGORA O REPORT",
+            "__resolveType": "site/sections/ColumnSection.tsx"
+          },
+          {
+            "__resolveType": "Partners Footer"
+          },
+          {
+            "__resolveType": "Footer"
+          }
+        ]
+      }
+    ],
+    "__resolveType": "website/flags/multivariate.ts"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

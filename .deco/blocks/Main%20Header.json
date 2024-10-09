@@ -1,1 +1,70 @@
-{"navItems":[{}],"menuLinks":[{"href":"/","label":"Home","nested":[]},{"href":"#","label":"Conteúdo","nested":[{"href":"/vc-radar","label":"VC Radar","nested":[]},{"href":"/vc-toolkit","label":"VC Toolkit","nested":[]},{"href":"/fundraising-toolkit","label":"Fundraising Toolkit","nested":[]},{"href":"/report-esg","label":"Report ESG","nested":[]},{"href":"/eventos-vc","label":"Eventos para VC","nested":[]},{"href":"carreira-vc","label":"Carreira em VC","nested":[]},{"href":"/vagas-vc","label":"Vagas para VC","nested":[]}]},{"href":"/empreendedores","label":"Empreendedores","nested":[]},{"href":"/#contact","label":"Contato","nested":[]}],"pageInitial":"/","__resolveType":"site/sections/Header.tsx"}
+{
+  "navItems": [
+    {}
+  ],
+  "menuLinks": [
+    {
+      "href": "/",
+      "label": "Home",
+      "nested": []
+    },
+    {
+      "href": "#",
+      "label": "Conteúdo",
+      "nested": [
+        {
+          "href": "/vc-radar",
+          "label": "VC Radar",
+          "nested": []
+        },
+        {
+          "href": "/vc-tech-stack",
+          "label": "VC Tech Stack",
+          "nested": []
+        },
+        {
+          "href": "/vc-toolkit",
+          "label": "VC Toolkit",
+          "nested": []
+        },
+        {
+          "href": "/fundraising-toolkit",
+          "label": "Fundraising Toolkit",
+          "nested": []
+        },
+        {
+          "href": "/report-esg",
+          "label": "Report ESG",
+          "nested": []
+        },
+        {
+          "href": "/eventos-vc",
+          "label": "Eventos para VC",
+          "nested": []
+        },
+        {
+          "href": "carreira-vc",
+          "label": "Carreira em VC",
+          "nested": []
+        },
+        {
+          "nested": [],
+          "label": "Vagas para VC",
+          "href": "/vagas-vc"
+        }
+      ]
+    },
+    {
+      "href": "/empreendedores",
+      "label": "Empreendedores",
+      "nested": []
+    },
+    {
+      "href": "/#contact",
+      "label": "Contato",
+      "nested": []
+    }
+  ],
+  "pageInitial": "/",
+  "__resolveType": "site/sections/Header.tsx"
+}
