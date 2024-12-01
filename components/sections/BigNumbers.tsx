@@ -1,6 +1,4 @@
-import BannerUI, {
-  Banner as IBanner,
-} from "site/components/ui/Banner.tsx";
+import BannerUI, { Banner as IBanner } from "site/components/ui/Banner.tsx";
 
 interface InfoNumbers {
   number: string;
