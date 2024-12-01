@@ -49,7 +49,10 @@ export default function Interview({
         <div>
           <h3 className="text-[28px] lg:text-[40px] mt-12">{theme}</h3>
         </div>
-        <button href={redirectLink} className=" min-w-[120px] text-center mt-10 py-4 px-3.5 bg-[#096192] text-[10px] text-white hover:bg-white hover:text-[#096192] border border-[#096192] transition-colors">
+        <button
+          href={redirectLink}
+          className=" min-w-[120px] text-center mt-10 py-4 px-3.5 bg-[#096192] text-[10px] text-white hover:bg-white hover:text-[#096192] border border-[#096192] transition-colors"
+        >
           {buttonText}
         </button>
       </div>
