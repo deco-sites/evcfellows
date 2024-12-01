@@ -49,7 +49,8 @@
           },
           "roleDate": "EVCA Leadership | November 5, 2024",
           "theme": "Leadership Spotlight: New York Chapter Co-lead, Keshav Reddy of Horizon Blue Cross Blue Shield",
-          "buttonText": "READ MORE"
+          "buttonText": "READ MORE",
+          "redirectLink": "https://www.linkedin.com/in/gabriel-matos-boubee/"
         },
         {
           "photo": {
@@ -67,7 +68,8 @@
           "roleDate": "EVCA Leadership | November 5, 2024",
           "buttonText": "READ MORE",
           "theme": "Featured Investor | October 2024 - Ale Vergara, Principal at Bee Partners",
-          "invertPlacement": true
+          "invertPlacement": true,
+          "redirectLink": "https://www.linkedin.com/in/gabriel-matos-boubee/"
         },
         {
           "photo": {
@@ -84,7 +86,8 @@
           },
           "buttonText": "READ MORE >",
           "theme": "Meet Andy Triedman, Partner at Theory Ventures",
-          "roleDate": "EVCA Spotlight | November 5, 2024"
+          "roleDate": "EVCA Spotlight | November 5, 2024",
+          "redirectLink": "https://www.linkedin.com/in/gabriel-matos-boubee/"
         }
       ]
     }

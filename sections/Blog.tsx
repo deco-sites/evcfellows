@@ -24,6 +24,7 @@ export interface IInterview {
   theme: string;
   buttonText: string;
   invertPlacement?: boolean;
+  redirectLink: string;
 }
 
 export default function Blog({

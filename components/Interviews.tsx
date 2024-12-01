@@ -8,6 +8,7 @@ export interface Props {
   theme: string;
   buttonText: string;
   invertPlacement?: boolean;
+  redirectLink: string;
 }
 
 export default function Interview({
@@ -17,6 +18,7 @@ export default function Interview({
   theme,
   buttonText,
   invertPlacement,
+  redirectLink,
 }: Props) {
   return (
     <div
@@ -24,7 +26,7 @@ export default function Interview({
         invertPlacement && "flex-row-reverse"
       }  flex-wrap lg:flex-nowrap gap-14 p-[20px] mt-[100px]`}
     >
-      <a href="#" className="lg:min-w-[350px] w-full lg:w-auto">
+      <a href={redirectLink} className="lg:min-w-[350px] w-full lg:w-auto">
         <Image
           src={photo.src}
           alt={photo.alt || "Photo"}
@@ -47,7 +49,7 @@ export default function Interview({
         <div>
           <h3 className="text-[28px] lg:text-[40px] mt-12">{theme}</h3>
         </div>
-        <button className=" min-w-[120px] text-center mt-10 py-4 px-3.5 bg-[#096192] text-[10px] text-white hover:bg-white hover:text-[#096192] border border-[#096192] transition-colors">
+        <button href={redirectLink} className=" min-w-[120px] text-center mt-10 py-4 px-3.5 bg-[#096192] text-[10px] text-white hover:bg-white hover:text-[#096192] border border-[#096192] transition-colors">
           {buttonText}
         </button>
       </div>
