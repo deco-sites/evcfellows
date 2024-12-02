@@ -8,50 +8,52 @@ import * as $$$$$$$$$$$2 from "./apps/site.ts";
 import * as $$$$$$0 from "./sections/Banner.tsx";
 import * as $$$$$$1 from "./sections/BigNumbers.tsx";
 import * as $$$$$$2 from "./sections/Blog.tsx";
-import * as $$$$$$3 from "./sections/ColumnSection.tsx";
-import * as $$$$$$4 from "./sections/Contact.tsx";
-import * as $$$$$$5 from "./sections/Footer.tsx";
-import * as $$$$$$6 from "./sections/FundraisingToolkitSection.tsx";
-import * as $$$$$$7 from "./sections/Gallery.tsx";
-import * as $$$$$$8 from "./sections/Head.tsx";
-import * as $$$$$$9 from "./sections/Header.tsx";
-import * as $$$$$$10 from "./sections/HeroCompany.tsx";
-import * as $$$$$$11 from "./sections/IframeSection.tsx";
-import * as $$$$$$12 from "./sections/Image.tsx";
-import * as $$$$$$13 from "./sections/Manifest.tsx";
-import * as $$$$$$14 from "./sections/OpinionSection.tsx";
-import * as $$$$$$15 from "./sections/OrangeColumnSection.tsx";
-import * as $$$$$$16 from "./sections/PartnersFooter.tsx";
-import * as $$$$$$17 from "./sections/ReportSection.tsx";
-import * as $$$$$$18 from "./sections/Testimony.tsx";
-import * as $$$$$$19 from "./sections/Theme/Theme.tsx";
-import * as $$$$$$20 from "./sections/TitleSection.tsx";
-import * as $$$$$$21 from "./sections/ToolkitSection.tsx";
+import * as $$$$$$3 from "./sections/BlogPost.tsx";
+import * as $$$$$$4 from "./sections/ColumnSection.tsx";
+import * as $$$$$$5 from "./sections/Contact.tsx";
+import * as $$$$$$6 from "./sections/Footer.tsx";
+import * as $$$$$$7 from "./sections/FundraisingToolkitSection.tsx";
+import * as $$$$$$8 from "./sections/Gallery.tsx";
+import * as $$$$$$9 from "./sections/Head.tsx";
+import * as $$$$$$10 from "./sections/Header.tsx";
+import * as $$$$$$11 from "./sections/HeroCompany.tsx";
+import * as $$$$$$12 from "./sections/IframeSection.tsx";
+import * as $$$$$$13 from "./sections/Image.tsx";
+import * as $$$$$$14 from "./sections/Manifest.tsx";
+import * as $$$$$$15 from "./sections/OpinionSection.tsx";
+import * as $$$$$$16 from "./sections/OrangeColumnSection.tsx";
+import * as $$$$$$17 from "./sections/PartnersFooter.tsx";
+import * as $$$$$$18 from "./sections/ReportSection.tsx";
+import * as $$$$$$19 from "./sections/Testimony.tsx";
+import * as $$$$$$20 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$21 from "./sections/TitleSection.tsx";
+import * as $$$$$$22 from "./sections/ToolkitSection.tsx";
 
 const manifest = {
   "sections": {
     "site/sections/Banner.tsx": $$$$$$0,
     "site/sections/BigNumbers.tsx": $$$$$$1,
     "site/sections/Blog.tsx": $$$$$$2,
-    "site/sections/ColumnSection.tsx": $$$$$$3,
-    "site/sections/Contact.tsx": $$$$$$4,
-    "site/sections/Footer.tsx": $$$$$$5,
-    "site/sections/FundraisingToolkitSection.tsx": $$$$$$6,
-    "site/sections/Gallery.tsx": $$$$$$7,
-    "site/sections/Head.tsx": $$$$$$8,
-    "site/sections/Header.tsx": $$$$$$9,
-    "site/sections/HeroCompany.tsx": $$$$$$10,
-    "site/sections/IframeSection.tsx": $$$$$$11,
-    "site/sections/Image.tsx": $$$$$$12,
-    "site/sections/Manifest.tsx": $$$$$$13,
-    "site/sections/OpinionSection.tsx": $$$$$$14,
-    "site/sections/OrangeColumnSection.tsx": $$$$$$15,
-    "site/sections/PartnersFooter.tsx": $$$$$$16,
-    "site/sections/ReportSection.tsx": $$$$$$17,
-    "site/sections/Testimony.tsx": $$$$$$18,
-    "site/sections/Theme/Theme.tsx": $$$$$$19,
-    "site/sections/TitleSection.tsx": $$$$$$20,
-    "site/sections/ToolkitSection.tsx": $$$$$$21,
+    "site/sections/BlogPost.tsx": $$$$$$3,
+    "site/sections/ColumnSection.tsx": $$$$$$4,
+    "site/sections/Contact.tsx": $$$$$$5,
+    "site/sections/Footer.tsx": $$$$$$6,
+    "site/sections/FundraisingToolkitSection.tsx": $$$$$$7,
+    "site/sections/Gallery.tsx": $$$$$$8,
+    "site/sections/Head.tsx": $$$$$$9,
+    "site/sections/Header.tsx": $$$$$$10,
+    "site/sections/HeroCompany.tsx": $$$$$$11,
+    "site/sections/IframeSection.tsx": $$$$$$12,
+    "site/sections/Image.tsx": $$$$$$13,
+    "site/sections/Manifest.tsx": $$$$$$14,
+    "site/sections/OpinionSection.tsx": $$$$$$15,
+    "site/sections/OrangeColumnSection.tsx": $$$$$$16,
+    "site/sections/PartnersFooter.tsx": $$$$$$17,
+    "site/sections/ReportSection.tsx": $$$$$$18,
+    "site/sections/Testimony.tsx": $$$$$$19,
+    "site/sections/Theme/Theme.tsx": $$$$$$20,
+    "site/sections/TitleSection.tsx": $$$$$$21,
+    "site/sections/ToolkitSection.tsx": $$$$$$22,
   },
   "apps": {
     "site/apps/deco/blog.ts": $$$$$$$$$$$0,

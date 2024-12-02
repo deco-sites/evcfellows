@@ -1,0 +1,15 @@
+{
+  "name": "collections/blog/posts/f5aa7e808608",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "__resolveType": "blog/loaders/Blogpost.ts",
+    "post": {
+      "__resolveType": "blog/loaders/Blogpost.ts",
+      "post": {
+        "authors": [],
+        "categories": [],
+        "extraProps": []
+      }
+    }
+  }
+}

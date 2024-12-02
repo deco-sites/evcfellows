@@ -1,0 +1,37 @@
+{
+  "path": "/blog/leadershipspotlight",
+  "sections": [
+    {
+      "__resolveType": "site/sections/BlogPostTopImage.tsx",
+      "image": {
+        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/333b4450-15ec-4e22-93c7-4aa19b16018d/60bcc69fd85a366c150c687d_blue-arrow.svg",
+        "alt": "arrow image",
+        "width": 692,
+        "height": 104
+      }
+    },
+    {
+      "__resolveType": "site/sections/BlogPostInfo.tsx",
+      "photo": {
+        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/3d0df534-2126-42aa-a30a-0d67345d619a/672b8f7c9f1466d016ae7063_Keshav-blue-option-2-(1)-p-800.png",
+        "alt": "random indian guy",
+        "width": 692,
+        "height": 575
+      },
+      "roleDate": "EVCA Leadership | November 5, 2024",
+      "iconInterview": {
+        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/31bd2e5f-cd80-4171-8d0b-7afe0e52664b/60b944a3a3878c7862fc9880_Ellipse-33.svg",
+        "alt": "random blue dot",
+        "width": 12,
+        "height": 12
+      },
+      "theme": "Leadership Spotlight: New York Chapter Co-lead, Keshav Reddy of Horizon Blue Cross Blue Shield",
+      "author": "By Isaac Snitkoff , EVCA Fellow"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx",
+  "name": "Leadership Spotlight"
+}

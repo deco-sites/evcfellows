@@ -21,5 +21,6 @@
   "title": "the evca BLOG",
   "description": "what is happening at the evca",
   "photo": {},
-  "iconInterview": {}
+  "iconInterview": {},
+  "interviews": []
 }

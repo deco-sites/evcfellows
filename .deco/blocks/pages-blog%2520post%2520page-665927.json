@@ -1,0 +1,40 @@
+{
+  "name": "blog post page",
+  "path": "/blog/:slug",
+  "sections": [
+    {
+      "__resolveType": "site/sections/BlogPost.tsx",
+      "page": {
+        "__resolveType": "blog/loaders/BlogPostPage.ts",
+        "slug": {
+          "__resolveType": "website/functions/requestToParam.ts",
+          "param": "slug"
+        }
+      },
+      "topImage": {
+        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/333b4450-15ec-4e22-93c7-4aa19b16018d/60bcc69fd85a366c150c687d_blue-arrow.svg",
+        "alt": "arrow image",
+        "height": 143,
+        "width": 1036
+      },
+      "twitterIcon": {
+        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/941f3fd6-94c3-4b07-ac07-dce53ea3e3b0/3670211.png",
+        "alt": "twitter icon",
+        "width": 47,
+        "height": 47
+      },
+      "linkedinIcon": {
+        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/f3f7eb03-b3bb-4bb1-895e-8ce43276e207/circle-linkedin-512.webp",
+        "alt": "linkedin",
+        "width": 47,
+        "height": 47
+      },
+      "link": "/blog",
+      "linkText": "OLDER POSTS  >"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

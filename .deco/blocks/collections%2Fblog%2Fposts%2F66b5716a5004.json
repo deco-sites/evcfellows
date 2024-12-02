@@ -1,0 +1,46 @@
+{
+  "name": "collections/blog/posts/66b5716a5004",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Isaac Snitkoff",
+        "email": "teste@deco.br",
+        "jobTitle": "Fellow",
+        "company": "EVCA"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Leadership",
+        "slug": "leadership"
+      }
+    ],
+    "extraProps": [
+      {
+        "key": "twitter",
+        "value": "https://twitter.com/intent/tweet?text=Leadership%20Spotlight:%20New%20York%20Chapter%20Co-lead,%20Keshav%20Reddy%20of%20Horizon%20Blue%20Cross%20Blue%20Shield&url=https://blog/leadership-spotlight-new-york-chapter-co-lead-keshav-reddy-of-horizon-blue-cross-blue-shield"
+      },
+      {
+        "key": "linkedin",
+        "value": "http://linkedin.com/in/keshav-reddy-520748a8"
+      },
+      {
+        "key": "respondentsBurden",
+        "value": "EVCA Leadership"
+      }
+    ],
+    "title": "Leadership Spotlight: New York Chapter Co-lead, Keshav Reddy of Horizon Blue Cross Blue Shield",
+    "excerpt": "EVCA Leadership",
+    "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/3d0df534-2126-42aa-a30a-0d67345d619a/672b8f7c9f1466d016ae7063_Keshav-blue-option-2-(1)-p-800.png",
+    "date": "2024-11-05",
+    "content": "<p><em>The EVCA leadership is dedicated to building community across and empowering the next generation of venture capitalists through an array of activities—from hosting events, knowledge sharing, and connecting others. This EVCA Leadership Spotlight Series is intended to help the broader community get to know what's going on behind the scenes at the EVCA, as well as highlight the valuable contributions of those individuals who make the EVCA possible. Accordingly, it's a great privilege for us to announce this EVCA Leadership Spotlight on our very own EVCA New York Chapter Lead, Keshav Reddy of Horizon Blue Cross Blue Shield.</em></p><p></p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://linkedin.com/in/keshav-reddy-520748a8\"><strong><em><u>Keshav Reddy</u></em></strong></a><em> is a senior analyst at the corporate development &amp; venture investments team at </em><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://www.horizonblue.com/\"><strong><em><u>Horizon Blue Cross Blue Shield</u></em></strong></a><em>, where he focuses on Seed &amp; Series A+ Healthcare investments. His investment areas include behavioral health, healthtech, analytics, telehealth, care navigation &amp; virtual care platforms. Prior to becoming a healthcare investor, Keshav worked in management consulting &amp; portfolio valuation. In his free time Keshav enjoys traveling, boxing, attending comedy shows, and watching the Knicks win.</em><br><br><strong>EVCA: Could you share more about what you do in your role as EVCA's New York Chapter lead?</strong></p><p style=\"text-align: start\"><strong>Keshav:</strong> As a co-lead, I help bring together the venture community in New York City via networking get-togethers, dinners, and educational events. I help unify and grow the EVCA venture community by organizing and leading events that bring together investors from all backgrounds. Oftentimes, VC investors interact at standard industry happy hours but don't have a platform to foster deeper and more meaningful relationships. My goal as a NYC EVCA co-lead is to fix that.<br><br><strong>EVCA: What made you interested in taking a leadership role at EVCA?</strong></p><p style=\"text-align: start\"><strong>Keshav: </strong>Being new to the VC world, I wanted to meet and learn from like-minded investors in NYC. I was particularly drawn to the EVCA community because it allowed to me broaden my network with diverse professionals across the country. I've always had an interest in hosting events (be it social or professional), so figured I'd be the right fit for the role. Additionally, I find that the EVCA leadership has always sought to help me, share opportunity deal flow, and make warm-intro's.&nbsp;<br><br><strong>EVCA: What is your most contrarian view on an existing or emerging technology trend?</strong></p><p style=\"text-align: start\"><strong>Keshav:</strong> As AI continues to adapt itself on the go based on new information it receives, healthcare providers will be slow to rely on such technology due to the erroneous medical data and inherent biases. By evolving on such data, adaptive AI will only reinforce those harmful biases. To mitigate those risks, regulatory authorities must adopt new approaches to ensure that equitable adaptive AI algorithms are employed in healthcare facilities. Thus I believe there will be delayed adoption even past the estimated timeline we currently have in mind.<br><br><strong><em>Interested in taking on an EVCA leadership role? </em></strong><em>The EVCA leadership is dedicated to empowering the next generation of VCs through an array of activities—running 40+ channels on from hosting events, knowledge sharing, and connecting others. If interested in pursuing an EVCA leadership role, </em><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:adam@evca.org\"><em><u>click here</u></em></a><em>.</em></p>",
+    "seo": {
+      "title": "Leadership Interview",
+      "description": "An interview about the Co-lead at Horizon Blue Cross Blue"
+    },
+    "readTime": 5,
+    "alt": "Keshav Reddy photo",
+    "slug": "leadership-keshav-reddy-interview"
+  }
+}

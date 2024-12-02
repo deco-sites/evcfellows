@@ -50,7 +50,7 @@
           "roleDate": "EVCA Leadership | November 5, 2024",
           "theme": "Leadership Spotlight: New York Chapter Co-lead, Keshav Reddy of Horizon Blue Cross Blue Shield",
           "buttonText": "READ MORE",
-          "redirectLink": ""
+          "redirectLink": "/blog/leadership-keshav-reddy-interview"
         },
         {
           "photo": {
@@ -69,7 +69,7 @@
           "buttonText": "READ MORE",
           "theme": "Featured Investor | October 2024 - Ale Vergara, Principal at Bee Partners",
           "invertPlacement": true,
-          "redirectLink": ""
+          "redirectLink": "/blog/ale-vergana"
         },
         {
           "photo": {
@@ -87,7 +87,7 @@
           "buttonText": "READ MORE >",
           "theme": "Meet Andy Triedman, Partner at Theory Ventures",
           "roleDate": "EVCA Spotlight | November 5, 2024",
-          "redirectLink": ""
+          "redirectLink": "/blog/andy-triedman"
         }
       ]
     }
