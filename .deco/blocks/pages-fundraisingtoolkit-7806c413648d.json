@@ -1,1 +1,137 @@
-{"name":"Fundraising Toolkit","path":"/fundraising-toolkit","sections":{"variants":[{"rule":{"name":"LanguageLanguage","value":"En-US","__resolveType":"website/matchers/cookie.ts"},"value":[{"title":"Emerging VC Fellows","__resolveType":"website/sections/Seo/Seo.tsx"},{"__resolveType":"Main Header - En-US"},{"banner":{"image":{"mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/64c1d239-8e09-4832-b38a-ca0d76c72627","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/610ee72c-e75f-46b6-a07f-078473906818"},"title":"Fundraising Toolkit","subtitle":"The Fundraising Toolkit is only possible with the support of our partner Zendesk. Sign up for the Zendesk for Startups program and access exclusive benefits:","centerText":true,"centerTitle":true,"backgroundImage":{"mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/14be96ad-e062-472c-816a-86fb984df756","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/5294f7c9-7cbf-4d65-b8a5-6744eaca2c06"}},"__resolveType":"site/sections/Banner.tsx"},{"text":"O Fundraising Toolkit é uma biblioteca de conteúdos e ferramentas para founders que estão passando ou se preparando para levantar capital. O objetivo desse diretório é auxiliar os empreendedores em todas as etapas de fundraising e com todo o tipo de material que eles possam precisar. Aqui você encontrará podcasts, criadores de conteúdo sobre o tema, textos, livros, templates, ferramentas, newsletters entre outros materiais, separados nas seguintes etapas de captação:","image":{"alt":"zendesk","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/a782f359-4c92-4ba0-93eb-eba478c6b4db","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/11e09a93-16f5-48f2-ac2f-21107ab29fdf","widthMobile":344,"heightMobile":368,"widthDesktop":350,"heightDesktop":368},"title":"Benefits of the Program","buttonUrl":"https://www.zendesk.com.br/campaign/vc-partner-startups/?partner_account=0016R00003NXyCDQA1","textButton":"ACTIVATE THE PROGRAM","description":"<ul class=\"list-disc\"><li>6 months of free access to Zendesk technologies, including customer support platform, engagement, and sales CRM.</li><li>After the 6 months, 30% discount on the first annual subscription.</li><li>Guidance from Zendesk experts.</li><li>Startups that have received investments from VCs associated with EVCF will receive an additional 30% discount annually after the 6 free months, totaling 18 months with the discount benefit after the free period.</li></ul><p><br data-mce-bogus=\"1\"></p>","__resolveType":"site/sections/FundraisingToolkitSection.tsx","buttonVariant":"secondary"},{"image":{"alt":"Tabela Fundraising","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/a7027f35-2622-4411-a7d5-73342be24f31","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/7996c81c-8397-47c7-8738-c589725b346f","widthDesktop":650},"title":"In the VC Fundraising Tool Kit you will find","buttonUrl":"https://airtable.com/shrWysdNj2PQG5c3s","textButton":"ACCESS NOW","description":"<ul class=\"list-disc\"><li>Preparation for fundraising</li><li>Creation of the Pitch Deck</li><li>Creation of Data Room with financials and projections</li><li>Preparation and Due Diligence process</li><li>Calculation and negotiation of valuation and stakes</li><li>Negotiation of terms</li><li>Governance and investor relations</li><li>Networking with investment funds</li></ul><p><br data-mce-bogus=\"1\"></p>","__resolveType":"site/sections/FundraisingToolkitSection.tsx"},{"__resolveType":"Partners Footer"},{"__resolveType":"Footer - En-US"}]},{"rule":{"__resolveType":"website/matchers/always.ts"},"value":[{"title":"Emerging VC Fellows","__resolveType":"website/sections/Seo/Seo.tsx"},{"__resolveType":"Main Header"},{"banner":{"image":{"mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/64c1d239-8e09-4832-b38a-ca0d76c72627","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/610ee72c-e75f-46b6-a07f-078473906818"},"title":"Fundraising Toolkit","subtitle":"O Fundraising Toolkit só é possível com apoio do nosso parceiro Zendesk. ​ Inscreva-se no programa Zendesk for Startups e acesse os benefícios exclusivos:","centerText":true,"centerTitle":true,"backgroundImage":{"mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/14be96ad-e062-472c-816a-86fb984df756","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/5294f7c9-7cbf-4d65-b8a5-6744eaca2c06"}},"__resolveType":"site/sections/Banner.tsx"},{"text":"O Fundraising Toolkit é uma biblioteca de conteúdos e ferramentas para founders que estão passando ou se preparando para levantar capital. O objetivo desse diretório é auxiliar os empreendedores em todas as etapas de fundraising e com todo o tipo de material que eles possam precisar. Aqui você encontrará podcasts, criadores de conteúdo sobre o tema, textos, livros, templates, ferramentas, newsletters entre outros materiais, separados nas seguintes etapas de captação:","image":{"alt":"zendesk","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/a782f359-4c92-4ba0-93eb-eba478c6b4db","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/11e09a93-16f5-48f2-ac2f-21107ab29fdf","widthMobile":344,"heightMobile":368,"widthDesktop":350,"heightDesktop":368},"title":"Benefícios do Programa","buttonUrl":"https://www.zendesk.com.br/campaign/vc-partner-startups/?partner_account=0016R00003NXyCDQA1","textButton":"ATIVE O PROGRAMA","description":"<ul class=\"list-disc list-inside\"><li>6 meses de acesso gratuito às tecnologias da Zendesk, incluindo a plataforma de suporte aos clientes, engajamento e CRM de vendas.</li><li>Após os 6 meses, 30% de desconto na primeira anuidade.</li><li>Acompanhamento com especialistas Zendesk.</li><li>Startups que já receberam investimentos de VCs ligadas ao EVCF terão mais 30% de&nbsp;desconto anuais após os 6 meses gratuitos, totalizando 18 meses com benefício do desconto após o período gratuito.</li></ul><p><br data-mce-bogus=\"1\"></p>","__resolveType":"site/sections/FundraisingToolkitSection.tsx","buttonVariant":"secondary"},{"image":{"alt":"Tabela Fundraising","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/a7027f35-2622-4411-a7d5-73342be24f31","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/7996c81c-8397-47c7-8738-c589725b346f","widthDesktop":650},"title":"No VC Fundraising Tool Kit você encontrará","description":"<ul class=\"list-disc list-inside\"><li>Preparação para captação.</li><li>Criação do Pitch Deck.</li><li>Criação de Data Room com financials e projeções.</li><li>Preparação e processo de Due Diligence.</li><li>Cálculo e negociação de valuation e participações.</li><li>Negociação de termos.</li><li>Governança e relacionamento com investidores.</li><li>Networking com fundos de investimento.</li></ul><p><br data-mce-bogus=\"1\"></p>","__resolveType":"site/sections/FundraisingToolkitSection.tsx"},{"title":"Fundraising Toolkit:","iframeUrl":"https://airtable.com/embed/shrWysdNj2PQG5c3s?backgroundColor=cyan&viewControls=on","__resolveType":"site/sections/IframeSection.tsx"},{"__resolveType":"Partners Footer"},{"__resolveType":"Footer"}]}],"__resolveType":"website/flags/multivariate.ts"},"__resolveType":"website/pages/Page.tsx"}
+{
+  "name": "Fundraising Toolkit",
+  "path": "/fundraising-toolkit",
+  "sections": {
+    "variants": [
+      {
+        "rule": {
+          "name": "LanguageLanguage",
+          "value": "En-US",
+          "__resolveType": "website/matchers/cookie.ts"
+        },
+        "value": [
+          {
+            "title": "Emerging VC Fellows",
+            "__resolveType": "website/sections/Seo/Seo.tsx"
+          },
+          { "__resolveType": "Main Header - En-US" },
+          {
+            "banner": {
+              "image": {
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/64c1d239-8e09-4832-b38a-ca0d76c72627",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/610ee72c-e75f-46b6-a07f-078473906818"
+              },
+              "title": "Fundraising Toolkit",
+              "subtitle": "The Fundraising Toolkit is only possible with the support of our partner Zendesk. Sign up for the Zendesk for Startups program and access exclusive benefits:",
+              "centerText": true,
+              "centerTitle": true,
+              "backgroundImage": {
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/14be96ad-e062-472c-816a-86fb984df756",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/5294f7c9-7cbf-4d65-b8a5-6744eaca2c06"
+              }
+            },
+            "__resolveType": "site/sections/Banner.tsx"
+          },
+          {
+            "text": "O Fundraising Toolkit é uma biblioteca de conteúdos e ferramentas para founders que estão passando ou se preparando para levantar capital. O objetivo desse diretório é auxiliar os empreendedores em todas as etapas de fundraising e com todo o tipo de material que eles possam precisar. Aqui você encontrará podcasts, criadores de conteúdo sobre o tema, textos, livros, templates, ferramentas, newsletters entre outros materiais, separados nas seguintes etapas de captação:",
+            "image": {
+              "alt": "zendesk",
+              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/a782f359-4c92-4ba0-93eb-eba478c6b4db",
+              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/11e09a93-16f5-48f2-ac2f-21107ab29fdf",
+              "widthMobile": 344,
+              "heightMobile": 368,
+              "widthDesktop": 350,
+              "heightDesktop": 368
+            },
+            "title": "Benefits of the Program",
+            "buttonUrl": "https://www.zendesk.com.br/campaign/vc-partner-startups/?partner_account=0016R00003NXyCDQA1",
+            "textButton": "ACTIVATE THE PROGRAM",
+            "description": "<ul class=\"list-disc\"><li>6 months of free access to Zendesk technologies, including customer support platform, engagement, and sales CRM.</li><li>After the 6 months, 30% discount on the first annual subscription.</li><li>Guidance from Zendesk experts.</li><li>Startups that have received investments from VCs associated with EVCF will receive an additional 30% discount annually after the 6 free months, totaling 18 months with the discount benefit after the free period.</li></ul><p><br data-mce-bogus=\"1\"></p>",
+            "__resolveType": "site/sections/FundraisingToolkitSection.tsx",
+            "buttonVariant": "secondary"
+          },
+          {
+            "image": {
+              "alt": "Tabela Fundraising",
+              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/a7027f35-2622-4411-a7d5-73342be24f31",
+              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/7996c81c-8397-47c7-8738-c589725b346f",
+              "widthDesktop": 650
+            },
+            "title": "In the VC Fundraising Tool Kit you will find",
+            "buttonUrl": "https://airtable.com/shrWysdNj2PQG5c3s",
+            "textButton": "ACCESS NOW",
+            "description": "<ul class=\"list-disc\"><li>Preparation for fundraising</li><li>Creation of the Pitch Deck</li><li>Creation of Data Room with financials and projections</li><li>Preparation and Due Diligence process</li><li>Calculation and negotiation of valuation and stakes</li><li>Negotiation of terms</li><li>Governance and investor relations</li><li>Networking with investment funds</li></ul><p><br data-mce-bogus=\"1\"></p>",
+            "__resolveType": "site/sections/FundraisingToolkitSection.tsx"
+          },
+          { "__resolveType": "Partners Footer" },
+          { "__resolveType": "Footer - En-US" }
+        ]
+      },
+      {
+        "rule": { "__resolveType": "website/matchers/always.ts" },
+        "value": [
+          {
+            "title": "Emerging VC Fellows",
+            "__resolveType": "website/sections/Seo/Seo.tsx"
+          },
+          { "__resolveType": "Main Header" },
+          {
+            "banner": {
+              "image": {
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/64c1d239-8e09-4832-b38a-ca0d76c72627",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/610ee72c-e75f-46b6-a07f-078473906818"
+              },
+              "title": "Fundraising Toolkit",
+              "subtitle": "O Fundraising Toolkit só é possível com apoio do nosso parceiro Zendesk. ​ Inscreva-se no programa Zendesk for Startups e acesse os benefícios exclusivos:",
+              "centerText": true,
+              "centerTitle": true,
+              "backgroundImage": {
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/14be96ad-e062-472c-816a-86fb984df756",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/5294f7c9-7cbf-4d65-b8a5-6744eaca2c06"
+              }
+            },
+            "__resolveType": "site/sections/Banner.tsx"
+          },
+          {
+            "text": "O Fundraising Toolkit é uma biblioteca de conteúdos e ferramentas para founders que estão passando ou se preparando para levantar capital. O objetivo desse diretório é auxiliar os empreendedores em todas as etapas de fundraising e com todo o tipo de material que eles possam precisar. Aqui você encontrará podcasts, criadores de conteúdo sobre o tema, textos, livros, templates, ferramentas, newsletters entre outros materiais, separados nas seguintes etapas de captação:",
+            "image": {
+              "alt": "zendesk",
+              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/a782f359-4c92-4ba0-93eb-eba478c6b4db",
+              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/11e09a93-16f5-48f2-ac2f-21107ab29fdf",
+              "widthMobile": 344,
+              "heightMobile": 368,
+              "widthDesktop": 350,
+              "heightDesktop": 368
+            },
+            "title": "Benefícios do Programa",
+            "buttonUrl": "https://www.zendesk.com.br/campaign/vc-partner-startups/?partner_account=0016R00003NXyCDQA1",
+            "textButton": "ATIVE O PROGRAMA",
+            "description": "<ul class=\"list-disc list-inside\"><li>6 meses de acesso gratuito às tecnologias da Zendesk, incluindo a plataforma de suporte aos clientes, engajamento e CRM de vendas.</li><li>Após os 6 meses, 30% de desconto na primeira anuidade.</li><li>Acompanhamento com especialistas Zendesk.</li><li>Startups que já receberam investimentos de VCs ligadas ao EVCF terão mais 30% de&nbsp;desconto anuais após os 6 meses gratuitos, totalizando 18 meses com benefício do desconto após o período gratuito.</li></ul><p><br data-mce-bogus=\"1\"></p>",
+            "__resolveType": "site/sections/FundraisingToolkitSection.tsx",
+            "buttonVariant": "secondary"
+          },
+          {
+            "image": {
+              "alt": "Tabela Fundraising",
+              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/a7027f35-2622-4411-a7d5-73342be24f31",
+              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/7996c81c-8397-47c7-8738-c589725b346f",
+              "widthDesktop": 650
+            },
+            "title": "No VC Fundraising Tool Kit você encontrará",
+            "description": "<ul class=\"list-disc list-inside\"><li>Preparação para captação.</li><li>Criação do Pitch Deck.</li><li>Criação de Data Room com financials e projeções.</li><li>Preparação e processo de Due Diligence.</li><li>Cálculo e negociação de valuation e participações.</li><li>Negociação de termos.</li><li>Governança e relacionamento com investidores.</li><li>Networking com fundos de investimento.</li></ul><p><br data-mce-bogus=\"1\"></p>",
+            "__resolveType": "site/sections/FundraisingToolkitSection.tsx"
+          },
+          {
+            "title": "Fundraising Toolkit:",
+            "iframeUrl": "https://airtable.com/embed/shrWysdNj2PQG5c3s?backgroundColor=cyan&viewControls=on",
+            "__resolveType": "site/sections/IframeSection.tsx"
+          },
+          { "__resolveType": "Partners Footer" },
+          { "__resolveType": "Footer" }
+        ]
+      }
+    ],
+    "__resolveType": "website/flags/multivariate.ts"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

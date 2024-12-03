@@ -1,0 +1,10 @@
+{
+  "name": "collections/blog/authors/dbe9265f4cac",
+  "__resolveType": "blog/loaders/Author.ts",
+  "author": {
+    "name": " Samantha Huang",
+    "email": "deco@teste.com",
+    "jobTitle": "Head of Content",
+    "company": "EVCA"
+  }
+}

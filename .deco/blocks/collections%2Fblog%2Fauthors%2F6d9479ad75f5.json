@@ -1,0 +1,10 @@
+{
+  "name": "collections/blog/authors/6d9479ad75f5",
+  "__resolveType": "blog/loaders/Author.ts",
+  "author": {
+    "name": "Isaac Snitkoff",
+    "email": "teste@deco.br",
+    "company": "EVCA",
+    "jobTitle": "Fellow"
+  }
+}

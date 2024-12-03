@@ -1,6 +1,4 @@
-import Banner, {
-  Banner as IBanner,
-} from "site/components/ui/Banner.tsx";
+import Banner, { Banner as IBanner } from "site/components/ui/Banner.tsx";
 
 export interface Props {
   banner: IBanner;

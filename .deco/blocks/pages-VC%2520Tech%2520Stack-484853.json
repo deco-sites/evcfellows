@@ -66,13 +66,20 @@
         },
         "value": [
           {
-            "title": "Emerging VC Fellows",
-            "__resolveType": "website/sections/Seo/Seo.tsx"
+            "__resolveType": "website/sections/Seo/Seo.tsx",
+            "title": "Emerging VC Fellows"
           },
           {
             "__resolveType": "Main Header"
           },
           {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Blog.tsx"
+            }
+          },
+          {
+            "__resolveType": "site/sections/Banner.tsx",
             "banner": {
               "image": {
                 "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/64c1d239-8e09-4832-b38a-ca0d76c72627",
@@ -89,15 +96,14 @@
                 "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/83746b96-ae75-4024-a5ef-ac3f8453ace4/logo-tech-stack.png",
                 "alt": "Tech Stack"
               }
-            },
-            "__resolveType": "site/sections/Banner.tsx"
+            }
           },
           {
+            "__resolveType": "site/sections/ReportSection.tsx",
             "title": "O VC Tech Stack Report 2023 já está disponível para download",
             "buttonUrl": "https://drive.google.com/file/d/1tpmUSldOstyAXHSRFlrlP2sDHou25mdx/view?usp=drivesdk ",
             "textButton": "BAIXE AGORA O REPORT",
             "description": "<p style=\"text-align: center;\">O VC Tech Stack report tem como objetivo identificar as principais ferramentas que compõem o tech stack de gestoras do Brasil e avaliar suas aderências aos processos executados pelas gestoras.</p><br/><p style=\"text-align: center;\">Agradecemos o apoio de nossos parceiros Zendesk, AWS e FM Derraik na construção desse material direcionado ao ecossistema de Venture Capital.</p>",
-            "__resolveType": "site/sections/ReportSection.tsx",
             "image": {
               "alt": "report esg",
               "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/137313a3-0884-495f-bc2e-80b9a699a285/capa_mockup.png",

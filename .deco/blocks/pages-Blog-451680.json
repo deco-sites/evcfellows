@@ -1,0 +1,99 @@
+{
+  "name": "Blog",
+  "path": "/blog",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Blog.tsx",
+      "title": "THE EVCA BLOG",
+      "description": "What's Happening at EVCA",
+      "bgImg": {
+        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/333b4450-15ec-4e22-93c7-4aa19b16018d/60bcc69fd85a366c150c687d_blue-arrow.svg",
+        "alt": "arrow",
+        "width": 1136,
+        "height": 100
+      },
+      "icon": {
+        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/31bd2e5f-cd80-4171-8d0b-7afe0e52664b/60b944a3a3878c7862fc9880_Ellipse-33.svg",
+        "alt": "blue ball icon",
+        "width": 12,
+        "height": 12
+      },
+      "photo": {
+        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/3d0df534-2126-42aa-a30a-0d67345d619a/672b8f7c9f1466d016ae7063_Keshav-blue-option-2-(1)-p-800.png",
+        "alt": "a nice guy's picture",
+        "width": 100,
+        "height": 100
+      },
+      "iconInterview": {
+        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/31bd2e5f-cd80-4171-8d0b-7afe0e52664b/60b944a3a3878c7862fc9880_Ellipse-33.svg",
+        "alt": "blue icon image",
+        "width": 12,
+        "height": 12
+      },
+      "roleDate": "EVCA leadership | november 5, 2024",
+      "theme": "Leadership Spotlight: New York Chapter Co-lead, Keshav Reddy of Horizon Blue Cross Blue Shield",
+      "buttonText": "READ MORE",
+      "interviews": [
+        {
+          "photo": {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/3d0df534-2126-42aa-a30a-0d67345d619a/672b8f7c9f1466d016ae7063_Keshav-blue-option-2-(1)-p-800.png",
+            "alt": "random indian guy",
+            "width": 350,
+            "height": 291
+          },
+          "iconInterview": {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/31bd2e5f-cd80-4171-8d0b-7afe0e52664b/60b944a3a3878c7862fc9880_Ellipse-33.svg",
+            "alt": "blue icon",
+            "width": 12,
+            "height": 12
+          },
+          "roleDate": "EVCA Leadership | November 5, 2024",
+          "theme": "Leadership Spotlight: New York Chapter Co-lead, Keshav Reddy of Horizon Blue Cross Blue Shield",
+          "buttonText": "READ MORE",
+          "redirectLink": "/blog/leadership-keshav-reddy-interview"
+        },
+        {
+          "photo": {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/4158ea1f-ef56-4945-9b70-6cfc6633fa15/672a473f3f039c84671a7bb6_Ale-Vergara.png",
+            "alt": "Ale Vergara image",
+            "width": 351,
+            "height": 291
+          },
+          "iconInterview": {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/31bd2e5f-cd80-4171-8d0b-7afe0e52664b/60b944a3a3878c7862fc9880_Ellipse-33.svg",
+            "alt": "blue icon",
+            "width": 12,
+            "height": 12
+          },
+          "roleDate": "EVCA Leadership | November 5, 2024",
+          "buttonText": "READ MORE",
+          "theme": "Featured Investor | October 2024 - Ale Vergara, Principal at Bee Partners",
+          "invertPlacement": true,
+          "redirectLink": "/blog/ale-vergana"
+        },
+        {
+          "photo": {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/37f33cdf-eb06-4e44-a754-a938f4575880/672b8f4f816ad34e8822362a_Andy-blue-option-2-(1).png",
+            "alt": "Andy Blue",
+            "width": 350,
+            "height": 291
+          },
+          "iconInterview": {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/31bd2e5f-cd80-4171-8d0b-7afe0e52664b/60b944a3a3878c7862fc9880_Ellipse-33.svg",
+            "alt": "blue icon",
+            "width": 12,
+            "height": 12
+          },
+          "buttonText": "READ MORE >",
+          "theme": "Meet Andy Triedman, Partner at Theory Ventures",
+          "roleDate": "EVCA Spotlight | November 5, 2024",
+          "redirectLink": "/blog/andy-triedman"
+        }
+      ]
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

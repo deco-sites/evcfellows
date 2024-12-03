@@ -1,0 +1,26 @@
+{
+  "__resolveType": "site/sections/Blog.tsx",
+  "bgImg": {
+    "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/333b4450-15ec-4e22-93c7-4aa19b16018d/60bcc69fd85a366c150c687d_blue-arrow.svg",
+    "alt": "just a random arrow",
+    "width": 622,
+    "height": 93
+  },
+  "arrowImg": {
+    "src": "https://cdn.prod.website-files.com/60b91ea3ac487ed6a5eeb77e/60b944a3a3878c7862fc9880_Ellipse%2033.svg",
+    "alt": "blue icon",
+    "width": 12,
+    "height": 12
+  },
+  "icon": {
+    "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/31bd2e5f-cd80-4171-8d0b-7afe0e52664b/60b944a3a3878c7862fc9880_Ellipse-33.svg",
+    "alt": "blue dot",
+    "width": 12,
+    "height": 12
+  },
+  "title": "the evca BLOG",
+  "description": "what is happening at the evca",
+  "photo": {},
+  "iconInterview": {},
+  "interviews": []
+}

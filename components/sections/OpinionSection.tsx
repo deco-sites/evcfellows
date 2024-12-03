@@ -1,6 +1,4 @@
-import Image, {
-  PartnersImage,
-} from "site/components/ui/Image.tsx";
+import Image, { PartnersImage } from "site/components/ui/Image.tsx";
 
 export interface Props {
   image: PartnersImage;

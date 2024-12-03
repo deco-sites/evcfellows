@@ -1,1 +1,6 @@
-{"year":"2024","columns":[],"legalText":"All product and company names are trademarks™ or trademarks registered® of their respective owners. Their use does not implies any affiliation or endorsement by them. ","__resolveType":"site/sections/Footer.tsx"}
+{
+  "year": "2024",
+  "columns": [],
+  "legalText": "All product and company names are trademarks™ or trademarks registered® of their respective owners. Their use does not implies any affiliation or endorsement by them. ",
+  "__resolveType": "site/sections/Footer.tsx"
+}

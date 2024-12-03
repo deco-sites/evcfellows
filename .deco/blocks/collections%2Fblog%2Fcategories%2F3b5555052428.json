@@ -1,0 +1,8 @@
+{
+  "name": "collections/blog/categories/3b5555052428",
+  "__resolveType": "blog/loaders/Category.ts",
+  "category": {
+    "slug": "partner",
+    "name": "Fellow"
+  }
+}

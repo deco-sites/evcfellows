@@ -1,6 +1,4 @@
-import UIContact, {
-  Props,
-} from "site/components/sections/Contact.tsx";
+import UIContact, { Props } from "site/components/sections/Contact.tsx";
 
 function Contact(props: Props) {
   return <UIContact {...props} />;
