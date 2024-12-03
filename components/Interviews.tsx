@@ -51,7 +51,7 @@ export default function Interview({
         </div>
         <button className="mt-12 ">
           <a
-          className="text-center min-w-[120px]  py-4 px-3.5 bg-[#096192] text-[10px] text-white hover:bg-white hover:text-[#096192] border border-[#096192] transition-colors"
+          className="bg-gradient-to-r from-blue-600 to-blue-800 hover:bg-gradient-to-l text-white font-bold py-2 px-4 rounded"
           href={redirectLink}>{buttonText}</a>
         </button>
       </div>
