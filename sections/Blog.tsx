@@ -37,22 +37,9 @@ export default function Blog({
   return (
     <div className="max-w-[1136px] mx-auto relative">
       <div className="absolute top-[-0px] z-[-1] mt-[60px] ml-[20px]">
-        <Image
-          className="max-w-[91%]"
-          src={bgImg.src}
-          alt={bgImg.alt || "Background image"}
-          width={bgImg.width || 693}
-          height={bgImg.height || 94}
-        />
       </div>
       <div className="flex items-center gap-2 ml-[20px]">
-        <Image
-          src={icon.src}
-          alt={icon.alt || "Icon"}
-          width={icon.width || 12}
-          height={icon.height || 12}
-          className="w-3 h-3 mt-[100px] mb-[25px]"
-        />
+       
         <div className="text-sm font-medium  mt-[100px] mb-[25px]">{title}</div>
       </div>
       <h1 className="text-3xl font-normal ml-[20px]">{description}</h1>

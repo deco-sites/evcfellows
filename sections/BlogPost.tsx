@@ -26,8 +26,7 @@ const IMAGE_STYLES = "[&_img]:rounded-2xl [&_img]:w-full [&_img]:my-12";
 const BLOCKQUOTE_STYLES =
   "[&>blockquote]:my-6 [&>blockquote]:border-l-2 [&>blockquote]:border-black [&>blockquote]:text-xl [&>blockquote]:italic [&>blockquote]:pl-6";
 
-const CONTENT_STYLES =
-  `max-w-3xl max-w-[1060px] px-12 mx-auto ${PARAGRAPH_STYLES} ${HEADING_STYLES} ${CODE_BLOCK_STYLES} ${IMAGE_STYLES} ${BLOCKQUOTE_STYLES}`;
+const CONTENT_STYLES = `max-w-3xl max-w-[1060px] px-12 mx-auto ${PARAGRAPH_STYLES} ${HEADING_STYLES} ${CODE_BLOCK_STYLES} ${IMAGE_STYLES} ${BLOCKQUOTE_STYLES}`;
 
 const DEFAULT_AVATAR =
   "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/7286de42-e9c5-4fcb-ae8b-b992eea4b78e";
@@ -70,15 +69,7 @@ export default function BlogPost({
   if (page?.post == null) return <PageNotFound />;
   return (
     <div className="w-full flex flex-col gap-20 container mx-auto px-4 md:px-0 py-12 lg:py-28 max-w-[1136px]">
-      <div className="relative">
-        <Image
-          className="max-w-[91%] mb-[-100px]"
-          src={topImage.src}
-          alt={topImage.alt || "Background image"}
-          width={topImage.width || 693}
-          height={topImage.height || 94}
-        />
-      </div>
+      <div className="relative"></div>
       <div className="flex flex-wrap lg:flex-nowrap flex-row gap-12 lg:mx-auto">
         <Image
           className="lg:w-[425px] w-full"
@@ -89,14 +80,15 @@ export default function BlogPost({
         <div className="flex-col">
           <div className="flex gap-2 items-center">
             <div className="text-xs font-medium">
-              {page.post.extraProps?.find(
-                (prop) => prop.key === "respondentsBurden",
-              )?.value}
+              {
+                page.post.extraProps?.find(
+                  (prop) => prop.key === "respondentsBurden"
+                )?.value
+              }
             </div>
             <p className={`${hideDate && "hidden"} text-xs font-medium`}>
               {formattedDate}
             </p>
-            <div className="rounded-full bg-[#096192] w-1 h-1 p-1.5"></div>
           </div>
           <h1 className="text-[28px] lg:text-[40px] mt-12">{title}</h1>
           <div className="flex items-center gap-4">
@@ -121,30 +113,30 @@ export default function BlogPost({
         dangerouslySetInnerHTML={{
           __html: content,
         }}
-      >
-      </div>
+      ></div>
       <div className="flex justify-center">
         <div className="flex justify-between max-w-[964px] flex-grow">
           <div className=" flex flex-row">
             {linkedinIcon?.src && (
               <a
-                href={page.post.extraProps?.find((prop) =>
-                  prop.key === "linkedin"
-                )
-                  ?.value}
+                href={
+                  page.post.extraProps?.find((prop) => prop.key === "linkedin")
+                    ?.value
+                }
               >
                 <Image
                   src={linkedinIcon.src}
                   width={linkedinIcon.width || 100}
                   height={linkedinIcon.height}
                   alt={linkedinIcon.alt}
-                />
-                {" "}
+                />{" "}
               </a>
             )}
             <a
-              href={page.post.extraProps?.find((prop) => prop.key === "twitter")
-                ?.value}
+              href={
+                page.post.extraProps?.find((prop) => prop.key === "twitter")
+                  ?.value
+              }
             >
               {" "}
               <Image
@@ -152,8 +144,7 @@ export default function BlogPost({
                 width={twitterIcon.width || 100}
                 height={twitterIcon.height}
                 alt={twitterIcon.alt}
-              />
-              {" "}
+              />{" "}
             </a>
           </div>
           <a className="text-sm" href={link}>
