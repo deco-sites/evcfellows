@@ -4,8 +4,7 @@
   "sections": [
     {
       "__resolveType": "site/sections/Blog.tsx",
-      "title": "THE EVCA BLOG",
-      "description": "What's Happening at EVCA",
+      "description": "Entrevistas com o Ecossistema",
       "bgImg": {
         "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/333b4450-15ec-4e22-93c7-4aa19b16018d/60bcc69fd85a366c150c687d_blue-arrow.svg",
         "alt": "arrow",
@@ -36,8 +35,8 @@
       "interviews": [
         {
           "photo": {
-            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/3d0df534-2126-42aa-a30a-0d67345d619a/672b8f7c9f1466d016ae7063_Keshav-blue-option-2-(1)-p-800.png",
-            "alt": "random indian guy",
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/17c5dbe2-adb9-4ea2-ac28-d0a418ec13fc/WhatsApp-Image-2024-12-08-at-14.47.32.jpeg",
+            "alt": "lucas",
             "width": 350,
             "height": 291
           },
@@ -47,15 +46,15 @@
             "width": 12,
             "height": 12
           },
-          "roleDate": "EVCA Leadership | November 5, 2024",
-          "theme": "Leadership Spotlight: New York Chapter Co-lead, Keshav Reddy of Horizon Blue Cross Blue Shield",
-          "buttonText": "READ MORE",
-          "redirectLink": "/blog/leadership-keshav-reddy-interview"
+          "roleDate": "8 de Dezembro de 2024",
+          "theme": "EVCF Leaders - Lucas Nobesci, Principal na DOMO.VC",
+          "buttonText": "Leia a Entrevista",
+          "redirectLink": "/blog/lucas-nobesci"
         },
         {
           "photo": {
-            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/4158ea1f-ef56-4945-9b70-6cfc6633fa15/672a473f3f039c84671a7bb6_Ale-Vergara.png",
-            "alt": "Ale Vergara image",
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/ac16d014-fe1a-4007-8ee9-f506b1c12ba4/Rodrigo-Cava.jpeg",
+            "alt": "Rodrigo Cava",
             "width": 351,
             "height": 291
           },
@@ -65,16 +64,16 @@
             "width": 12,
             "height": 12
           },
-          "roleDate": "EVCA Leadership | November 5, 2024",
-          "buttonText": "READ MORE",
-          "theme": "Featured Investor | October 2024 - Ale Vergara, Principal at Bee Partners",
+          "roleDate": "8 de Dezembro de 2024",
+          "buttonText": "Leia a Entrevista",
+          "theme": "Meet the Founder - Rodrigo Cava, Founder e CPO na Estoca",
           "invertPlacement": true,
-          "redirectLink": "/blog/ale-vergana"
+          "redirectLink": "/blog/rodrigo-cava"
         },
         {
           "photo": {
-            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/37f33cdf-eb06-4e44-a754-a938f4575880/672b8f4f816ad34e8822362a_Andy-blue-option-2-(1).png",
-            "alt": "Andy Blue",
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/0617903e-e458-4d43-b7ce-acf88c4023f5/1000040347-01.jpeg",
+            "alt": "cibelle",
             "width": 350,
             "height": 291
           },
@@ -84,12 +83,33 @@
             "width": 12,
             "height": 12
           },
-          "buttonText": "READ MORE >",
-          "theme": "Meet Andy Triedman, Partner at Theory Ventures",
-          "roleDate": "EVCA Spotlight | November 5, 2024",
-          "redirectLink": "/blog/andy-triedman"
+          "buttonText": "Leia a Entrevista",
+          "theme": "EVCF Fellow - Cibelle Higino, Investment Associate na Wayra e Vivo Ventures",
+          "roleDate": "8 de Dezembro de 2024",
+          "redirectLink": "/blog/cibelle-higino",
+          "invertPlacement": false
+        },
+        {
+          "photo": {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/245a5dba-6b5a-4823-9b8f-9fec1ef0ef58/WhatsApp-Image-2024-12-08-at-14.54.45.jpeg",
+            "alt": "luiz",
+            "width": 350,
+            "height": 291
+          },
+          "iconInterview": {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/31bd2e5f-cd80-4171-8d0b-7afe0e52664b/60b944a3a3878c7862fc9880_Ellipse-33.svg",
+            "alt": "blue icon",
+            "width": 12,
+            "height": 12
+          },
+          "buttonText": "Leia a Entrevista",
+          "theme": "VC Tech Stack Report - Luiz Amboni, Fellow e Analista de Aceleração na ACE Ventures",
+          "roleDate": "8 de Dezembro de 2024",
+          "redirectLink": "/blog/luiz-amboni",
+          "invertPlacement": true
         }
-      ]
+      ],
+      "title": " "
     }
   ],
   "seo": {

@@ -1,0 +1,10 @@
+{
+  "name": "collections/blog/authors/d57a70c62554",
+  "__resolveType": "blog/loaders/Author.ts",
+  "author": {
+    "name": "Rafael Arakaki",
+    "email": "rafael@staminavc.com",
+    "company": "EVCA",
+    "jobTitle": "Fellow"
+  }
+}

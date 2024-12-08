@@ -1,0 +1,10 @@
+{
+  "name": "collections/blog/authors/d8ec7ef2d2f2",
+  "__resolveType": "blog/loaders/Author.ts",
+  "author": {
+    "name": "Thiago Favero",
+    "jobTitle": "Fellow",
+    "company": "EVCF",
+    "email": "thiago.favero@kptl.com.br"
+  }
+}
