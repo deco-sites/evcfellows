@@ -3,6 +3,12 @@
   "path": "/blog/:slug",
   "sections": [
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Main Header"
+      }
+    },
+    {
       "__resolveType": "site/sections/BlogPost.tsx",
       "page": {
         "__resolveType": "blog/loaders/BlogPostPage.ts",
@@ -31,6 +37,12 @@
       },
       "link": "/blog",
       "linkText": "OLDER POSTS  >"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
+      }
     }
   ],
   "seo": {
