@@ -18,10 +18,6 @@
     ],
     "extraProps": [
       {
-        "key": "respondentsBurden",
-        "value": "EVCA Spotlight"
-      },
-      {
         "key": "linkedin",
         "value": "https://www.linkedin.com/in/lucasnobeschi/"
       }

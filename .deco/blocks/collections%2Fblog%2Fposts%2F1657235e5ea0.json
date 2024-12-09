@@ -6,7 +6,7 @@
       {
         "name": "Rafael Arakaki",
         "email": "rafael@staminavc.com",
-        "company": "EVCA",
+        "company": "EVCF",
         "jobTitle": "Fellow"
       }
     ],
@@ -18,12 +18,8 @@
     ],
     "extraProps": [
       {
-        "value": "Meet the Founder",
-        "key": "respondentsBurden"
-      },
-      {
-        "key": "linkedin",
-        "value": "https://www.linkedin.com/in/rodrigocava/"
+        "value": "https://www.linkedin.com/in/rodrigocava/",
+        "key": "linkedin"
       }
     ],
     "title": "Meet the Founder - Rodrigo Cava, Founder e CPO na Estoca",

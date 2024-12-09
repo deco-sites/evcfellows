@@ -3,6 +3,12 @@
   "path": "/blog",
   "sections": [
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Main Header"
+      }
+    },
+    {
       "__resolveType": "site/sections/Blog.tsx",
       "description": "Entrevistas com o Ecossistema",
       "bgImg": {
@@ -110,6 +116,12 @@
         }
       ],
       "title": " "
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
+      }
     }
   ],
   "seo": {
