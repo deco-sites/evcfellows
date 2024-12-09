@@ -63,6 +63,11 @@
       "href": "/#contact",
       "label": "Contato",
       "nested": []
+    },
+    {
+      "nested": [],
+      "label": "Blog",
+      "href": "/blog"
     }
   ],
   "pageInitial": "/",
