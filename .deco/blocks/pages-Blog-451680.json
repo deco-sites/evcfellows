@@ -41,8 +41,8 @@
       "interviews": [
         {
           "photo": {
-            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/17c5dbe2-adb9-4ea2-ac28-d0a418ec13fc/WhatsApp-Image-2024-12-08-at-14.47.32.jpeg",
-            "alt": "lucas",
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/0617903e-e458-4d43-b7ce-acf88c4023f5/1000040347-01.jpeg",
+            "alt": "cibelle",
             "width": 350,
             "height": 291
           },
@@ -53,9 +53,10 @@
             "height": 12
           },
           "roleDate": "8 de Dezembro de 2024",
-          "theme": "EVCF Leaders - Lucas Nobeschi, Principal na DOMO.VC",
+          "theme": "EVCF Fellow - Cibelle Higino, Investment Associate na Wayra e Vivo Ventures",
           "buttonText": "Leia a Entrevista",
-          "redirectLink": "/blog/lucas-nobeschi"
+          "redirectLink": "/blog/cibelle-higino",
+          "invertPlacement": false
         },
         {
           "photo": {
@@ -78,25 +79,6 @@
         },
         {
           "photo": {
-            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/0617903e-e458-4d43-b7ce-acf88c4023f5/1000040347-01.jpeg",
-            "alt": "cibelle",
-            "width": 350,
-            "height": 291
-          },
-          "iconInterview": {
-            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/31bd2e5f-cd80-4171-8d0b-7afe0e52664b/60b944a3a3878c7862fc9880_Ellipse-33.svg",
-            "alt": "blue icon",
-            "width": 12,
-            "height": 12
-          },
-          "buttonText": "Leia a Entrevista",
-          "theme": "EVCF Fellow - Cibelle Higino, Investment Associate na Wayra e Vivo Ventures",
-          "roleDate": "8 de Dezembro de 2024",
-          "redirectLink": "/blog/cibelle-higino",
-          "invertPlacement": false
-        },
-        {
-          "photo": {
             "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/245a5dba-6b5a-4823-9b8f-9fec1ef0ef58/WhatsApp-Image-2024-12-08-at-14.54.45.jpeg",
             "alt": "luiz",
             "width": 350,
@@ -112,7 +94,7 @@
           "theme": "VC Tech Stack Report - Luiz Amboni, Fellow e Analista de Aceleração na ACE Ventures",
           "roleDate": "8 de Dezembro de 2024",
           "redirectLink": "/blog/luiz-amboni",
-          "invertPlacement": true
+          "invertPlacement": false
         }
       ],
       "title": " "
