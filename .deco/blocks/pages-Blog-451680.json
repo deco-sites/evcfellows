@@ -41,6 +41,44 @@
       "interviews": [
         {
           "photo": {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/17c5dbe2-adb9-4ea2-ac28-d0a418ec13fc/WhatsApp-Image-2024-12-08-at-14.47.32.jpeg",
+            "alt": "lucas",
+            "width": 350,
+            "height": 291
+          },
+          "iconInterview": {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/31bd2e5f-cd80-4171-8d0b-7afe0e52664b/60b944a3a3878c7862fc9880_Ellipse-33.svg",
+            "alt": "blue icon",
+            "width": 12,
+            "height": 12
+          },
+          "roleDate": "28 de Janeiro de 2025",
+          "theme": "EVCF Fellow - Lucas Nobeschi, Principal na DOMO.VC",
+          "buttonText": "Leia a Entrevista",
+          "redirectLink": "/blog/lucas-nobeschi",
+          "invertPlacement": false
+        },
+        {
+          "photo": {
+            "src": "https://data.decoassets.com/evcfellows/bae84712-b6ad-4a68-80fa-48d265879411/fred.jpg",
+            "alt": "Fred",
+            "width": 351,
+            "height": 291
+          },
+          "iconInterview": {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/31bd2e5f-cd80-4171-8d0b-7afe0e52664b/60b944a3a3878c7862fc9880_Ellipse-33.svg",
+            "alt": "blue icon",
+            "width": 12,
+            "height": 12
+          },
+          "roleDate": "28 de Janeiro de 2025",
+          "buttonText": "Leia a Entrevista",
+          "theme": "Meet the Founder - Fred Amaral, CEO da Lerian",
+          "invertPlacement": true,
+          "redirectLink": "/blog/fred-amaral"
+        },
+        {
+          "photo": {
             "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/0617903e-e458-4d43-b7ce-acf88c4023f5/1000040347-01.jpeg",
             "alt": "cibelle",
             "width": 350,
@@ -52,9 +90,9 @@
             "width": 12,
             "height": 12
           },
-          "roleDate": "8 de Dezembro de 2024",
-          "theme": "EVCF Fellow - Cibelle Higino, Investment Associate na Wayra e Vivo Ventures",
           "buttonText": "Leia a Entrevista",
+          "theme": "EVCF Fellow - Cibelle Higino, Investment Associate na Wayra e Vivo Ventures",
+          "roleDate": "8 de Dezembro de 2024",
           "redirectLink": "/blog/cibelle-higino",
           "invertPlacement": false
         },
@@ -71,11 +109,11 @@
             "width": 12,
             "height": 12
           },
-          "roleDate": "8 de Dezembro de 2024",
           "buttonText": "Leia a Entrevista",
           "theme": "Meet the Founder - Rodrigo Cava, Founder e CPO na Estoca",
-          "invertPlacement": true,
-          "redirectLink": "/blog/rodrigo-cava"
+          "roleDate": "8 de Dezembro de 2024",
+          "redirectLink": "/blog/rodrigo-cava",
+          "invertPlacement": true
         },
         {
           "photo": {
