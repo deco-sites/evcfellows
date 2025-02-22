@@ -1,27 +1,64 @@
 {
-  "navItems": [{}],
+  "navItems": [
+    {}
+  ],
   "menuLinks": [
-    { "href": "/", "label": "Home", "nested": [] },
+    {
+      "href": "/",
+      "label": "Home",
+      "nested": []
+    },
     {
       "href": "#",
       "label": "Content",
       "nested": [
-        { "href": "/vc-radar", "label": "VC Radar", "nested": [] },
-        { "href": "/vc-tech-stack", "label": "VC Tech Stack", "nested": [] },
-        { "href": "/vc-toolkit", "label": "VC Toolkit", "nested": [] },
+        {
+          "href": "/vc-radar",
+          "label": "VC Radar",
+          "nested": []
+        },
+        {
+          "href": "/vc-tech-stack",
+          "label": "VC Tech Stack",
+          "nested": []
+        },
         {
           "href": "/fundraising-toolkit",
           "label": "Fundraising Toolkit",
           "nested": []
         },
-        { "href": "/report-esg", "label": "Report ESG", "nested": [] },
-        { "href": "/eventos-vc", "label": "Events for VC", "nested": [] },
-        { "href": "carreira-vc", "label": "VC Career", "nested": [] },
-        { "href": "/vagas-vc", "label": "Vacancies for VC", "nested": [] }
+        {
+          "href": "/report-esg",
+          "label": "Report ESG",
+          "nested": []
+        },
+        {
+          "href": "/eventos-vc",
+          "label": "Events for VC",
+          "nested": []
+        },
+        {
+          "href": "carreira-vc",
+          "label": "VC Career",
+          "nested": []
+        },
+        {
+          "href": "/vagas-vc",
+          "label": "Vacancies for VC",
+          "nested": []
+        }
       ]
     },
-    { "href": "/empreendedores", "label": "Founders", "nested": [] },
-    { "href": "/#contact", "label": "Contact", "nested": [] }
+    {
+      "href": "/empreendedores",
+      "label": "Founders",
+      "nested": []
+    },
+    {
+      "href": "/#contact",
+      "label": "Contact",
+      "nested": []
+    }
   ],
   "pageInitial": "/",
   "__resolveType": "site/sections/Header.tsx"
