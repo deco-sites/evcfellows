@@ -39,7 +39,6 @@ export default function Blog({
       <div className="absolute top-[-0px] z-[-1] mt-[60px] ml-[20px]">
       </div>
       <div className="flex items-center gap-2 ml-[20px]">
-       
         <div className="text-sm font-medium  mt-[100px] mb-[25px]">{title}</div>
       </div>
       <h1 className="text-3xl font-normal ml-[20px]">{description}</h1>

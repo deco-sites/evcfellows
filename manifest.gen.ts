@@ -24,10 +24,11 @@ import * as $$$$$$15 from "./sections/OpinionSection.tsx";
 import * as $$$$$$16 from "./sections/OrangeColumnSection.tsx";
 import * as $$$$$$17 from "./sections/PartnersFooter.tsx";
 import * as $$$$$$18 from "./sections/ReportSection.tsx";
-import * as $$$$$$19 from "./sections/Testimony.tsx";
-import * as $$$$$$20 from "./sections/Theme/Theme.tsx";
-import * as $$$$$$21 from "./sections/TitleSection.tsx";
-import * as $$$$$$22 from "./sections/ToolkitSection.tsx";
+import * as $$$$$$19 from "./sections/Showcase.tsx";
+import * as $$$$$$20 from "./sections/Testimony.tsx";
+import * as $$$$$$21 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$22 from "./sections/TitleSection.tsx";
+import * as $$$$$$23 from "./sections/ToolkitSection.tsx";
 
 const manifest = {
   "sections": {
@@ -50,10 +51,11 @@ const manifest = {
     "site/sections/OrangeColumnSection.tsx": $$$$$$16,
     "site/sections/PartnersFooter.tsx": $$$$$$17,
     "site/sections/ReportSection.tsx": $$$$$$18,
-    "site/sections/Testimony.tsx": $$$$$$19,
-    "site/sections/Theme/Theme.tsx": $$$$$$20,
-    "site/sections/TitleSection.tsx": $$$$$$21,
-    "site/sections/ToolkitSection.tsx": $$$$$$22,
+    "site/sections/Showcase.tsx": $$$$$$19,
+    "site/sections/Testimony.tsx": $$$$$$20,
+    "site/sections/Theme/Theme.tsx": $$$$$$21,
+    "site/sections/TitleSection.tsx": $$$$$$22,
+    "site/sections/ToolkitSection.tsx": $$$$$$23,
   },
   "apps": {
     "site/apps/deco/blog.ts": $$$$$$$$$$$0,
