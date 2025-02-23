@@ -5,9 +5,9 @@
     "variants": [
       {
         "rule": {
+          "__resolveType": "website/matchers/cookie.ts",
           "name": "Language",
-          "value": "En-US",
-          "__resolveType": "website/matchers/cookie.ts"
+          "value": "En-US"
         },
         "value": [
           {
@@ -43,7 +43,89 @@
             "__resolveType": "site/sections/Theme/Theme.tsx"
           },
           {
-            "__resolveType": "Main Header - En-US"
+            "__resolveType": "website/flags/multivariate/section.ts",
+            "variants": [
+              {
+                "rule": {
+                  "name": "Language",
+                  "value": "En-US",
+                  "__resolveType": "website/matchers/cookie.ts"
+                },
+                "value": {
+                  "navItems": [
+                    {}
+                  ],
+                  "menuLinks": [
+                    {
+                      "href": "/",
+                      "label": "Home",
+                      "nested": []
+                    },
+                    {
+                      "href": "#",
+                      "label": "Content",
+                      "nested": [
+                        {
+                          "href": "/vc-radar",
+                          "label": "VC Radar",
+                          "nested": []
+                        },
+                        {
+                          "href": "/vc-toolkit",
+                          "label": "VC Toolkit",
+                          "nested": []
+                        },
+                        {
+                          "href": "/fundraising-toolkit",
+                          "label": "Fundraising Toolkit",
+                          "nested": []
+                        },
+                        {
+                          "href": "/report-esg",
+                          "label": "Report ESG",
+                          "nested": []
+                        },
+                        {
+                          "href": "/eventos-vc",
+                          "label": "Events for VC",
+                          "nested": []
+                        },
+                        {
+                          "href": "carreira-vc",
+                          "label": "VC Career",
+                          "nested": []
+                        },
+                        {
+                          "href": "/vagas-vc",
+                          "label": "Vacancies for VC",
+                          "nested": []
+                        }
+                      ]
+                    },
+                    {
+                      "href": "/empreendedores",
+                      "label": "Founders",
+                      "nested": []
+                    },
+                    {
+                      "href": "/#contact",
+                      "label": "Contact",
+                      "nested": []
+                    }
+                  ],
+                  "pageInitial": "/",
+                  "__resolveType": "site/sections/Header.tsx"
+                }
+              },
+              {
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                },
+                "value": {
+                  "__resolveType": "Main Header"
+                }
+              }
+            ]
           },
           {
             "__resolveType": "site/sections/Banner.tsx",
@@ -52,12 +134,12 @@
                 "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/5d4a4d09-5f71-4682-ac8a-69e37232b7aa",
                 "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/f9838f24-6e1e-4fce-a8f8-6dbc51da530c"
               },
-              "subtitle": "The most comprehensive and detailed mapping of Venture Capital investors in Brazil",
+              "subtitle": "Mapping of all concepts related to entrepreneurial and fiduciary activities carried out by experts, with a selection of content for you!",
               "centerText": true,
               "bannerImage": {
-                "alt": "VC Radar",
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/28ec70ec-dc7c-4305-bd90-e068ca63f572/VC-Radar-2024-logo.png",
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/28ec70ec-dc7c-4305-bd90-e068ca63f572/VC-Radar-2024-logo.png",
+                "alt": "vc.clopedia",
+                "mobile": "https://data.decoassets.com/evcfellows/c0aebfc2-8e61-4996-ade6-e656eb42306d/Imagem3.png",
+                "desktop": "https://data.decoassets.com/evcfellows/c0aebfc2-8e61-4996-ade6-e656eb42306d/Imagem3.png",
                 "widthDesktop": 560,
                 "heightDesktop": 147
               },
@@ -65,48 +147,60 @@
               "backgroundImage": {
                 "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/1c2896c6-ac89-41c7-9565-cea201d3f1c4",
                 "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/dfca4988-3077-45ad-a3a5-ae5dad885ebc"
-              }
+              },
+              "badge": "PARCERIA"
             }
           },
           {
-            "__resolveType": "site/sections/Manifest.tsx",
+            "__resolveType": "site/sections/Showcase.tsx",
             "image": {
-              "alt": "Radar",
-              "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/17c88d40-1a2e-4747-984f-2fc92e2533d1/03.png",
-              "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/17c88d40-1a2e-4747-984f-2fc92e2533d1/03.png"
+              "url": "https://data.decoassets.com/evcfellows/3811c080-e603-4ee4-ad29-483910332cd1/ideal-customer-profile.png"
             },
-            "title": "The VC Radar Latam 2024 report is available for download!",
-            "content": "The goal, however, is for this to be \"living\" information that enriches as data is updated on the platform. Access the VC Radar platform below to dynamically access the investment theses of Venture Capital firms.",
-            "textButton": "DOWNLOAD THE REPORT",
-            "manifestUrl": "https://drive.google.com/file/d/1Ylp82y8FIFg5HbmUhJBhQCgog0jeo94P/view?usp=drivesdk"
+            "title": "<p><strong><span style=\"color: black; font-size: 36pt\">At </span><span style=\"color: rgb(107, 58, 235); font-size: 36pt\">vc.clopedia</span></strong></p><p><strong><span style=\"color: black; font-size: 36pt\">you will find</span></strong></p>",
+            "list": [
+              "<p><strong><span style=\"color: black; font-size: 14pt\">Holistic and intuitive mapping </span></strong><span style=\"color: black; font-size: 14pt\">of all concepts related to the universe of entrepreneurship and venture capital</span></p>",
+              "<p><strong><span style=\"color: black; font-size: 14pt\">Curated content selection </span></strong><span style=\"color: black; font-size: 14pt\">for all concepts, suitable for people of all experience levels (from beginner to advanced)</span></p>",
+              "<p><span style=\"color: black; font-size: 14pt\">Content separated by </span><strong><span style=\"color: black; font-size: 14pt\">format, level of complexity and language</span></strong></p>",
+              "<p><strong><span style=\"color: black; font-size: 14pt\">Definitions</span></strong><span style=\"color: black; font-size: 14pt\"> for all concepts</span></p>",
+              "<p><span style=\"color: black; font-size: 14pt\">Personal </span><strong><span style=\"color: black; font-size: 14pt\">library management tool</span></strong></p>"
+            ],
+            "button": {
+              "text": "ACCESS NOW",
+              "url": "https://www.vcclopedia.com"
+            }
           },
           {
-            "image": {
-              "alt": "VC Radar",
-              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/041fd462-bed8-4dbc-9375-0b7740c22368",
-              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/335a1b59-99a1-40b3-b1d2-c995d6acc96f"
-            },
-            "title": "VC Radar Platform",
-            "textButton": "ACCESS THE PLATFORM",
-            "__resolveType": "site/sections/ColumnSection.tsx",
-            "buttonUrl": "https://airtable.com/appsvDvd2CnI9LaR6/shrWF1WYuQt2uZvrW"
-          },
-          {
-            "image": {
-              "alt": "Anderson Thees",
-              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/889da61e-e53f-431a-8a66-8bf82745ab55",
-              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/f1fd460d-0d48-4a99-8230-5ee7d6b0bc3c"
-            },
-            "__resolveType": "site/sections/OpinionSection.tsx",
-            "name": "Anderson Thees",
-            "text": "<div id=\"comp-kw1hzcgo\" class=\"c9GqVL QxJLC3 comp-kw1hzcgo wixui-rich-text\" data-testid=\"richTextElement\" data-motion-enter=\"done\"><p class=\"font_8 wixui-rich-text__text\"><em><span class=\"wixui-rich-text__text\"><span class=\"color_21 wixui-rich-text__text\"><span class=\"backcolor_15 wixui-rich-text__text\">“Emerging VC Fellows comes to fill an important gap in the ecosystem: The Venture Capital analyst profile is still new in Brazil and initiatives that help connect and form this human capital are very relevant. VC Radar plays a fundamental role in building a more transparent and organized ecosystem. It will be interesting to observe the evolution of the study in the coming years and how the positioning of managers develops.”</span></span></span></em></p></div>",
-            "position": "Venture Capitalist @ Itaú"
+            "__resolveType": "site/sections/IframeSection.tsx",
+            "iframeUrl": "https://www.mindmeister.com/app/map/3129286557?fullscreen=1&live_update=0&no_logo=1&no_share=1&v=embedded&z=0.65"
           },
           {
             "__resolveType": "Partners Footer"
           },
           {
-            "__resolveType": "Footer - En-US"
+            "__resolveType": "website/flags/multivariate/section.ts",
+            "variants": [
+              {
+                "rule": {
+                  "name": "Language",
+                  "value": "En-US",
+                  "__resolveType": "website/matchers/cookie.ts"
+                },
+                "value": {
+                  "year": "2024",
+                  "columns": [],
+                  "legalText": "All product and company names are trademarks™ or trademarks registered® of their respective owners. Their use does not implies any affiliation or endorsement by them. ",
+                  "__resolveType": "site/sections/Footer.tsx"
+                }
+              },
+              {
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                },
+                "value": {
+                  "__resolveType": "Footer"
+                }
+              }
+            ]
           }
         ]
       },
@@ -238,12 +332,12 @@
                 "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/5d4a4d09-5f71-4682-ac8a-69e37232b7aa",
                 "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/f9838f24-6e1e-4fce-a8f8-6dbc51da530c"
               },
-              "subtitle": "O mais completo e detalhado mapeamento de investidores de Venture Capital do Brasil",
+              "subtitle": "Mapeamento de todos os conceitos relacionados às atividades empreendedora e fiduciária feito por especialistas, com uma seleção de conteúdos para você!",
               "centerText": true,
               "bannerImage": {
-                "alt": "VC Radar",
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/28ec70ec-dc7c-4305-bd90-e068ca63f572/VC-Radar-2024-logo.png",
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/28ec70ec-dc7c-4305-bd90-e068ca63f572/VC-Radar-2024-logo.png",
+                "alt": "vc.clopedia",
+                "mobile": "https://data.decoassets.com/evcfellows/c0aebfc2-8e61-4996-ade6-e656eb42306d/Imagem3.png",
+                "desktop": "https://data.decoassets.com/evcfellows/c0aebfc2-8e61-4996-ade6-e656eb42306d/Imagem3.png",
                 "widthDesktop": 560,
                 "heightDesktop": 147
               },
@@ -251,16 +345,32 @@
               "backgroundImage": {
                 "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/1c2896c6-ac89-41c7-9565-cea201d3f1c4",
                 "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/dfca4988-3077-45ad-a3a5-ae5dad885ebc"
-              }
+              },
+              "badge": "PARCERIA"
             },
             "__resolveType": "site/sections/Banner.tsx"
           },
           {
-            "__resolveType": "site/sections/Showcase.tsx"
+            "__resolveType": "site/sections/Showcase.tsx",
+            "title": "<p><strong><span style=\"color: black; font-size: 36pt\">Na </span><span style=\"color: rgb(107, 58, 235); font-size: 36pt\">vc.clopedia</span></strong></p><p><strong><span style=\"color: black; font-size: 36pt\">você encontrará</span></strong></p>",
+            "list": [
+              "<p><strong><span style=\"color: black; font-size: 14pt\">Mapeamento holístico </span></strong><span style=\"color: black; font-size: 14pt\">e intuitivo de todos os conceitos relacionados ao mundo de empreendedorismo e venture capital</span></p>",
+              "<p><strong><span style=\"color: black; font-size: 14pt\">Seleção de conteúdos </span></strong><span style=\"color: black; font-size: 14pt\">curados para todos os conceitos, próprio para pessoas de todos os níveis de experiência (do básico ao avançado)</span></p>",
+              "<p><span style=\"color: black; font-size: 14pt\">Conteúdos separados por </span><strong><span style=\"color: black; font-size: 14pt\">formato, nível de complexidade e língua</span></strong></p>",
+              "<p><strong><span style=\"color: black; font-size: 14pt\">Definições</span></strong><span style=\"color: black; font-size: 14pt\"> para todos os conceitos</span></p>",
+              "<p><span style=\"color: black; font-size: 14pt\">Ferramenta de </span><strong><span style=\"color: black; font-size: 14pt\">gestão de biblioteca pessoal</span></strong></p>"
+            ],
+            "button": {
+              "text": "ACESSE AGORA",
+              "url": "https://www.vcclopedia.com"
+            },
+            "image": {
+              "url": "https://data.decoassets.com/evcfellows/3811c080-e603-4ee4-ad29-483910332cd1/ideal-customer-profile.png"
+            }
           },
           {
             "__resolveType": "site/sections/IframeSection.tsx",
-            "iframeUrl": "https://www.mindmeister.com/app/map/3129286557?fullscreen=1&live_update=0&no_logo=1&no_share=1&v=embedded&z=auto"
+            "iframeUrl": "https://www.mindmeister.com/app/map/3129286557?fullscreen=1&live_update=0&no_logo=1&no_share=1&v=embedded&z=0.65"
           },
           {
             "__resolveType": "Partners Footer"

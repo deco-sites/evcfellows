@@ -1,27 +1,71 @@
 import { ImageWidget, RichText } from "apps/admin/widgets.ts";
+import Image from "apps/website/components/Image.tsx";
 
 export interface ShowcaseProps {
-  title: string;
+  /** @title Título */
+  title: RichText;
+  /** @title Lista */
   list: RichText[];
+  /** @title Botão */
   button: {
+    /** @title Texto */
     text: string;
-    href: string;
+    /** @title Url */
+    url: string;
   };
-  image: ImageWidget | string;
+  /** @title Imagem */
+  image: {
+    /** @title Url */
+    url: ImageWidget | string;
+    /** @title Texto alternativo */
+    alt?: string;
+  };
 }
 
-export default function Showcase() {
+export default function Showcase(
+  { title, list, button, image }: ShowcaseProps,
+) {
   return (
-    <section class="container w-full flex flex-col items-center justify-center gap-7 px-6 py-8 col-start-1 col-span-1 row-start-1 row-span-1">
-      <p>Na vc.clopedia você encontrará</p>
+    <section class="container mx-auto py-12 px-3 lg:px-0">
+      <div class="flex flex-col gap-12 mb-16">
+        <h1
+          class="text-center lg:text-start text-4xl md:text-5xl font-bold leading-tight flex flex-col gap-3"
+          dangerouslySetInnerHTML={{ __html: title }}
+        >
+        </h1>
 
-      <ul>
-        <li>Mapeamento holístico e intuitivo</li>
-        <li>Seleção de conteúdos curados para todos</li>
-        <li>Conteúdos separados</li>
-        <li>Definições para todos</li>
-        <li>Ferramenta de gestão</li>
-      </ul>
+        <div class="flex flex-col lg:flex-row justify-center items-center gap-4 lg:gap-16">
+          <div class="w-full h-full">
+            <ul class="space-y-4 mb-8 list-disc px-5">
+              {list.map((item, index) => (
+                <li
+                  key={index}
+                  class="text-lg"
+                  dangerouslySetInnerHTML={{ __html: item }}
+                >
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div class="w-full h-full">
+            <Image
+              src={image.url}
+              {...image.alt && { alt: image.alt }}
+              class="w-full h-full"
+              width={752}
+              height={442}
+            />
+          </div>
+        </div>
+
+        <a
+          href={button.url}
+          target="_blank"
+          class="mx-auto lg:mx-0 flex max-w-fit bg-[#5189f9] hover:bg-opacity-90 text-white font-semibold px-8 py-4 rounded-lg transition-colors duration-200 text-lg"
+        >
+          {button.text}
+        </a>
+      </div>
     </section>
   );
 }
