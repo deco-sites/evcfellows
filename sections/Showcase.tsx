@@ -1,25 +1,31 @@
 import { ImageWidget, RichText } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
+export interface ImageProps {
+  /** @title Url da Imagem */
+  url: ImageWidget | string;
+  /** @title Texto alternativo */
+  alt?: string;
+  /** @title Url ao clicar na imagem */
+  href?: string;
+}
+
+export interface ButtonProps {
+  /** @title Texto */
+  text: string;
+  /** @title Url */
+  url: string;
+}
+
 export interface ShowcaseProps {
   /** @title Título */
   title: RichText;
   /** @title Lista */
   list: RichText[];
   /** @title Botão */
-  button: {
-    /** @title Texto */
-    text: string;
-    /** @title Url */
-    url: string;
-  };
+  button: ButtonProps;
   /** @title Imagem */
-  image: {
-    /** @title Url */
-    url: ImageWidget | string;
-    /** @title Texto alternativo */
-    alt?: string;
-  };
+  image: ImageProps;
 }
 
 export default function Showcase(
@@ -48,13 +54,27 @@ export default function Showcase(
             </ul>
           </div>
           <div class="w-full h-full">
-            <Image
-              src={image.url}
-              {...image.alt && { alt: image.alt }}
-              class="w-full h-full shadow-[0_8px_24px_rgba(0,0,0,0.3)]"
-              width={752}
-              height={442}
-            />
+            {image.href
+              ? (
+                <a href={image.href}>
+                  <Image
+                    src={image.url}
+                    {...image.alt && { alt: image.alt }}
+                    class="w-full h-full shadow-[0_8px_24px_rgba(0,0,0,0.3)]"
+                    width={752}
+                    height={442}
+                  />
+                </a>
+              )
+              : (
+                <Image
+                  src={image.url}
+                  {...image.alt && { alt: image.alt }}
+                  class="w-full h-full shadow-[0_8px_24px_rgba(0,0,0,0.3)]"
+                  width={752}
+                  height={442}
+                />
+              )}
           </div>
         </div>
 

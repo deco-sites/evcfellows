@@ -6,5 +6,5 @@ export const loader = async (props: Props, _req: Request, ctx: AppContext) => {
   return {
     ...props,
     device: ctx.device,
-  }
-}
+  };
+};
