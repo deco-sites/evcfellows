@@ -191,6 +191,10 @@
       "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/6e1b68cf-9fb7-4c7f-8217-6dbb49660542",
       "widthDesktop": 114,
       "heightDesktop": 21
+    },
+    {
+      "desktop": "https://data.decoassets.com/evcfellows/34bf557d-fa6b-4783-8ea0-494327fb7104/Ativo-1210x.png",
+      "mobile": "https://data.decoassets.com/evcfellows/34bf557d-fa6b-4783-8ea0-494327fb7104/Ativo-1210x.png"
     }
   ]
 }

@@ -51,7 +51,7 @@ export default function Showcase(
             <Image
               src={image.url}
               {...image.alt && { alt: image.alt }}
-              class="w-full h-full"
+              class="w-full h-full shadow-[0_8px_24px_rgba(0,0,0,0.3)]"
               width={752}
               height={442}
             />
