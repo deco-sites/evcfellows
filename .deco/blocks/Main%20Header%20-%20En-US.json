@@ -46,6 +46,11 @@
           "href": "/vagas-vc",
           "label": "Vacancies for VC",
           "nested": []
+        },
+        {
+          "nested": [],
+          "label": "vc.clopedia",
+          "href": "/vcclopedia"
         }
       ]
     },
