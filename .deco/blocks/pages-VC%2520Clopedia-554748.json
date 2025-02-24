@@ -370,7 +370,8 @@
           },
           {
             "__resolveType": "site/sections/IframeSection.tsx",
-            "iframeUrl": "https://www.mindmeister.com/app/map/3129286557?fullscreen=1&live_update=0&no_logo=1&no_share=1&v=embedded&z=0.65"
+            "iframeUrl": "https://www.mindmeister.com/app/map/3129286557?fullscreen=1&live_update=0&no_logo=1&no_share=1&v=embedded&z=0.65",
+            "display": "desktop"
           },
           {
             "__resolveType": "Partners Footer"
