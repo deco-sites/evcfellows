@@ -154,7 +154,8 @@
           {
             "__resolveType": "site/sections/Showcase.tsx",
             "image": {
-              "url": "https://data.decoassets.com/evcfellows/c601f90a-fe20-4b99-a5e4-7cb0937ae101/icp.jpeg"
+              "url": "https://data.decoassets.com/evcfellows/c601f90a-fe20-4b99-a5e4-7cb0937ae101/icp.jpeg",
+              "href": "https://www.vcclopedia.com/"
             },
             "title": "<p><strong><span style=\"color: black; font-size: 36pt\">At </span><span style=\"color: rgb(107, 58, 235); font-size: 36pt\">vc.clopedia</span></strong></p><p><strong><span style=\"color: black; font-size: 36pt\">you will find</span></strong></p>",
             "list": [
@@ -171,7 +172,8 @@
           },
           {
             "__resolveType": "site/sections/IframeSection.tsx",
-            "iframeUrl": "https://www.mindmeister.com/app/map/3129286557?fullscreen=1&live_update=0&no_logo=1&no_share=1&v=embedded&z=0.65"
+            "iframeUrl": "https://www.mindmeister.com/app/map/3129286557?fullscreen=1&live_update=0&no_logo=1&no_share=1&v=embedded&z=0.65",
+            "display": "desktop"
           },
           {
             "__resolveType": "Partners Footer"
