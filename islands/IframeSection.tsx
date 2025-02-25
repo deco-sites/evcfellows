@@ -1,4 +1,5 @@
 import { useSignal } from "@preact/signals";
+import { Device } from "apps/website/matchers/device.ts";
 
 export interface Props {
   title?: string;
@@ -6,6 +7,9 @@ export interface Props {
   description?: string;
   iframeUrl: string;
   height?: number;
+  display?: "desktop" | "mobile" | "both";
+  /** @hide true */
+  device?: Device;
 }
 
 export default function IframeSection(
@@ -14,12 +18,21 @@ export default function IframeSection(
     description,
     iframeUrl,
     height,
+    display = "both",
+    device,
   }: Props,
 ) {
   const loading = useSignal(true);
 
   function handleLoad() {
     loading.value = false;
+  }
+
+  if (
+    (device === "desktop" && display === "mobile") ||
+    (device === "mobile" && display === "desktop")
+  ) {
+    return null;
   }
 
   return (

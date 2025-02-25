@@ -23,11 +23,6 @@
           "nested": []
         },
         {
-          "href": "/vc-toolkit",
-          "label": "VC Toolkit",
-          "nested": []
-        },
-        {
           "href": "/fundraising-toolkit",
           "label": "Fundraising Toolkit",
           "nested": []
@@ -48,9 +43,14 @@
           "nested": []
         },
         {
-          "nested": [],
+          "href": "/vagas-vc",
           "label": "Vagas para VC",
-          "href": "/vagas-vc"
+          "nested": []
+        },
+        {
+          "nested": [],
+          "label": "vc.clopedia",
+          "href": "/vcclopedia"
         }
       ]
     },

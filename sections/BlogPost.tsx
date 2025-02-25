@@ -26,7 +26,8 @@ const IMAGE_STYLES = "[&_img]:rounded-2xl [&_img]:w-full [&_img]:my-12";
 const BLOCKQUOTE_STYLES =
   "[&>blockquote]:my-6 [&>blockquote]:border-l-2 [&>blockquote]:border-black [&>blockquote]:text-xl [&>blockquote]:italic [&>blockquote]:pl-6";
 
-const CONTENT_STYLES = `max-w-3xl max-w-[1060px] px-12 mx-auto ${PARAGRAPH_STYLES} ${HEADING_STYLES} ${CODE_BLOCK_STYLES} ${IMAGE_STYLES} ${BLOCKQUOTE_STYLES}`;
+const CONTENT_STYLES =
+  `max-w-3xl max-w-[1060px] px-12 mx-auto ${PARAGRAPH_STYLES} ${HEADING_STYLES} ${CODE_BLOCK_STYLES} ${IMAGE_STYLES} ${BLOCKQUOTE_STYLES}`;
 
 const DEFAULT_AVATAR =
   "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/7286de42-e9c5-4fcb-ae8b-b992eea4b78e";
@@ -80,11 +81,9 @@ export default function BlogPost({
         <div className="flex-col">
           <div className="flex gap-2 items-center">
             <div className="text-xs font-medium">
-              {
-                page.post.extraProps?.find(
-                  (prop) => prop.key === "respondentsBurden"
-                )?.value
-              }
+              {page.post.extraProps?.find(
+                (prop) => prop.key === "respondentsBurden",
+              )?.value}
             </div>
             <p className={`${hideDate && "hidden"} text-xs font-medium`}>
               {formattedDate}
@@ -113,30 +112,30 @@ export default function BlogPost({
         dangerouslySetInnerHTML={{
           __html: content,
         }}
-      ></div>
+      >
+      </div>
       <div className="flex justify-center">
         <div className="flex justify-between max-w-[964px] flex-grow">
           <div className=" flex flex-row">
             {linkedinIcon?.src && (
               <a
-                href={
-                  page.post.extraProps?.find((prop) => prop.key === "linkedin")
-                    ?.value
-                }
+                href={page.post.extraProps?.find((prop) =>
+                  prop.key === "linkedin"
+                )
+                  ?.value}
               >
                 <Image
                   src={linkedinIcon.src}
                   width={linkedinIcon.width || 100}
                   height={linkedinIcon.height}
                   alt={linkedinIcon.alt}
-                />{" "}
+                />
+                {" "}
               </a>
             )}
             <a
-              href={
-                page.post.extraProps?.find((prop) => prop.key === "twitter")
-                  ?.value
-              }
+              href={page.post.extraProps?.find((prop) => prop.key === "twitter")
+                ?.value}
             >
               {" "}
               <Image
@@ -144,7 +143,8 @@ export default function BlogPost({
                 width={twitterIcon.width || 100}
                 height={twitterIcon.height}
                 alt={twitterIcon.alt}
-              />{" "}
+              />
+              {" "}
             </a>
           </div>
           <a className="text-sm" href={link}>

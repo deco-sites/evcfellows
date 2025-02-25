@@ -4145,6 +4145,9 @@ details.collapse summary::-webkit-details-marker {
 .-left-\[35px\] {
   left: -35px;
 }
+.-right-24 {
+  right: -6rem;
+}
 .-right-\[35px\] {
   right: -35px;
 }
@@ -4189,6 +4192,9 @@ details.collapse summary::-webkit-details-marker {
 }
 .top-1\/2 {
   top: 50%;
+}
+.top-7 {
+  top: 1.75rem;
 }
 .top-\[-0px\] {
   top: -0px;
@@ -4368,6 +4374,9 @@ details.collapse summary::-webkit-details-marker {
 }
 .mb-14 {
   margin-bottom: 3.5rem;
+}
+.mb-16 {
+  margin-bottom: 4rem;
 }
 .mb-2 {
   margin-bottom: 0.5rem;
@@ -4830,6 +4839,10 @@ details.collapse summary::-webkit-details-marker {
 .max-w-\[964px\] {
   max-width: 964px;
 }
+.max-w-fit {
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
 .max-w-full {
   max-width: 100%;
 }
@@ -4878,6 +4891,10 @@ details.collapse summary::-webkit-details-marker {
 }
 .rotate-180 {
   --tw-rotate: 180deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.rotate-\[35deg\] {
+  --tw-rotate: 35deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 .transform {
@@ -5109,6 +5126,11 @@ details.collapse summary::-webkit-details-marker {
 }
 .gap-\[6px\] {
   gap: 6px;
+}
+.space-y-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
 .space-y-8 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
@@ -5378,6 +5400,14 @@ details.collapse summary::-webkit-details-marker {
   --tw-bg-opacity: 1;
   background-color: rgb(69 210 104 / var(--tw-bg-opacity));
 }
+.bg-\[\#5189f9\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(81 137 249 / var(--tw-bg-opacity));
+}
+.bg-\[\#7ac2e9\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(122 194 233 / var(--tw-bg-opacity));
+}
 .bg-\[\#808080\] {
   --tw-bg-opacity: 1;
   background-color: rgb(128 128 128 / var(--tw-bg-opacity));
@@ -5605,6 +5635,10 @@ details.collapse summary::-webkit-details-marker {
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 .px-6 {
   padding-left: 1.5rem;
@@ -5900,6 +5934,9 @@ details.collapse summary::-webkit-details-marker {
 .leading-\[22px\] {
   line-height: 22px;
 }
+.leading-tight {
+  line-height: 1.25;
+}
 .text-\[\#057EB5\] {
   --tw-text-opacity: 1;
   color: rgb(5 126 181 / var(--tw-text-opacity));
@@ -6011,6 +6048,11 @@ details.collapse summary::-webkit-details-marker {
 .shadow-2xl {
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-\[0_8px_24px_rgba\(0\2c 0\2c 0\2c 0\.3\)\] {
+  --tw-shadow: 0 8px 24px rgba(0,0,0,0.3);
+  --tw-shadow-colored: 0 8px 24px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 .shadow-\[0px_4px_16px_0px_rgba\(0\2c 0\2c 0\2c 0\.10\)\] {
@@ -6133,6 +6175,9 @@ details.collapse summary::-webkit-details-marker {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
+}
+.duration-200 {
+  transition-duration: 200ms;
 }
 .duration-300 {
   transition-duration: 300ms;
@@ -6307,6 +6352,10 @@ details.collapse summary::-webkit-details-marker {
 
 .hover\:bg-black\/5:hover {
   background-color: rgb(0 0 0 / 0.05);
+}
+
+.hover\:bg-opacity-90:hover {
+  --tw-bg-opacity: 0.9;
 }
 
 .hover\:bg-gradient-to-l:hover {
@@ -6894,6 +6943,11 @@ details.collapse summary::-webkit-details-marker {
     margin: auto;
   }
 
+  .lg\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   .lg\:mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -7201,6 +7255,11 @@ details.collapse summary::-webkit-details-marker {
 
   .lg\:p-8 {
     padding: 2rem;
+  }
+
+  .lg\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .lg\:px-32 {

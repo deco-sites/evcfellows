@@ -1,0 +1,417 @@
+{
+  "name": "VC Clopedia",
+  "path": "/vcclopedia",
+  "sections": {
+    "variants": [
+      {
+        "rule": {
+          "__resolveType": "website/matchers/cookie.ts",
+          "name": "Language",
+          "value": "En-US"
+        },
+        "value": [
+          {
+            "title": "Emerging VC Fellows",
+            "__resolveType": "website/sections/Seo/Seo.tsx"
+          },
+          {
+            "font": {
+              "fonts": [
+                {
+                  "family": "Roboto",
+                  "variations": [
+                    {
+                      "weight": "300"
+                    },
+                    {
+                      "weight": "400"
+                    },
+                    {
+                      "italic": true,
+                      "weight": "100"
+                    },
+                    {
+                      "italic": true,
+                      "weight": "200"
+                    }
+                  ]
+                }
+              ],
+              "__resolveType": "website/loaders/fonts/googleFonts.ts"
+            },
+            "colorScheme": "light",
+            "__resolveType": "site/sections/Theme/Theme.tsx"
+          },
+          {
+            "__resolveType": "website/flags/multivariate/section.ts",
+            "variants": [
+              {
+                "rule": {
+                  "name": "Language",
+                  "value": "En-US",
+                  "__resolveType": "website/matchers/cookie.ts"
+                },
+                "value": {
+                  "navItems": [
+                    {}
+                  ],
+                  "menuLinks": [
+                    {
+                      "href": "/",
+                      "label": "Home",
+                      "nested": []
+                    },
+                    {
+                      "href": "#",
+                      "label": "Content",
+                      "nested": [
+                        {
+                          "href": "/vc-radar",
+                          "label": "VC Radar",
+                          "nested": []
+                        },
+                        {
+                          "href": "/vc-toolkit",
+                          "label": "VC Toolkit",
+                          "nested": []
+                        },
+                        {
+                          "href": "/fundraising-toolkit",
+                          "label": "Fundraising Toolkit",
+                          "nested": []
+                        },
+                        {
+                          "href": "/report-esg",
+                          "label": "Report ESG",
+                          "nested": []
+                        },
+                        {
+                          "href": "/eventos-vc",
+                          "label": "Events for VC",
+                          "nested": []
+                        },
+                        {
+                          "href": "carreira-vc",
+                          "label": "VC Career",
+                          "nested": []
+                        },
+                        {
+                          "href": "/vagas-vc",
+                          "label": "Vacancies for VC",
+                          "nested": []
+                        }
+                      ]
+                    },
+                    {
+                      "href": "/empreendedores",
+                      "label": "Founders",
+                      "nested": []
+                    },
+                    {
+                      "href": "/#contact",
+                      "label": "Contact",
+                      "nested": []
+                    }
+                  ],
+                  "pageInitial": "/",
+                  "__resolveType": "site/sections/Header.tsx"
+                }
+              },
+              {
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                },
+                "value": {
+                  "__resolveType": "Main Header"
+                }
+              }
+            ]
+          },
+          {
+            "__resolveType": "site/sections/Banner.tsx",
+            "banner": {
+              "image": {
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/5d4a4d09-5f71-4682-ac8a-69e37232b7aa",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/f9838f24-6e1e-4fce-a8f8-6dbc51da530c"
+              },
+              "subtitle": "Mapping of all concepts related to entrepreneurial and fiduciary activities carried out by experts, with a selection of content for you!",
+              "centerText": true,
+              "bannerImage": {
+                "alt": "vc.clopedia",
+                "mobile": "https://data.decoassets.com/evcfellows/c0aebfc2-8e61-4996-ade6-e656eb42306d/Imagem3.png",
+                "desktop": "https://data.decoassets.com/evcfellows/c0aebfc2-8e61-4996-ade6-e656eb42306d/Imagem3.png",
+                "widthDesktop": 560,
+                "heightDesktop": 147
+              },
+              "centerTitle": true,
+              "backgroundImage": {
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/1c2896c6-ac89-41c7-9565-cea201d3f1c4",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/dfca4988-3077-45ad-a3a5-ae5dad885ebc"
+              },
+              "badge": "PARCERIA"
+            }
+          },
+          {
+            "__resolveType": "site/sections/Showcase.tsx",
+            "image": {
+              "url": "https://data.decoassets.com/evcfellows/c601f90a-fe20-4b99-a5e4-7cb0937ae101/icp.jpeg",
+              "href": "https://www.vcclopedia.com/"
+            },
+            "title": "<p><strong><span style=\"color: black; font-size: 36pt\">At </span><span style=\"color: rgb(107, 58, 235); font-size: 36pt\">vc.clopedia</span></strong></p><p><strong><span style=\"color: black; font-size: 36pt\">you will find</span></strong></p>",
+            "list": [
+              "<p><strong><span style=\"color: black; font-size: 14pt\">Holistic and intuitive mapping </span></strong><span style=\"color: black; font-size: 14pt\">of all concepts related to the universe of entrepreneurship and venture capital</span></p>",
+              "<p><strong><span style=\"color: black; font-size: 14pt\">Curated content selection </span></strong><span style=\"color: black; font-size: 14pt\">for all concepts, suitable for people of all experience levels (from beginner to advanced)</span></p>",
+              "<p><span style=\"color: black; font-size: 14pt\">Content separated by </span><strong><span style=\"color: black; font-size: 14pt\">format, level of complexity and language</span></strong></p>",
+              "<p><strong><span style=\"color: black; font-size: 14pt\">Definitions</span></strong><span style=\"color: black; font-size: 14pt\"> for all concepts</span></p>",
+              "<p><span style=\"color: black; font-size: 14pt\">Personal </span><strong><span style=\"color: black; font-size: 14pt\">library management tool</span></strong></p>"
+            ],
+            "button": {
+              "text": "ACCESS NOW",
+              "url": "https://www.vcclopedia.com"
+            }
+          },
+          {
+            "__resolveType": "site/sections/IframeSection.tsx",
+            "iframeUrl": "https://www.mindmeister.com/app/map/3129286557?fullscreen=1&live_update=0&no_logo=1&no_share=1&v=embedded&z=0.65",
+            "display": "desktop"
+          },
+          {
+            "__resolveType": "Partners Footer"
+          },
+          {
+            "__resolveType": "website/flags/multivariate/section.ts",
+            "variants": [
+              {
+                "rule": {
+                  "name": "Language",
+                  "value": "En-US",
+                  "__resolveType": "website/matchers/cookie.ts"
+                },
+                "value": {
+                  "year": "2024",
+                  "columns": [],
+                  "legalText": "All product and company names are trademarks™ or trademarks registered® of their respective owners. Their use does not implies any affiliation or endorsement by them. ",
+                  "__resolveType": "site/sections/Footer.tsx"
+                }
+              },
+              {
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                },
+                "value": {
+                  "__resolveType": "Footer"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rule": {
+          "__resolveType": "website/matchers/always.ts"
+        },
+        "value": [
+          {
+            "title": "Emerging VC Fellows",
+            "__resolveType": "website/sections/Seo/Seo.tsx"
+          },
+          {
+            "font": {
+              "fonts": [
+                {
+                  "family": "Roboto",
+                  "variations": [
+                    {
+                      "weight": "300"
+                    },
+                    {
+                      "weight": "400"
+                    },
+                    {
+                      "italic": true,
+                      "weight": "100"
+                    },
+                    {
+                      "italic": true,
+                      "weight": "200"
+                    }
+                  ]
+                }
+              ],
+              "__resolveType": "website/loaders/fonts/googleFonts.ts"
+            },
+            "colorScheme": "light",
+            "__resolveType": "site/sections/Theme/Theme.tsx"
+          },
+          {
+            "variants": [
+              {
+                "rule": {
+                  "name": "Language",
+                  "value": "En-US",
+                  "__resolveType": "website/matchers/cookie.ts"
+                },
+                "value": {
+                  "navItems": [
+                    {}
+                  ],
+                  "menuLinks": [
+                    {
+                      "href": "/",
+                      "label": "Home",
+                      "nested": []
+                    },
+                    {
+                      "href": "#",
+                      "label": "Content",
+                      "nested": [
+                        {
+                          "href": "/vc-radar",
+                          "label": "VC Radar",
+                          "nested": []
+                        },
+                        {
+                          "href": "/vc-toolkit",
+                          "label": "VC Toolkit",
+                          "nested": []
+                        },
+                        {
+                          "href": "/fundraising-toolkit",
+                          "label": "Fundraising Toolkit",
+                          "nested": []
+                        },
+                        {
+                          "href": "/report-esg",
+                          "label": "Report ESG",
+                          "nested": []
+                        },
+                        {
+                          "href": "/eventos-vc",
+                          "label": "Events for VC",
+                          "nested": []
+                        },
+                        {
+                          "href": "carreira-vc",
+                          "label": "VC Career",
+                          "nested": []
+                        },
+                        {
+                          "href": "/vagas-vc",
+                          "label": "Vacancies for VC",
+                          "nested": []
+                        }
+                      ]
+                    },
+                    {
+                      "href": "/empreendedores",
+                      "label": "Founders",
+                      "nested": []
+                    },
+                    {
+                      "href": "/#contact",
+                      "label": "Contact",
+                      "nested": []
+                    }
+                  ],
+                  "pageInitial": "/",
+                  "__resolveType": "site/sections/Header.tsx"
+                }
+              },
+              {
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                },
+                "value": {
+                  "__resolveType": "Main Header"
+                }
+              }
+            ],
+            "__resolveType": "website/flags/multivariate/section.ts"
+          },
+          {
+            "banner": {
+              "image": {
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/5d4a4d09-5f71-4682-ac8a-69e37232b7aa",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/f9838f24-6e1e-4fce-a8f8-6dbc51da530c"
+              },
+              "subtitle": "Mapeamento de todos os conceitos relacionados às atividades empreendedora e fiduciária feito por especialistas, com uma seleção de conteúdos para você!",
+              "centerText": true,
+              "bannerImage": {
+                "alt": "vc.clopedia",
+                "mobile": "https://data.decoassets.com/evcfellows/c0aebfc2-8e61-4996-ade6-e656eb42306d/Imagem3.png",
+                "desktop": "https://data.decoassets.com/evcfellows/c0aebfc2-8e61-4996-ade6-e656eb42306d/Imagem3.png",
+                "widthDesktop": 560,
+                "heightDesktop": 147
+              },
+              "centerTitle": true,
+              "backgroundImage": {
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/1c2896c6-ac89-41c7-9565-cea201d3f1c4",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/dfca4988-3077-45ad-a3a5-ae5dad885ebc"
+              },
+              "badge": "PARCERIA"
+            },
+            "__resolveType": "site/sections/Banner.tsx"
+          },
+          {
+            "__resolveType": "site/sections/Showcase.tsx",
+            "title": "<p><strong><span style=\"color: black; font-size: 36pt\">Na </span><span style=\"color: rgb(107, 58, 235); font-size: 36pt\">vc.clopedia</span></strong></p><p><strong><span style=\"color: black; font-size: 36pt\">você encontrará</span></strong></p>",
+            "list": [
+              "<p><strong><span style=\"color: black; font-size: 14pt\">Mapeamento holístico </span></strong><span style=\"color: black; font-size: 14pt\">e intuitivo de todos os conceitos relacionados ao mundo de empreendedorismo e venture capital</span></p>",
+              "<p><strong><span style=\"color: black; font-size: 14pt\">Seleção de conteúdos </span></strong><span style=\"color: black; font-size: 14pt\">curados para todos os conceitos, próprio para pessoas de todos os níveis de experiência (do básico ao avançado)</span></p>",
+              "<p><span style=\"color: black; font-size: 14pt\">Conteúdos separados por </span><strong><span style=\"color: black; font-size: 14pt\">formato, nível de complexidade e língua</span></strong></p>",
+              "<p><strong><span style=\"color: black; font-size: 14pt\">Definições</span></strong><span style=\"color: black; font-size: 14pt\"> para todos os conceitos</span></p>",
+              "<p><span style=\"color: black; font-size: 14pt\">Ferramenta de </span><strong><span style=\"color: black; font-size: 14pt\">gestão de biblioteca pessoal</span></strong></p>"
+            ],
+            "button": {
+              "text": "ACESSE AGORA",
+              "url": "https://www.vcclopedia.com"
+            },
+            "image": {
+              "url": "https://data.decoassets.com/evcfellows/c601f90a-fe20-4b99-a5e4-7cb0937ae101/icp.jpeg",
+              "href": "https://www.vcclopedia.com/"
+            }
+          },
+          {
+            "__resolveType": "site/sections/IframeSection.tsx",
+            "iframeUrl": "https://www.mindmeister.com/app/map/3129286557?fullscreen=1&live_update=0&no_logo=1&no_share=1&v=embedded&z=0.65",
+            "display": "desktop"
+          },
+          {
+            "__resolveType": "Partners Footer"
+          },
+          {
+            "__resolveType": "website/flags/multivariate/section.ts",
+            "variants": [
+              {
+                "rule": {
+                  "name": "Language",
+                  "value": "En-US",
+                  "__resolveType": "website/matchers/cookie.ts"
+                },
+                "value": {
+                  "year": "2024",
+                  "columns": [],
+                  "legalText": "All product and company names are trademarks™ or trademarks registered® of their respective owners. Their use does not implies any affiliation or endorsement by them. ",
+                  "__resolveType": "site/sections/Footer.tsx"
+                }
+              },
+              {
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                },
+                "value": {
+                  "__resolveType": "Footer"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "__resolveType": "website/flags/multivariate.ts"
+  },
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

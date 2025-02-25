@@ -34,6 +34,7 @@ export interface Banner {
     /** @description height mobile */
     heightMobile?: number;
   };
+  badge?: string;
 }
 
 export interface Props {
@@ -53,6 +54,7 @@ function BannerUI(
     backgroundImage,
     bannerImage,
     centerText,
+    badge,
   } = banner;
 
   return (
@@ -81,7 +83,7 @@ function BannerUI(
       </Picture>
 
       <div
-        class={`container w-full flex flex-col ${
+        class={`container w-full flex flex-col relative ${
           centerText ? "items-center" : "items-start"
         } justify-center gap-7 px-6 py-8 col-start-1 col-span-1 row-start-1 row-span-1`}
       >
@@ -98,11 +100,19 @@ function BannerUI(
             {title}
           </h1>
           {bannerImage && (
-            <Image
-              className="mb-6"
-              image={bannerImage}
-              preload
-            />
+            <div class="relative">
+              <Image
+                className="mb-6"
+                image={bannerImage}
+                preload
+              />
+
+              {badge && (
+                <span class="hidden lg:flex absolute -right-24 top-7 bg-[#7ac2e9] text-white font-bold px-14 py-4 rounded-lg shadow-lg rotate-[35deg]">
+                  {badge}
+                </span>
+              )}
+            </div>
           )}
           <span
             class={`text-base md:text-lg font-roboto font-normal text-white ${
