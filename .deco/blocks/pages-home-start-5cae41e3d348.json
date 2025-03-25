@@ -198,6 +198,9 @@
             "contentPlaceholder": "Message..."
           },
           {
+            "__resolveType": "site/sections/Newsletter.tsx"
+          },
+          {
             "__resolveType": "Partners Footer"
           },
           {
@@ -398,6 +401,10 @@
             "contentPlaceholder": "Mensagem..."
           },
           {
+            "__resolveType": "site/sections/Newsletter.tsx"
+          },
+          {
+            "__resolveType": "website/flags/multivariate/section.ts",
             "variants": [
               {
                 "rule": {
@@ -584,8 +591,7 @@
                   "__resolveType": "Partners Footer"
                 }
               }
-            ],
-            "__resolveType": "website/flags/multivariate/section.ts"
+            ]
           },
           {
             "__resolveType": "Footer"
