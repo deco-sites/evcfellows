@@ -4269,6 +4269,9 @@ details.collapse summary::-webkit-details-marker {
 .float-right {
   float: right;
 }
+.clear-left {
+  clear: left;
+}
 .m-0 {
   margin: 0px;
 }
@@ -4615,6 +4618,9 @@ details.collapse summary::-webkit-details-marker {
 }
 .w-\[60\%\] {
   width: 60%;
+}
+.w-\[600px\] {
+  width: 600px;
 }
 .w-\[88px\] {
   width: 88px;

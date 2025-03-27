@@ -56,15 +56,7 @@ export default function Newsletter() {
                 id="mc_embed_shell"
                 class="flex items-center justify-center py-4"
               >
-                <style>
-                  {`#mc_embed_signup {
-          background: #fff;
-          clear: left;
-          font: 14px Helvetica, Arial, sans-serif;
-          width: 600px;
-        }`}
-                </style>
-                <div id="mc_embed_signup">
+                <div id="mc_embed_signup" class="bg-white clear-left text-sm w-[600px] rounded-[10px]">
                   <form
                     action="https://emergingvcfellows.us8.list-manage.com/subscribe/post?u=8c991a6b91e52ff3336aa1f8c&amp;id=9279b6471c&amp;f_id=00bac1e2f0"
                     method="post"
@@ -84,7 +76,7 @@ export default function Newsletter() {
                         <input
                           type="email"
                           name="EMAIL"
-                          class="required email"
+                          class="required email rounded-[10px]"
                           id="mce-EMAIL"
                           required
                         />
@@ -120,7 +112,7 @@ export default function Newsletter() {
                             type="submit"
                             name="subscribe"
                             id="mc-embedded-subscribe"
-                            class="button"
+                            class="button px-8 py-4 w-full h-[66px] bg-gradient-to-r from-blue-900 to-sky-400 rounded-[10px] text-lg text-white hover:opacity-90 transition cursor-pointer flex items-center justify-center font-bold"
                             value="Inscreva-se"
                           />
                           {
