@@ -4502,6 +4502,9 @@ details.collapse summary::-webkit-details-marker {
 .max-h-\[456px\] {
   max-height: 456px;
 }
+.max-h-\[500px\] {
+  max-height: 500px;
+}
 .max-h-\[55px\] {
   max-height: 55px;
 }
@@ -4534,6 +4537,9 @@ details.collapse summary::-webkit-details-marker {
 }
 .min-h-\[42px\] {
   min-height: 42px;
+}
+.min-h-\[500px\] {
+  min-height: 500px;
 }
 .min-h-\[660px\] {
   min-height: 660px;
