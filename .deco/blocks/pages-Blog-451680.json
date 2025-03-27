@@ -41,6 +41,39 @@
       "interviews": [
         {
           "photo": {
+            "src": "https://assets.decocache.com/evcfellows/3aa124ad-c418-481d-8e2c-e6ee2fd8f9bf/marilia-(black).jpg",
+            "alt": "marilia",
+            "width": 350,
+            "height": 291
+          },
+          "iconInterview": {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/31bd2e5f-cd80-4171-8d0b-7afe0e52664b/60b944a3a3878c7862fc9880_Ellipse-33.svg",
+            "alt": "blue icon",
+            "width": 12,
+            "height": 12
+          },
+          "roleDate": "17 de Março de 2025",
+          "theme": "Fellows Spotlight: Marília Veríssimo, Investment Associate na Valetec Capital",
+          "buttonText": "Leia a Entrevista",
+          "invertPlacement": false,
+          "redirectLink": "/blog/marilia-verissimo"
+        },
+        {
+          "photo": {
+            "src": "https://assets.decocache.com/evcfellows/f1a44fde-ac9d-4759-98c1-ca0c67e7505e/ingrid-(black).jpg",
+            "alt": "ingrid",
+            "width": 350,
+            "height": 291
+          },
+          "iconInterview": {},
+          "roleDate": "17 de Março de 2025",
+          "buttonText": "Leia a Entrevista",
+          "theme": "Meet the Founder - Ingrid Barth, Founder e CEO na Pilotin",
+          "invertPlacement": true,
+          "redirectLink": "/blog/ingrid-barthe"
+        },
+        {
+          "photo": {
             "src": "https://data.decoassets.com/evcfellows/448a3bc0-858b-4866-9b05-7683d74f188c/filipe.jpg",
             "alt": "filipe",
             "width": 350,
@@ -52,9 +85,9 @@
             "width": 12,
             "height": 12
           },
-          "roleDate": "18 de Fevereiro de 2025",
-          "theme": "Fellows Spotlight: Filipe Garcia, CEO na WOW Aceleradora",
           "buttonText": "Leia a Entrevista",
+          "theme": "Fellows Spotlight: Filipe Garcia, CEO na WOW Aceleradora",
+          "roleDate": "18 de Fevereiro de 2025",
           "redirectLink": "/blog/filipe-garcia",
           "invertPlacement": false
         },
@@ -71,11 +104,11 @@
             "width": 12,
             "height": 12
           },
-          "roleDate": "18 de Fevereiro de 2025",
           "buttonText": "Leia a Entrevista",
           "theme": "Meet the Founder - Antônio Gouveia, Founder e CEO na Flashed",
-          "invertPlacement": true,
-          "redirectLink": "/blog/antonio-gouveia"
+          "roleDate": "18 de Fevereiro de 2025",
+          "redirectLink": "/blog/antonio-gouveia",
+          "invertPlacement": true
         },
         {
           "photo": {
@@ -147,9 +180,9 @@
             "width": 12,
             "height": 12
           },
-          "buttonText": "Leia a Entrevista",
-          "theme": "Meet the Founder - Rodrigo Cava, Founder e CPO na Estoca",
           "roleDate": "8 de Dezembro de 2024",
+          "theme": "Meet the Founder - Rodrigo Cava, Founder e CPO na Estoca",
+          "buttonText": "Leia a Entrevista",
           "redirectLink": "/blog/rodrigo-cava",
           "invertPlacement": true
         },
