@@ -124,15 +124,15 @@
             "__resolveType": "site/sections/Banner.tsx"
           },
           {
-            "name": "Cibelle Higino",
+            "name": "Luiz Amboni",
             "text": "<p><em><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\"><span class=\"wixui-rich-text__text\"><span class=\"color_21 wixui-rich-text__text\"><span class=\"backcolor_15 wixui-rich-text__text\">\"O mercado de Venture Capital no Brasil ainda é jovem se comparado ao resto do mercado financeiro, mas vem crescendo e evoluindo muito rápido nos últimos anos. Isso cria um desafio para os analistas de VC - ao mesmo tempo que são exigidas habilidades e conhecimentos bem complexos,&nbsp;</span></span></span><span style=\"text-decoration: underline;\" data-mce-style=\"text-decoration: underline;\"><strong><span class=\"color_21 wixui-rich-text__text\"><span class=\"wixui-rich-text__text\"><span class=\"backcolor_15 wixui-rich-text__text\">não existe um playbook de como construir uma carreira em VC</span></span></span></strong></span><span class=\"wixui-rich-text__text\"><span class=\"color_21 wixui-rich-text__text\"><span class=\"backcolor_15 wixui-rich-text__text\">. Esse report nasceu para apontar os principais fatores que afetam o crescimento profissional, indo muito além da remuneração. Nos consideramos a primeira geração de analistas de VC no Brasil e entendemos o impacto da indústria no país, assim, esperamos&nbsp;</span></span></span><span style=\"text-decoration: underline;\" data-mce-style=\"text-decoration: underline;\"><strong><span class=\"color_21 wixui-rich-text__text\"><span class=\"wixui-rich-text__text\"><span class=\"backcolor_15 wixui-rich-text__text\">criar a base para esses profissionais se desenvolverem da melhor forma possível</span></span></span></strong></span><span class=\"wixui-rich-text__text\"><span class=\"color_21 wixui-rich-text__text\"><span class=\"backcolor_15 wixui-rich-text__text\">.”</span></span></span></span></em></p>",
             "image": {
               "alt": "Cibelle",
-              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/e32a6c49-a122-426f-b550-a3424952368c",
-              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/a712a512-63c1-42bf-a3bd-d27f4fa7a538",
+              "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/245a5dba-6b5a-4823-9b8f-9fec1ef0ef58/WhatsApp-Image-2024-12-08-at-14.54.45.jpeg",
+              "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/245a5dba-6b5a-4823-9b8f-9fec1ef0ef58/WhatsApp-Image-2024-12-08-at-14.54.45.jpeg",
               "widthDesktop": 88
             },
-            "position": "Líder do VC Radar 2023",
+            "position": "Líder de Research 2024",
             "__resolveType": "site/sections/OpinionSection.tsx"
           },
           {
