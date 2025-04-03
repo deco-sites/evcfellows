@@ -127,10 +127,11 @@
             "name": "Luiz Amboni",
             "text": "<p><em><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\"><span class=\"wixui-rich-text__text\"><span class=\"color_21 wixui-rich-text__text\"><span class=\"backcolor_15 wixui-rich-text__text\">“A Pesquisa de Carreira em VC foi concebida com o objetivo de <strong>apoiar a comunidade do EVCF e fortalecer aqueles que fazem parte da construção desse ecossistema</strong>. Com a versão de 2024, buscamos atualizar dados importantes sobre a realidade da indústria no Brasil, ampliando a transparência e oferecendo <strong>referências concretas para quem já está no mercado e, principalmente, para quem está começando</strong>. Nosso propósito é contribuir com mais clareza, representatividade e inspiração para o desenvolvimento de uma indústria mais sólida, diversa e sustentável.</span></span></span><span class=\"wixui-rich-text__text\"><span class=\"color_21 wixui-rich-text__text\"><span class=\"backcolor_15 wixui-rich-text__text\">”</span></span></span></span></em></p>",
             "image": {
-              "alt": "Cibelle",
+              "alt": "Luiz",
               "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/245a5dba-6b5a-4823-9b8f-9fec1ef0ef58/WhatsApp-Image-2024-12-08-at-14.54.45.jpeg",
               "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/245a5dba-6b5a-4823-9b8f-9fec1ef0ef58/WhatsApp-Image-2024-12-08-at-14.54.45.jpeg",
-              "widthDesktop": 88
+              "widthDesktop": 88,
+              "href": "https://www.linkedin.com/in/luiz-antonio-amboni-gevaerd/"
             },
             "position": "Líder de Research 2025",
             "__resolveType": "site/sections/OpinionSection.tsx"
