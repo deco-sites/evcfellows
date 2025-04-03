@@ -146,7 +146,7 @@
             "imageUrl": "https://lookerstudio.google.com/reporting/5653bed8-b9cd-47d1-bdf1-8388d8ff83c5/page/d64EF",
             "buttonUrl": "https://lookerstudio.google.com/reporting/5653bed8-b9cd-47d1-bdf1-8388d8ff83c5/page/d64EF",
             "textButton": "ACESSSE AGORA MESMO",
-            "description": "Para facilitar o acesso às principais informações que foram extraídas pela pesquisa, de uma forma simples e de fácil entendimento, foi construído um dashboard interativo que integra as 136 respostas e facilita a visualização dos dados mais pertinentes a partir da utilização de filtros. O dashboard é exclusivo para os associados do EVCF, e para acessá-lo, basta logar com o e-mail pessoal cadastrado no EVCF.",
+            "description": "<p>Para facilitar o acesso às principais informações que foram extraídas pela pesquisa, de uma forma simples e de fácil entendimento, foi construído um dashboard interativo que todas as respostas e facilita a visualização dos dados mais pertinentes a partir da utilização de filtros. O dashboard é exclusivo para os associados do EVCF, e para acessá-lo, basta logar com o e-mail pessoal cadastrado no EVCF.</p>",
             "__resolveType": "site/sections/ColumnSection.tsx"
           },
           {
