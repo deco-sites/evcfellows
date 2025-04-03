@@ -110,8 +110,8 @@
               "centerText": true,
               "bannerImage": {
                 "alt": "carreira em vc 2022",
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/926602ab-5190-42a3-b16e-a41e17b248b8",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/dc8b966a-302e-4216-87b8-5825b9e173a9",
+                "mobile": "https://assets.decocache.com/evcfellows/e6dc33c5-3b41-43b0-a1f6-24ac83c77b87/Carreiras-em-VC-2024.png",
+                "desktop": "https://assets.decocache.com/evcfellows/e6dc33c5-3b41-43b0-a1f6-24ac83c77b87/Carreiras-em-VC-2024.png",
                 "widthDesktop": 472,
                 "heightDesktop": 186
               },
@@ -141,10 +141,10 @@
               "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/3f736276-a9b9-4fbd-96ff-12ed9881cbb4",
               "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/9558b795-7af6-4f35-985c-374cf3e298cf"
             },
-            "title": "Dashboard da Carreira em VC",
+            "title": "Dashboard Carreira em VC",
             "whiteBg": true,
-            "imageUrl": "https://datastudio.google.com/reporting/0ac632ea-ae18-42c2-93bf-ef51244f0fa0/page/cepxC",
-            "buttonUrl": "https://datastudio.google.com/reporting/0ac632ea-ae18-42c2-93bf-ef51244f0fa0/page/cepxC",
+            "imageUrl": "https://lookerstudio.google.com/reporting/5653bed8-b9cd-47d1-bdf1-8388d8ff83c5/page/d64EF",
+            "buttonUrl": "https://lookerstudio.google.com/reporting/5653bed8-b9cd-47d1-bdf1-8388d8ff83c5/page/d64EF",
             "textButton": "ACESSSE AGORA MESMO",
             "description": "Para facilitar o acesso às principais informações que foram extraídas pela pesquisa, de uma forma simples e de fácil entendimento, foi construído um dashboard interativo que integra as 136 respostas e facilita a visualização dos dados mais pertinentes a partir da utilização de filtros. O dashboard é exclusivo para os associados do EVCF, e para acessá-lo, basta logar com o e-mail pessoal cadastrado no EVCF.",
             "__resolveType": "site/sections/ColumnSection.tsx"
@@ -152,8 +152,8 @@
           {
             "image": {
               "alt": "report",
-              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/6535c0ef-4a23-4cdd-a3e2-327f506cd639",
-              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/3d35ebb6-bcc4-4ba4-84dd-79bd895b2d77",
+              "mobile": "https://assets.decocache.com/evcfellows/8229b300-fd13-4287-a720-28cf9a761c5b/MOCKUP-BOOK-3.png",
+              "desktop": "https://assets.decocache.com/evcfellows/8229b300-fd13-4287-a720-28cf9a761c5b/MOCKUP-BOOK-3.png",
               "widthDesktop": 600
             },
             "title": "Baixe o Report completo",
