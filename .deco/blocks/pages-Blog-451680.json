@@ -41,6 +41,44 @@
       "interviews": [
         {
           "photo": {
+            "src": "https://assets.decocache.com/evcfellows/f6e38438-cd05-46df-88a3-ae5ee89db69d/pedro-mesquita-(2).jpg",
+            "alt": "pedro",
+            "width": 350,
+            "height": 291
+          },
+          "iconInterview": {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/31bd2e5f-cd80-4171-8d0b-7afe0e52664b/60b944a3a3878c7862fc9880_Ellipse-33.svg",
+            "alt": "blue icon",
+            "width": 12,
+            "height": 12
+          },
+          "roleDate": "14 de Abril de 2025",
+          "theme": "EVCF Fellow - Pedro Mesquita (Mindset Ventures & TechTalents)",
+          "buttonText": "Leia a Entrevista",
+          "invertPlacement": false,
+          "redirectLink": "/blog/pedro-mesquita"
+        },
+        {
+          "photo": {
+            "src": "https://assets.decocache.com/evcfellows/965f7c15-d8b0-443c-bfc5-1b18b84a6f0e/mitsuru.jpg",
+            "alt": "mitsuru",
+            "width": 350,
+            "height": 291
+          },
+          "iconInterview": {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/31bd2e5f-cd80-4171-8d0b-7afe0e52664b/60b944a3a3878c7862fc9880_Ellipse-33.svg",
+            "alt": "blue icon",
+            "width": 12,
+            "height": 12
+          },
+          "roleDate": "14 de Abril de 2025",
+          "buttonText": "Leia a Entrevista",
+          "theme": "Meet the Investor - Mitsuru Nakayama (B Venture Capital)",
+          "invertPlacement": true,
+          "redirectLink": "/blog/mitsuru-nakayama"
+        },
+        {
+          "photo": {
             "src": "https://assets.decocache.com/evcfellows/3aa124ad-c418-481d-8e2c-e6ee2fd8f9bf/marilia-(black).jpg",
             "alt": "marilia",
             "width": 350,
@@ -52,11 +90,11 @@
             "width": 12,
             "height": 12
           },
-          "roleDate": "17 de Março de 2025",
-          "theme": "Fellows Spotlight: Marília Veríssimo, Investment Associate na Valetec Capital",
           "buttonText": "Leia a Entrevista",
-          "invertPlacement": false,
-          "redirectLink": "/blog/marilia-verissimo"
+          "theme": "Fellows Spotlight: Marília Veríssimo, Investment Associate na Valetec Capital",
+          "roleDate": "17 de Março de 2025",
+          "redirectLink": "/blog/marilia-verissimo",
+          "invertPlacement": false
         },
         {
           "photo": {
@@ -66,11 +104,11 @@
             "height": 291
           },
           "iconInterview": {},
-          "roleDate": "17 de Março de 2025",
           "buttonText": "Leia a Entrevista",
           "theme": "Meet the Founder - Ingrid Barth, Founder e CEO na Pilotin",
-          "invertPlacement": true,
-          "redirectLink": "/blog/ingrid-barthe"
+          "roleDate": "17 de Março de 2025",
+          "redirectLink": "/blog/ingrid-barthe",
+          "invertPlacement": true
         },
         {
           "photo": {
@@ -142,9 +180,9 @@
             "width": 12,
             "height": 12
           },
-          "buttonText": "Leia a Entrevista",
-          "theme": "Meet the Founder - Fred Amaral, CEO da Lerian",
           "roleDate": "28 de Janeiro de 2025",
+          "theme": "Meet the Founder - Fred Amaral, CEO da Lerian",
+          "buttonText": "Leia a Entrevista",
           "redirectLink": "/blog/fred-amaral",
           "invertPlacement": true
         },
@@ -180,9 +218,9 @@
             "width": 12,
             "height": 12
           },
-          "roleDate": "8 de Dezembro de 2024",
-          "theme": "Meet the Founder - Rodrigo Cava, Founder e CPO na Estoca",
           "buttonText": "Leia a Entrevista",
+          "theme": "Meet the Founder - Rodrigo Cava, Founder e CPO na Estoca",
+          "roleDate": "8 de Dezembro de 2024",
           "redirectLink": "/blog/rodrigo-cava",
           "invertPlacement": true
         },
