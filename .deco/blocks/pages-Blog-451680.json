@@ -41,6 +41,25 @@
       "interviews": [
         {
           "photo": {
+            "src": "https://assets.decocache.com/evcfellows/c236f4b1-3e01-48e9-bea1-214aa8386a31/luiz-fernando.jpeg",
+            "alt": "luiz",
+            "width": 350,
+            "height": 291
+          },
+          "iconInterview": {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/31bd2e5f-cd80-4171-8d0b-7afe0e52664b/60b944a3a3878c7862fc9880_Ellipse-33.svg",
+            "alt": "blue icon",
+            "width": 12,
+            "height": 12
+          },
+          "roleDate": "19 de Maio de 2025",
+          "theme": "Fellows Spotlight - Luiz Fernando, Co-founder EVCF",
+          "buttonText": "Leia a Entrevista",
+          "invertPlacement": true,
+          "redirectLink": "/blog/luiz-fernando"
+        },
+        {
+          "photo": {
             "src": "https://assets.decocache.com/evcfellows/f6e38438-cd05-46df-88a3-ae5ee89db69d/pedro-mesquita-(2).jpg",
             "alt": "pedro",
             "width": 350,
@@ -53,8 +72,8 @@
             "height": 12
           },
           "roleDate": "14 de Abril de 2025",
-          "theme": "EVCF Fellow - Pedro Mesquita (Mindset Ventures & TechTalents)",
           "buttonText": "Leia a Entrevista",
+          "theme": "EVCF Fellow - Pedro Mesquita (Mindset Ventures & TechTalents)",
           "invertPlacement": false,
           "redirectLink": "/blog/pedro-mesquita"
         },
@@ -71,11 +90,11 @@
             "width": 12,
             "height": 12
           },
-          "roleDate": "14 de Abril de 2025",
           "buttonText": "Leia a Entrevista",
           "theme": "Meet the Investor - Mitsuru Nakayama (B Venture Capital)",
-          "invertPlacement": true,
-          "redirectLink": "/blog/mitsuru-nakayama"
+          "roleDate": "14 de Abril de 2025",
+          "redirectLink": "/blog/mitsuru-nakayama",
+          "invertPlacement": true
         },
         {
           "photo": {
@@ -161,9 +180,9 @@
             "width": 12,
             "height": 12
           },
-          "buttonText": "Leia a Entrevista",
-          "theme": "Fellows Spotlight - Lucas Nobeschi, Principal na DOMO.VC",
           "roleDate": "28 de Janeiro de 2025",
+          "theme": "Fellows Spotlight - Lucas Nobeschi, Principal na DOMO.VC",
+          "buttonText": "Leia a Entrevista",
           "redirectLink": "/blog/lucas-nobeschi",
           "invertPlacement": false
         },
@@ -180,9 +199,9 @@
             "width": 12,
             "height": 12
           },
-          "roleDate": "28 de Janeiro de 2025",
-          "theme": "Meet the Founder - Fred Amaral, CEO da Lerian",
           "buttonText": "Leia a Entrevista",
+          "theme": "Meet the Founder - Fred Amaral, CEO da Lerian",
+          "roleDate": "28 de Janeiro de 2025",
           "redirectLink": "/blog/fred-amaral",
           "invertPlacement": true
         },
