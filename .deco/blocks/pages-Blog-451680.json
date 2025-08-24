@@ -41,6 +41,25 @@
       "interviews": [
         {
           "photo": {
+            "src": "https://assets.decocache.com/evcfellows/5917082b-e498-464d-926f-7c42fa2f8273/pedro-canastra-(2).jpg",
+            "alt": "pedro2",
+            "width": 350,
+            "height": 291
+          },
+          "iconInterview": {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/31bd2e5f-cd80-4171-8d0b-7afe0e52664b/60b944a3a3878c7862fc9880_Ellipse-33.svg",
+            "alt": "blue icon",
+            "width": 12,
+            "height": 12
+          },
+          "roleDate": "14 de Julho de 2025",
+          "theme": "Fellows Spotlight - Pedro Dias, Co-Founder & Managing Partner na Canastra Ventures",
+          "buttonText": "Leia a Entrevista",
+          "invertPlacement": true,
+          "redirectLink": "/blog/pedro-dias"
+        },
+        {
+          "photo": {
             "src": "https://assets.decocache.com/evcfellows/a442088f-faec-4d7c-b2a4-b6c389b33a14/Imagem2-(ra).jpg",
             "alt": "giovane",
             "width": 350,
@@ -53,8 +72,8 @@
             "height": 12
           },
           "roleDate": "14 de Julho de 2025",
-          "theme": "Fellows Spotlight - Giovane Avila, Corporate Venture Capital Manager at Itaú Unibanco",
           "buttonText": "Leia a Entrevista",
+          "theme": "Fellows Spotlight - Giovane Avila, Corporate Venture Capital Manager at Itaú Unibanco",
           "invertPlacement": false,
           "redirectLink": "/blog/giovane-avila"
         },
@@ -71,11 +90,11 @@
             "width": 12,
             "height": 12
           },
-          "roleDate": "19 de Maio de 2025",
           "buttonText": "Leia a Entrevista",
           "theme": "Fellows Spotlight - Luiz Fernando, Co-founder EVCF",
-          "invertPlacement": true,
-          "redirectLink": "/blog/luiz-fernando"
+          "roleDate": "19 de Maio de 2025",
+          "redirectLink": "/blog/luiz-fernando",
+          "invertPlacement": true
         },
         {
           "photo": {
@@ -161,9 +180,9 @@
             "width": 12,
             "height": 12
           },
-          "buttonText": "Leia a Entrevista",
-          "theme": "Fellows Spotlight: Filipe Garcia, CEO na WOW Aceleradora",
           "roleDate": "18 de Fevereiro de 2025",
+          "theme": "Fellows Spotlight: Filipe Garcia, CEO na WOW Aceleradora",
+          "buttonText": "Leia a Entrevista",
           "redirectLink": "/blog/filipe-garcia",
           "invertPlacement": false
         },
@@ -180,9 +199,9 @@
             "width": 12,
             "height": 12
           },
-          "roleDate": "18 de Fevereiro de 2025",
-          "theme": "Meet the Founder - Antônio Gouveia, Founder e CEO na Flashed",
           "buttonText": "Leia a Entrevista",
+          "theme": "Meet the Founder - Antônio Gouveia, Founder e CEO na Flashed",
+          "roleDate": "18 de Fevereiro de 2025",
           "redirectLink": "/blog/antonio-gouveia",
           "invertPlacement": true
         },
