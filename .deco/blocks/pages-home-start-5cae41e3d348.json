@@ -327,19 +327,19 @@
             "infoNumbers": [
               {
                 "title": "Fellows",
-                "number": "+400"
+                "number": "+500"
               },
               {
                 "title": "Gestoras",
-                "number": "+110"
+                "number": "+200"
               },
               {
                 "title": "Vagas",
-                "number": "+190"
+                "number": "+200"
               },
               {
                 "title": "Startups",
-                "number": "+200"
+                "number": "+250"
               }
             ],
             "__resolveType": "site/sections/BigNumbers.tsx"
