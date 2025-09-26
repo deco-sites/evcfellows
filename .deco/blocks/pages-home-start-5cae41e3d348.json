@@ -307,8 +307,8 @@
             },
             "title": "Construindo um futuro ambicioso através do poder do ecossistema",
             "content": "Somos o ambiente que provém e multiplica as transformações da sociedade. Conectamos a próxima geração de Venture Capitalists por meio de uma comunidade forte e diversa. Educamos os futuros tomadores de decisão da nossa indústria. Inspiramos jovens a construirem a transformação por meio da tecnologia.",
-            "textButton": "BAIXE O NOSSO MANIFESTO",
-            "manifestUrl": "https://drive.google.com/file/d/1eNQgAQtYZyQwfal3a2Cw8GNBFAyILmqn/view?usp=drive_link",
+            "textButton": "CONHEÇA O NOSSO MEMBERSHIP",
+            "manifestUrl": "https://emergingvcfellows.carrd.co/",
             "__resolveType": "site/sections/Manifest.tsx"
           },
           {
