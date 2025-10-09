@@ -543,10 +543,6 @@ html {
     --viewport-height: 100vh;
   }
 
-  section#landing-page {
-    font-size: 17pt;
-  }
-
   .site-wrapper {
     -webkit-overflow-scrolling: touch;
     align-items: flex-start;
@@ -583,9 +579,9 @@ html {
   }
 
   .site-main>.inner {
-    --padding-horizontal: 6rem;
-    --padding-vertical: 4rem;
-    --spacing: 1.5rem;
+    --padding-horizontal: 6em;
+    --padding-vertical: 4em;
+    --spacing: 1.5em;
     --width: 100vw;
     border-radius: var(--border-radius-tl) var(--border-radius-tr) var(--border-radius-br) var(--border-radius-bl);
     max-width: 100%;
@@ -646,7 +642,7 @@ html {
     background-size: contain;
     content: '';
     display: block;
-    height: 3.75rem;
+    height: 3.75em;
     left: calc(50% - 1.875rem);
     opacity: 0;
     pointer-events: none;
@@ -654,7 +650,7 @@ html {
     top: calc(50% - 1.875rem);
     transition: opacity 1s ease, visibility 1s;
     visibility: hidden;
-    width: 3.75rem;
+    width: 3.75em;
     z-index: 100000;
   }
 
@@ -702,7 +698,7 @@ html {
   }
 
   .text-component.style-1 span.p:nth-child(n + 2) {
-    margin-top: 1rem;
+    margin-top: 1em;
   }
 
   .text-component.style-1>* {
@@ -729,7 +725,7 @@ html {
   }
 
   .text-component.style-2 span.p:nth-child(n + 2) {
-    margin-top: 1rem;
+    margin-top: 1em;
   }
 
   .text-component.style-3 {
@@ -752,7 +748,7 @@ html {
   }
 
   .text-component.style-3 span.p:nth-child(n + 2) {
-    margin-top: 1rem;
+    margin-top: 1em;
   }
 
   .text-component.style-5 {
@@ -774,7 +770,7 @@ html {
   }
 
   .text-component.style-5 span.p:nth-child(n + 2) {
-    margin-top: 1rem;
+    margin-top: 1em;
   }
 
   .text-component.style-5>* {
@@ -801,7 +797,7 @@ html {
   }
 
   .text-component.style-4 span.p:nth-child(n + 2) {
-    margin-top: 1rem;
+    margin-top: 1em;
   }
 
   .buttons-component {
@@ -828,7 +824,7 @@ html {
   }
 
   .buttons-component.style-1 {
-    gap: 1.25rem;
+    gap: 1.25em;
     flex-direction: row;
     flex-wrap: wrap;
   }
@@ -843,17 +839,17 @@ html {
 
   .buttons-component.style-1>li>a {
     display: inline-block;
-    width: 18.125rem;
-    height: 4.125rem;
-    line-height: 4.125rem;
-    padding: 0 0.5rem;
+    width: 18.125em;
+    height: 4.125em;
+    line-height: 4.125em;
+    padding: 0 0.5em;
     vertical-align: middle;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.025rem;
     padding-left: calc(0.025rem + 0.5rem);
     font-size: 1.125em;
     font-weight: 500;
-    border-radius: 3rem;
+    border-radius: 3em;
     direction: var(--site-language-direction);
     overflow: hidden;
     text-overflow: ellipsis;
@@ -867,7 +863,7 @@ html {
   }
 
   .buttons-component.style-2 {
-    gap: 1.25rem;
+    gap: 1.25em;
     flex-direction: row;
     flex-wrap: wrap;
   }
@@ -882,17 +878,17 @@ html {
 
   .buttons-component.style-2>li>a {
     display: inline-block;
-    width: 24.75rem;
-    height: 4.125rem;
-    line-height: 4.125rem;
-    padding: 0 0.5rem;
+    width: 24.75em;
+    height: 4.125em;
+    line-height: 4.125em;
+    padding: 0 0.5em;
     vertical-align: middle;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.025rem;
     padding-left: calc(0.025rem + 0.5rem);
     font-size: 1.125em;
     font-weight: 500;
-    border-radius: 3rem;
+    border-radius: 3em;
     direction: var(--site-language-direction);
     overflow: hidden;
     text-overflow: ellipsis;
@@ -952,8 +948,8 @@ html {
   }
 
   .image-component.style-1>.frame {
-    width: 12.75rem;
-    height: 3.5rem;
+    width: 12.75em;
+    height: 3.5em;
     transition: none;
   }
 
@@ -972,7 +968,7 @@ html {
     border: 0;
     display: flex;
     justify-content: var(--flex-alignment);
-    min-height: 1rem;
+    min-height: 1em;
     padding: 0;
     position: relative;
     width: 100%;
@@ -1054,9 +1050,9 @@ html {
   }
 
   .container-component.style-1>.wrapper>.inner {
-    --gutters: 9rem;
-    --padding-horizontal: 0rem;
-    --padding-vertical: 0rem;
+    --gutters: 9em;
+    --padding-horizontal: 0em;
+    --padding-vertical: 0em;
     padding: var(--padding-vertical) var(--padding-horizontal);
   }
 
@@ -1231,13 +1227,13 @@ html {
   }
 
   .container-component.style-2>.wrapper>.inner {
-    --gutters: 6rem;
-    --padding-vertical: 12rem;
+    --gutters: 6em;
+    --padding-vertical: 12em;
     padding: var(--padding-vertical) var(--padding-horizontal);
   }
 
   .container-component.style-2>.wrapper {
-    max-width: 78rem;
+    max-width: 78em;
     width: 100%;
   }
 
@@ -1425,11 +1421,11 @@ html {
 
   .icons-component.style-1 {
     font-size: 1.75em;
-    gap: 1.5rem;
+    gap: 1.5em;
   }
 
   .icons-component.style-1>li>a {
-    border-radius: 0.5rem;
+    border-radius: 0.5em;
     height: 1em;
     width: 1em;
     transition: transform 0.25s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
@@ -1454,37 +1450,39 @@ html {
     transform: scale(1.2);
   }
 
-  @media (max-width: 1920px) {}
+  @media (min-width: 1680px) {
+    section#landing-page {
+      font-size: 22.67px;
+    }
+  }
 
   @media (max-width: 1680px) {
     section#landing-page {
-      font-size: 12pt;
+      font-size: 16px;
     }
   }
 
   @media (max-width: 1280px) {
     section#landing-page {
-      font-size: 12pt;
+      font-size: 16px;
     }
   }
 
-  @media (max-width: 1024px) {}
-
   @media (max-width: 980px) {
     section#landing-page {
-      font-size: 11pt;
+      font-size: 14.67px;
     }
   }
 
   @media (max-width: 736px) {
     section#landing-page {
-      font-size: 12pt;
+      font-size: 16px;
     }
 
     .site-main>.inner {
-      --padding-horizontal: 2rem;
-      --padding-vertical: 3rem;
-      --spacing: 1.5rem;
+      --padding-horizontal: 2em;
+      --padding-vertical: 3em;
+      --spacing: 1.5em;
     }
 
     .text-component.style-1 {
@@ -1523,7 +1521,7 @@ html {
     }
 
     .buttons-component.style-1 {
-      gap: 1.25rem;
+      gap: 1.25em;
     }
 
     .buttons-component.style-1:not(:first-child) {
@@ -1541,7 +1539,7 @@ html {
     }
 
     .buttons-component.style-2 {
-      gap: 1.25rem;
+      gap: 1.25em;
     }
 
     .buttons-component.style-2:not(:first-child) {
@@ -1567,7 +1565,7 @@ html {
     }
 
     .image-component.style-1>.frame {
-      width: 12.75rem;
+      width: 12.75em;
       height: 4.375rem !important;
     }
 
@@ -1597,9 +1595,9 @@ html {
     }
 
     .container-component.style-1>.wrapper>.inner {
-      --gutters: 4rem;
-      --padding-horizontal: 0rem;
-      --padding-vertical: 0rem;
+      --gutters: 4em;
+      --padding-horizontal: 0em;
+      --padding-vertical: 0em;
     }
 
     .container-component.style-1.columns>.wrapper>.inner {
@@ -1731,8 +1729,8 @@ html {
     }
 
     .container-component.style-2>.wrapper>.inner {
-      --gutters: 6rem;
-      --padding-vertical: 6rem;
+      --gutters: 6em;
+      --padding-vertical: 6em;
     }
 
     .container-component.style-2.columns>.wrapper>.inner {
@@ -1867,21 +1865,21 @@ html {
 
     .icons-component.style-1 {
       font-size: 1.75em;
-      gap: 1.5rem;
+      gap: 1.5em;
     }
   }
 
   @media (max-width: 480px) {
     .site-main>.inner {
-      --spacing: 1.3125rem;
+      --spacing: 1.3125em;
     }
 
     .buttons-component.style-1>li>a {
-      width: 18.125rem;
+      width: 18.125em;
     }
 
     .buttons-component.style-2>li>a {
-      width: 30rem;
+      width: 30em;
     }
 
     .image-component.style-1>.frame {
@@ -1891,9 +1889,9 @@ html {
 
   @media (max-width: 360px) {
     .site-main>.inner {
-      --padding-horizontal: 1.5rem;
-      --padding-vertical: 2.25rem;
-      --spacing: 1.125rem;
+      --padding-horizontal: 1.5em;
+      --padding-vertical: 2.25em;
+      --spacing: 1.125em;
     }
 
     .text-component.style-1 {
@@ -1917,11 +1915,11 @@ html {
     }
 
     .buttons-component.style-1 {
-      gap: 0.9375rem;
+      gap: 0.9375em;
     }
 
     .buttons-component.style-2 {
-      gap: 0.9375rem;
+      gap: 0.9375em;
     }
 
     .image-component.style-1>.frame {
@@ -1929,18 +1927,18 @@ html {
     }
 
     .container-component.style-1>.wrapper>.inner {
-      --gutters: 4rem;
-      --padding-horizontal: 0rem;
-      --padding-vertical: 0rem;
+      --gutters: 4em;
+      --padding-horizontal: 0em;
+      --padding-vertical: 0em;
     }
 
     .container-component.style-2>.wrapper>.inner {
-      --gutters: 4.5rem;
-      --padding-vertical: 4.5rem;
+      --gutters: 4.5em;
+      --padding-vertical: 4.5em;
     }
 
     .icons-component.style-1 {
-      gap: 1.125rem;
+      gap: 1.125em;
     }
   }
 
