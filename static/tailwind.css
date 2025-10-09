@@ -581,7 +581,7 @@ html {
   .site-main>.inner {
     --padding-horizontal: 6em;
     --padding-vertical: 4em;
-    --spacing: 1.5em;
+    --spacing: 1.5rem;
     --width: 100vw;
     border-radius: var(--border-radius-tl) var(--border-radius-tr) var(--border-radius-br) var(--border-radius-bl);
     max-width: 100%;
@@ -1482,7 +1482,7 @@ html {
     .site-main>.inner {
       --padding-horizontal: 2em;
       --padding-vertical: 3em;
-      --spacing: 1.5em;
+      --spacing: 1.5rem;
     }
 
     .text-component.style-1 {
