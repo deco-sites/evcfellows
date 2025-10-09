@@ -15,63 +15,7 @@
             "__resolveType": "website/sections/Seo/Seo.tsx"
           },
           {
-            "font": {
-              "fonts": [
-                {
-                  "family": "Galano",
-                  "variations": [
-                    {
-                      "weight": "300"
-                    },
-                    {
-                      "weight": "400"
-                    },
-                    {
-                      "weight": "500"
-                    },
-                    {
-                      "weight": "600"
-                    },
-                    {
-                      "weight": "700"
-                    },
-                    {
-                      "weight": "800"
-                    },
-                    {
-                      "weight": "900"
-                    }
-                  ]
-                },
-                {
-                  "family": "Roboto",
-                  "variations": [
-                    {
-                      "weight": "300"
-                    },
-                    {
-                      "weight": "400"
-                    },
-                    {
-                      "weight": "500"
-                    },
-                    {
-                      "weight": "600"
-                    },
-                    {
-                      "weight": "700"
-                    },
-                    {
-                      "italic": true,
-                      "weight": "400"
-                    }
-                  ]
-                }
-              ],
-              "__resolveType": "website/loaders/fonts/googleFonts.ts"
-            },
-            "colorScheme": "light",
-            "__resolveType": "site/sections/Theme/Theme.tsx"
+            "__resolveType": "Theme"
           },
           {
             "title": "Emerging VC Fellows",
