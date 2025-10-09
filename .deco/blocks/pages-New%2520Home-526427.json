@@ -1,0 +1,618 @@
+{
+  "name": "New Home",
+  "path": "/_",
+  "sections": {
+    "variants": [
+      {
+        "rule": {
+          "name": "Language",
+          "value": "En-US",
+          "__resolveType": "website/matchers/cookie.ts"
+        },
+        "value": [
+          {
+            "title": "Emerging VC Fellows",
+            "__resolveType": "website/sections/Seo/Seo.tsx"
+          },
+          {
+            "__resolveType": "Theme"
+          },
+          {
+            "__resolveType": "Main Header - En-US"
+          },
+          {
+            "__resolveType": "site/sections/Banner.tsx",
+            "banner": {
+              "image": {
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/5104cec6-7e07-412b-ba19-d9c942d7f80e",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/920422c8-8576-44a0-9c98-c90b1491605e"
+              },
+              "title": "Fellowship of future Venture Capital leaders",
+              "subtitle": "We connect, educate and inspire the next generation of Venture Capitalists through a strong and diverse community",
+              "centerText": false,
+              "backgroundImage": {
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/0ee6bc41-98c7-4ecb-9854-fad5a356b921",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/c075fae2-3eef-4508-ba1f-968cb13a3f3d"
+              }
+            }
+          },
+          {
+            "__resolveType": "site/sections/LandingPage.tsx",
+            "section_1": {
+              "title": "Emerging Venture Capital Fellows",
+              "subtitle": "The community for future Venture Capital leaders in Latin America 🚀",
+              "text": "In venture capital, talent isn't enough. You need access to industry leaders, strategic connections, and the knowledge that opens doors to leadership positions. That's why we created Emerging Venture Capital Fellows (EVCF): an exclusive community designed to accelerate your career within the ecosystem.",
+              "button": {
+                "text": "I want to be a fellow",
+                "url": "https://criteriosevcf.carrd.co/"
+              }
+            },
+            "section_2": {
+              "title": "What you find at Fellowship",
+              "button": {
+                "text": "Subscribe",
+                "url": "https://criteriosevcf.carrd.co/"
+              },
+              "option": [
+                {
+                  "text": "✓ Real Networking: Build meaningful relationships with fellows and industry leaders."
+                },
+                {
+                  "text": "✓ In-depth content: Participate in discussions on essential industry topics, from the Partner journey to liquidity scenarios."
+                },
+                {
+                  "text": "✓ Access to big names: Interact closely with Managing Partners of the most relevant funds in Brazil and around the world."
+                },
+                {
+                  "text": "✓ Exclusive quarterly agenda: In-person and online events that combine learning, inspiration, and strategic connections."
+                }
+              ]
+            },
+            "section_3": {
+              "title": "Be part of the future of Venture Capital in Latin America",
+              "subtitle": "Confirmed schedule:",
+              "button": {
+                "text": "I want to be a fellow",
+                "url": "https://criteriosevcf.carrd.co/"
+              },
+              "option": [
+                {
+                  "text": "📍10/21 → Round Table with Shu Nyatta (Founder & Managing Partner at Bicycle Capital + Global Board Member at Endeavor) "
+                },
+                {
+                  "text": "📍 11/11 → VC Get Together: Exclusive Happy Hour at Exímia Bar + automatic access to Exímia Private Members"
+                },
+                {
+                  "text": "📍 10/12 → Ask Me Anything with Eric Acher (Co-founder & Managing Partner of Monashees)"
+                }
+              ]
+            },
+            "section_4": {
+              "title": "Who can participate?",
+              "button": {
+                "text": "Join for just R$169/month",
+                "url": "https://criteriosevcf.carrd.co/"
+              },
+              "option": [
+                {
+                  "text": "The program is for you if you:"
+                },
+                {
+                  "text": "✓ Work full-time at a VC Firm or CVC unit",
+                  "showIcon": true
+                },
+                {
+                  "text": "✓ Part of the investment team",
+                  "showIcon": true
+                },
+                {
+                  "text": "✓ Have at least 3 years of experience in Venture Capital",
+                  "showIcon": true
+                }
+              ]
+            },
+            "section_5": {
+              "title": "The future of Venture Capital in Latin America starts with you."
+            },
+            "socials": {
+              "email": "#",
+              "linkedin": "#",
+              "instagram": "https://www.instagram.com/emergingvcfellows/"
+            }
+          },
+          {
+            "__resolveType": "site/sections/BigNumbers.tsx",
+            "title": "EVCF Big Numbers",
+            "image": {
+              "image": {
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/2aed496f-8a37-4414-868b-eea522083eed",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/e06d024c-6033-4553-aeb6-3998b49ac8d5",
+                "heightMobile": 456
+              },
+              "backgroundImage": {
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/59282c4f-d719-482d-b3b9-46bebfe53963",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/ff135d8f-5913-4ba8-a5d3-43e73563685e"
+              }
+            },
+            "infoNumbers": [
+              {
+                "title": "Fellows",
+                "number": "+500"
+              },
+              {
+                "title": "VC Firms",
+                "number": "+200"
+              },
+              {
+                "title": "Jobs ",
+                "number": "+200"
+              },
+              {
+                "title": "Startups",
+                "number": "+250"
+              }
+            ]
+          },
+          {
+            "__resolveType": "site/sections/Contact.tsx",
+            "title": "Contact Us",
+            "links": [
+              {
+                "url": "https://www.linkedin.com/company/emerging-venture-capital-fellows",
+                "title": "Linkedin",
+                "iconId": "Linkedin"
+              },
+              {
+                "url": "https://www.instagram.com/emergingvcfellows/",
+                "title": "Instagram",
+                "iconId": "Instagram"
+              }
+            ],
+            "buttonLabel": "SEND",
+            "contactEmail": "comunidade@emergingvcfellows.com",
+            "namePlaceholder": "Insert your name",
+            "emailPlaceholder": "Insert your e-mail",
+            "contentPlaceholder": "Message..."
+          },
+          {
+            "__resolveType": "site/sections/Newsletter.tsx"
+          },
+          {
+            "__resolveType": "Partners Footer"
+          },
+          {
+            "__resolveType": "Footer - En-US"
+          }
+        ]
+      },
+      {
+        "rule": {
+          "__resolveType": "website/matchers/always.ts"
+        },
+        "value": [
+          {
+            "title": "Emerging VC Fellows",
+            "__resolveType": "website/sections/Seo/Seo.tsx"
+          },
+          {
+            "font": {
+              "fonts": [
+                {
+                  "family": "Galano",
+                  "variations": [
+                    {
+                      "weight": "300"
+                    },
+                    {
+                      "weight": "400"
+                    },
+                    {
+                      "weight": "500"
+                    },
+                    {
+                      "weight": "600"
+                    },
+                    {
+                      "weight": "700"
+                    },
+                    {
+                      "weight": "800"
+                    },
+                    {
+                      "weight": "900"
+                    }
+                  ]
+                },
+                {
+                  "family": "Roboto",
+                  "variations": [
+                    {
+                      "weight": "300"
+                    },
+                    {
+                      "weight": "400"
+                    },
+                    {
+                      "weight": "500"
+                    },
+                    {
+                      "weight": "600"
+                    },
+                    {
+                      "weight": "700"
+                    },
+                    {
+                      "italic": true,
+                      "weight": "400"
+                    }
+                  ]
+                }
+              ],
+              "__resolveType": "website/loaders/fonts/googleFonts.ts"
+            },
+            "colorScheme": "light",
+            "__resolveType": "site/sections/Theme/Theme.tsx"
+          },
+          {
+            "__resolveType": "Main Header"
+          },
+          {
+            "__resolveType": "site/sections/Banner.tsx",
+            "banner": {
+              "image": {
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/5104cec6-7e07-412b-ba19-d9c942d7f80e",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/920422c8-8576-44a0-9c98-c90b1491605e"
+              },
+              "title": "Fellowship dos futuros  líderes de Venture Capital",
+              "subtitle": "Conectamos, educamos e inspiramos a próxima geração de Venture Capitalists por meio de uma comunidade forte e diversa",
+              "centerText": false,
+              "backgroundImage": {
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/0ee6bc41-98c7-4ecb-9854-fad5a356b921",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/c075fae2-3eef-4508-ba1f-968cb13a3f3d"
+              }
+            }
+          },
+          {
+            "__resolveType": "site/sections/LandingPage.tsx",
+            "section_1": {
+              "title": "Emerging Venture Capital Fellows",
+              "subtitle": "A comunidade para os futuros líderes de Venture Capital na América Latina 🚀",
+              "text": "No Venture Capital, não basta ter talento. É preciso acesso a líderes da indústria, a conexões estratégicas e ao conhecimento que abre portas para posições de liderança. Foi por isso que criamos o Emerging Venture Capital Fellows (EVCF): uma comunidade exclusiva feita para acelerar a sua carreira dentro do ecossistema.",
+              "button": {
+                "text": "Quero ser um fellow",
+                "url": "https://criteriosevcf.carrd.co/"
+              }
+            },
+            "section_2": {
+              "title": "O que você encontra no Fellowship",
+              "button": {
+                "text": "Inscreva-se",
+                "url": "https://criteriosevcf.carrd.co/"
+              },
+              "option": [
+                {
+                  "text": "✓ Networking de verdade: Crie relacionamentos significativos com outros fellows e líderes do mercado."
+                },
+                {
+                  "text": "✓ Conteúdo profundo: Participe de discussões sobre temas essenciais da indústria, da jornada para se tornar Partner até os cenários de liquidez."
+                },
+                {
+                  "text": "✓ Acesso a grandes nomes: Interaja de perto com Managing Partners dos fundos mais relevantes do Brasil e do mundo."
+                },
+                {
+                  "text": "✓ Agenda trimestral exclusiva: Eventos presenciais e online que unem aprendizado, inspiração e conexões estratégicas."
+                }
+              ]
+            },
+            "section_3": {
+              "title": "Faça parte do futuro do Venture Capital na América Latina",
+              "subtitle": "Agenda confirmada:",
+              "button": {
+                "text": "Quero ser um fellow",
+                "url": "https://criteriosevcf.carrd.co/"
+              },
+              "option": [
+                {
+                  "text": "📍 21/10 → Round Table com Shu Nyatta (Founder & Managing Partner da Bicycle Capital + Global Board Member da Endeavor)"
+                },
+                {
+                  "text": "📍 11/11 → VC Get Together : Happy Hour exclusivo no Exímia Bar + acesso automático ao Exímia Private Members"
+                },
+                {
+                  "text": "📍 10/12 → Ask Me Anything com Eric Acher (Co-founder & Managing Partner da Monashees)"
+                }
+              ]
+            },
+            "section_4": {
+              "title": "Quem pode participar?",
+              "button": {
+                "text": "Participe por apenas R$169/mês",
+                "url": "https://criteriosevcf.carrd.co/"
+              },
+              "option": [
+                {
+                  "text": "O programa é para você se você:"
+                },
+                {
+                  "text": "✓ Trabalha em tempo integral em um VC Firm ou CVC unit",
+                  "showIcon": true
+                },
+                {
+                  "text": "✓ Faz parte da equipe de investimento",
+                  "showIcon": true
+                },
+                {
+                  "text": "✓ Tem pelo menos 3 anos de experiência em Venture Capital",
+                  "showIcon": true
+                }
+              ]
+            },
+            "section_5": {
+              "title": "O futuro do Venture Capital na América Latina começa com você."
+            },
+            "socials": {
+              "email": "#",
+              "linkedin": "#",
+              "instagram": "https://www.instagram.com/emergingvcfellows/"
+            }
+          },
+          {
+            "title": "Grandes Números do EVCF",
+            "__resolveType": "site/sections/BigNumbers.tsx",
+            "image": {
+              "image": {
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/2aed496f-8a37-4414-868b-eea522083eed",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/e06d024c-6033-4553-aeb6-3998b49ac8d5",
+                "heightMobile": 456
+              },
+              "backgroundImage": {
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/59282c4f-d719-482d-b3b9-46bebfe53963",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/ff135d8f-5913-4ba8-a5d3-43e73563685e"
+              }
+            },
+            "infoNumbers": [
+              {
+                "title": "Fellows",
+                "number": "+500"
+              },
+              {
+                "title": "Gestoras",
+                "number": "+200"
+              },
+              {
+                "title": "Vagas",
+                "number": "+200"
+              },
+              {
+                "title": "Startups",
+                "number": "+250"
+              }
+            ]
+          },
+          {
+            "__resolveType": "site/sections/Contact.tsx",
+            "links": [
+              {
+                "url": "https://www.linkedin.com/company/emerging-venture-capital-fellows",
+                "title": "Linkedin",
+                "iconId": "Linkedin"
+              },
+              {
+                "url": "https://www.instagram.com/emergingvcfellows/",
+                "title": "Instagram",
+                "iconId": "Instagram"
+              }
+            ],
+            "title": "Entre em contato",
+            "buttonLabel": "ENVIAR",
+            "contactEmail": "comunidade@emergingvcfellows.com",
+            "namePlaceholder": "Insira seu nome aqui",
+            "emailPlaceholder": "Insira seu email aqui",
+            "contentPlaceholder": "Mensagem..."
+          },
+          {
+            "__resolveType": "site/sections/Newsletter.tsx"
+          },
+          {
+            "__resolveType": "website/flags/multivariate/section.ts",
+            "variants": [
+              {
+                "rule": {
+                  "name": "Language",
+                  "value": "En-US",
+                  "__resolveType": "website/matchers/cookie.ts"
+                },
+                "value": {
+                  "title": "Partners",
+                  "footerText": "  Todos os nomes de produtos e empresas são marcas comerciais™ ou marcas           registradas® de seus respectivos proprietários. O uso deles não           implica qualquer afiliação ou endosso por parte deles.",
+                  "__resolveType": "site/sections/PartnersFooter.tsx",
+                  "partnersLogos": [
+                    {
+                      "alt": "fm",
+                      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/7c9031d1-bde4-4d01-b5eb-60ece5c514d2"
+                    },
+                    {
+                      "alt": "aws",
+                      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/e43c58ce-375f-45c7-8822-5df2e0fb2714",
+                      "widthDesktop": 88,
+                      "heightDesktop": 52
+                    }
+                  ],
+                  "logoSharedVision": {
+                    "alt": "shared vision",
+                    "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/8522e485-7af0-4c0d-a4d5-daec4a8c56fd",
+                    "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/7b27ca21-511c-4a91-b8ec-1c7cf3449a06",
+                    "widthDesktop": 284,
+                    "heightDesktop": 59
+                  },
+                  "sharedVisionLogos": [
+                    {
+                      "alt": "fm",
+                      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/9e7794d8-7b96-48fb-9be1-ab22d72446ce",
+                      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/a83d8e1d-7c74-478f-8338-425ba49b04c6",
+                      "widthDesktop": 400,
+                      "heightDesktop": 95
+                    },
+                    {
+                      "alt": "aws",
+                      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/3cad55f4-2e07-4656-9de1-5b8b3f970f1c",
+                      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/3831ef80-b40b-4067-8c6a-34389ec673c9",
+                      "widthDesktop": 68,
+                      "heightDesktop": 32
+                    }
+                  ],
+                  "logoCommunityPartner": {
+                    "alt": "community",
+                    "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/874ecb3d-2e3b-4bfe-8c92-0e77b715e773",
+                    "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/5e2b5c2c-edb6-4f03-aba5-308ddc2be77a",
+                    "widthDesktop": 271,
+                    "heightDesktop": 59
+                  },
+                  "logoKnowledgePartner": {
+                    "alt": "knowledge",
+                    "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/8c9ec42b-fdab-4d1c-b432-fc01827431ae",
+                    "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/150c9f81-746c-47f4-81f5-a70e43bbee50",
+                    "widthDesktop": 255,
+                    "heightDesktop": 52
+                  },
+                  "logoInitiativePartner": {
+                    "alt": "initiative",
+                    "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/fed61a94-d3ba-4bef-b8eb-77a3da847b11",
+                    "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/49e956ef-3926-4c22-bd7d-c4bf497fb07a",
+                    "widthDesktop": 260,
+                    "heightDesktop": 59
+                  },
+                  "communityPartnersLogos": [
+                    {
+                      "alt": "oracle",
+                      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/b9a5791e-a849-4e82-9a7c-8c2d19c4e3b4",
+                      "widthDesktop": 162,
+                      "heightDesktop": 21
+                    },
+                    {
+                      "alt": "valverde",
+                      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/94c622c4-02b4-4a96-8e7c-66c828c05d5f",
+                      "widthDesktop": 193,
+                      "heightDesktop": 32
+                    }
+                  ],
+                  "initiativePartnersLogos": [
+                    {
+                      "alt": "zendesk",
+                      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/af228a33-7589-4ff2-83a6-4da9d196da3b",
+                      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/77a226a6-21f9-4cab-9c41-11b6dd23dd29",
+                      "widthDesktop": 131,
+                      "heightDesktop": 74
+                    },
+                    {
+                      "alt": "cubo",
+                      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/7eef2017-5651-4bc4-88f2-84b98f329eac",
+                      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/f3712910-f2b4-4f73-9032-a3a983ff27bf",
+                      "widthDesktop": 140,
+                      "heightDesktop": 52
+                    },
+                    {
+                      "alt": "fk",
+                      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/56d5db62-8253-4d52-80a5-a008a7bd375e",
+                      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/618df104-3bf7-42d2-892c-1659d8299f95",
+                      "widthDesktop": 193,
+                      "heightDesktop": 21
+                    }
+                  ],
+                  "knowledgePartinersLogos": [
+                    {
+                      "alt": "cesar",
+                      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/03c1230b-b3d2-490a-a583-bff427ac410e",
+                      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/3df4d7c6-7204-46a0-b026-c155f1af05a3",
+                      "widthDesktop": 65,
+                      "heightDesktop": 37
+                    },
+                    {
+                      "alt": "gvc",
+                      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/f8323081-868c-4239-9337-015a7d0d0f4a",
+                      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/789a5c04-d8ba-4bd4-821f-7881ab7f024f",
+                      "widthDesktop": 105,
+                      "heightDesktop": 52
+                    },
+                    {
+                      "alt": "diversity vc",
+                      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/89de0e62-92cf-46f0-a997-f8b16c4818b7",
+                      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/b0ac70cc-0736-4d0c-8dac-3a5aca6e8303",
+                      "widthDesktop": 103,
+                      "heightDesktop": 21
+                    },
+                    {
+                      "alt": "vc",
+                      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/4bfe17a3-829d-41d2-bfa0-ec1f11296a77",
+                      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/b50df5c6-e7c4-4768-9a58-bf0b9de63568",
+                      "widthDesktop": 46,
+                      "heightDesktop": 46
+                    },
+                    {
+                      "alt": "ace",
+                      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/f53b1222-a5a7-4958-bf95-c0abd12b9b00",
+                      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/f0b5dc2a-5ff7-4226-9d81-dbf716b28361",
+                      "widthDesktop": 52,
+                      "heightDesktop": 52
+                    },
+                    {
+                      "alt": "wow",
+                      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/359cfa98-4b63-4090-bb07-12edfc8499c9",
+                      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/258ed244-9409-4f1d-8df5-34e6096552fc",
+                      "widthDesktop": 89,
+                      "heightDesktop": 37
+                    },
+                    {
+                      "alt": "endeavor",
+                      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/acaeca4b-f4e3-412c-ba7b-954bc73e986e",
+                      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/237f890b-b1ac-454c-bc9c-4cec6f353cd8",
+                      "widthDesktop": 112,
+                      "heightDesktop": 15
+                    },
+                    {
+                      "alt": "captable",
+                      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/fcd299fe-cdc5-44eb-adb3-6bea12b0ce6b",
+                      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/0c6545c9-1b52-4db9-aadd-dea4fa8a39d7",
+                      "widthDesktop": 110,
+                      "heightDesktop": 21
+                    },
+                    {
+                      "alt": "vc",
+                      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/01cff6b9-0932-43d8-a684-40429e0e8770",
+                      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/3718f9b9-1ec9-4e6e-b762-f9e8ee3d3e84",
+                      "widthDesktop": 46,
+                      "heightDesktop": 46
+                    },
+                    {
+                      "alt": "Latitud",
+                      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/84562bf2-e507-4f9a-ad05-4fa1fec81bb8",
+                      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/6e1b68cf-9fb7-4c7f-8217-6dbb49660542",
+                      "widthDesktop": 114,
+                      "heightDesktop": 21
+                    }
+                  ]
+                }
+              },
+              {
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                },
+                "value": {
+                  "__resolveType": "Partners Footer"
+                }
+              }
+            ]
+          },
+          {
+            "__resolveType": "Footer"
+          }
+        ]
+      }
+    ],
+    "__resolveType": "website/flags/multivariate.ts"
+  },
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
