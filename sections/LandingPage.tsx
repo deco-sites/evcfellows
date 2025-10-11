@@ -84,7 +84,8 @@ export default function LandingPage({
         <div class="site-wrapper">
           <div class="site-main">
             <div class="inner">
-              <div
+              {
+                /* <div
                 id="image01"
                 class="image-component instance-1 style-1"
                 data-position="center"
@@ -102,7 +103,8 @@ export default function LandingPage({
               <hr
                 id="divider01"
                 class="divider-component instance-1 style-1 full screen"
-              />
+              /> */
+              }
 
               <div
                 id="container02"
@@ -364,7 +366,8 @@ export default function LandingPage({
                 </div>
               </div>
 
-              <hr
+              {
+                /* <hr
                 id="divider02"
                 class="divider-component instance-2 style-1 full screen"
               />
@@ -403,7 +406,8 @@ export default function LandingPage({
                     <span class="label">Instagram</span>
                   </a>
                 </li>
-              </ul>
+              </ul> */
+              }
             </div>
           </div>
         </div>

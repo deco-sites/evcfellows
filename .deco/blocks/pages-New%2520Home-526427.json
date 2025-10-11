@@ -357,39 +357,7 @@
             }
           },
           {
-            "title": "Grandes Números do EVCF",
-            "__resolveType": "site/sections/BigNumbers.tsx",
-            "image": {
-              "image": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/2aed496f-8a37-4414-868b-eea522083eed",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/e06d024c-6033-4553-aeb6-3998b49ac8d5",
-                "heightMobile": 456
-              },
-              "backgroundImage": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/59282c4f-d719-482d-b3b9-46bebfe53963",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/ff135d8f-5913-4ba8-a5d3-43e73563685e"
-              }
-            },
-            "infoNumbers": [
-              {
-                "title": "Fellows",
-                "number": "+500"
-              },
-              {
-                "title": "Gestoras",
-                "number": "+200"
-              },
-              {
-                "title": "Vagas",
-                "number": "+200"
-              },
-              {
-                "title": "Startups",
-                "number": "+250"
-              }
-            ]
-          },
-          {
+            "title": "Entre em contato",
             "__resolveType": "site/sections/Contact.tsx",
             "links": [
               {
@@ -403,7 +371,6 @@
                 "iconId": "Instagram"
               }
             ],
-            "title": "Entre em contato",
             "buttonLabel": "ENVIAR",
             "contactEmail": "comunidade@emergingvcfellows.com",
             "namePlaceholder": "Insira seu nome aqui",
