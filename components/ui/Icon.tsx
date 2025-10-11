@@ -11,14 +11,16 @@ export type AvailableIcons =
   | "InputUser"
   | "InputEmail"
   | "LogoWithoutText"
-  | "Instagram"
   | "Brasil"
   | "USA"
   | "Linkedin"
   | "TwitterFooter"
   | "Mail"
   | "XMark"
-  | "Bars3";
+  | "Bars3"
+  | "Email"
+  | "Linkedin"
+  | "Instagram";
 
 interface Props extends JSX.SVGAttributes<SVGSVGElement> {
   id: AvailableIcons;

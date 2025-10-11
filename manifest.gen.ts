@@ -19,17 +19,18 @@ import * as $$$$$$10 from "./sections/Header.tsx";
 import * as $$$$$$11 from "./sections/HeroCompany.tsx";
 import * as $$$$$$12 from "./sections/IframeSection.tsx";
 import * as $$$$$$13 from "./sections/Image.tsx";
-import * as $$$$$$14 from "./sections/Manifest.tsx";
-import * as $$$$$$15 from "./sections/Newsletter.tsx";
-import * as $$$$$$16 from "./sections/OpinionSection.tsx";
-import * as $$$$$$17 from "./sections/OrangeColumnSection.tsx";
-import * as $$$$$$18 from "./sections/PartnersFooter.tsx";
-import * as $$$$$$19 from "./sections/ReportSection.tsx";
-import * as $$$$$$20 from "./sections/Showcase.tsx";
-import * as $$$$$$21 from "./sections/Testimony.tsx";
-import * as $$$$$$22 from "./sections/Theme/Theme.tsx";
-import * as $$$$$$23 from "./sections/TitleSection.tsx";
-import * as $$$$$$24 from "./sections/ToolkitSection.tsx";
+import * as $$$$$$14 from "./sections/LandingPage.tsx";
+import * as $$$$$$15 from "./sections/Manifest.tsx";
+import * as $$$$$$16 from "./sections/Newsletter.tsx";
+import * as $$$$$$17 from "./sections/OpinionSection.tsx";
+import * as $$$$$$18 from "./sections/OrangeColumnSection.tsx";
+import * as $$$$$$19 from "./sections/PartnersFooter.tsx";
+import * as $$$$$$20 from "./sections/ReportSection.tsx";
+import * as $$$$$$21 from "./sections/Showcase.tsx";
+import * as $$$$$$22 from "./sections/Testimony.tsx";
+import * as $$$$$$23 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$24 from "./sections/TitleSection.tsx";
+import * as $$$$$$25 from "./sections/ToolkitSection.tsx";
 
 const manifest = {
   "sections": {
@@ -47,17 +48,18 @@ const manifest = {
     "site/sections/HeroCompany.tsx": $$$$$$11,
     "site/sections/IframeSection.tsx": $$$$$$12,
     "site/sections/Image.tsx": $$$$$$13,
-    "site/sections/Manifest.tsx": $$$$$$14,
-    "site/sections/Newsletter.tsx": $$$$$$15,
-    "site/sections/OpinionSection.tsx": $$$$$$16,
-    "site/sections/OrangeColumnSection.tsx": $$$$$$17,
-    "site/sections/PartnersFooter.tsx": $$$$$$18,
-    "site/sections/ReportSection.tsx": $$$$$$19,
-    "site/sections/Showcase.tsx": $$$$$$20,
-    "site/sections/Testimony.tsx": $$$$$$21,
-    "site/sections/Theme/Theme.tsx": $$$$$$22,
-    "site/sections/TitleSection.tsx": $$$$$$23,
-    "site/sections/ToolkitSection.tsx": $$$$$$24,
+    "site/sections/LandingPage.tsx": $$$$$$14,
+    "site/sections/Manifest.tsx": $$$$$$15,
+    "site/sections/Newsletter.tsx": $$$$$$16,
+    "site/sections/OpinionSection.tsx": $$$$$$17,
+    "site/sections/OrangeColumnSection.tsx": $$$$$$18,
+    "site/sections/PartnersFooter.tsx": $$$$$$19,
+    "site/sections/ReportSection.tsx": $$$$$$20,
+    "site/sections/Showcase.tsx": $$$$$$21,
+    "site/sections/Testimony.tsx": $$$$$$22,
+    "site/sections/Theme/Theme.tsx": $$$$$$23,
+    "site/sections/TitleSection.tsx": $$$$$$24,
+    "site/sections/ToolkitSection.tsx": $$$$$$25,
   },
   "apps": {
     "site/apps/deco/blog.ts": $$$$$$$$$$$0,
