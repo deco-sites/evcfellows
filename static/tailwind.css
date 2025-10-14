@@ -686,7 +686,7 @@ html {
     width: 100%;
     font-size: 3.75em;
     line-height: 1.25;
-    font-weight: 700;
+    font-weight: 800;
   }
 
   .text-component.style-1 a {
@@ -713,7 +713,7 @@ html {
     width: 100%;
     font-size: 2em;
     line-height: 1.25;
-    font-weight: 700;
+    font-weight: 800;
   }
 
   .text-component.style-2 a {
@@ -736,7 +736,7 @@ html {
     width: calc(100% + 0.025rem);
     font-size: 1.125em;
     line-height: 2;
-    font-weight: 300;
+    font-weight: 400;
   }
 
   .text-component.style-3 a {
@@ -758,7 +758,7 @@ html {
     width: 100%;
     font-size: 3.125em;
     line-height: 1.125;
-    font-weight: 500;
+    font-weight: 800;
   }
 
   .text-component.style-5 a {
@@ -785,7 +785,7 @@ html {
     width: calc(100% + 0.025rem);
     font-size: 1.125em;
     line-height: 2;
-    font-weight: 300;
+    font-weight: 400;
   }
 
   .text-component.style-4 a {
