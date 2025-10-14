@@ -341,7 +341,7 @@ export default function LandingPage({
 
               <div
                 id="container04"
-                class="container-component instance-4 style-1 columns"
+                class="instance-4 style-1 columns text-center"
                 style="opacity: 1;"
               >
                 <div class="wrapper">

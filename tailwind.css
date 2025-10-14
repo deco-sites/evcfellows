@@ -255,7 +255,7 @@
 
   .text-component.style-1 {
     color: #000000;
-    font-family: 'Roboto', sans-serif;
+    font-family: Galano, sans-serif;
     letter-spacing: -0.2rem;
     width: 100%;
     font-size: 3.75em;
@@ -282,7 +282,7 @@
 
   .text-component.style-2 {
     color: #000000;
-    font-family: 'Roboto', sans-serif;
+    font-family: Galano, sans-serif;
     letter-spacing: -0.075rem;
     width: 100%;
     font-size: 2em;
@@ -305,7 +305,7 @@
   .text-component.style-3 {
     text-align: left;
     color: #000000;
-    font-family: 'Roboto', sans-serif;
+    font-family: Galano, sans-serif;
     letter-spacing: 0.025rem;
     width: calc(100% + 0.025rem);
     font-size: 1.125em;
@@ -327,7 +327,7 @@
 
   .text-component.style-5 {
     color: #FFFFFF;
-    font-family: 'Roboto', sans-serif;
+    font-family: Galano, sans-serif;
     letter-spacing: -0.025rem;
     width: 100%;
     font-size: 3.125em;
@@ -354,7 +354,7 @@
 
   .text-component.style-4 {
     color: #FFFFFF;
-    font-family: 'Roboto', sans-serif;
+    font-family: Galano, sans-serif;
     letter-spacing: 0.025rem;
     width: calc(100% + 0.025rem);
     font-size: 1.125em;
@@ -418,7 +418,7 @@
     line-height: 4.125em;
     padding: 0 0.5em;
     vertical-align: middle;
-    font-family: 'Roboto', sans-serif;
+    font-family: Galano, sans-serif;
     letter-spacing: 0.025rem;
     padding-left: calc(0.025rem + 0.5rem);
     font-size: 1.125em;
@@ -457,7 +457,7 @@
     line-height: 4.125em;
     padding: 0 0.5em;
     vertical-align: middle;
-    font-family: 'Roboto', sans-serif;
+    font-family: Galano, sans-serif;
     letter-spacing: 0.025rem;
     padding-left: calc(0.025rem + 0.5rem);
     font-size: 1.125em;
