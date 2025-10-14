@@ -7,9 +7,6 @@
     "titleTemplate": "%s",
     "descriptionTemplate": "%s"
   },
-  "global": [
-    { "__resolveType": "analytics/sections/Analytics/DecoAnalytics.tsx" }
-  ],
   "routes": [{ "__resolveType": "website/loaders/pages.ts" }],
   "caching": { "directives": [] },
   "commerce": {

@@ -15,67 +15,7 @@
             "__resolveType": "website/sections/Seo/Seo.tsx"
           },
           {
-            "font": {
-              "fonts": [
-                {
-                  "family": "Galano",
-                  "variations": [
-                    {
-                      "weight": "300"
-                    },
-                    {
-                      "weight": "400"
-                    },
-                    {
-                      "weight": "500"
-                    },
-                    {
-                      "weight": "600"
-                    },
-                    {
-                      "weight": "700"
-                    },
-                    {
-                      "weight": "800"
-                    },
-                    {
-                      "weight": "900"
-                    }
-                  ]
-                },
-                {
-                  "family": "Roboto",
-                  "variations": [
-                    {
-                      "weight": "300"
-                    },
-                    {
-                      "weight": "400"
-                    },
-                    {
-                      "weight": "500"
-                    },
-                    {
-                      "weight": "600"
-                    },
-                    {
-                      "weight": "700"
-                    },
-                    {
-                      "italic": true,
-                      "weight": "400"
-                    }
-                  ]
-                }
-              ],
-              "__resolveType": "website/loaders/fonts/googleFonts.ts"
-            },
-            "colorScheme": "light",
-            "__resolveType": "site/sections/Theme/Theme.tsx"
-          },
-          {
-            "title": "Emerging VC Fellows",
-            "__resolveType": "website/sections/Seo/Seo.tsx"
+            "__resolveType": "Theme"
           },
           {
             "__resolveType": "Main Header - En-US"
@@ -97,18 +37,92 @@
             }
           },
           {
-            "__resolveType": "site/sections/Manifest.tsx",
-            "image": {
-              "alt": "EVCF Team",
-              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/6e4b973e-c917-4332-b323-768dd0cc8d6c",
-              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/ed9d8e31-15b2-4f35-aeeb-7ffe3ab810ef"
+            "__resolveType": "site/sections/LandingPage.tsx",
+            "section_1": {
+              "title": "Emerging Venture Capital Fellows",
+              "subtitle": "The community for future Venture Capital leaders in Latin America 🚀",
+              "text": "In venture capital, talent isn't enough. You need access to industry leaders, strategic connections, and the knowledge that opens doors to leadership positions. That's why we created Emerging Venture Capital Fellows (EVCF): an exclusive community designed to accelerate your career within the ecosystem.",
+              "button": {
+                "text": "I want to be a fellow",
+                "url": "https://criteriosevcf.carrd.co/"
+              }
             },
-            "title": "Building an ambitious future through the power of the ecosystem",
-            "content": "We are the environment that originates and multiplies the transformations of society. We connect the next generation of Venture Capitalists through a strong and diverse community. We educate the future decision makers of our industry. We inspire young people to build transformation through technology",
-            "textButton": "DISCOVER OUR MEMBERSHIP",
-            "manifestUrl": "https://emergingvcfellows.carrd.co/"
+            "section_2": {
+              "title": "What you find at Fellowship",
+              "button": {
+                "text": "Subscribe",
+                "url": "https://criteriosevcf.carrd.co/"
+              },
+              "option": [
+                {
+                  "text": "✓ Real Networking: Build meaningful relationships with fellows and industry leaders."
+                },
+                {
+                  "text": "✓ In-depth content: Participate in discussions on essential industry topics, from the Partner journey to liquidity scenarios."
+                },
+                {
+                  "text": "✓ Access to big names: Interact closely with Managing Partners of the most relevant funds in Brazil and around the world."
+                },
+                {
+                  "text": "✓ Exclusive quarterly agenda: In-person and online events that combine learning, inspiration, and strategic connections."
+                }
+              ]
+            },
+            "section_3": {
+              "title": "Be part of the future of Venture Capital in Latin America",
+              "subtitle": "Confirmed schedule:",
+              "button": {
+                "text": "I want to be a fellow",
+                "url": "https://criteriosevcf.carrd.co/"
+              },
+              "option": [
+                {
+                  "text": "📍10/21 → Round Table with Shu Nyatta (Founder & Managing Partner at Bicycle Capital + Global Board Member at Endeavor) "
+                },
+                {
+                  "text": "📍 11/11 → VC Get Together: Exclusive Happy Hour at Exímia Bar + automatic access to Exímia Private Members"
+                },
+                {
+                  "text": "📍 10/12 → Ask Me Anything with Eric Acher (Co-founder & Managing Partner of Monashees)"
+                }
+              ]
+            },
+            "section_4": {
+              "title": "Who can participate?",
+              "button": {
+                "text": "Join for just R$169/month",
+                "url": "https://criteriosevcf.carrd.co/"
+              },
+              "option": [
+                {
+                  "text": "The program is for you if you:"
+                },
+                {
+                  "text": "✓ Work full-time at a VC Firm or CVC unit",
+                  "showIcon": true
+                },
+                {
+                  "text": "✓ Part of the investment team",
+                  "showIcon": true
+                },
+                {
+                  "text": "✓ Have at least 3 years of experience in Venture Capital",
+                  "showIcon": true
+                }
+              ]
+            },
+            "section_5": {
+              "title": "The future of Venture Capital in Latin America starts with you."
+            },
+            "socials": {
+              "email": "#",
+              "linkedin": "#",
+              "instagram": "https://www.instagram.com/emergingvcfellows/"
+            }
           },
           {
+            "__resolveType": "site/sections/BigNumbers.tsx",
+            "title": "EVCF Big Numbers",
             "image": {
               "image": {
                 "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/2aed496f-8a37-4414-868b-eea522083eed",
@@ -120,8 +134,6 @@
                 "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/ff135d8f-5913-4ba8-a5d3-43e73563685e"
               }
             },
-            "title": "EVCF Big Numbers",
-            "__resolveType": "site/sections/BigNumbers.tsx",
             "infoNumbers": [
               {
                 "title": "Fellows",
@@ -142,43 +154,8 @@
             ]
           },
           {
-            "title": "Ecosystem Testimonials",
-            "__resolveType": "site/sections/Testimony.tsx",
-            "id": "testimonial",
-            "testimonials": [
-              {
-                "image": {
-                  "alt": "Pedro Waengertner",
-                  "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/d589bf11-33e4-4024-9f23-50e587fbd425",
-                  "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/b27456b2-b9c3-46cc-b315-122743b0a50b",
-                  "widthMobile": 400,
-                  "heightMobile": 467,
-                  "widthDesktop": 400,
-                  "heightDesktop": 467
-                },
-                "title": "Pedro Waengertner",
-                "content": "\"A Indústria de VC está se tornando cada vez mais atrativa como caminho profissional no Brasil. Conectar os talentos que estão iniciando a jornada é uma forma de acelerar seu crescimento e tornar esta indústria ainda mais conectada e ágil.\"",
-                "subtitle": "CO-FOUNDER, ACE"
-              },
-              {
-                "image": {
-                  "alt": "Derek Bittar",
-                  "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/d5b43f7b-812e-4217-9e17-c8adf9b956fd",
-                  "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/885b3c44-724a-4e08-985c-6124a0981a14",
-                  "widthMobile": 400,
-                  "heightMobile": 467,
-                  "widthDesktop": 400,
-                  "heightDesktop": 467
-                },
-                "title": "Derek Lundgren Bittar",
-                "content": "\"O ecossistema de Venture Capital e inovação depende de iniciativas estruturadas e abrangentes para o seu desenvolvimento. Quando observamos indústrias mais maduras que a brasileira, encontramos diversos exemplos de troca e aprendizado similares ao EVCF, como o Kauffman Fellows. Acredito que ainda estamos chegando no ponto de inflexão do nosso ecossistema e esse tipo de iniciativa tem um poder transformador essencial.\"",
-                "subtitle": "Indicator Capital / Kauffmann Fellows"
-              }
-            ]
-          },
-          {
-            "title": "Contact Us",
             "__resolveType": "site/sections/Contact.tsx",
+            "title": "Contact Us",
             "links": [
               {
                 "url": "https://www.linkedin.com/company/emerging-venture-capital-fellows",
@@ -277,13 +254,10 @@
             "__resolveType": "site/sections/Theme/Theme.tsx"
           },
           {
-            "title": "Emerging VC Fellows",
-            "__resolveType": "website/sections/Seo/Seo.tsx"
-          },
-          {
             "__resolveType": "Main Header"
           },
           {
+            "__resolveType": "site/sections/Banner.tsx",
             "banner": {
               "image": {
                 "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/5104cec6-7e07-412b-ba19-d9c942d7f80e",
@@ -296,90 +270,95 @@
                 "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/0ee6bc41-98c7-4ecb-9854-fad5a356b921",
                 "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/c075fae2-3eef-4508-ba1f-968cb13a3f3d"
               }
-            },
-            "__resolveType": "site/sections/Banner.tsx"
+            }
           },
           {
-            "image": {
-              "alt": "EVCF Team",
-              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/6e4b973e-c917-4332-b323-768dd0cc8d6c",
-              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/ed9d8e31-15b2-4f35-aeeb-7ffe3ab810ef"
-            },
-            "title": "Construindo um futuro ambicioso através do poder do ecossistema",
-            "content": "Somos o ambiente que provém e multiplica as transformações da sociedade. Conectamos a próxima geração de Venture Capitalists por meio de uma comunidade forte e diversa. Educamos os futuros tomadores de decisão da nossa indústria. Inspiramos jovens a construirem a transformação por meio da tecnologia.",
-            "textButton": "CONHEÇA O NOSSO MEMBERSHIP",
-            "manifestUrl": "https://emergingvcfellows.carrd.co/",
-            "__resolveType": "site/sections/Manifest.tsx"
-          },
-          {
-            "image": {
-              "image": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/2aed496f-8a37-4414-868b-eea522083eed",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/e06d024c-6033-4553-aeb6-3998b49ac8d5",
-                "heightMobile": 456
-              },
-              "backgroundImage": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/59282c4f-d719-482d-b3b9-46bebfe53963",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/ff135d8f-5913-4ba8-a5d3-43e73563685e"
+            "__resolveType": "site/sections/LandingPage.tsx",
+            "section_1": {
+              "title": "Emerging Venture Capital Fellows",
+              "subtitle": "A comunidade para os futuros líderes de Venture Capital na América Latina 🚀",
+              "text": "No Venture Capital, não basta ter talento. É preciso acesso a líderes da indústria, a conexões estratégicas e ao conhecimento que abre portas para posições de liderança. Foi por isso que criamos o Emerging Venture Capital Fellows (EVCF): uma comunidade exclusiva feita para acelerar a sua carreira dentro do ecossistema.",
+              "button": {
+                "text": "Quero ser um fellow",
+                "url": "https://criteriosevcf.carrd.co/"
               }
             },
-            "title": "Grandes Números do EVCF",
-            "infoNumbers": [
-              {
-                "title": "Fellows",
-                "number": "+500"
+            "section_2": {
+              "title": "O que você encontra no Fellowship",
+              "button": {
+                "text": "Inscreva-se",
+                "url": "https://criteriosevcf.carrd.co/"
               },
-              {
-                "title": "Gestoras",
-                "number": "+200"
-              },
-              {
-                "title": "Vagas",
-                "number": "+200"
-              },
-              {
-                "title": "Startups",
-                "number": "+250"
-              }
-            ],
-            "__resolveType": "site/sections/BigNumbers.tsx"
-          },
-          {
-            "id": "testimonial",
-            "title": "Relatos do Ecossistema",
-            "testimonials": [
-              {
-                "image": {
-                  "alt": "Pedro Waengertner",
-                  "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/d589bf11-33e4-4024-9f23-50e587fbd425",
-                  "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/b27456b2-b9c3-46cc-b315-122743b0a50b",
-                  "widthMobile": 400,
-                  "heightMobile": 467,
-                  "widthDesktop": 400,
-                  "heightDesktop": 467
+              "option": [
+                {
+                  "text": "✓ Networking de verdade: Crie relacionamentos significativos com outros fellows e líderes do mercado."
                 },
-                "title": "Pedro Waengertner",
-                "content": "\"A Indústria de VC está se tornando cada vez mais atrativa como caminho profissional no Brasil. Conectar os talentos que estão iniciando a jornada é uma forma de acelerar seu crescimento e tornar esta indústria ainda mais conectada e ágil.\"",
-                "subtitle": "CO-FOUNDER, ACE"
-              },
-              {
-                "image": {
-                  "alt": "Derek Bittar",
-                  "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/d5b43f7b-812e-4217-9e17-c8adf9b956fd",
-                  "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/885b3c44-724a-4e08-985c-6124a0981a14",
-                  "widthMobile": 400,
-                  "heightMobile": 467,
-                  "widthDesktop": 400,
-                  "heightDesktop": 467
+                {
+                  "text": "✓ Conteúdo profundo: Participe de discussões sobre temas essenciais da indústria, da jornada para se tornar Partner até os cenários de liquidez."
                 },
-                "title": "Derek Lundgren Bittar",
-                "content": "\"O ecossistema de Venture Capital e inovação depende de iniciativas estruturadas e abrangentes para o seu desenvolvimento. Quando observamos indústrias mais maduras que a brasileira, encontramos diversos exemplos de troca e aprendizado similares ao EVCF, como o Kauffman Fellows. Acredito que ainda estamos chegando no ponto de inflexão do nosso ecossistema e esse tipo de iniciativa tem um poder transformador essencial.\"",
-                "subtitle": "Indicator Capital / Kauffmann Fellows"
-              }
-            ],
-            "__resolveType": "site/sections/Testimony.tsx"
+                {
+                  "text": "✓ Acesso a grandes nomes: Interaja de perto com Managing Partners dos fundos mais relevantes do Brasil e do mundo."
+                },
+                {
+                  "text": "✓ Agenda trimestral exclusiva: Eventos presenciais e online que unem aprendizado, inspiração e conexões estratégicas."
+                }
+              ]
+            },
+            "section_3": {
+              "title": "Faça parte do futuro do Venture Capital na América Latina",
+              "subtitle": "Agenda confirmada:",
+              "button": {
+                "text": "Quero ser um fellow",
+                "url": "https://criteriosevcf.carrd.co/"
+              },
+              "option": [
+                {
+                  "text": "📍 21/10 → Round Table com Shu Nyatta (Founder & Managing Partner da Bicycle Capital + Global Board Member da Endeavor)"
+                },
+                {
+                  "text": "📍 11/11 → VC Get Together : Happy Hour exclusivo no Exímia Bar + acesso automático ao Exímia Private Members"
+                },
+                {
+                  "text": "📍 10/12 → Ask Me Anything com Eric Acher (Co-founder & Managing Partner da Monashees)"
+                }
+              ]
+            },
+            "section_4": {
+              "title": "Quem pode participar?",
+              "button": {
+                "text": "Participe por apenas R$169/mês",
+                "url": "https://criteriosevcf.carrd.co/"
+              },
+              "option": [
+                {
+                  "text": "O programa é para você se você:"
+                },
+                {
+                  "text": "✓ Trabalha em tempo integral em um VC Firm ou CVC unit",
+                  "showIcon": true
+                },
+                {
+                  "text": "✓ Faz parte da equipe de investimento",
+                  "showIcon": true
+                },
+                {
+                  "text": "✓ Tem pelo menos 3 anos de experiência em Venture Capital",
+                  "showIcon": true
+                }
+              ]
+            },
+            "section_5": {
+              "title": "O futuro do Venture Capital na América Latina começa com você."
+            },
+            "socials": {
+              "email": "#",
+              "linkedin": "#",
+              "instagram": "https://www.instagram.com/emergingvcfellows/"
+            }
           },
           {
+            "title": "Entre em contato",
+            "__resolveType": "site/sections/Contact.tsx",
             "links": [
               {
                 "url": "https://www.linkedin.com/company/emerging-venture-capital-fellows",
@@ -392,10 +371,8 @@
                 "iconId": "Instagram"
               }
             ],
-            "title": "Entre em contato",
             "buttonLabel": "ENVIAR",
             "contactEmail": "comunidade@emergingvcfellows.com",
-            "__resolveType": "site/sections/Contact.tsx",
             "namePlaceholder": "Insira seu nome aqui",
             "emailPlaceholder": "Insira seu email aqui",
             "contentPlaceholder": "Mensagem..."
@@ -600,6 +577,9 @@
       }
     ],
     "__resolveType": "website/flags/multivariate.ts"
+  },
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
   },
   "__resolveType": "website/pages/Page.tsx"
 }
