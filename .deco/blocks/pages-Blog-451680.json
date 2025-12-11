@@ -41,6 +41,44 @@
       "interviews": [
         {
           "photo": {
+            "src": "https://assets.decocache.com/evcfellows/b376d646-8c74-4839-8096-ddd6279a477b/geraldo.foto.jpeg",
+            "alt": "pedro2",
+            "width": 350,
+            "height": 291
+          },
+          "iconInterview": {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/31bd2e5f-cd80-4171-8d0b-7afe0e52664b/60b944a3a3878c7862fc9880_Ellipse-33.svg",
+            "alt": "blue icon",
+            "width": 12,
+            "height": 12
+          },
+          "roleDate": "02 de Dezembro de 2025",
+          "theme": "Fellows Spotlight - Geraldo Melzer, Founding Partner na ABSeed Ventures",
+          "buttonText": "Leia a Entrevista",
+          "invertPlacement": false,
+          "redirectLink": "/blog/geraldo-melzer"
+        },
+        {
+          "photo": {
+            "src": "https://assets.decocache.com/evcfellows/46b6b9b9-cbaf-42ee-998e-39b8ee46d4d3/fernando.l.jpg",
+            "alt": "pedro2",
+            "width": 350,
+            "height": 291
+          },
+          "iconInterview": {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/31bd2e5f-cd80-4171-8d0b-7afe0e52664b/60b944a3a3878c7862fc9880_Ellipse-33.svg",
+            "alt": "blue icon",
+            "width": 12,
+            "height": 12
+          },
+          "roleDate": "02 de Dezembro de 2025",
+          "buttonText": "Leia a Entrevista",
+          "theme": "Fellows Spotlight - Fernando Lucarevschi, Operations and Platform Manager na Bdev Ventures",
+          "invertPlacement": true,
+          "redirectLink": "/blog/fernando-lucarevschi"
+        },
+        {
+          "photo": {
             "src": "https://assets.decocache.com/evcfellows/9d4752be-dc2c-4db3-97c1-630c92b17a19/renato.jpg",
             "alt": "pedro2",
             "width": 350,
@@ -52,11 +90,11 @@
             "width": 12,
             "height": 12
           },
-          "roleDate": "29 de Setembro de 2025",
-          "theme": "Fellows Spotlight - Renato Pavan, Private Equity & Venture Capital na Península",
           "buttonText": "Leia a Entrevista",
-          "invertPlacement": false,
-          "redirectLink": "/blog/renato-pavan"
+          "theme": "Fellows Spotlight - Renato Pavan, Private Equity & Venture Capital na Península",
+          "roleDate": "29 de Setembro de 2025",
+          "redirectLink": "/blog/renato-pavan",
+          "invertPlacement": false
         },
         {
           "photo": {
@@ -71,11 +109,11 @@
             "width": 12,
             "height": 12
           },
-          "roleDate": "12 de Agosto de 2025",
           "buttonText": "Leia a Entrevista",
           "theme": "Fellows Spotlight - Pedro Dias, Co-Founder & Managing Partner na Canastra Ventures",
-          "invertPlacement": true,
-          "redirectLink": "/blog/pedro-dias"
+          "roleDate": "12 de Agosto de 2025",
+          "redirectLink": "/blog/pedro-dias",
+          "invertPlacement": true
         },
         {
           "photo": {
@@ -147,9 +185,9 @@
             "width": 12,
             "height": 12
           },
-          "buttonText": "Leia a Entrevista",
-          "theme": "Meet the Investor - Mitsuru Nakayama (B Venture Capital)",
           "roleDate": "14 de Abril de 2025",
+          "theme": "Meet the Investor - Mitsuru Nakayama (B Venture Capital)",
+          "buttonText": "Leia a Entrevista",
           "redirectLink": "/blog/mitsuru-nakayama",
           "invertPlacement": true
         },
@@ -180,9 +218,9 @@
             "height": 291
           },
           "iconInterview": {},
-          "roleDate": "17 de Março de 2025",
-          "theme": "Meet the Founder - Ingrid Barth, Founder e CEO na Pilotin",
           "buttonText": "Leia a Entrevista",
+          "theme": "Meet the Founder - Ingrid Barth, Founder e CEO na Pilotin",
+          "roleDate": "17 de Março de 2025",
           "redirectLink": "/blog/ingrid-barthe",
           "invertPlacement": true
         },
