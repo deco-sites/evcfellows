@@ -1,19 +1,19 @@
 {
   "__resolveType": "site/sections/Blog.tsx",
   "bgImg": {
-    "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/333b4450-15ec-4e22-93c7-4aa19b16018d/60bcc69fd85a366c150c687d_blue-arrow.svg",
+    "src": "https://decoims.com/evcfellows/1d636d44-083c-4b21-892d-f7d5e9203e2f/22c0744b302b2dd1.svg",
     "alt": "just a random arrow",
     "width": 622,
     "height": 93
   },
   "arrowImg": {
-    "src": "https://cdn.prod.website-files.com/60b91ea3ac487ed6a5eeb77e/60b944a3a3878c7862fc9880_Ellipse%2033.svg",
+    "src": "https://decoims.com/evcfellows/3fe55d13-848e-495c-8091-4c19e0d5f8dd/385d5c735a029081.svg",
     "alt": "blue icon",
     "width": 12,
     "height": 12
   },
   "icon": {
-    "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/31bd2e5f-cd80-4171-8d0b-7afe0e52664b/60b944a3a3878c7862fc9880_Ellipse-33.svg",
+    "src": "https://decoims.com/evcfellows/beed4e70-9eb1-4c45-b53a-22db1f27b122/03fe1a8aa78479aa.svg",
     "alt": "blue dot",
     "width": 12,
     "height": 12

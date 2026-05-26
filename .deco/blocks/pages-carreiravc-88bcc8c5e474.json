@@ -21,23 +21,23 @@
             "__resolveType": "site/sections/Banner.tsx",
             "banner": {
               "image": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/18774486-571d-45b0-95d3-b9870388e8aa",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/0e537700-4f8a-4cf6-acc9-dbf9aa99192b"
+                "mobile": "https://decoims.com/evcfellows/3bf7c119-9c73-43b0-9087-4fad57042eed/5b297715054ba938.png",
+                "desktop": "https://decoims.com/evcfellows/192c48c9-33ca-4fbf-9834-ef743eda5d9d/142e93f8d4db7dc2.png"
               },
               "buttons": [],
               "subtitle": "We conducted an in-depth analysis of careers within the Venture Capital industry in Brazil, intending to promote transparency and maturity within the sector.",
               "centerText": true,
               "bannerImage": {
                 "alt": "carreira em vc 2022",
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/926602ab-5190-42a3-b16e-a41e17b248b8",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/dc8b966a-302e-4216-87b8-5825b9e173a9",
+                "mobile": "https://decoims.com/evcfellows/a4385498-ce43-434c-b41e-c7e565beedef/b75be0c7424d5d24.png",
+                "desktop": "https://decoims.com/evcfellows/0205f236-4d1c-40d6-90de-607bde5c841b/8b0c9d2a83e7ef97.png",
                 "widthDesktop": 472,
                 "heightDesktop": 186
               },
               "centerTitle": true,
               "backgroundImage": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/433af985-bc4a-4879-ab81-72fa23a5e9ad",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/f57ea7d8-bfd0-4125-af47-7f2ed89facd4"
+                "mobile": "https://decoims.com/evcfellows/87518456-438c-4bb2-a64b-3863cb25058d/a171e7a731789f65.png",
+                "desktop": "https://decoims.com/evcfellows/8eb7d5ae-dc6c-43ed-88fb-f97b05f42835/ad9a0ba5d2ddc34f.png"
               }
             }
           },
@@ -47,8 +47,8 @@
             "text": "<p><em>\"The Venture Capital market in Brazil is still young compared to the rest of the financial market, but it has been growing and evolving very rapidly in recent years. This creates a challenge for VC analysts - while demanding complex skills and knowledge, there is no playbook on building a VC career. This report was born to highlight the main factors that affect professional growth, going far beyond compensation. We consider ourselves the first generation of VC analysts in Brazil and understand the industry's impact on the country; thus, we hope to create the foundation for these professionals to develop in the best possible way.\"</em></p>",
             "image": {
               "alt": "Cibelle",
-              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/e32a6c49-a122-426f-b550-a3424952368c",
-              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/a712a512-63c1-42bf-a3bd-d27f4fa7a538",
+              "mobile": "https://decoims.com/evcfellows/e0d19628-7ae3-4425-82f6-175ce1e2e240/fb4943fa2f756933.webp",
+              "desktop": "https://decoims.com/evcfellows/90c8fc38-c475-4a21-9e61-acac8768edfa/62435329cdfce5d5.webp",
               "widthDesktop": 88
             },
             "position": "Associate @Honey Island Capital | 2023 VC Radar Leader"
@@ -56,8 +56,8 @@
           {
             "image": {
               "alt": "Dashboard Carreira",
-              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/3f736276-a9b9-4fbd-96ff-12ed9881cbb4",
-              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/9558b795-7af6-4f35-985c-374cf3e298cf"
+              "mobile": "https://decoims.com/evcfellows/36dcc647-e3c6-4066-861d-6af1c536f011/0fb9028cd09e737a.png",
+              "desktop": "https://decoims.com/evcfellows/08eca856-aa98-42ab-a694-e253414b0ba5/148a23c55631d51e.png"
             },
             "__resolveType": "site/sections/ColumnSection.tsx",
             "title": "VC Career Dashboard",
@@ -70,8 +70,8 @@
           {
             "image": {
               "alt": "report",
-              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/6535c0ef-4a23-4cdd-a3e2-327f506cd639",
-              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/3d35ebb6-bcc4-4ba4-84dd-79bd895b2d77",
+              "mobile": "https://decoims.com/evcfellows/2081d7fc-577d-4e40-bb96-cd37c680d58b/24dd8dc5e6f3ad92.png",
+              "desktop": "https://decoims.com/evcfellows/0232c6ef-998c-422e-b13f-dfc9bb9eaf6a/59ce44d16b64f7f6.png",
               "widthDesktop": 600
             },
             "title": "Download the full report",
@@ -102,8 +102,8 @@
           {
             "banner": {
               "image": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/18774486-571d-45b0-95d3-b9870388e8aa",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/0e537700-4f8a-4cf6-acc9-dbf9aa99192b"
+                "mobile": "https://decoims.com/evcfellows/3bf7c119-9c73-43b0-9087-4fad57042eed/5b297715054ba938.png",
+                "desktop": "https://decoims.com/evcfellows/192c48c9-33ca-4fbf-9834-ef743eda5d9d/142e93f8d4db7dc2.png"
               },
               "buttons": [],
               "subtitle": "Analisamos a fundo a carreira na indústria de Venture Capital no Brasil, a fim de promover transparência e amadurecimento no setor",
@@ -117,8 +117,8 @@
               },
               "centerTitle": true,
               "backgroundImage": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/433af985-bc4a-4879-ab81-72fa23a5e9ad",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/f57ea7d8-bfd0-4125-af47-7f2ed89facd4"
+                "mobile": "https://decoims.com/evcfellows/87518456-438c-4bb2-a64b-3863cb25058d/a171e7a731789f65.png",
+                "desktop": "https://decoims.com/evcfellows/8eb7d5ae-dc6c-43ed-88fb-f97b05f42835/ad9a0ba5d2ddc34f.png"
               }
             },
             "__resolveType": "site/sections/Banner.tsx"
@@ -128,8 +128,8 @@
             "text": "<p><em><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\"><span class=\"wixui-rich-text__text\"><span class=\"color_21 wixui-rich-text__text\"><span class=\"backcolor_15 wixui-rich-text__text\">“A Pesquisa de Carreira em VC foi concebida com o objetivo de <strong>apoiar a comunidade do EVCF e fortalecer aqueles que fazem parte da construção desse ecossistema</strong>. Com a versão de 2024, buscamos atualizar dados importantes sobre a realidade da indústria no Brasil, ampliando a transparência e oferecendo <strong>referências concretas para quem já está no mercado e, principalmente, para quem está começando</strong>. Nosso propósito é contribuir com mais clareza, representatividade e inspiração para o desenvolvimento de uma indústria mais sólida, diversa e sustentável.</span></span></span><span class=\"wixui-rich-text__text\"><span class=\"color_21 wixui-rich-text__text\"><span class=\"backcolor_15 wixui-rich-text__text\">”</span></span></span></span></em></p>",
             "image": {
               "alt": "Luiz",
-              "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/245a5dba-6b5a-4823-9b8f-9fec1ef0ef58/WhatsApp-Image-2024-12-08-at-14.54.45.jpeg",
-              "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/245a5dba-6b5a-4823-9b8f-9fec1ef0ef58/WhatsApp-Image-2024-12-08-at-14.54.45.jpeg",
+              "mobile": "https://decoims.com/evcfellows/be458f37-de9a-4af3-9dd7-5a3070f546bd/91363e8b386fd6f4.jpeg.jpg",
+              "desktop": "https://decoims.com/evcfellows/be458f37-de9a-4af3-9dd7-5a3070f546bd/91363e8b386fd6f4.jpeg.jpg",
               "widthDesktop": 88,
               "href": "https://www.linkedin.com/in/luiz-antonio-amboni-gevaerd/"
             },
@@ -139,8 +139,8 @@
           {
             "image": {
               "alt": "Dashboard Carreira",
-              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/3f736276-a9b9-4fbd-96ff-12ed9881cbb4",
-              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/9558b795-7af6-4f35-985c-374cf3e298cf"
+              "mobile": "https://decoims.com/evcfellows/36dcc647-e3c6-4066-861d-6af1c536f011/0fb9028cd09e737a.png",
+              "desktop": "https://decoims.com/evcfellows/08eca856-aa98-42ab-a694-e253414b0ba5/148a23c55631d51e.png"
             },
             "title": "Dashboard Carreira em VC",
             "whiteBg": true,

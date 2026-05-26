@@ -1,14 +1,20 @@
 {
   "seo": {
     "type": "website",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/a6db7857-e92f-4e05-809e-7d1edfad3eb2",
+    "image": "https://decoims.com/evcfellows/d999e96b-d8d2-4158-9dab-fe422b781c64/d101208aa7f71c19.png",
     "title": "EVCFellows",
-    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/4d57bc97-fb1c-46b0-9335-11f11b059664",
+    "favicon": "https://decoims.com/evcfellows/290fc5d0-0029-434a-8d38-ba01aed3ea16/fa34b879756fbad5.png",
     "titleTemplate": "%s",
     "descriptionTemplate": "%s"
   },
-  "routes": [{ "__resolveType": "website/loaders/pages.ts" }],
-  "caching": { "directives": [] },
+  "routes": [
+    {
+      "__resolveType": "website/loaders/pages.ts"
+    }
+  ],
+  "caching": {
+    "directives": []
+  },
   "commerce": {
     "account": "deco",
     "sandbox": false,

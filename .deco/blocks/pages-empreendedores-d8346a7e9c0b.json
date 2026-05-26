@@ -19,22 +19,22 @@
             "banner": {
               "image": {
                 "alt": "plataforma matchmaking",
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/9fb22352-5d24-4ab7-a15d-fc71d9bc29f5",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/471f18ae-bb91-458c-b064-059b5b845e36"
+                "mobile": "https://decoims.com/evcfellows/0ec1134a-07c4-489b-a312-e708fd4c9cdf/cf9d556d04ba8f9c.png",
+                "desktop": "https://decoims.com/evcfellows/f73a5792-9081-48c6-81a9-c6a3e88ffc8b/c8a3b3ad35aae4e8.png"
               },
               "subtitle": "The easiest and most assertive way to connect with VCs and CVCs.",
               "centerText": true,
               "bannerImage": {
                 "alt": "plataforma matchmaking logo",
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/ece843bf-2401-4248-92d0-160dba2826ee",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/2c959fb0-305c-4bb2-b550-63bb6ec20100",
+                "mobile": "https://decoims.com/evcfellows/996d63c2-e919-4027-b37f-413e630bbfb0/611446ee9129bf5a.png",
+                "desktop": "https://decoims.com/evcfellows/d1330bef-b68b-4089-8b8a-0dea70508222/2b44741e0badd40e.png",
                 "widthDesktop": 552,
                 "heightDesktop": 114
               },
               "centerTitle": true,
               "backgroundImage": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/e6286f69-daa7-4280-b8a9-b445acd09cb8",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/106402c5-f04e-4087-a6ae-fd893a50e7aa"
+                "mobile": "https://decoims.com/evcfellows/d5238127-9005-4885-a24b-5f004903a00e/017b34a9e7886b21.png",
+                "desktop": "https://decoims.com/evcfellows/3a3bc326-2c9b-4407-ac22-1b957ee3b3b0/78a70df0ba16ef03.png"
               }
             },
             "__resolveType": "site/sections/Banner.tsx"
@@ -56,8 +56,8 @@
             "text": "<p class=\"font_8 wixui-rich-text__text\"><em>“As much as we have mapped the VC market, the information about the theses is not exactly open and it can be difficult to find the right firm for the company's current situation, at the very least it is time-consuming and exhausting. The EVCF Matchmaking Platform catalyzed this process and significantly accelerated our round!”</em></p>",
             "image": {
               "alt": "paulo garcia",
-              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/0a25ccbb-da21-4c93-9850-fa3eeab1c22f",
-              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/b8cc711f-6a57-463f-993e-7d832bc07a0c"
+              "mobile": "https://decoims.com/evcfellows/5bd76ee2-3852-4674-8abd-1ac28523527e/02e2704dabbb762d.webp",
+              "desktop": "https://decoims.com/evcfellows/d6e20d3e-737a-44ce-93ad-17aaf1481d7f/30f9382ac71a87cd.webp"
             },
             "position": "CEO @Infoprice",
             "__resolveType": "site/sections/OpinionSection.tsx"
@@ -78,22 +78,22 @@
             "banner": {
               "image": {
                 "alt": "plataforma matchmaking",
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/9fb22352-5d24-4ab7-a15d-fc71d9bc29f5",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/471f18ae-bb91-458c-b064-059b5b845e36"
+                "mobile": "https://decoims.com/evcfellows/0ec1134a-07c4-489b-a312-e708fd4c9cdf/cf9d556d04ba8f9c.png",
+                "desktop": "https://decoims.com/evcfellows/f73a5792-9081-48c6-81a9-c6a3e88ffc8b/c8a3b3ad35aae4e8.png"
               },
               "subtitle": "A maneira mais fácil e assertiva de se conectar com dezenas de VCs e CVCs",
               "centerText": true,
               "bannerImage": {
                 "alt": "plataforma matchmaking logo",
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/ece843bf-2401-4248-92d0-160dba2826ee",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/2c959fb0-305c-4bb2-b550-63bb6ec20100",
+                "mobile": "https://decoims.com/evcfellows/996d63c2-e919-4027-b37f-413e630bbfb0/611446ee9129bf5a.png",
+                "desktop": "https://decoims.com/evcfellows/d1330bef-b68b-4089-8b8a-0dea70508222/2b44741e0badd40e.png",
                 "widthDesktop": 552,
                 "heightDesktop": 114
               },
               "centerTitle": true,
               "backgroundImage": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/e6286f69-daa7-4280-b8a9-b445acd09cb8",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/106402c5-f04e-4087-a6ae-fd893a50e7aa"
+                "mobile": "https://decoims.com/evcfellows/d5238127-9005-4885-a24b-5f004903a00e/017b34a9e7886b21.png",
+                "desktop": "https://decoims.com/evcfellows/3a3bc326-2c9b-4407-ac22-1b957ee3b3b0/78a70df0ba16ef03.png"
               }
             },
             "__resolveType": "site/sections/Banner.tsx"
@@ -111,8 +111,8 @@
             "text": "<p class=\"font_8 wixui-rich-text__text\"><em><span class=\"wixui-rich-text__text\"><span class=\"color_21 wixui-rich-text__text\"><span class=\"backcolor_15 wixui-rich-text__text\">“Por mais que tenhamos mapeado o mercado de VCs, as informações sobre as teses não são exatamente abertas e pode ser difícil encontrar o fundo adequado para o momento da companhia, no mínimo demorado e desgastante. A Plataforma de Matchmaking EVCF catalisou esse processo e com isso acelerou significativamente a nossa rodada!”</span></span></span></em></p><p class=\"font_8 wixui-rich-text__text\"><br data-mce-bogus=\"1\"></p><p class=\"font_8 wixui-rich-text__text\"><span style=\"text-decoration: underline;\" data-mce-style=\"text-decoration: underline;\"><em><span class=\"wixui-rich-text__text\"><span class=\"color_21 wixui-rich-text__text\"><span class=\"backcolor_15 wixui-rich-text__text\"><a class=\"wixui-rich-text__text\" href=\"https://startups.com.br/noticias/infoprice-recebe-aporte-de-r-15-mi-para-levar-precificacao-dinamica-a-pequenos-e-medios-lojistas/\" target=\"_blank\" data-mce-href=\"https://startups.com.br/noticias/infoprice-recebe-aporte-de-r-15-mi-para-levar-precificacao-dinamica-a-pequenos-e-medios-lojistas/\" data-mce-selected=\"inline-boundary\" style=\"text-decoration: underline;\" data-mce-style=\"text-decoration: underline;\">“InfoPrice recebe aporte de R$ 15 mi para levar precificação dinâmica a pequenos e médios lojistas”</a></span></span></span></em></span></p>",
             "image": {
               "alt": "paulo garcia",
-              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/0a25ccbb-da21-4c93-9850-fa3eeab1c22f",
-              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/b8cc711f-6a57-463f-993e-7d832bc07a0c"
+              "mobile": "https://decoims.com/evcfellows/5bd76ee2-3852-4674-8abd-1ac28523527e/02e2704dabbb762d.webp",
+              "desktop": "https://decoims.com/evcfellows/d6e20d3e-737a-44ce-93ad-17aaf1481d7f/30f9382ac71a87cd.webp"
             },
             "position": "CEO @Infoprice",
             "__resolveType": "site/sections/OpinionSection.tsx"

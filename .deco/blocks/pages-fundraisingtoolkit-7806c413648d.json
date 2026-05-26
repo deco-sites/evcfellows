@@ -18,16 +18,16 @@
           {
             "banner": {
               "image": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/64c1d239-8e09-4832-b38a-ca0d76c72627",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/610ee72c-e75f-46b6-a07f-078473906818"
+                "mobile": "https://decoims.com/evcfellows/a4ec9a49-a9ff-40b2-9e87-754cf44a27c5/020c19127f716569.png",
+                "desktop": "https://decoims.com/evcfellows/0238b626-f803-4b2b-9395-aeeb77442aa7/9c0cd79dba387d51.png"
               },
               "title": "Fundraising Toolkit",
               "subtitle": "The Fundraising Toolkit is only possible with the support of our partner Zendesk. Sign up for the Zendesk for Startups program and access exclusive benefits:",
               "centerText": true,
               "centerTitle": true,
               "backgroundImage": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/14be96ad-e062-472c-816a-86fb984df756",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/5294f7c9-7cbf-4d65-b8a5-6744eaca2c06"
+                "mobile": "https://decoims.com/evcfellows/40349ae9-4bb3-4f96-aae9-4bbb38401fd5/1601225399a2ec0d.png",
+                "desktop": "https://decoims.com/evcfellows/72f39cc0-3a0b-457b-96d9-6e0a7eddc2cd/db34d346becf749e.png"
               }
             },
             "__resolveType": "site/sections/Banner.tsx"
@@ -36,8 +36,8 @@
             "text": "O Fundraising Toolkit é uma biblioteca de conteúdos e ferramentas para founders que estão passando ou se preparando para levantar capital. O objetivo desse diretório é auxiliar os empreendedores em todas as etapas de fundraising e com todo o tipo de material que eles possam precisar. Aqui você encontrará podcasts, criadores de conteúdo sobre o tema, textos, livros, templates, ferramentas, newsletters entre outros materiais, separados nas seguintes etapas de captação:",
             "image": {
               "alt": "zendesk",
-              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/a782f359-4c92-4ba0-93eb-eba478c6b4db",
-              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/11e09a93-16f5-48f2-ac2f-21107ab29fdf",
+              "mobile": "https://decoims.com/evcfellows/8fc5c617-cc93-408b-ab31-9641b5467473/54a7cdf33e94747e.png",
+              "desktop": "https://decoims.com/evcfellows/66df3a7e-796c-4e0b-81ea-eeb29e1405fa/8a95ea30d30ca6e2.png",
               "widthMobile": 344,
               "heightMobile": 368,
               "widthDesktop": 350,
@@ -53,8 +53,8 @@
           {
             "image": {
               "alt": "Tabela Fundraising",
-              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/a7027f35-2622-4411-a7d5-73342be24f31",
-              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/7996c81c-8397-47c7-8738-c589725b346f",
+              "mobile": "https://decoims.com/evcfellows/5cc6a3a0-6ee3-4e70-9b4f-8f3eee52449a/b44daf24abbf175a.png",
+              "desktop": "https://decoims.com/evcfellows/8aa21bd8-4698-4da3-94ea-112a0945ad6c/319396c471f79dd9.png",
               "widthDesktop": 650
             },
             "title": "In the VC Fundraising Tool Kit you will find",
@@ -78,16 +78,16 @@
           {
             "banner": {
               "image": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/64c1d239-8e09-4832-b38a-ca0d76c72627",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/610ee72c-e75f-46b6-a07f-078473906818"
+                "mobile": "https://decoims.com/evcfellows/a4ec9a49-a9ff-40b2-9e87-754cf44a27c5/020c19127f716569.png",
+                "desktop": "https://decoims.com/evcfellows/0238b626-f803-4b2b-9395-aeeb77442aa7/9c0cd79dba387d51.png"
               },
               "title": "Fundraising Toolkit",
               "subtitle": "O Fundraising Toolkit só é possível com apoio do nosso parceiro Zendesk. ​ Inscreva-se no programa Zendesk for Startups e acesse os benefícios exclusivos:",
               "centerText": true,
               "centerTitle": true,
               "backgroundImage": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/14be96ad-e062-472c-816a-86fb984df756",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/5294f7c9-7cbf-4d65-b8a5-6744eaca2c06"
+                "mobile": "https://decoims.com/evcfellows/40349ae9-4bb3-4f96-aae9-4bbb38401fd5/1601225399a2ec0d.png",
+                "desktop": "https://decoims.com/evcfellows/72f39cc0-3a0b-457b-96d9-6e0a7eddc2cd/db34d346becf749e.png"
               }
             },
             "__resolveType": "site/sections/Banner.tsx"
@@ -96,8 +96,8 @@
             "text": "O Fundraising Toolkit é uma biblioteca de conteúdos e ferramentas para founders que estão passando ou se preparando para levantar capital. O objetivo desse diretório é auxiliar os empreendedores em todas as etapas de fundraising e com todo o tipo de material que eles possam precisar. Aqui você encontrará podcasts, criadores de conteúdo sobre o tema, textos, livros, templates, ferramentas, newsletters entre outros materiais, separados nas seguintes etapas de captação:",
             "image": {
               "alt": "zendesk",
-              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/a782f359-4c92-4ba0-93eb-eba478c6b4db",
-              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/11e09a93-16f5-48f2-ac2f-21107ab29fdf",
+              "mobile": "https://decoims.com/evcfellows/8fc5c617-cc93-408b-ab31-9641b5467473/54a7cdf33e94747e.png",
+              "desktop": "https://decoims.com/evcfellows/66df3a7e-796c-4e0b-81ea-eeb29e1405fa/8a95ea30d30ca6e2.png",
               "widthMobile": 344,
               "heightMobile": 368,
               "widthDesktop": 350,
@@ -113,8 +113,8 @@
           {
             "image": {
               "alt": "Tabela Fundraising",
-              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/a7027f35-2622-4411-a7d5-73342be24f31",
-              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/7996c81c-8397-47c7-8738-c589725b346f",
+              "mobile": "https://decoims.com/evcfellows/5cc6a3a0-6ee3-4e70-9b4f-8f3eee52449a/b44daf24abbf175a.png",
+              "desktop": "https://decoims.com/evcfellows/8aa21bd8-4698-4da3-94ea-112a0945ad6c/319396c471f79dd9.png",
               "widthDesktop": 650
             },
             "title": "No VC Fundraising Tool Kit você encontrará",

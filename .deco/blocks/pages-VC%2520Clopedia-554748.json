@@ -131,8 +131,8 @@
             "__resolveType": "site/sections/Banner.tsx",
             "banner": {
               "image": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/5d4a4d09-5f71-4682-ac8a-69e37232b7aa",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/f9838f24-6e1e-4fce-a8f8-6dbc51da530c"
+                "mobile": "https://decoims.com/evcfellows/6b23a377-c8ac-4431-a96f-cebcba0205f4/7a09285096c2b624.png",
+                "desktop": "https://decoims.com/evcfellows/c922cae8-ad3f-4f56-8677-708f86091f66/5380751e9c1e2c80.png"
               },
               "subtitle": "Mapping of all concepts related to entrepreneurial and fiduciary activities carried out by experts, with a selection of content for you!",
               "centerText": true,
@@ -145,8 +145,8 @@
               },
               "centerTitle": true,
               "backgroundImage": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/1c2896c6-ac89-41c7-9565-cea201d3f1c4",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/dfca4988-3077-45ad-a3a5-ae5dad885ebc"
+                "mobile": "https://decoims.com/evcfellows/ec7eaec9-1495-444e-a8d0-26c7006a202b/87ef0cc1def1d660.png",
+                "desktop": "https://decoims.com/evcfellows/198fc0df-ae30-4e92-8505-aad6e1966afb/373638e56672a166.png"
               },
               "badge": "PARCERIA"
             }
@@ -331,8 +331,8 @@
           {
             "banner": {
               "image": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/5d4a4d09-5f71-4682-ac8a-69e37232b7aa",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/f9838f24-6e1e-4fce-a8f8-6dbc51da530c"
+                "mobile": "https://decoims.com/evcfellows/6b23a377-c8ac-4431-a96f-cebcba0205f4/7a09285096c2b624.png",
+                "desktop": "https://decoims.com/evcfellows/c922cae8-ad3f-4f56-8677-708f86091f66/5380751e9c1e2c80.png"
               },
               "subtitle": "Mapeamento de todos os conceitos relacionados às atividades empreendedora e fiduciária feito por especialistas, com uma seleção de conteúdos para você!",
               "centerText": true,
@@ -344,8 +344,8 @@
               },
               "centerTitle": true,
               "backgroundImage": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/1c2896c6-ac89-41c7-9565-cea201d3f1c4",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/dfca4988-3077-45ad-a3a5-ae5dad885ebc"
+                "mobile": "https://decoims.com/evcfellows/ec7eaec9-1495-444e-a8d0-26c7006a202b/87ef0cc1def1d660.png",
+                "desktop": "https://decoims.com/evcfellows/198fc0df-ae30-4e92-8505-aad6e1966afb/373638e56672a166.png"
               },
               "badge": "PARCERIA"
             },

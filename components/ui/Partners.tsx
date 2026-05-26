@@ -20,12 +20,12 @@ const IMAGES = [
   {
     altText: "deco",
     image:
-      "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/fe7cd8ba-c954-45d6-9282-ee7d8ca8e3c7",
+      "https://decoims.com/evcfellows/23e31fa8-e0ec-40cc-af3d-a2276aaf7c5b/ed85e01cae30b934.svg",
   },
   {
     altText: "deco",
     image:
-      "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/637e8601-6b86-4979-aa97-68013a2a60fd",
+      "https://decoims.com/evcfellows/39c374f7-ce45-4c74-a89b-e273228bf31e/7b89d6ef10a9ba1e.svg",
   },
 ];
 

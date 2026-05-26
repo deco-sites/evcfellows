@@ -93,17 +93,17 @@ const DEFAULT_PROPS: Props = {
       alt: "a",
       href: "a",
       srcMobile:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/82727553-f670-4e7c-b9c2-9452aed1955f",
+        "https://decoims.com/evcfellows/211735fb-69ca-4df9-b5ef-7be60cb3a5c7/f2033f011d1e64c6.jpg",
       srcDesktop:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/7b3a9d75-57a5-43cf-a3c5-f689a997f24e",
+        "https://decoims.com/evcfellows/68ae9bdc-7050-4765-aa1d-8fffa5f23b20/1c059717e8f34f42.jpg",
     },
     {
       alt: "a",
       href: "a",
       srcMobile:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/c5c6bdf6-5555-488c-8b14-719e4158dea6",
+        "https://decoims.com/evcfellows/e7b7d25c-87b9-4bd4-b3f0-0f4a14b3d236/eff3c3bfc5ada040.jpg",
       srcDesktop:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/3e2b7824-d75c-4704-8d32-621bfc9b20cf",
+        "https://decoims.com/evcfellows/e54942aa-c607-4056-815b-6c23de76b732/6a52ba3304762f4a.jpg",
     },
   ],
   borderRadius: {

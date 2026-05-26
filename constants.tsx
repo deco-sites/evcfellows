@@ -404,11 +404,11 @@ export const layoutClasses = {
 
 export const imgPh = {
   "sq":
-    "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1818/ff6bb37e-0eab-40e1-a454-86856efc278e",
+    "https://decoims.com/evcfellows/5ea9d9c7-c32a-4532-8058-3cc2def9490c/331b997080873d67.png",
   "rct-sm":
-    "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1818/b0f8ca2d-9c83-48f7-88de-1a6e6d1e9eb7",
+    "https://decoims.com/evcfellows/b7413d86-4fac-4f50-829c-29a2c42476a1/956fd212ebb6246d.png",
   "rct-lg":
-    "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1818/6fe9404a-f69c-472a-b521-78f6c1f87326",
+    "https://decoims.com/evcfellows/58795b9b-e18e-40ea-86f1-09ecd8a640b5/de2e97d647a7a1af.png",
 };
 
 export const colorClasses = {
