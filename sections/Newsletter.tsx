@@ -13,16 +13,16 @@ export default function Newsletter() {
   const image = {
     image: {
       mobile:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/2aed496f-8a37-4414-868b-eea522083eed",
+        "https://decoims.com/evcfellows/d331174c-cf9d-4adb-aeab-c927ae5beee2/55ff44e232ca674b.png",
       desktop:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/e06d024c-6033-4553-aeb6-3998b49ac8d5",
+        "https://decoims.com/evcfellows/1a184337-97ba-435a-ba91-c702b66add70/f3f98a70c5626e52.png",
       heightMobile: 456,
     },
     backgroundImage: {
       mobile:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/59282c4f-d719-482d-b3b9-46bebfe53963",
+        "https://decoims.com/evcfellows/662033b2-51e2-44f2-b7ad-c63cf1943900/453c69a77cc88fc9.png",
       desktop:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/ff135d8f-5913-4ba8-a5d3-43e73563685e",
+        "https://decoims.com/evcfellows/0983f461-72a8-47c2-ab2b-a04203850c10/2a02bf33b97d317d.png",
     },
   };
 
@@ -130,7 +130,7 @@ export default function Newsletter() {
                       >
                         <img
                           class="refferal_badge"
-                          src="https://digitalasset.intuit.com/render/content/dam/intuit/mc-fe/en_us/images/intuit-mc-rewards-text-dark.svg"
+                          src="https://decoims.com/evcfellows/56c66f9f-a512-4cb9-b690-0f088fdb2fc1/847bb4d5d3c77187.svg"
                           alt="Intuit Mailchimp"
                           style={{
                             width: "220px",

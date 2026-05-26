@@ -20,18 +20,18 @@
           {
             "banner": {
               "image": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/64c1d239-8e09-4832-b38a-ca0d76c72627",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/610ee72c-e75f-46b6-a07f-078473906818"
+                "mobile": "https://decoims.com/evcfellows/a4ec9a49-a9ff-40b2-9e87-754cf44a27c5/020c19127f716569.png",
+                "desktop": "https://decoims.com/evcfellows/0238b626-f803-4b2b-9395-aeeb77442aa7/9c0cd79dba387d51.png"
               },
               "centerText": true,
               "centerTitle": true,
               "backgroundImage": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/3e5299ae-01a8-466d-9524-bcaea5fa69c0",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/ceb5d2e0-62d6-455b-9cf9-3ea21679f2ad"
+                "mobile": "https://decoims.com/evcfellows/8bf44338-ebd3-49cb-9bd3-1838e3c931c8/278e2b82ffa38672.png",
+                "desktop": "https://decoims.com/evcfellows/7a5f6c0f-9f01-4353-a40a-192885d79e42/bddef5d664f4a7eb.png"
               },
               "bannerImage": {
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/83746b96-ae75-4024-a5ef-ac3f8453ace4/logo-tech-stack.png",
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/83746b96-ae75-4024-a5ef-ac3f8453ace4/logo-tech-stack.png",
+                "desktop": "https://decoims.com/evcfellows/d43ba853-926f-49fc-b416-105fa2d02b3c/1c7342d1a2479a1d.png",
+                "mobile": "https://decoims.com/evcfellows/d43ba853-926f-49fc-b416-105fa2d02b3c/1c7342d1a2479a1d.png",
                 "alt": "Tech Stack"
               }
             },
@@ -45,8 +45,8 @@
             "description": "<p style=\"text-align: center;\">The VC Tech Stack report aims to identify the main tools that make up the tech stack of asset managers in Brazil and assess their adherence to the processes executed by the managers.</p><br/><p style=\"text-align: center;\">We appreciate the support of our partners Zendesk, AWS and FM Derraik in building this material aimed at the Venture Capital ecosystem.</p>",
             "image": {
               "alt": "report esg",
-              "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/137313a3-0884-495f-bc2e-80b9a699a285/capa_mockup.png",
-              "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/137313a3-0884-495f-bc2e-80b9a699a285/capa_mockup.png",
+              "mobile": "https://decoims.com/evcfellows/6cd2f89f-1398-47f3-97e7-fe8d2a86c58e/48268f78c4572040.png",
+              "desktop": "https://decoims.com/evcfellows/6cd2f89f-1398-47f3-97e7-fe8d2a86c58e/48268f78c4572040.png",
               "widthDesktop": 600,
               "heightDesktop": 300
             },
@@ -82,18 +82,18 @@
             "__resolveType": "site/sections/Banner.tsx",
             "banner": {
               "image": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/64c1d239-8e09-4832-b38a-ca0d76c72627",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/610ee72c-e75f-46b6-a07f-078473906818"
+                "mobile": "https://decoims.com/evcfellows/a4ec9a49-a9ff-40b2-9e87-754cf44a27c5/020c19127f716569.png",
+                "desktop": "https://decoims.com/evcfellows/0238b626-f803-4b2b-9395-aeeb77442aa7/9c0cd79dba387d51.png"
               },
               "centerText": true,
               "centerTitle": true,
               "backgroundImage": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/3e5299ae-01a8-466d-9524-bcaea5fa69c0",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/ceb5d2e0-62d6-455b-9cf9-3ea21679f2ad"
+                "mobile": "https://decoims.com/evcfellows/8bf44338-ebd3-49cb-9bd3-1838e3c931c8/278e2b82ffa38672.png",
+                "desktop": "https://decoims.com/evcfellows/7a5f6c0f-9f01-4353-a40a-192885d79e42/bddef5d664f4a7eb.png"
               },
               "bannerImage": {
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/83746b96-ae75-4024-a5ef-ac3f8453ace4/logo-tech-stack.png",
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/83746b96-ae75-4024-a5ef-ac3f8453ace4/logo-tech-stack.png",
+                "desktop": "https://decoims.com/evcfellows/d43ba853-926f-49fc-b416-105fa2d02b3c/1c7342d1a2479a1d.png",
+                "mobile": "https://decoims.com/evcfellows/d43ba853-926f-49fc-b416-105fa2d02b3c/1c7342d1a2479a1d.png",
                 "alt": "Tech Stack"
               }
             }
@@ -106,8 +106,8 @@
             "description": "<p style=\"text-align: center;\">O VC Tech Stack report tem como objetivo identificar as principais ferramentas que compõem o tech stack de gestoras do Brasil e avaliar suas aderências aos processos executados pelas gestoras.</p><br/><p style=\"text-align: center;\">Agradecemos o apoio de nossos parceiros Zendesk, AWS e FM Derraik na construção desse material direcionado ao ecossistema de Venture Capital.</p>",
             "image": {
               "alt": "report esg",
-              "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/137313a3-0884-495f-bc2e-80b9a699a285/capa_mockup.png",
-              "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/137313a3-0884-495f-bc2e-80b9a699a285/capa_mockup.png",
+              "mobile": "https://decoims.com/evcfellows/6cd2f89f-1398-47f3-97e7-fe8d2a86c58e/48268f78c4572040.png",
+              "desktop": "https://decoims.com/evcfellows/6cd2f89f-1398-47f3-97e7-fe8d2a86c58e/48268f78c4572040.png",
               "widthDesktop": 600,
               "heightDesktop": 300
             },

@@ -67,9 +67,9 @@ const DEFAULT_PROPS = {
         href: "/",
       },
       mobile:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
+        "https://decoims.com/evcfellows/5228ae49-12f6-4c15-8cc7-a41b3e7d7a07/6356544eabd1367d.png",
       desktop:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5",
+        "https://decoims.com/evcfellows/abfdc8e9-1066-49fe-818e-bb018fe5f5e4/2301980ebc20d1fc.png",
     },
     {
       alt: "/feminino",
@@ -80,9 +80,9 @@ const DEFAULT_PROPS = {
         href: "/",
       },
       mobile:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
+        "https://decoims.com/evcfellows/5228ae49-12f6-4c15-8cc7-a41b3e7d7a07/6356544eabd1367d.png",
       desktop:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5",
+        "https://decoims.com/evcfellows/abfdc8e9-1066-49fe-818e-bb018fe5f5e4/2301980ebc20d1fc.png",
     },
     {
       alt: "/feminino",
@@ -93,9 +93,9 @@ const DEFAULT_PROPS = {
         href: "/",
       },
       mobile:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
+        "https://decoims.com/evcfellows/5228ae49-12f6-4c15-8cc7-a41b3e7d7a07/6356544eabd1367d.png",
       desktop:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5",
+        "https://decoims.com/evcfellows/abfdc8e9-1066-49fe-818e-bb018fe5f5e4/2301980ebc20d1fc.png",
     },
   ],
   preload: true,

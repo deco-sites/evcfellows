@@ -18,8 +18,8 @@
           {
             "banner": {
               "image": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/4967f1d6-19fa-4328-b854-adeb0b41e3e1",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/78b6ad40-8745-4dad-a54e-d09af415b29d"
+                "mobile": "https://decoims.com/evcfellows/ee828d31-5d7b-40cb-82a0-fd4a70960f66/9ece215d55c0602f.png",
+                "desktop": "https://decoims.com/evcfellows/f0c0ebb0-0b9a-40ac-9745-5cd0e0fc0cb3/cfd6e6848938a43a.png"
               },
               "title": "VC Events",
               "buttons": [
@@ -34,8 +34,8 @@
               "textButton": "ACESSE AQUI O CALENDÁRIO",
               "centerTitle": true,
               "backgroundImage": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/607b172a-6b2a-4f37-9448-70f8d5e2d72c",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/a246e32f-e913-4f0a-974f-6ee5d073db30"
+                "mobile": "https://decoims.com/evcfellows/76c9628d-547c-4174-8fbe-f8bae11b5d6b/6e09a465891f0e5c.png",
+                "desktop": "https://decoims.com/evcfellows/f284519f-e2bc-4e82-8153-cce51e7f77e1/382671d9600642a7.png"
               }
             },
             "__resolveType": "site/sections/Banner.tsx"
@@ -63,8 +63,8 @@
           {
             "banner": {
               "image": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/4967f1d6-19fa-4328-b854-adeb0b41e3e1",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/78b6ad40-8745-4dad-a54e-d09af415b29d"
+                "mobile": "https://decoims.com/evcfellows/ee828d31-5d7b-40cb-82a0-fd4a70960f66/9ece215d55c0602f.png",
+                "desktop": "https://decoims.com/evcfellows/f0c0ebb0-0b9a-40ac-9745-5cd0e0fc0cb3/cfd6e6848938a43a.png"
               },
               "title": "Eventos para VC",
               "buttons": [
@@ -79,8 +79,8 @@
               "textButton": "ACESSE AQUI O CALENDÁRIO",
               "centerTitle": true,
               "backgroundImage": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/607b172a-6b2a-4f37-9448-70f8d5e2d72c",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/a246e32f-e913-4f0a-974f-6ee5d073db30"
+                "mobile": "https://decoims.com/evcfellows/76c9628d-547c-4174-8fbe-f8bae11b5d6b/6e09a465891f0e5c.png",
+                "desktop": "https://decoims.com/evcfellows/f284519f-e2bc-4e82-8153-cce51e7f77e1/382671d9600642a7.png"
               }
             },
             "__resolveType": "site/sections/Banner.tsx"

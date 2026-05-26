@@ -20,22 +20,22 @@
           {
             "banner": {
               "image": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/9029f250-77a5-41d2-8926-8f7323bbf844",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/f3820bd6-bb92-476e-8f64-6829dde73a05"
+                "mobile": "https://decoims.com/evcfellows/71b78f61-a9c9-46bc-b8c6-dcc553646506/d9e16fd896547c81.png",
+                "desktop": "https://decoims.com/evcfellows/ea9b986d-4cbf-43aa-aa0a-074031643abc/adc8ab139940248b.png"
               },
               "subtitle": "The most comprehensive research on ESG within Venture Capital management firms in Brazil",
               "centerText": true,
               "bannerImage": {
                 "alt": "pesquisa ESG 2022",
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/78486cdc-9ac0-490f-8aa9-f2980e636385",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/68f962a4-5c84-404f-92fc-26aae6e74fdb",
+                "mobile": "https://decoims.com/evcfellows/95f59214-3678-48b4-bafb-69772db59fb5/2e89f47218fbeb8e.png",
+                "desktop": "https://decoims.com/evcfellows/1832db58-c7b4-4da6-b16f-c1b8a4c04911/89791a2383245324.png",
                 "widthDesktop": 338,
                 "heightDesktop": 223
               },
               "centerTitle": true,
               "backgroundImage": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/48d9bf1e-3699-484b-9b6f-662b16cfedbb",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/de714a11-9ace-492f-aa45-e4ea01e2ab0b"
+                "mobile": "https://decoims.com/evcfellows/5b858b43-47ac-4170-a4b6-0b6604238b5c/2564d4c208c6f437.png",
+                "desktop": "https://decoims.com/evcfellows/e13e289e-cad8-41b7-b631-b38313dfb82a/8ec74876b6e384b9.png"
               }
             },
             "__resolveType": "site/sections/Banner.tsx"
@@ -48,9 +48,9 @@
               "buttonUrl": "https://airtable.com/appjth61mJwKsImWv/shrcS07Voy7xw1HeL",
               "textButton": "DOWNLOAD THE REPORT NOW",
               "image": {
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/1742f513-76aa-4409-b44c-775b20851d7a",
+                "desktop": "https://decoims.com/evcfellows/dc8fab0b-17e2-4088-b54c-f5e36f896ff1/073bdea14348b449.png",
                 "alt": "report esg",
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/b4b5fcda-70b0-4f16-a8e5-0b449a25c44f",
+                "mobile": "https://decoims.com/evcfellows/80e4acac-835f-4e93-a3ac-b7d606169c54/a7a4931b48868c9f.png",
                 "widthDesktop": 600,
                 "heightDesktop": 300
               },
@@ -80,22 +80,22 @@
           {
             "banner": {
               "image": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/9029f250-77a5-41d2-8926-8f7323bbf844",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/f3820bd6-bb92-476e-8f64-6829dde73a05"
+                "mobile": "https://decoims.com/evcfellows/71b78f61-a9c9-46bc-b8c6-dcc553646506/d9e16fd896547c81.png",
+                "desktop": "https://decoims.com/evcfellows/ea9b986d-4cbf-43aa-aa0a-074031643abc/adc8ab139940248b.png"
               },
               "subtitle": "A mais completa pesquisa sobre o tema ESG dentro das gestoras de Venture Capital no Brasil",
               "centerText": true,
               "bannerImage": {
                 "alt": "pesquisa ESG 2022",
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/78486cdc-9ac0-490f-8aa9-f2980e636385",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/68f962a4-5c84-404f-92fc-26aae6e74fdb",
+                "mobile": "https://decoims.com/evcfellows/95f59214-3678-48b4-bafb-69772db59fb5/2e89f47218fbeb8e.png",
+                "desktop": "https://decoims.com/evcfellows/1832db58-c7b4-4da6-b16f-c1b8a4c04911/89791a2383245324.png",
                 "widthDesktop": 338,
                 "heightDesktop": 223
               },
               "centerTitle": true,
               "backgroundImage": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/48d9bf1e-3699-484b-9b6f-662b16cfedbb",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/de714a11-9ace-492f-aa45-e4ea01e2ab0b"
+                "mobile": "https://decoims.com/evcfellows/5b858b43-47ac-4170-a4b6-0b6604238b5c/2564d4c208c6f437.png",
+                "desktop": "https://decoims.com/evcfellows/e13e289e-cad8-41b7-b631-b38313dfb82a/8ec74876b6e384b9.png"
               }
             },
             "__resolveType": "site/sections/Banner.tsx"
@@ -103,8 +103,8 @@
           {
             "image": {
               "alt": "report esg",
-              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/b4b5fcda-70b0-4f16-a8e5-0b449a25c44f",
-              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/1742f513-76aa-4409-b44c-775b20851d7a",
+              "mobile": "https://decoims.com/evcfellows/80e4acac-835f-4e93-a3ac-b7d606169c54/a7a4931b48868c9f.png",
+              "desktop": "https://decoims.com/evcfellows/dc8fab0b-17e2-4088-b54c-f5e36f896ff1/073bdea14348b449.png",
               "widthDesktop": 600,
               "heightDesktop": 300
             },

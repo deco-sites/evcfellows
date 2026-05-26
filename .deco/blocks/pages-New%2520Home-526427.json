@@ -24,15 +24,15 @@
             "__resolveType": "site/sections/Banner.tsx",
             "banner": {
               "image": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/5104cec6-7e07-412b-ba19-d9c942d7f80e",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/920422c8-8576-44a0-9c98-c90b1491605e"
+                "mobile": "https://decoims.com/evcfellows/b9478686-f30e-4ee1-89fb-7fcf7630da81/aa34d0dc864a223b.png",
+                "desktop": "https://decoims.com/evcfellows/3b9e7826-c40b-4e1d-9b2b-d0b094b3f1e2/767dc4836ef45afa.png"
               },
               "title": "Fellowship of future Venture Capital leaders",
               "subtitle": "We connect, educate and inspire the next generation of Venture Capitalists through a strong and diverse community",
               "centerText": false,
               "backgroundImage": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/0ee6bc41-98c7-4ecb-9854-fad5a356b921",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/c075fae2-3eef-4508-ba1f-968cb13a3f3d"
+                "mobile": "https://decoims.com/evcfellows/61e958a1-9257-40ed-972d-f691bf5d360b/78774dd2accc5982.png",
+                "desktop": "https://decoims.com/evcfellows/a98f6e38-9ea1-4041-991b-abaaa00790dd/cd795ada0f485d4f.png"
               }
             }
           },
@@ -125,13 +125,13 @@
             "title": "EVCF Big Numbers",
             "image": {
               "image": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/2aed496f-8a37-4414-868b-eea522083eed",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/e06d024c-6033-4553-aeb6-3998b49ac8d5",
+                "mobile": "https://decoims.com/evcfellows/d331174c-cf9d-4adb-aeab-c927ae5beee2/55ff44e232ca674b.png",
+                "desktop": "https://decoims.com/evcfellows/1a184337-97ba-435a-ba91-c702b66add70/f3f98a70c5626e52.png",
                 "heightMobile": 456
               },
               "backgroundImage": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/59282c4f-d719-482d-b3b9-46bebfe53963",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/ff135d8f-5913-4ba8-a5d3-43e73563685e"
+                "mobile": "https://decoims.com/evcfellows/662033b2-51e2-44f2-b7ad-c63cf1943900/453c69a77cc88fc9.png",
+                "desktop": "https://decoims.com/evcfellows/0983f461-72a8-47c2-ab2b-a04203850c10/2a02bf33b97d317d.png"
               }
             },
             "infoNumbers": [
@@ -260,15 +260,15 @@
             "__resolveType": "site/sections/Banner.tsx",
             "banner": {
               "image": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/5104cec6-7e07-412b-ba19-d9c942d7f80e",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/920422c8-8576-44a0-9c98-c90b1491605e"
+                "mobile": "https://decoims.com/evcfellows/b9478686-f30e-4ee1-89fb-7fcf7630da81/aa34d0dc864a223b.png",
+                "desktop": "https://decoims.com/evcfellows/3b9e7826-c40b-4e1d-9b2b-d0b094b3f1e2/767dc4836ef45afa.png"
               },
               "title": "Fellowship dos futuros  líderes de Venture Capital",
               "subtitle": "Conectamos, educamos e inspiramos a próxima geração de Venture Capitalists por meio de uma comunidade forte e diversa",
               "centerText": false,
               "backgroundImage": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/0ee6bc41-98c7-4ecb-9854-fad5a356b921",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/c075fae2-3eef-4508-ba1f-968cb13a3f3d"
+                "mobile": "https://decoims.com/evcfellows/61e958a1-9257-40ed-972d-f691bf5d360b/78774dd2accc5982.png",
+                "desktop": "https://decoims.com/evcfellows/a98f6e38-9ea1-4041-991b-abaaa00790dd/cd795ada0f485d4f.png"
               }
             }
           },
@@ -393,69 +393,69 @@
                   "partnersLogos": [
                     {
                       "alt": "fm",
-                      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/7c9031d1-bde4-4d01-b5eb-60ece5c514d2"
+                      "desktop": "https://decoims.com/evcfellows/4ce41ae1-4f70-46f5-a0cf-e9d20815222e/b115c6f24265fa23.webp"
                     },
                     {
                       "alt": "aws",
-                      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/e43c58ce-375f-45c7-8822-5df2e0fb2714",
+                      "desktop": "https://decoims.com/evcfellows/ae9f20ee-fb54-4730-8d19-8999b571d854/9326bd00dea91812.webp",
                       "widthDesktop": 88,
                       "heightDesktop": 52
                     }
                   ],
                   "logoSharedVision": {
                     "alt": "shared vision",
-                    "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/8522e485-7af0-4c0d-a4d5-daec4a8c56fd",
-                    "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/7b27ca21-511c-4a91-b8ec-1c7cf3449a06",
+                    "mobile": "https://decoims.com/evcfellows/5dd69a38-a2da-4dba-bd1b-573290a25a18/9afc36b5ad982426.webp",
+                    "desktop": "https://decoims.com/evcfellows/9587f3d1-7dcd-4fb6-b49b-6c0fd1987d66/bf546e619e338d6c.webp",
                     "widthDesktop": 284,
                     "heightDesktop": 59
                   },
                   "sharedVisionLogos": [
                     {
                       "alt": "fm",
-                      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/9e7794d8-7b96-48fb-9be1-ab22d72446ce",
-                      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/a83d8e1d-7c74-478f-8338-425ba49b04c6",
+                      "mobile": "https://decoims.com/evcfellows/478d034b-4bc9-4271-a13e-f2910cea5723/ee813724bd924d39.webp",
+                      "desktop": "https://decoims.com/evcfellows/39c405da-2383-4918-8430-098ede320ad7/85ec76cc2c872165.webp",
                       "widthDesktop": 400,
                       "heightDesktop": 95
                     },
                     {
                       "alt": "aws",
-                      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/3cad55f4-2e07-4656-9de1-5b8b3f970f1c",
-                      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/3831ef80-b40b-4067-8c6a-34389ec673c9",
+                      "mobile": "https://decoims.com/evcfellows/64552bdd-c292-45f3-b213-317d2c8a5227/aa4bd0e9964f16b6.webp",
+                      "desktop": "https://decoims.com/evcfellows/9616b6bd-7b5b-4c3b-8773-2a9cf6fd66d5/5139d8c30983fe46.webp",
                       "widthDesktop": 68,
                       "heightDesktop": 32
                     }
                   ],
                   "logoCommunityPartner": {
                     "alt": "community",
-                    "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/874ecb3d-2e3b-4bfe-8c92-0e77b715e773",
-                    "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/5e2b5c2c-edb6-4f03-aba5-308ddc2be77a",
+                    "mobile": "https://decoims.com/evcfellows/bfe6f8ff-8174-4b7f-8013-71da13420f1b/b177b83b03cb5dbb.webp",
+                    "desktop": "https://decoims.com/evcfellows/110b6b4d-2815-42a0-a3dd-c403cebc2d10/e347e65e83572865.webp",
                     "widthDesktop": 271,
                     "heightDesktop": 59
                   },
                   "logoKnowledgePartner": {
                     "alt": "knowledge",
-                    "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/8c9ec42b-fdab-4d1c-b432-fc01827431ae",
-                    "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/150c9f81-746c-47f4-81f5-a70e43bbee50",
+                    "mobile": "https://decoims.com/evcfellows/19cb1eee-f924-49d0-aeb4-f529d4b6b398/45f3e4ee2c2f52ff.webp",
+                    "desktop": "https://decoims.com/evcfellows/1ac79b67-a6e9-432e-86d7-46e9c2a4afb9/36145b5803c45705.webp",
                     "widthDesktop": 255,
                     "heightDesktop": 52
                   },
                   "logoInitiativePartner": {
                     "alt": "initiative",
-                    "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/fed61a94-d3ba-4bef-b8eb-77a3da847b11",
-                    "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/49e956ef-3926-4c22-bd7d-c4bf497fb07a",
+                    "mobile": "https://decoims.com/evcfellows/746d1c6b-f00c-48be-9190-33e7062f2b05/3ad02257a87bfbf0.webp",
+                    "desktop": "https://decoims.com/evcfellows/ce760515-00c5-4f22-842d-9233a8295760/f5a5094410e51b21.webp",
                     "widthDesktop": 260,
                     "heightDesktop": 59
                   },
                   "communityPartnersLogos": [
                     {
                       "alt": "oracle",
-                      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/b9a5791e-a849-4e82-9a7c-8c2d19c4e3b4",
+                      "desktop": "https://decoims.com/evcfellows/0a814bba-626b-4a65-b730-8b95adc2cd2c/5a279f12ecc3fb5e.webp",
                       "widthDesktop": 162,
                       "heightDesktop": 21
                     },
                     {
                       "alt": "valverde",
-                      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/94c622c4-02b4-4a96-8e7c-66c828c05d5f",
+                      "desktop": "https://decoims.com/evcfellows/5befb751-be77-42d3-a3f6-dc897efb3153/19da0c5939cb639a.webp",
                       "widthDesktop": 193,
                       "heightDesktop": 32
                     }
@@ -463,22 +463,22 @@
                   "initiativePartnersLogos": [
                     {
                       "alt": "zendesk",
-                      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/af228a33-7589-4ff2-83a6-4da9d196da3b",
-                      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/77a226a6-21f9-4cab-9c41-11b6dd23dd29",
+                      "mobile": "https://decoims.com/evcfellows/1c6382c1-39ae-43c5-9ff5-21515b8d67a1/4c03d1515ed3e6a4.webp",
+                      "desktop": "https://decoims.com/evcfellows/cc7de1b6-2d38-45f3-aee2-2118f848cea6/75fe4c6035e48a3b.webp",
                       "widthDesktop": 131,
                       "heightDesktop": 74
                     },
                     {
                       "alt": "cubo",
-                      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/7eef2017-5651-4bc4-88f2-84b98f329eac",
-                      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/f3712910-f2b4-4f73-9032-a3a983ff27bf",
+                      "mobile": "https://decoims.com/evcfellows/9e36835a-49d5-47de-af08-e904c452d3f3/6fd140ae6a4fbb75.webp",
+                      "desktop": "https://decoims.com/evcfellows/5e4a6c86-87f8-4182-8b9b-50128884d8f5/df0e25aad228eb90.webp",
                       "widthDesktop": 140,
                       "heightDesktop": 52
                     },
                     {
                       "alt": "fk",
-                      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/56d5db62-8253-4d52-80a5-a008a7bd375e",
-                      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/618df104-3bf7-42d2-892c-1659d8299f95",
+                      "mobile": "https://decoims.com/evcfellows/23fd3706-e286-40fc-b6c3-4805654e1021/32dc119a69b8d8f4.webp",
+                      "desktop": "https://decoims.com/evcfellows/4d7734f0-2c8b-4b7c-85da-8bb65c36a07f/e8f81f1b6ec260cd.webp",
                       "widthDesktop": 193,
                       "heightDesktop": 21
                     }
@@ -486,71 +486,71 @@
                   "knowledgePartinersLogos": [
                     {
                       "alt": "cesar",
-                      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/03c1230b-b3d2-490a-a583-bff427ac410e",
-                      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/3df4d7c6-7204-46a0-b026-c155f1af05a3",
+                      "mobile": "https://decoims.com/evcfellows/f3b477d3-9274-43f5-bc6d-b9f55f351915/e502e739a35774b4.webp",
+                      "desktop": "https://decoims.com/evcfellows/e299f4f7-82b7-49d8-9a87-7e3ed18c9bc2/29156c35ae22f3cb.webp",
                       "widthDesktop": 65,
                       "heightDesktop": 37
                     },
                     {
                       "alt": "gvc",
-                      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/f8323081-868c-4239-9337-015a7d0d0f4a",
-                      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/789a5c04-d8ba-4bd4-821f-7881ab7f024f",
+                      "mobile": "https://decoims.com/evcfellows/74f281b5-0d59-447a-9c98-b7a14ddb14c8/72f7513e35e5b930.webp",
+                      "desktop": "https://decoims.com/evcfellows/b4913cdd-5c89-470c-a7ce-196f6c26fbe0/606b3e0a9267c2f1.webp",
                       "widthDesktop": 105,
                       "heightDesktop": 52
                     },
                     {
                       "alt": "diversity vc",
-                      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/89de0e62-92cf-46f0-a997-f8b16c4818b7",
-                      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/b0ac70cc-0736-4d0c-8dac-3a5aca6e8303",
+                      "mobile": "https://decoims.com/evcfellows/a7fcf603-dedc-490f-93da-32e7dff80453/7c30a8f24b0046b1.webp",
+                      "desktop": "https://decoims.com/evcfellows/0f6939bd-fb8d-4c80-85dd-423ccc82ca0e/cf4a0c8594728837.webp",
                       "widthDesktop": 103,
                       "heightDesktop": 21
                     },
                     {
                       "alt": "vc",
-                      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/4bfe17a3-829d-41d2-bfa0-ec1f11296a77",
-                      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/b50df5c6-e7c4-4768-9a58-bf0b9de63568",
+                      "mobile": "https://decoims.com/evcfellows/a04b29bf-08ed-48f4-bfde-840f7c0de187/54d9411abecdd1e1.webp",
+                      "desktop": "https://decoims.com/evcfellows/f0bb9e57-e607-442e-9a0c-704dcfc24ff6/aba90c0a1c429ced.webp",
                       "widthDesktop": 46,
                       "heightDesktop": 46
                     },
                     {
                       "alt": "ace",
-                      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/f53b1222-a5a7-4958-bf95-c0abd12b9b00",
-                      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/f0b5dc2a-5ff7-4226-9d81-dbf716b28361",
+                      "mobile": "https://decoims.com/evcfellows/5bd86a96-af2d-42f5-a76e-50fb6e4339d3/a6c0b79554ca63d7.webp",
+                      "desktop": "https://decoims.com/evcfellows/ad7a806e-3eee-4dd5-9023-c43acf28f3a7/e029baedfd301225.webp",
                       "widthDesktop": 52,
                       "heightDesktop": 52
                     },
                     {
                       "alt": "wow",
-                      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/359cfa98-4b63-4090-bb07-12edfc8499c9",
-                      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/258ed244-9409-4f1d-8df5-34e6096552fc",
+                      "mobile": "https://decoims.com/evcfellows/4d4178c2-8f2b-44a4-a42a-86ffd3a51e64/195a973dd54b3d69.webp",
+                      "desktop": "https://decoims.com/evcfellows/ea43faa7-b4e7-4cf9-8b29-a82a44ac0620/ad37adbfaafa6b0f.webp",
                       "widthDesktop": 89,
                       "heightDesktop": 37
                     },
                     {
                       "alt": "endeavor",
-                      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/acaeca4b-f4e3-412c-ba7b-954bc73e986e",
-                      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/237f890b-b1ac-454c-bc9c-4cec6f353cd8",
+                      "mobile": "https://decoims.com/evcfellows/9c5110da-d274-4da2-9954-a89313ecec98/84ab25d3aed730b9.webp",
+                      "desktop": "https://decoims.com/evcfellows/cf1b643a-a5f3-4e4e-a3da-2fe6d25deb06/211d4b27a7a344b5.webp",
                       "widthDesktop": 112,
                       "heightDesktop": 15
                     },
                     {
                       "alt": "captable",
-                      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/fcd299fe-cdc5-44eb-adb3-6bea12b0ce6b",
-                      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/0c6545c9-1b52-4db9-aadd-dea4fa8a39d7",
+                      "mobile": "https://decoims.com/evcfellows/6337f127-99c1-4b58-8a6e-535ccba2adaa/9eec6aaff02dfcad.webp",
+                      "desktop": "https://decoims.com/evcfellows/1d9fca69-952c-451d-b51e-87ded8b5ecbe/63e52fa9cf22283f.webp",
                       "widthDesktop": 110,
                       "heightDesktop": 21
                     },
                     {
                       "alt": "vc",
-                      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/01cff6b9-0932-43d8-a684-40429e0e8770",
-                      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/3718f9b9-1ec9-4e6e-b762-f9e8ee3d3e84",
+                      "mobile": "https://decoims.com/evcfellows/c26888bf-0cf6-43fd-b7d0-bb1c84d41d47/41aebb1efc02477b.webp",
+                      "desktop": "https://decoims.com/evcfellows/386f00d9-a0b2-4cc1-b050-d652718a3930/0170e1e4e4d5350e.webp",
                       "widthDesktop": 46,
                       "heightDesktop": 46
                     },
                     {
                       "alt": "Latitud",
-                      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/84562bf2-e507-4f9a-ad05-4fa1fec81bb8",
-                      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/6e1b68cf-9fb7-4c7f-8217-6dbb49660542",
+                      "mobile": "https://decoims.com/evcfellows/f047c2ef-c2fc-46de-8917-004751b43843/c5a6ecbf97f1a31a.webp",
+                      "desktop": "https://decoims.com/evcfellows/1deeb1b1-7759-4535-90f3-71bbcdc8e546/da9881ecc1758de1.webp",
                       "widthDesktop": 114,
                       "heightDesktop": 21
                     }

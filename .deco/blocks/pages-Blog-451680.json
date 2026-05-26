@@ -12,13 +12,13 @@
       "__resolveType": "site/sections/Blog.tsx",
       "description": "Entrevistas com o Ecossistema",
       "bgImg": {
-        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/333b4450-15ec-4e22-93c7-4aa19b16018d/60bcc69fd85a366c150c687d_blue-arrow.svg",
+        "src": "https://decoims.com/evcfellows/1d636d44-083c-4b21-892d-f7d5e9203e2f/22c0744b302b2dd1.svg",
         "alt": "arrow",
         "width": 1136,
         "height": 100
       },
       "icon": {
-        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/31bd2e5f-cd80-4171-8d0b-7afe0e52664b/60b944a3a3878c7862fc9880_Ellipse-33.svg",
+        "src": "https://decoims.com/evcfellows/beed4e70-9eb1-4c45-b53a-22db1f27b122/03fe1a8aa78479aa.svg",
         "alt": "blue ball icon",
         "width": 12,
         "height": 12
@@ -30,7 +30,7 @@
         "height": 100
       },
       "iconInterview": {
-        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/31bd2e5f-cd80-4171-8d0b-7afe0e52664b/60b944a3a3878c7862fc9880_Ellipse-33.svg",
+        "src": "https://decoims.com/evcfellows/beed4e70-9eb1-4c45-b53a-22db1f27b122/03fe1a8aa78479aa.svg",
         "alt": "blue icon image",
         "width": 12,
         "height": 12
@@ -47,7 +47,7 @@
             "height": 291
           },
           "iconInterview": {
-            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/31bd2e5f-cd80-4171-8d0b-7afe0e52664b/60b944a3a3878c7862fc9880_Ellipse-33.svg",
+            "src": "https://decoims.com/evcfellows/beed4e70-9eb1-4c45-b53a-22db1f27b122/03fe1a8aa78479aa.svg",
             "alt": "blue icon",
             "width": 12,
             "height": 12
@@ -66,7 +66,7 @@
             "height": 291
           },
           "iconInterview": {
-            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/31bd2e5f-cd80-4171-8d0b-7afe0e52664b/60b944a3a3878c7862fc9880_Ellipse-33.svg",
+            "src": "https://decoims.com/evcfellows/beed4e70-9eb1-4c45-b53a-22db1f27b122/03fe1a8aa78479aa.svg",
             "alt": "blue icon",
             "width": 12,
             "height": 12
@@ -85,7 +85,7 @@
             "height": 291
           },
           "iconInterview": {
-            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/31bd2e5f-cd80-4171-8d0b-7afe0e52664b/60b944a3a3878c7862fc9880_Ellipse-33.svg",
+            "src": "https://decoims.com/evcfellows/beed4e70-9eb1-4c45-b53a-22db1f27b122/03fe1a8aa78479aa.svg",
             "alt": "blue icon",
             "width": 12,
             "height": 12
@@ -104,7 +104,7 @@
             "height": 291
           },
           "iconInterview": {
-            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/31bd2e5f-cd80-4171-8d0b-7afe0e52664b/60b944a3a3878c7862fc9880_Ellipse-33.svg",
+            "src": "https://decoims.com/evcfellows/beed4e70-9eb1-4c45-b53a-22db1f27b122/03fe1a8aa78479aa.svg",
             "alt": "blue icon",
             "width": 12,
             "height": 12
@@ -123,7 +123,7 @@
             "height": 291
           },
           "iconInterview": {
-            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/31bd2e5f-cd80-4171-8d0b-7afe0e52664b/60b944a3a3878c7862fc9880_Ellipse-33.svg",
+            "src": "https://decoims.com/evcfellows/beed4e70-9eb1-4c45-b53a-22db1f27b122/03fe1a8aa78479aa.svg",
             "alt": "blue icon",
             "width": 12,
             "height": 12
@@ -142,7 +142,7 @@
             "height": 291
           },
           "iconInterview": {
-            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/31bd2e5f-cd80-4171-8d0b-7afe0e52664b/60b944a3a3878c7862fc9880_Ellipse-33.svg",
+            "src": "https://decoims.com/evcfellows/beed4e70-9eb1-4c45-b53a-22db1f27b122/03fe1a8aa78479aa.svg",
             "alt": "blue icon",
             "width": 12,
             "height": 12
@@ -161,7 +161,7 @@
             "height": 291
           },
           "iconInterview": {
-            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/31bd2e5f-cd80-4171-8d0b-7afe0e52664b/60b944a3a3878c7862fc9880_Ellipse-33.svg",
+            "src": "https://decoims.com/evcfellows/beed4e70-9eb1-4c45-b53a-22db1f27b122/03fe1a8aa78479aa.svg",
             "alt": "blue icon",
             "width": 12,
             "height": 12
@@ -180,7 +180,7 @@
             "height": 291
           },
           "iconInterview": {
-            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/31bd2e5f-cd80-4171-8d0b-7afe0e52664b/60b944a3a3878c7862fc9880_Ellipse-33.svg",
+            "src": "https://decoims.com/evcfellows/beed4e70-9eb1-4c45-b53a-22db1f27b122/03fe1a8aa78479aa.svg",
             "alt": "blue icon",
             "width": 12,
             "height": 12
@@ -199,7 +199,7 @@
             "height": 291
           },
           "iconInterview": {
-            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/31bd2e5f-cd80-4171-8d0b-7afe0e52664b/60b944a3a3878c7862fc9880_Ellipse-33.svg",
+            "src": "https://decoims.com/evcfellows/beed4e70-9eb1-4c45-b53a-22db1f27b122/03fe1a8aa78479aa.svg",
             "alt": "blue icon",
             "width": 12,
             "height": 12
@@ -232,7 +232,7 @@
             "height": 291
           },
           "iconInterview": {
-            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/31bd2e5f-cd80-4171-8d0b-7afe0e52664b/60b944a3a3878c7862fc9880_Ellipse-33.svg",
+            "src": "https://decoims.com/evcfellows/beed4e70-9eb1-4c45-b53a-22db1f27b122/03fe1a8aa78479aa.svg",
             "alt": "blue icon",
             "width": 12,
             "height": 12
@@ -251,7 +251,7 @@
             "height": 291
           },
           "iconInterview": {
-            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/31bd2e5f-cd80-4171-8d0b-7afe0e52664b/60b944a3a3878c7862fc9880_Ellipse-33.svg",
+            "src": "https://decoims.com/evcfellows/beed4e70-9eb1-4c45-b53a-22db1f27b122/03fe1a8aa78479aa.svg",
             "alt": "blue icon",
             "width": 12,
             "height": 12
@@ -264,13 +264,13 @@
         },
         {
           "photo": {
-            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/17c5dbe2-adb9-4ea2-ac28-d0a418ec13fc/WhatsApp-Image-2024-12-08-at-14.47.32.jpeg",
+            "src": "https://decoims.com/evcfellows/b7923034-d9d9-47a1-955e-cbe7e9c38acd/09937bc30cb46205.jpeg.jpg",
             "alt": "lucas",
             "width": 350,
             "height": 291
           },
           "iconInterview": {
-            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/31bd2e5f-cd80-4171-8d0b-7afe0e52664b/60b944a3a3878c7862fc9880_Ellipse-33.svg",
+            "src": "https://decoims.com/evcfellows/beed4e70-9eb1-4c45-b53a-22db1f27b122/03fe1a8aa78479aa.svg",
             "alt": "blue icon",
             "width": 12,
             "height": 12
@@ -289,7 +289,7 @@
             "height": 291
           },
           "iconInterview": {
-            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/31bd2e5f-cd80-4171-8d0b-7afe0e52664b/60b944a3a3878c7862fc9880_Ellipse-33.svg",
+            "src": "https://decoims.com/evcfellows/beed4e70-9eb1-4c45-b53a-22db1f27b122/03fe1a8aa78479aa.svg",
             "alt": "blue icon",
             "width": 12,
             "height": 12
@@ -302,13 +302,13 @@
         },
         {
           "photo": {
-            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/0617903e-e458-4d43-b7ce-acf88c4023f5/1000040347-01.jpeg",
+            "src": "https://decoims.com/evcfellows/e685a5cd-8629-4034-8b43-27da16aa75a9/b47c937fd57800ff.jpeg.jpg",
             "alt": "cibelle",
             "width": 350,
             "height": 291
           },
           "iconInterview": {
-            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/31bd2e5f-cd80-4171-8d0b-7afe0e52664b/60b944a3a3878c7862fc9880_Ellipse-33.svg",
+            "src": "https://decoims.com/evcfellows/beed4e70-9eb1-4c45-b53a-22db1f27b122/03fe1a8aa78479aa.svg",
             "alt": "blue icon",
             "width": 12,
             "height": 12
@@ -321,13 +321,13 @@
         },
         {
           "photo": {
-            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/ac16d014-fe1a-4007-8ee9-f506b1c12ba4/Rodrigo-Cava.jpeg",
+            "src": "https://decoims.com/evcfellows/c08bdb94-0c1b-4e08-9218-9249a67303e2/d7d43a28601327d2.jpeg.jpg",
             "alt": "Rodrigo Cava",
             "width": 351,
             "height": 291
           },
           "iconInterview": {
-            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/31bd2e5f-cd80-4171-8d0b-7afe0e52664b/60b944a3a3878c7862fc9880_Ellipse-33.svg",
+            "src": "https://decoims.com/evcfellows/beed4e70-9eb1-4c45-b53a-22db1f27b122/03fe1a8aa78479aa.svg",
             "alt": "blue icon",
             "width": 12,
             "height": 12
@@ -340,13 +340,13 @@
         },
         {
           "photo": {
-            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/245a5dba-6b5a-4823-9b8f-9fec1ef0ef58/WhatsApp-Image-2024-12-08-at-14.54.45.jpeg",
+            "src": "https://decoims.com/evcfellows/be458f37-de9a-4af3-9dd7-5a3070f546bd/91363e8b386fd6f4.jpeg.jpg",
             "alt": "luiz",
             "width": 350,
             "height": 291
           },
           "iconInterview": {
-            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/31bd2e5f-cd80-4171-8d0b-7afe0e52664b/60b944a3a3878c7862fc9880_Ellipse-33.svg",
+            "src": "https://decoims.com/evcfellows/beed4e70-9eb1-4c45-b53a-22db1f27b122/03fe1a8aa78479aa.svg",
             "alt": "blue icon",
             "width": 12,
             "height": 12

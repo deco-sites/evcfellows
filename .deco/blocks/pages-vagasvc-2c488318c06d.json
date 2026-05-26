@@ -18,8 +18,8 @@
           {
             "banner": {
               "image": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/4967f1d6-19fa-4328-b854-adeb0b41e3e1",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/78b6ad40-8745-4dad-a54e-d09af415b29d"
+                "mobile": "https://decoims.com/evcfellows/ee828d31-5d7b-40cb-82a0-fd4a70960f66/9ece215d55c0602f.png",
+                "desktop": "https://decoims.com/evcfellows/f0c0ebb0-0b9a-40ac-9745-5cd0e0fc0cb3/cfd6e6848938a43a.png"
               },
               "title": "Job Opportunities in VC",
               "buttons": [
@@ -38,8 +38,8 @@
               "textButton": "POST YOUR JOB",
               "centerTitle": true,
               "backgroundImage": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/b4a60988-656a-4129-a5fe-8efa3faadd1a",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/072678fc-8982-4a25-8b95-5bec65605e3d"
+                "mobile": "https://decoims.com/evcfellows/2e2ce118-b33b-4bd6-a6ec-d00f83684135/9ffc9e49e316b44e.png",
+                "desktop": "https://decoims.com/evcfellows/c4935cce-c1f0-4bb2-9834-80092af2e170/9ff6d56ee79f2225.png"
               }
             },
             "__resolveType": "site/sections/Banner.tsx"
@@ -65,8 +65,8 @@
           {
             "banner": {
               "image": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/4967f1d6-19fa-4328-b854-adeb0b41e3e1",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/78b6ad40-8745-4dad-a54e-d09af415b29d"
+                "mobile": "https://decoims.com/evcfellows/ee828d31-5d7b-40cb-82a0-fd4a70960f66/9ece215d55c0602f.png",
+                "desktop": "https://decoims.com/evcfellows/f0c0ebb0-0b9a-40ac-9745-5cd0e0fc0cb3/cfd6e6848938a43a.png"
               },
               "title": "Vagas para VC",
               "buttons": [
@@ -85,8 +85,8 @@
               "textButton": "PUBLIQUE SUA VAGA AQUI",
               "centerTitle": true,
               "backgroundImage": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/b4a60988-656a-4129-a5fe-8efa3faadd1a",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/072678fc-8982-4a25-8b95-5bec65605e3d"
+                "mobile": "https://decoims.com/evcfellows/2e2ce118-b33b-4bd6-a6ec-d00f83684135/9ffc9e49e316b44e.png",
+                "desktop": "https://decoims.com/evcfellows/c4935cce-c1f0-4bb2-9834-80092af2e170/9ff6d56ee79f2225.png"
               }
             },
             "__resolveType": "site/sections/Banner.tsx"

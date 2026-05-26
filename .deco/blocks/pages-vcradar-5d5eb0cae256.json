@@ -49,22 +49,22 @@
             "__resolveType": "site/sections/Banner.tsx",
             "banner": {
               "image": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/5d4a4d09-5f71-4682-ac8a-69e37232b7aa",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/f9838f24-6e1e-4fce-a8f8-6dbc51da530c"
+                "mobile": "https://decoims.com/evcfellows/6b23a377-c8ac-4431-a96f-cebcba0205f4/7a09285096c2b624.png",
+                "desktop": "https://decoims.com/evcfellows/c922cae8-ad3f-4f56-8677-708f86091f66/5380751e9c1e2c80.png"
               },
               "subtitle": "The most comprehensive and detailed mapping of Venture Capital investors in Brazil",
               "centerText": true,
               "bannerImage": {
                 "alt": "VC Radar",
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/28ec70ec-dc7c-4305-bd90-e068ca63f572/VC-Radar-2024-logo.png",
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/28ec70ec-dc7c-4305-bd90-e068ca63f572/VC-Radar-2024-logo.png",
+                "mobile": "https://decoims.com/evcfellows/d16be271-d69d-4ecd-aca3-25ab3a6f9aa2/85a6d8acee7bf3c5.png",
+                "desktop": "https://decoims.com/evcfellows/d16be271-d69d-4ecd-aca3-25ab3a6f9aa2/85a6d8acee7bf3c5.png",
                 "widthDesktop": 560,
                 "heightDesktop": 147
               },
               "centerTitle": true,
               "backgroundImage": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/1c2896c6-ac89-41c7-9565-cea201d3f1c4",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/dfca4988-3077-45ad-a3a5-ae5dad885ebc"
+                "mobile": "https://decoims.com/evcfellows/ec7eaec9-1495-444e-a8d0-26c7006a202b/87ef0cc1def1d660.png",
+                "desktop": "https://decoims.com/evcfellows/198fc0df-ae30-4e92-8505-aad6e1966afb/373638e56672a166.png"
               }
             }
           },
@@ -72,8 +72,8 @@
             "__resolveType": "site/sections/Manifest.tsx",
             "image": {
               "alt": "Radar",
-              "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/17c88d40-1a2e-4747-984f-2fc92e2533d1/03.png",
-              "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/17c88d40-1a2e-4747-984f-2fc92e2533d1/03.png"
+              "mobile": "https://decoims.com/evcfellows/8fa64ca6-84a7-4bdf-bf98-255a03a224bb/3537d79e24b97238.png",
+              "desktop": "https://decoims.com/evcfellows/8fa64ca6-84a7-4bdf-bf98-255a03a224bb/3537d79e24b97238.png"
             },
             "title": "The VC Radar Latam 2024 report is available for download!",
             "content": "The goal, however, is for this to be \"living\" information that enriches as data is updated on the platform. Access the VC Radar platform below to dynamically access the investment theses of Venture Capital firms.",
@@ -83,8 +83,8 @@
           {
             "image": {
               "alt": "VC Radar",
-              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/041fd462-bed8-4dbc-9375-0b7740c22368",
-              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/335a1b59-99a1-40b3-b1d2-c995d6acc96f"
+              "mobile": "https://decoims.com/evcfellows/c6413106-3bf2-4232-b2f9-8e999a0c20fb/1a910ede8c80243d.png",
+              "desktop": "https://decoims.com/evcfellows/fb4e078a-5a6c-4de1-8791-2cd71c9ac559/89b2f1dc7644b127.png"
             },
             "title": "VC Radar Platform",
             "textButton": "ACCESS THE PLATFORM",
@@ -94,8 +94,8 @@
           {
             "image": {
               "alt": "Anderson Thees",
-              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/889da61e-e53f-431a-8a66-8bf82745ab55",
-              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/f1fd460d-0d48-4a99-8230-5ee7d6b0bc3c"
+              "mobile": "https://decoims.com/evcfellows/e0acd580-045b-414c-8f6e-08a956136bba/e328138af939d71b.webp",
+              "desktop": "https://decoims.com/evcfellows/f34df634-a8a6-4017-996b-064eadcaa198/8275eb314213d582.webp"
             },
             "__resolveType": "site/sections/OpinionSection.tsx",
             "name": "Anderson Thees",
@@ -235,22 +235,22 @@
           {
             "banner": {
               "image": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/5d4a4d09-5f71-4682-ac8a-69e37232b7aa",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/f9838f24-6e1e-4fce-a8f8-6dbc51da530c"
+                "mobile": "https://decoims.com/evcfellows/6b23a377-c8ac-4431-a96f-cebcba0205f4/7a09285096c2b624.png",
+                "desktop": "https://decoims.com/evcfellows/c922cae8-ad3f-4f56-8677-708f86091f66/5380751e9c1e2c80.png"
               },
               "subtitle": "O mais completo e detalhado mapeamento de investidores de Venture Capital do Brasil",
               "centerText": true,
               "bannerImage": {
                 "alt": "VC Radar",
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/28ec70ec-dc7c-4305-bd90-e068ca63f572/VC-Radar-2024-logo.png",
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/28ec70ec-dc7c-4305-bd90-e068ca63f572/VC-Radar-2024-logo.png",
+                "mobile": "https://decoims.com/evcfellows/d16be271-d69d-4ecd-aca3-25ab3a6f9aa2/85a6d8acee7bf3c5.png",
+                "desktop": "https://decoims.com/evcfellows/d16be271-d69d-4ecd-aca3-25ab3a6f9aa2/85a6d8acee7bf3c5.png",
                 "widthDesktop": 560,
                 "heightDesktop": 147
               },
               "centerTitle": true,
               "backgroundImage": {
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/1c2896c6-ac89-41c7-9565-cea201d3f1c4",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/dfca4988-3077-45ad-a3a5-ae5dad885ebc"
+                "mobile": "https://decoims.com/evcfellows/ec7eaec9-1495-444e-a8d0-26c7006a202b/87ef0cc1def1d660.png",
+                "desktop": "https://decoims.com/evcfellows/198fc0df-ae30-4e92-8505-aad6e1966afb/373638e56672a166.png"
               }
             },
             "__resolveType": "site/sections/Banner.tsx"
@@ -258,8 +258,8 @@
           {
             "image": {
               "alt": "Radar",
-              "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/17c88d40-1a2e-4747-984f-2fc92e2533d1/03.png",
-              "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/evcfellows/17c88d40-1a2e-4747-984f-2fc92e2533d1/03.png"
+              "mobile": "https://decoims.com/evcfellows/8fa64ca6-84a7-4bdf-bf98-255a03a224bb/3537d79e24b97238.png",
+              "desktop": "https://decoims.com/evcfellows/8fa64ca6-84a7-4bdf-bf98-255a03a224bb/3537d79e24b97238.png"
             },
             "title": "O report do VC Radar Latam 2024 está disponível para download!",
             "content": "O objetivo entretanto, é que essa seja uma informação \"viva\" e que enriqueça à medida que os dados forem atualizados na plataforma. ​Acesse também a plataforma do VC Radar, abaixo, para ter acesso às teses de investimento das gestoras de Venture Capital de forma dinâmica.",
@@ -277,8 +277,8 @@
             "text": "<div id=\"comp-kw1hzcgo\" class=\"c9GqVL QxJLC3 comp-kw1hzcgo wixui-rich-text\" data-testid=\"richTextElement\" data-motion-enter=\"done\"><p class=\"font_8 wixui-rich-text__text\"><em><span class=\"wixui-rich-text__text\"><span class=\"color_21 wixui-rich-text__text\"><span class=\"backcolor_15 wixui-rich-text__text\">“Emerging VC Fellows comes to fill an important gap in the ecosystem: The Venture Capital analyst profile is still new in Brazil and initiatives that help connect and form this human capital are very relevant. VC Radar plays a fundamental role in building a more transparent and organized ecosystem. It will be interesting to observe the evolution of the study in the coming years and how the positioning of managers develops.”</span></span></span></em></p></div>",
             "image": {
               "alt": "Anderson Thees",
-              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/889da61e-e53f-431a-8a66-8bf82745ab55",
-              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4600/f1fd460d-0d48-4a99-8230-5ee7d6b0bc3c"
+              "mobile": "https://decoims.com/evcfellows/e0acd580-045b-414c-8f6e-08a956136bba/e328138af939d71b.webp",
+              "desktop": "https://decoims.com/evcfellows/f34df634-a8a6-4017-996b-064eadcaa198/8275eb314213d582.webp"
             },
             "position": "Venture Capitalist @ Itaú",
             "__resolveType": "site/sections/OpinionSection.tsx"
