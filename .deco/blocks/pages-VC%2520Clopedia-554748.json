@@ -138,8 +138,8 @@
               "centerText": true,
               "bannerImage": {
                 "alt": "vc.clopedia",
-                "mobile": "https://data.decoassets.com/evcfellows/c0aebfc2-8e61-4996-ade6-e656eb42306d/Imagem3.png",
-                "desktop": "https://data.decoassets.com/evcfellows/c0aebfc2-8e61-4996-ade6-e656eb42306d/Imagem3.png",
+                "mobile": "https://decoims.com/evcfellows/4cc6119b-0490-4464-bb68-3127c0683529/Imagem3.png",
+                "desktop": "https://decoims.com/evcfellows/4cc6119b-0490-4464-bb68-3127c0683529/Imagem3.png",
                 "widthDesktop": 560,
                 "heightDesktop": 147
               },
@@ -154,7 +154,7 @@
           {
             "__resolveType": "site/sections/Showcase.tsx",
             "image": {
-              "url": "https://data.decoassets.com/evcfellows/c601f90a-fe20-4b99-a5e4-7cb0937ae101/icp.jpeg",
+              "url": "https://decoims.com/evcfellows/1a2e95e5-ed81-4141-8e93-a9bb0cc02101/icp.jpeg",
               "href": "https://www.vcclopedia.com/"
             },
             "title": "<p><strong><span style=\"color: black; font-size: 36pt\">At </span><span style=\"color: rgb(107, 58, 235); font-size: 36pt\">vc.clopedia</span></strong></p><p><strong><span style=\"color: black; font-size: 36pt\">you will find</span></strong></p>",
@@ -338,8 +338,8 @@
               "centerText": true,
               "bannerImage": {
                 "alt": "vc.clopedia",
-                "mobile": "https://data.decoassets.com/evcfellows/c0aebfc2-8e61-4996-ade6-e656eb42306d/Imagem3.png",
-                "desktop": "https://data.decoassets.com/evcfellows/c0aebfc2-8e61-4996-ade6-e656eb42306d/Imagem3.png",
+                "mobile": "https://decoims.com/evcfellows/4cc6119b-0490-4464-bb68-3127c0683529/Imagem3.png",
+                "desktop": "https://decoims.com/evcfellows/4cc6119b-0490-4464-bb68-3127c0683529/Imagem3.png",
                 "widthDesktop": 560
               },
               "centerTitle": true,
@@ -366,7 +366,7 @@
               "url": "https://www.vcclopedia.com"
             },
             "image": {
-              "url": "https://data.decoassets.com/evcfellows/c601f90a-fe20-4b99-a5e4-7cb0937ae101/icp.jpeg",
+              "url": "https://decoims.com/evcfellows/1a2e95e5-ed81-4141-8e93-a9bb0cc02101/icp.jpeg",
               "href": "https://www.vcclopedia.com/"
             }
           },
