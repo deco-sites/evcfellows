@@ -92,7 +92,7 @@ export default function LandingPage({
               >
                 <span class="frame">
                   <Image
-                    src="https://assets.decocache.com/evcfellows/feddaa47-851d-457c-9107-1903d84729b3/logo-evc.png"
+                    src="https://decoims.com/evcfellows/2fade401-6e8a-4390-8082-98a1041ed9db/logo-evc.png"
                     alt=""
                     width={289}
                     height={80}
